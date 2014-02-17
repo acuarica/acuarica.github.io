@@ -1,0 +1,58 @@
+<!--img src="{{icon}}"/-->
+
+<h3 style="display: inline">{{title}}</h3>
+
+<span class="pull-right" style="margin-bottom: 4px"> <a ng-repeat="action in actions" class="btn btn-inverse" href="{{action.link}}" target="{{action.target}}"><i class="{{action.icon}}"> </i> {{action.label}}</a> </span>
+
+<form name="msegForm" class="we32ll mseg-form32" ng-submit="submit()" novalidate>
+
+	<div class="alert alert-block alert-danger" ng-show="errors">
+		<p>
+			Corrija los siguientes errores de ingreso:
+		</p>
+		<ul>
+			<li ng-repeat="message in errors">{{message}}</li>
+		</ul>
+	</div>
+
+	<div class="alert alert-block alert-success" ng-show="messages">
+		<!--p>
+			Corrija los siguientes errores de ingreso:
+		</p-->
+		<ul>
+			<li ng-repeat="message in messages">{{message}}</li>
+		</ul>
+	</div>
+
+	<div ng-include="formView"></div>
+
+	<div class="form-actions">
+
+		<button class="btn btn-primary" ng-disabled="isSaveDisabled()">
+			Guardar
+		</button>
+
+		<!--button class="btn" type="button" ng-disabled="isDiscardDisabled()" ng-click="discard()">
+			Descartar cambios
+		</button-->
+
+		<!--button class="btn" type="button" ng-click="toggleEdit()">
+			{{toggleEditLabel}}
+		</button-->
+		
+		<!--span class="alert alert-info"> Los campos marcados con <span class="required">*</span> son obligatorios. </span-->
+	</div>
+
+</form>
+
+routeParams: {{routeParams}}
+<br/>
+
+status: {{status}}
+<br/>
+
+data: {{data}}
+<br/>
+
+self: {{self|json}}
+<br/>

@@ -1,0 +1,114 @@
+
+<h3 style="display: inline">{{title}}</h3>
+
+<span class="pull-right" style="margin-bottom: 4px">
+
+	<div class="input-append">
+		<input id="searchText" type="text" placeholder="Buscar...">
+		<button id="searchButton" type="button" class="btn">
+			<i class="icon-search"></i>
+		</button>
+		<a ng-repeat="action in actions" class="btn btn-inverse"
+			href="{{action.link}}"><i class="{{action.icon}}"></i>
+			{{action.label}}</a>
+	</div>
+
+</span>
+
+<div id="gridsortpage" style="margin: auto;" class=""></div>
+
+<script type="text/javascript">
+	function load(gridColumns, gridServiceUrl, sortColumns) {
+		$('#searchButton').click(function() {
+			$('#gridsortpage').pqGrid('refreshDataAndView');
+		});
+
+		$('#searchText').keyup(function() {
+			$('#gridsortpage').pqGrid('refreshDataAndView');
+		});
+
+		var dataModel = {
+			location : "remote",
+			sorting : "remote",
+			paging : "remote",
+			dataType : "JSON",
+			method : "GET",
+			curPage : 1,
+			rPP : 20,
+			sortIndx : 1,
+			sortDir : "up",
+			getUrl : function() {
+				var sortDir = (this.sortDir == "up") ? "asc" : "desc";
+				//var sort = ['', 'ShipCountry', 'contactName'];
+				var sort = [ '12' ].concat(sortColumns);
+
+				//alert(sort);
+				return {
+					url : gridServiceUrl,
+					data : "curPage=" + this.curPage + "&recordsPerPage="
+							+ this.rPP + "&sortBy=" + sort[this.sortIndx]
+							+ "&dir=" + sortDir + "&searchText="
+							+ $('#searchText').val()
+				};
+			},
+			getData : function(dataJSON) {
+				return {
+					curPage : dataJSON.curPage,
+					totalRecords : dataJSON.totalRecords,
+					data : dataJSON.data
+				};
+			}
+		}
+
+		$("div#gridsortpage").pqGrid({
+			width : 940,
+			height : 550,
+			dataModel : dataModel,
+			colModel : gridColumns,
+			resizable : true,
+			columnBorders : true,
+			wrap : false,
+			scrollPace : 'fast',
+			numberCell : false,
+			editable : false,
+			freezeCols : 1, // Freeze actions column
+		});
+
+		/*
+		 jQuery("#list2").jqGrid({
+		 url:'http://localhost/msegwebapp/index.php/ordendeemision/jqgrid',
+		 datatype: "json",
+		 colNames:['Inv No','Date', 'Client', 'Amount','Tax','Total','Notes'],
+		 colModel:[
+		 {name:'id',index:'id', width:55},
+		 {name:'invdate',index:'invdate', width:90},
+		 {name:'name',index:'name asc, invdate', width:100},
+		 {name:'amount',index:'amount', width:80, align:"right"},
+		 {name:'tax',index:'tax', width:80, align:"right"},		
+		 {name:'total',index:'total', width:80,align:"right"},		
+		 {name:'note',index:'note', width:150, sortable:false}		
+		 ],
+		 width: '900',
+		 height: '100%',
+		 rowNum:20,
+		 rowList:[10,20,30],
+		 pager: '#pager2',
+		 sortname: 'id',
+		 viewrecords: true,
+		 sortorder: "desc",
+		 caption:"JSON Example"
+		 });
+		 jQuery("#list2").jqGrid('navGrid','#pager2',{edit:false,add:false,del:false});		
+
+		 * 
+
+
+		 <table id="list2"></table>
+		 <div id="pager2"></div>
+
+		 * */
+
+	}
+</script>
+
+
