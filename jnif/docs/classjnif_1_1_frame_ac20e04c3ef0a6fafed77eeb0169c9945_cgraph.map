@@ -1,0 +1,7 @@
+<map id="jnif::Frame::popType" name="jnif::Frame::popType">
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="jnif::Type::isInt" alt="" coords="211,5,317,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="203,57,325,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="203,109,325,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="197,161,331,189"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="199,213,329,241"/>
+</map>

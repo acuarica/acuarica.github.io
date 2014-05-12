@@ -1,0 +1,6 @@
+<map id="jnif::Type::topType" name="jnif::Type::topType">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a77c87650cd5502e7bba6d38fa3c1e2f3" title="jnif::Frame::pushLong" alt="" coords="190,5,340,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a473d91385d6cfb52b738582e8fbfa3d6" title="jnif::Frame::pushDouble" alt="" coords="184,57,347,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a5566f80f63c2f47f004fab8e5952e70c" title="jnif::Frame::_setVar" alt="" coords="197,109,334,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="201,161,330,189"/>
+</map>

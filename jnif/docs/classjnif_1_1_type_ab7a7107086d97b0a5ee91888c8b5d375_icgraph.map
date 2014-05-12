@@ -1,0 +1,4 @@
+<map id="jnif::Type::intType" name="jnif::Type::intType">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a96df06c35b4dfa066604ec776122d3c6" title="jnif::Frame::pushInt" alt="" coords="183,5,318,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a39840cbc6fb299eeee8e8c63dbc56088" title="jnif::Frame::setIntVar" alt="" coords="179,57,323,85"/>
+</map>

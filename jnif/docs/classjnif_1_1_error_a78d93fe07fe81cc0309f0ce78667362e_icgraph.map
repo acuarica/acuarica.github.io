@@ -1,0 +1,16 @@
+<map id="jnif::Error::check" name="jnif::Error::check">
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#aa4545f08a9aa5a443933f4d6964f6272" title="jnif::Type::objectType" alt="" coords="187,57,333,85"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#ab3f5a3d90769c80bcd858d7edacce36e" title="jnif::Type::arrayType" alt="" coords="189,109,331,137"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#aa0a617832d69e5f40a9e0012f48b9781" title="jnif::Type::getClassName" alt="" coords="175,161,345,189"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type.html#aa8ad300b2918ff84621d865654dbd375" title="jnif::Type::getCpIndex" alt="" coords="185,213,335,241"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_type.html#a8c91697689fd2de3b1d9e5ab588c6a24" title="jnif::Type::elementType" alt="" coords="181,265,339,293"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#ad1a84a51133621ce6fb968402a8678cc" title="Removes the any dimension on this type. " alt="" coords="176,317,344,345"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="175,369,345,397"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="175,421,345,449"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="188,473,332,501"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="182,525,338,553"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_basic_block.html#a047be660a8bca7edb7e838a7a85a750c" title="jnif::BasicBlock::addTarget" alt="" coords="171,577,349,605"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a73cbd2eaa2ae798eb8eed0fd609f4563" title="jnif::Frame::pushRef" alt="" coords="403,5,544,33"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a7e2c0a3b3cffa818382107b639b6ba18" title="jnif::Frame::setRefVar" alt="" coords="398,57,548,85"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#ad2a3762a5b11167b4e259b4f816fb55f" title="jnif::Frame::pushArray" alt="" coords="397,109,550,137"/>
+</map>

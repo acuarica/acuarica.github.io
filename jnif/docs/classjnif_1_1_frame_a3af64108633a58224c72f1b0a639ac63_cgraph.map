@@ -1,0 +1,6 @@
+<map id="jnif::Frame::popTwoWord" name="jnif::Frame::popTwoWord">
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="240,5,357,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="224,57,373,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="225,109,373,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="242,161,355,189"/>
+</map>

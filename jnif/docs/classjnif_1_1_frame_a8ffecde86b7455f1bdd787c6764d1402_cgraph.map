@@ -1,0 +1,8 @@
+<map id="jnif::Frame::pushType" name="jnif::Frame::pushType">
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="jnif::Type::isInt" alt="" coords="216,5,323,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="209,57,330,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="209,109,330,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="202,161,336,189"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="212,213,327,241"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="204,265,334,293"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="jnif::BasicBlock" name="jnif::BasicBlock">
+<area shape="rect" id="node4" href="$classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="60,1121,235,1314"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popArray()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ _setVar()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="158,171,279,765"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_error.html" title="This class contains static method to facilitate error handling mechanism. " alt="" coords="180,6,257,119"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="4,886,123,999"/>
+</map>

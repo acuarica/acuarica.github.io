@@ -1,0 +1,14 @@
+<map id="jnif::ConstItem" name="jnif::ConstItem">
+<area shape="rect" id="node2" href="$classjnif_1_1_const_method_handle.html" title="Represents a method handle entry. " alt="" coords="4,6,171,103"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_float.html" title="Represent a float constant value. " alt="" coords="196,14,305,95"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_class.html" title="Represents a class, interface or array type. " alt="" coords="330,14,443,95"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_const_name_and_type.html" title="Represents a tuple of name and descriptor. " alt="" coords="468,6,636,103"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_const_utf8.html" title="Contains a modified UTF&#45;8 string. " alt="" coords="661,14,765,95"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_const_invoke_dynamic.html" title="Represents an invoke dynamic call site. " alt="" coords="790,6,975,103"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_const_method_type.html" title="Represents the type of a method. " alt="" coords="1000,14,1153,95"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_const_integer.html" title="Represents an integer constant value. " alt="" coords="1179,14,1300,95"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_const_member_ref.html" title="Represents a symbolic reference to a member (field, method or interface method) of a class..." alt="" coords="1326,6,1476,103"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_const_double.html" title="Represents a double constant value. " alt="" coords="1501,14,1624,95"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_const_long.html" title="Represents a long constant value. " alt="" coords="1648,14,1757,95"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_const_string.html" title="Represents a string constant value. " alt="" coords="1782,14,1897,95"/>
+</map>

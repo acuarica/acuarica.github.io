@@ -1,0 +1,5 @@
+<map id="jnif::Type::isTop" name="jnif::Type::isTop">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="168,5,339,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="168,57,338,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#ac32183d6726f1f04e1e0f927d7711993" title="jnif::Frame::cleanTops" alt="" coords="177,109,329,137"/>
+</map>

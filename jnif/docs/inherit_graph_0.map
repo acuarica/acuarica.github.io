@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structjnif_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="5,161,72,189"/>
+<area shape="rect" id="node2" href="$structjnif_1_1_code_attr.html" title="Represent the Code attribute of a method. " alt="" coords="137,5,236,33"/>
+<area shape="rect" id="node3" href="$structjnif_1_1_exceptions_attr.html" title="Represents the Exceptions attribute. " alt="" coords="121,57,253,85"/>
+<area shape="rect" id="node4" href="$structjnif_1_1_lnt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="144,109,229,137"/>
+<area shape="rect" id="node5" href="$structjnif_1_1_lvt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="145,161,229,189"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_smt_attr.html" title="jnif::SmtAttr" alt="" coords="142,213,232,241"/>
+<area shape="rect" id="node7" href="$structjnif_1_1_source_file_attr.html" title="jnif::SourceFileAttr" alt="" coords="122,265,252,293"/>
+<area shape="rect" id="node8" href="$structjnif_1_1_unknown_attr.html" title="Represents an unknown opaque attribute to jnif. " alt="" coords="126,317,248,345"/>
+</map>

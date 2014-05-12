@@ -1,0 +1,9 @@
+<map id="jnif::CodeAttr" name="jnif::CodeAttr">
+<area shape="rect" id="node2" href="$structjnif_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="128,550,227,679"/>
+<area shape="rect" id="node3" href="$structjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="5,510,104,719"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="267,139,385,253"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="351,518,525,711"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_basic_block.html" title="Represents a basic block of instructions. " alt="" coords="428,993,568,1186"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popArray()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ _setVar()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="550,318,671,911"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_error.html" title="This class contains static method to facilitate error handling mechanism. " alt="" coords="572,139,649,253"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="jnif::SmtAttr::Entry" name="jnif::SmtAttr::Entry">
+<area shape="rect" id="node2" href="$structjnif_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="11,830,167,1775"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popArray()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ _setVar()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="29,171,149,765"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html" title="This class contains static method to facilitate error handling mechanism. " alt="" coords="50,6,128,119"/>
+</map>

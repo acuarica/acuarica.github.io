@@ -1,0 +1,5 @@
+<map id="jnif::Member" name="jnif::Member">
+<area shape="rect" id="node3" href="$classjnif_1_1_field.html" title="{jnif::Field\n||+ Field()\l}" alt="" coords="5,483,80,565"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_method.html" title="{jnif::Method\n||+ Method()\l+ hasCode()\l+ codeAttr()\l+ instList()\l+ instList()\l+ isStatic()\l}" alt="" coords="104,443,199,605"/>
+<area shape="rect" id="node2" href="$structjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="48,6,147,215"/>
+</map>
