@@ -1,3 +1,4 @@
 <map id="jnif::Type::stripArrayType" name="jnif::Type::stripArrayType">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="221,5,339,33"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="225,5,343,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="222,57,346,85"/>
 </map>

@@ -106,7 +106,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type__coll__graph.png" border="0" usemap="#jnif_1_1_type_coll__map" alt="Collaboration graph"/></div>
 <map name="jnif_1_1_type_coll__map" id="jnif_1_1_type_coll__map">
-<area shape="rect" id="node2" href="structjnif_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="4,830,160,1775"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popArray()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ _setVar()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="22,171,143,765"/><area shape="rect" id="node4" href="classjnif_1_1_error.html" title="This class contains static method to facilitate error handling mechanism. " alt="" coords="44,6,121,119"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="15,697,157,1322"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,6,168,631"/></map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -143,8 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aea7db4cbbe883a0dd4034c16b96bf7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e6993d0ca86ee94c4fd4ea03301a64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a83e6993d0ca86ee94c4fd4ea03301a64">isClass</a> () const </td></tr>
 <tr class="separator:a83e6993d0ca86ee94c4fd4ea03301a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a617832d69e5f40a9e0012f48b9781"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#aa0a617832d69e5f40a9e0012f48b9781">getClassName</a> () const </td></tr>
-<tr class="separator:aa0a617832d69e5f40a9e0012f48b9781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05346a6f324ef12bc30d3098409cc53c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a05346a6f324ef12bc30d3098409cc53c">getClassName</a> () const </td></tr>
+<tr class="separator:a05346a6f324ef12bc30d3098409cc53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ad300b2918ff84621d865654dbd375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacejnif.html#abd47a69a264e013ff0fb45a84f65c3d5">u2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#aa8ad300b2918ff84621d865654dbd375">getCpIndex</a> () const </td></tr>
 <tr class="separator:aa8ad300b2918ff84621d865654dbd375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c15c1fdf3fa58dc01e050f27d415ab5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a4c15c1fdf3fa58dc01e050f27d415ab5">setCpIndex</a> (<a class="el" href="namespacejnif.html#abd47a69a264e013ff0fb45a84f65c3d5">u2</a> index)</td></tr>
@@ -180,20 +180,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a14ac5089f6655151015ba9e66f3fd19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d4dd6e628a5474f06b1f9f0e051427c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a9d4dd6e628a5474f06b1f9f0e051427c">uninitThisType</a> ()</td></tr>
 <tr class="separator:a9d4dd6e628a5474f06b1f9f0e051427c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4545f08a9aa5a443933f4d6964f6272"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#aa4545f08a9aa5a443933f4d6964f6272">objectType</a> (const string &amp;className, <a class="el" href="namespacejnif.html#abd47a69a264e013ff0fb45a84f65c3d5">u2</a> cpindex=0)</td></tr>
-<tr class="separator:aa4545f08a9aa5a443933f4d6964f6272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6848560253a59d201da73a397fd2c5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a0e6848560253a59d201da73a397fd2c5">uninitType</a> (short <a class="el" href="classjnif_1_1_type.html#ab4a49b7c176e12fde7941741111ed33d">offset</a>, <a class="el" href="structjnif_1_1_inst.html">Inst</a> *<a class="el" href="classjnif_1_1_type.html#aca60d0a45b462590d492df757adae382">label</a>)</td></tr>
-<tr class="separator:a0e6848560253a59d201da73a397fd2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a8271f1b44e5b5166053461e9b9ff0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a10a8271f1b44e5b5166053461e9b9ff0">objectType</a> (const <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> &amp;className, <a class="el" href="namespacejnif.html#abd47a69a264e013ff0fb45a84f65c3d5">u2</a> cpindex=0)</td></tr>
+<tr class="separator:a10a8271f1b44e5b5166053461e9b9ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c0fb2ef16e83f2ea2b33dad827568e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a71c0fb2ef16e83f2ea2b33dad827568e">uninitType</a> (short <a class="el" href="classjnif_1_1_type.html#ab4a49b7c176e12fde7941741111ed33d">offset</a>, class <a class="el" href="classjnif_1_1_inst.html">Inst</a> *<a class="el" href="classjnif_1_1_type.html#aca60d0a45b462590d492df757adae382">label</a>)</td></tr>
+<tr class="separator:a71c0fb2ef16e83f2ea2b33dad827568e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d67e377ae9788dba1f716d782280c6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#ac4d67e377ae9788dba1f716d782280c6">voidType</a> ()</td></tr>
 <tr class="separator:ac4d67e377ae9788dba1f716d782280c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3f5a3d90769c80bcd858d7edacce36e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#ab3f5a3d90769c80bcd858d7edacce36e">arrayType</a> (const <a class="el" href="classjnif_1_1_type.html">Type</a> &amp;baseType, <a class="el" href="namespacejnif.html#ab0e0629c72ad76aeb8c64ab5bb982f5f">u4</a> dims)</td></tr>
 <tr class="separator:ab3f5a3d90769c80bcd858d7edacce36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16f7850588ab366a040282f291f4eaf7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a16f7850588ab366a040282f291f4eaf7">fromConstClass</a> (const string &amp;className)</td></tr>
-<tr class="separator:a16f7850588ab366a040282f291f4eaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf4ff021b94c919a4d3f6828ff98f70"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a8bf4ff021b94c919a4d3f6828ff98f70">fromConstClass</a> (const <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> &amp;className)</td></tr>
+<tr class="separator:a8bf4ff021b94c919a4d3f6828ff98f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a738009ac88acbfae8dbc53ddb2bae423"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a738009ac88acbfae8dbc53ddb2bae423">fromFieldDesc</a> (const char *&amp;fieldDesc)</td></tr>
 <tr class="separator:a738009ac88acbfae8dbc53ddb2bae423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80e5a18acd4f7a9e9a2c4be013bdc354"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#a80e5a18acd4f7a9e9a2c4be013bdc354">fromMethodDesc</a> (const char *methodDesc, vector&lt; <a class="el" href="classjnif_1_1_type.html">Type</a> &gt; *argsType)</td></tr>
-<tr class="separator:a80e5a18acd4f7a9e9a2c4be013bdc354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab576de850f2975f80465920a6a450450"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjnif_1_1_type.html">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type.html#ab576de850f2975f80465920a6a450450">fromMethodDesc</a> (const char *methodDesc, std::vector&lt; <a class="el" href="classjnif_1_1_type.html">Type</a> &gt; *argsType)</td></tr>
+<tr class="separator:ab576de850f2975f80465920a6a450450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -201,7 +201,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa846730979c19715a85df3c6c2378ff4"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
 <tr class="memitem:a094f8aec848e618af83ab01bc1a00e20"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;short&#160;&#160;&#160;<a class="el" href="classjnif_1_1_type.html#ab4a49b7c176e12fde7941741111ed33d">offset</a></td></tr>
 <tr class="separator:a094f8aec848e618af83ab01bc1a00e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2145137c03d4596ddfc8e3e5ec8110a1"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structjnif_1_1_inst.html">Inst</a> *&#160;&#160;&#160;<a class="el" href="classjnif_1_1_type.html#aca60d0a45b462590d492df757adae382">label</a></td></tr>
+<tr class="memitem:a2145137c03d4596ddfc8e3e5ec8110a1"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="classjnif_1_1_inst.html">Inst</a> *&#160;&#160;&#160;<a class="el" href="classjnif_1_1_type.html#aca60d0a45b462590d492df757adae382">label</a></td></tr>
 <tr class="separator:a2145137c03d4596ddfc8e3e5ec8110a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa846730979c19715a85df3c6c2378ff4"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="classjnif_1_1_type.html#a3e527a9035f9e5614d738486970adb66">uninit</a></td></tr>
 <tr class="separator:aa846730979c19715a85df3c6c2378ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +211,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Verification type class. </p>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01360">1360</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01314">1314</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ab3f5a3d90769c80bcd858d7edacce36e"></a>
 <div class="memitem">
@@ -240,29 +240,16 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01425">1425</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_cgraph.png" border="0" usemap="#classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_cgraph" alt=""/></div>
-<map name="classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_cgraph" id="classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="195,5,312,33"/></map>
-</div>
-</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_icgraph.png" border="0" usemap="#classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_icgraph" id="classjnif_1_1_type_ab3f5a3d90769c80bcd858d7edacce36e_icgraph">
 <area shape="rect" id="node2" href="classjnif_1_1_frame.html#ad2a3762a5b11167b4e259b4f816fb55f" title="jnif::Frame::pushArray" alt="" coords="194,5,347,33"/></map>
@@ -292,7 +279,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01383">1383</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01337">1337</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +304,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01387">1387</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01341">1341</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -342,7 +329,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01391">1391</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01345">1345</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -367,13 +354,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01379">1379</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01333">1333</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_acdc0d5726b9f1247ffce081eec33ba57_icgraph.png" border="0" usemap="#classjnif_1_1_type_acdc0d5726b9f1247ffce081eec33ba57_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_acdc0d5726b9f1247ffce081eec33ba57_icgraph" id="classjnif_1_1_type_acdc0d5726b9f1247ffce081eec33ba57_icgraph">
 <area shape="rect" id="node2" href="classjnif_1_1_frame.html#a473d91385d6cfb52b738582e8fbfa3d6" title="jnif::Frame::pushDouble" alt="" coords="211,5,373,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#ada2526d07a237d388df4b347e73720bb" title="jnif::Frame::setDoubleVar" alt="" coords="206,57,378,85"/></map>
@@ -385,9 +372,6 @@ Public Attributes</h2></td></tr>
 <a class="anchor" id="a8c91697689fd2de3b1d9e5ab588c6a24"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classjnif_1_1_type.html">Type</a> jnif::Type::elementType </td>
@@ -396,25 +380,12 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01554">1554</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_a8c91697689fd2de3b1d9e5ab588c6a24_cgraph.png" border="0" usemap="#classjnif_1_1_type_a8c91697689fd2de3b1d9e5ab588c6a24_cgraph" alt=""/></div>
-<map name="classjnif_1_1_type_a8c91697689fd2de3b1d9e5ab588c6a24_cgraph" id="classjnif_1_1_type_a8c91697689fd2de3b1d9e5ab588c6a24_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="213,5,331,33"/></map>
-</div>
-</p>
+<p>Returns the element type of this array type. </p>
+<p>Requires that this type is an array type. The return type is the same base type but with a less dimension.</p>
+<p>For example, assuming that this type represents [[[I, then the result value is [[I.</p>
+<dl class="section return"><dt>Returns</dt><dd>the element type of this array. </dd></dl>
 
 </div>
 </div>
@@ -439,13 +410,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01371">1371</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01325">1325</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a47a598b7f76354535ab96778516315e0_icgraph.png" border="0" usemap="#classjnif_1_1_type_a47a598b7f76354535ab96778516315e0_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a47a598b7f76354535ab96778516315e0_icgraph" id="classjnif_1_1_type_a47a598b7f76354535ab96778516315e0_icgraph">
 <area shape="rect" id="node2" href="classjnif_1_1_frame.html#acee65d47153fb4e619c29475a067e99f" title="jnif::Frame::pushFloat" alt="" coords="194,5,344,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a1bfcda3873437e60327eb5c9977e8377" title="jnif::Frame::setFloatVar" alt="" coords="190,57,349,85"/></map>
@@ -454,7 +425,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a16f7850588ab366a040282f291f4eaf7"></a>
+<a class="anchor" id="a8bf4ff021b94c919a4d3f6828ff98f70"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -464,7 +435,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="classjnif_1_1_type.html">Type</a> jnif::Type::fromConstClass </td>
           <td>(</td>
-          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em></td><td>)</td>
           <td></td>
         </tr>
@@ -520,7 +491,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a80e5a18acd4f7a9e9a2c4be013bdc354"></a>
+<a class="anchor" id="ab576de850f2975f80465920a6a450450"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -536,7 +507,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">vector&lt; <a class="el" href="classjnif_1_1_type.html">Type</a> &gt; *&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjnif_1_1_type.html">Type</a> &gt; *&#160;</td>
           <td class="paramname"><em>argsType</em>&#160;</td>
         </tr>
         <tr>
@@ -564,48 +535,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa0a617832d69e5f40a9e0012f48b9781"></a>
+<a class="anchor" id="a05346a6f324ef12bc30d3098409cc53c"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string jnif::Type::getClassName </td>
+          <td class="memname"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> jnif::Type::getClassName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01517">1517</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_aa0a617832d69e5f40a9e0012f48b9781_cgraph.png" border="0" usemap="#classjnif_1_1_type_aa0a617832d69e5f40a9e0012f48b9781_cgraph" alt=""/></div>
-<map name="classjnif_1_1_type_aa0a617832d69e5f40a9e0012f48b9781_cgraph" id="classjnif_1_1_type_aa0a617832d69e5f40a9e0012f48b9781_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="224,5,341,33"/></map>
-</div>
-</p>
 
 </div>
 </div>
 <a class="anchor" id="aa8ad300b2918ff84621d865654dbd375"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespacejnif.html#abd47a69a264e013ff0fb45a84f65c3d5">u2</a> jnif::Type::getCpIndex </td>
@@ -614,25 +561,7 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01539">1539</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_aa8ad300b2918ff84621d865654dbd375_cgraph.png" border="0" usemap="#classjnif_1_1_type_aa8ad300b2918ff84621d865654dbd375_cgraph" alt=""/></div>
-<map name="classjnif_1_1_type_aa8ad300b2918ff84621d865654dbd375_cgraph" id="classjnif_1_1_type_aa8ad300b2918ff84621d865654dbd375_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="205,5,323,33"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -657,7 +586,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01550">1550</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01464">1464</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -682,13 +611,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01367">1367</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01321">1321</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_ab7a7107086d97b0a5ee91888c8b5d375_icgraph.png" border="0" usemap="#classjnif_1_1_type_ab7a7107086d97b0a5ee91888c8b5d375_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_ab7a7107086d97b0a5ee91888c8b5d375_icgraph" id="classjnif_1_1_type_ab7a7107086d97b0a5ee91888c8b5d375_icgraph">
 <area shape="rect" id="node2" href="classjnif_1_1_frame.html#a96df06c35b4dfa066604ec776122d3c6" title="jnif::Frame::pushInt" alt="" coords="183,5,318,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a39840cbc6fb299eeee8e8c63dbc56088" title="jnif::Frame::setIntVar" alt="" coords="179,57,323,85"/></map>
@@ -718,7 +647,18 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01493">1493</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01431">1431</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_afe7e3ef155a244a22f44132fe99c7ed3_icgraph.png" border="0" usemap="#classjnif_1_1_type_afe7e3ef155a244a22f44132fe99c7ed3_icgraph" alt=""/></div>
+<map name="classjnif_1_1_type_afe7e3ef155a244a22f44132fe99c7ed3_icgraph" id="classjnif_1_1_type_afe7e3ef155a244a22f44132fe99c7ed3_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="189,5,302,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="jnif::Type::isInt" alt="" coords="192,213,299,241"/><area shape="rect" id="node6" href="classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="185,161,306,189"/><area shape="rect" id="node7" href="classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="185,109,306,137"/><area shape="rect" id="node9" href="classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="178,57,312,85"/><area shape="rect" id="node10" href="classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="180,265,310,293"/><area shape="rect" id="node11" href="classjnif_1_1_type.html#a83e6993d0ca86ee94c4fd4ea03301a64" title="jnif::Type::isClass" alt="" coords="372,290,497,318"/><area shape="rect" id="node4" href="classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="360,187,509,215"/><area shape="rect" id="node5" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="558,149,746,177"/><area shape="rect" id="node8" href="classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="361,109,509,137"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -743,7 +683,18 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01513">1513</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01451">1451</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a83e6993d0ca86ee94c4fd4ea03301a64_cgraph.png" border="0" usemap="#classjnif_1_1_type_a83e6993d0ca86ee94c4fd4ea03301a64_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a83e6993d0ca86ee94c4fd4ea03301a64_cgraph" id="classjnif_1_1_type_a83e6993d0ca86ee94c4fd4ea03301a64_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="179,5,309,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="358,31,482,59"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -768,16 +719,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01473">1473</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01411">1411</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_cgraph.png" border="0" usemap="#classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_cgraph" id="classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="188,5,311,33"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_icgraph.png" border="0" usemap="#classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_icgraph" id="classjnif_1_1_type_a04ade1648abb24c8521bdb0b27132b21_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="187,5,343,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="194,57,337,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="191,109,340,137"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="187,5,335,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="385,5,573,33"/></map>
 </div>
 </p>
 
@@ -804,7 +766,18 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01465">1465</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01403">1403</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_af243b5875406a13798f2637f6297d974_cgraph.png" border="0" usemap="#classjnif_1_1_type_af243b5875406a13798f2637f6297d974_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_af243b5875406a13798f2637f6297d974_cgraph" id="classjnif_1_1_type_af243b5875406a13798f2637f6297d974_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="177,5,300,33"/></map>
+</div>
+</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -813,7 +786,7 @@ Public Attributes</h2></td></tr>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_af243b5875406a13798f2637f6297d974_icgraph.png" border="0" usemap="#classjnif_1_1_type_af243b5875406a13798f2637f6297d974_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_af243b5875406a13798f2637f6297d974_icgraph" id="classjnif_1_1_type_af243b5875406a13798f2637f6297d974_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a5314b0cbc0366774428dabd44575a9b5" title="jnif::Frame::popFloat" alt="" coords="179,5,322,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="179,57,322,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="176,109,325,137"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="176,5,325,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="374,5,562,33"/></map>
 </div>
 </p>
 
@@ -840,16 +813,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01452">1452</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01390">1390</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_cgraph.png" border="0" usemap="#classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_cgraph" id="classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="161,5,284,33"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_icgraph.png" border="0" usemap="#classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_icgraph" id="classjnif_1_1_type_a1dc080f40ea07bcfcecef7d03b57b570_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a704ec1dfc4d2ceef86352cbb283d8b4e" title="jnif::Frame::popInt" alt="" coords="170,5,299,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="163,57,306,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="160,109,309,137"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="160,5,309,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="358,5,546,33"/></map>
 </div>
 </p>
 
@@ -876,16 +860,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01469">1469</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01407">1407</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_cgraph.png" border="0" usemap="#classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_cgraph" id="classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="177,5,300,33"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_icgraph.png" border="0" usemap="#classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_icgraph" id="classjnif_1_1_type_a3eff27c3839cad7da91ce552187a8cbb_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="179,5,322,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="179,57,322,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="176,109,325,137"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="177,5,325,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="374,5,562,33"/></map>
 </div>
 </p>
 
@@ -912,16 +907,16 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01477">1477</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01415">1415</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a8a22e043149eae9efb131a9ecdc630d7_icgraph.png" border="0" usemap="#classjnif_1_1_type_a8a22e043149eae9efb131a9ecdc630d7_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a8a22e043149eae9efb131a9ecdc630d7_icgraph" id="classjnif_1_1_type_a8a22e043149eae9efb131a9ecdc630d7_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="169,5,319,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#af7359e9253cdf50ed215e566745876f2" title="jnif::Frame::setRefVar" alt="" coords="169,57,319,85"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="168,5,317,33"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="366,5,554,33"/></map>
 </div>
 </p>
 
@@ -948,16 +943,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01489">1489</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01427">1427</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_cgraph.png" border="0" usemap="#classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_cgraph" id="classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="185,5,308,33"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_icgraph.png" border="0" usemap="#classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_icgraph" id="classjnif_1_1_type_ab0aac5ae34ab2a9f4e7f06f5c14bc199_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="189,5,331,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="185,57,335,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#af7359e9253cdf50ed215e566745876f2" title="jnif::Frame::setRefVar" alt="" coords="185,109,335,137"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="184,5,333,33"/><area shape="rect" id="node4" href="classjnif_1_1_type.html#a83e6993d0ca86ee94c4fd4ea03301a64" title="jnif::Type::isClass" alt="" coords="196,57,321,85"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="382,5,570,33"/></map>
 </div>
 </p>
 
@@ -984,16 +990,16 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01509">1509</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01447">1447</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_icgraph.png" border="0" usemap="#classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_icgraph" alt=""/></div>
-<map name="classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_icgraph" id="classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="243,5,373,33"/></map>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_cgraph.png" border="0" usemap="#classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_cgraph" id="classjnif_1_1_type_aea7db4cbbe883a0dd4034c16b96bf7bd_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="243,109,392,137"/><area shape="rect" id="node8" href="classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="243,213,391,241"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="jnif::Type::isInt" alt="" coords="453,5,560,33"/><area shape="rect" id="node5" href="classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="446,57,567,85"/><area shape="rect" id="node6" href="classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="449,109,564,137"/><area shape="rect" id="node7" href="classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="442,161,572,189"/><area shape="rect" id="node4" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="622,161,746,189"/><area shape="rect" id="node9" href="classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="446,213,567,241"/><area shape="rect" id="node10" href="classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="440,265,574,293"/></map>
 </div>
 </p>
 
@@ -1020,16 +1026,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01501">1501</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01439">1439</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_cgraph.png" border="0" usemap="#classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_cgraph" id="classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="jnif::Type::isInt" alt="" coords="215,5,321,33"/><area shape="rect" id="node4" href="classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="207,57,329,85"/><area shape="rect" id="node5" href="classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="211,109,325,137"/><area shape="rect" id="node6" href="classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="203,161,333,189"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="382,57,506,85"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_icgraph.png" border="0" usemap="#classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_icgraph" id="classjnif_1_1_type_a921e7606e157f6dc71349006cfe6e75d_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="203,5,373,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="203,57,373,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="223,109,353,137"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="203,5,391,33"/></map>
 </div>
 </p>
 
@@ -1056,16 +1073,16 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01448">1448</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01386">1386</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_icgraph.png" border="0" usemap="#classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_icgraph" alt=""/></div>
-<map name="classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_icgraph" id="classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="168,5,339,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="168,57,338,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#ac32183d6726f1f04e1e0f927d7711993" title="jnif::Frame::cleanTops" alt="" coords="177,109,329,137"/></map>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_cgraph.png" border="0" usemap="#classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_cgraph" id="classjnif_1_1_type_a22bb0858f7f48dc4b97f34f6450489ac_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="169,5,292,33"/></map>
 </div>
 </p>
 
@@ -1092,16 +1109,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01505">1505</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01443">1443</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_cgraph.png" border="0" usemap="#classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_cgraph" alt=""/></div>
+<map name="classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_cgraph" id="classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="209,5,330,33"/><area shape="rect" id="node4" href="classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="202,57,336,85"/><area shape="rect" id="node3" href="classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="385,31,508,59"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_icgraph.png" border="0" usemap="#classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_icgraph" id="classjnif_1_1_type_aa18c5038cd3b21a9213612f396372bd6_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="203,5,373,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#ac32183d6726f1f04e1e0f927d7711993" title="jnif::Frame::cleanTops" alt="" coords="212,57,364,85"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="203,5,391,33"/></map>
 </div>
 </p>
 
@@ -1128,7 +1156,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01485">1485</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01423">1423</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1153,7 +1181,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01481">1481</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01419">1419</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1178,7 +1206,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01497">1497</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01435">1435</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1203,13 +1231,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01375">1375</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01329">1329</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_af3aa80f513fcb8aedeabf757d63f87df_icgraph.png" border="0" usemap="#classjnif_1_1_type_af3aa80f513fcb8aedeabf757d63f87df_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_af3aa80f513fcb8aedeabf757d63f87df_icgraph" id="classjnif_1_1_type_af3aa80f513fcb8aedeabf757d63f87df_icgraph">
 <area shape="rect" id="node2" href="classjnif_1_1_frame.html#a77c87650cd5502e7bba6d38fa3c1e2f3" title="jnif::Frame::pushLong" alt="" coords="194,5,344,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a7684c17aa68b524b8ff3463fa8cd4df9" title="jnif::Frame::setLongVar" alt="" coords="190,57,349,85"/></map>
@@ -1239,13 +1267,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01399">1399</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01353">1353</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_a14ac5089f6655151015ba9e66f3fd19a_icgraph.png" border="0" usemap="#classjnif_1_1_type_a14ac5089f6655151015ba9e66f3fd19a_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_a14ac5089f6655151015ba9e66f3fd19a_icgraph" id="classjnif_1_1_type_a14ac5089f6655151015ba9e66f3fd19a_icgraph">
 <area shape="rect" id="node2" href="classjnif_1_1_frame.html#a047e9a569d2b0c3639f4e7e25eaa501f" title="jnif::Frame::pushNull" alt="" coords="187,5,330,33"/></map>
@@ -1254,7 +1282,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa4545f08a9aa5a443933f4d6964f6272"></a>
+<a class="anchor" id="a10a8271f1b44e5b5166053461e9b9ff0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1264,7 +1292,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="classjnif_1_1_type.html">Type</a> jnif::Type::objectType </td>
           <td>(</td>
-          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> &amp;&#160;</td>
           <td class="paramname"><em>className</em>, </td>
         </tr>
         <tr>
@@ -1281,32 +1309,19 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01407">1407</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_cgraph.png" border="0" usemap="#classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_cgraph" alt=""/></div>
-<map name="classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_cgraph" id="classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="200,5,317,33"/></map>
-</div>
-</p>
-
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_icgraph.png" border="0" usemap="#classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_icgraph" alt=""/></div>
-<map name="classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_icgraph" id="classjnif_1_1_type_aa4545f08a9aa5a443933f4d6964f6272_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a73cbd2eaa2ae798eb8eed0fd609f4563" title="jnif::Frame::pushRef" alt="" coords="205,5,347,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a7e2c0a3b3cffa818382107b639b6ba18" title="jnif::Frame::setRefVar" alt="" coords="201,57,351,85"/></map>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_type_a10a8271f1b44e5b5166053461e9b9ff0_icgraph.png" border="0" usemap="#classjnif_1_1_type_a10a8271f1b44e5b5166053461e9b9ff0_icgraph" alt=""/></div>
+<map name="classjnif_1_1_type_a10a8271f1b44e5b5166053461e9b9ff0_icgraph" id="classjnif_1_1_type_a10a8271f1b44e5b5166053461e9b9ff0_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a68b404735e15c14f0cc7f46b09ba32ee" title="jnif::Frame::pushRef" alt="" coords="205,5,347,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a83cd97150cf495c1d91948787ab5ad96" title="jnif::Frame::setRefVar" alt="" coords="201,57,351,85"/></map>
 </div>
 </p>
 
@@ -1334,7 +1349,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01442">1442</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01380">1380</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1375,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01545">1545</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01459">1459</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1385,16 +1400,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01395">1395</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01349">1349</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ad1a84a51133621ce6fb968402a8678cc"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classjnif_1_1_type.html">Type</a> jnif::Type::stripArrayType </td>
@@ -1403,29 +1415,12 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Removes the any dimension on this type. </p>
 <p>This type has to be an array type.</p>
+<p>For example, assuming that this type represents [[[I, then the result value is I.</p>
 <dl class="section return"><dt>Returns</dt><dd>the base type of this type. The result ensures that is not an array type. </dd></dl>
-
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01567">1567</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_type_ad1a84a51133621ce6fb968402a8678cc_cgraph.png" border="0" usemap="#classjnif_1_1_type_ad1a84a51133621ce6fb968402a8678cc_cgraph" alt=""/></div>
-<map name="classjnif_1_1_type_ad1a84a51133621ce6fb968402a8678cc_cgraph" id="classjnif_1_1_type_ad1a84a51133621ce6fb968402a8678cc_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="221,5,339,33"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1450,16 +1445,16 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01363">1363</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01317">1317</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_type_aa476bd3a50d065ab4f16e8ca09927484_icgraph.png" border="0" usemap="#classjnif_1_1_type_aa476bd3a50d065ab4f16e8ca09927484_icgraph" alt=""/></div>
 <map name="classjnif_1_1_type_aa476bd3a50d065ab4f16e8ca09927484_icgraph" id="classjnif_1_1_type_aa476bd3a50d065ab4f16e8ca09927484_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a77c87650cd5502e7bba6d38fa3c1e2f3" title="jnif::Frame::pushLong" alt="" coords="190,5,340,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a473d91385d6cfb52b738582e8fbfa3d6" title="jnif::Frame::pushDouble" alt="" coords="184,57,347,85"/><area shape="rect" id="node4" href="classjnif_1_1_frame.html#a5566f80f63c2f47f004fab8e5952e70c" title="jnif::Frame::_setVar" alt="" coords="197,109,334,137"/><area shape="rect" id="node5" href="classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="201,161,330,189"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_frame.html#a77c87650cd5502e7bba6d38fa3c1e2f3" title="jnif::Frame::pushLong" alt="" coords="190,5,340,33"/><area shape="rect" id="node3" href="classjnif_1_1_frame.html#a473d91385d6cfb52b738582e8fbfa3d6" title="jnif::Frame::pushDouble" alt="" coords="184,57,347,85"/></map>
 </div>
 </p>
 
@@ -1486,11 +1481,11 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01403">1403</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01357">1357</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0e6848560253a59d201da73a397fd2c5"></a>
+<a class="anchor" id="a71c0fb2ef16e83f2ea2b33dad827568e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1506,7 +1501,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structjnif_1_1_inst.html">Inst</a> *&#160;</td>
+          <td class="paramtype">class <a class="el" href="classjnif_1_1_inst.html">Inst</a> *&#160;</td>
           <td class="paramname"><em>label</em>&#160;</td>
         </tr>
         <tr>
@@ -1522,7 +1517,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01417">1417</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01363">1363</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1542,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01421">1421</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01367">1367</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1569,12 +1564,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structjnif_1_1_inst.html">Inst</a>* jnif::Type::label</td>
+          <td class="memname"><a class="el" href="classjnif_1_1_inst.html">Inst</a>* jnif::Type::label</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01438">1438</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01376">1376</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1588,7 +1583,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01437">1437</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l01375">1375</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1610,7 +1605,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 12 2014 14:53:30 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 17 2014 14:59:14 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

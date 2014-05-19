@@ -1,4 +1,15 @@
 <map id="jnif::Frame::popLong" name="jnif::Frame::popLong">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="200,5,317,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="198,57,319,85"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="198,161,368,189"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="621,5,739,33"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="619,369,741,397"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ab4be951e4021d30bd30e19862c5a0c06" title="jnif::Frame::pop" alt="" coords="434,57,548,85"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="416,161,565,189"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="417,317,565,345"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="434,238,547,266"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="jnif::Type::isInt" alt="" coords="627,57,733,85"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="619,109,741,137"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="623,213,737,241"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="615,161,745,189"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="796,213,919,241"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="613,317,747,345"/>
 </map>

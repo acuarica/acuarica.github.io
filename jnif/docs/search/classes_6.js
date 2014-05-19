@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['lnentry',['LnEntry',['../structjnif_1_1_lnt_attr_1_1_ln_entry.html',1,'jnif::LntAttr']]],
-  ['lntattr',['LntAttr',['../structjnif_1_1_lnt_attr.html',1,'jnif']]],
-  ['lventry',['LvEntry',['../structjnif_1_1_lvt_attr_1_1_lv_entry.html',1,'jnif::LvtAttr']]],
-  ['lvtattr',['LvtAttr',['../structjnif_1_1_lvt_attr.html',1,'jnif']]]
+  ['jnifexception',['JnifException',['../classjnif_1_1_jnif_exception.html',1,'jnif']]],
+  ['jumpinst',['JumpInst',['../classjnif_1_1_jump_inst.html',1,'jnif']]]
 ];

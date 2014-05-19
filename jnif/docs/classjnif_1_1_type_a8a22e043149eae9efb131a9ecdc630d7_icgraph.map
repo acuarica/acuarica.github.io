@@ -1,4 +1,4 @@
 <map id="jnif::Type::isNull" name="jnif::Type::isNull">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="169,5,319,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#af7359e9253cdf50ed215e566745876f2" title="jnif::Frame::setRefVar" alt="" coords="169,57,319,85"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="168,5,317,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="366,5,554,33"/>
 </map>

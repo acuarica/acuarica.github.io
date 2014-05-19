@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classjnif_1_1_const_pool-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">jnif::ConstPool Class Reference</div>  </div>
@@ -107,7 +108,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_const_pool__inherit__graph.png" border="0" usemap="#jnif_1_1_const_pool_inherit__map" alt="Inheritance graph"/></div>
 <map name="jnif_1_1_const_pool_inherit__map" id="jnif_1_1_const_pool_inherit__map">
-<area shape="rect" id="node2" href="classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="9,697,163,1066"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="9,681,163,1034"/></map>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for jnif::ConstPool:</div>
@@ -115,6 +116,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_const_pool__coll__graph.png" border="0" usemap="#jnif_1_1_const_pool_coll__map" alt="Collaboration graph"/></div>
+<map name="jnif_1_1_const_pool_coll__map" id="jnif_1_1_const_pool_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -124,8 +127,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a68a8e762325bd674d166da6c159924d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a68a8e762325bd674d166da6c159924d3">ConstPool</a> ()</td></tr>
-<tr class="separator:a68a8e762325bd674d166da6c159924d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab24832cdabe4db361a45e1105feb908a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacejnif.html#ab0e0629c72ad76aeb8c64ab5bb982f5f">u4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a">size</a> () const </td></tr>
 <tr class="separator:ab24832cdabe4db361a45e1105feb908a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a085aee879932f7d56dc0f1d3bdda50b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjnif_1_1_const_pool_1_1_iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a085aee879932f7d56dc0f1d3bdda50b0">iterator</a> () const </td></tr>
@@ -174,12 +175,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a028b69b15446fa26e7c8f69e6e7f2f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad83537be2fd0e82a8ff785392a729746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#ad83537be2fd0e82a8ff785392a729746">getClassNameIndex</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> classIndex) const </td></tr>
 <tr class="separator:ad83537be2fd0e82a8ff785392a729746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74fa4843b163711be996ecd94f212a5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a74fa4843b163711be996ecd94f212a5a">getFieldRef</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, string *className, string *name, string *desc) const </td></tr>
-<tr class="separator:a74fa4843b163711be996ecd94f212a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a048fd58eb5de4b27016436fe1f2dd238"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a048fd58eb5de4b27016436fe1f2dd238">getMethodRef</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, string *clazzName, string *name, string *desc) const </td></tr>
-<tr class="separator:a048fd58eb5de4b27016436fe1f2dd238"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e8e8dfaaec3e6f676ee90da86eda3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a69e8e8dfaaec3e6f676ee90da86eda3e">getInterMethodRef</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, string *clazzName, string *name, string *desc) const </td></tr>
-<tr class="separator:a69e8e8dfaaec3e6f676ee90da86eda3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0986073e4e3fcd675640828a51d419a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a0986073e4e3fcd675640828a51d419a5">getFieldRef</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *className, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *name, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *desc) const </td></tr>
+<tr class="separator:a0986073e4e3fcd675640828a51d419a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f14d24e58ebdd3bc183d89d5fd86e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a03f14d24e58ebdd3bc183d89d5fd86e6">getMethodRef</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *clazzName, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *name, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *desc) const </td></tr>
+<tr class="separator:a03f14d24e58ebdd3bc183d89d5fd86e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb3d16a0c0bba75786530dbd44c3a99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#afeb3d16a0c0bba75786530dbd44c3a99">getInterMethodRef</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *clazzName, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *name, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *desc) const </td></tr>
+<tr class="separator:afeb3d16a0c0bba75786530dbd44c3a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb2e53cf6511d289694972a57f1d56b4"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#adb2e53cf6511d289694972a57f1d56b4">getLong</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index) const </td></tr>
 <tr class="separator:adb2e53cf6511d289694972a57f1d56b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bb01ed0e312cfde4a6b4280831109f8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a9bb01ed0e312cfde4a6b4280831109f8">getDouble</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index) const </td></tr>
@@ -188,8 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a627fdf35cd23d148d7796b6463a65adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97452b65f732cfef16b4a426d92b50a"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a">getClassName</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> classIndex) const </td></tr>
 <tr class="separator:ae97452b65f732cfef16b4a426d92b50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c7d369f247643886027f95970257944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a0c7d369f247643886027f95970257944">getNameAndType</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, string *name, string *desc) const </td></tr>
-<tr class="separator:a0c7d369f247643886027f95970257944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ffab1a72c80211987f2f59854e00a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a65ffab1a72c80211987f2f59854e00a9">getNameAndType</a> (<a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a> index, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *name, <a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *desc) const </td></tr>
+<tr class="separator:a65ffab1a72c80211987f2f59854e00a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af08df224898d0dc9aa5821719fca6f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01">getIndexOfUtf8</a> (const char *utf8)</td></tr>
 <tr class="separator:af08df224898d0dc9aa5821719fca6f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ff6c24e2729ebd0dd81972dc3aeac1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a">putUtf8</a> (const char *utf8)</td></tr>
@@ -197,50 +198,26 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa29016bc14c4253c261b4f8fbc630239"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classjnif_1_1_const_item.html">ConstItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#aa29016bc14c4253c261b4f8fbc630239">entries</a></td></tr>
-<tr class="separator:aa29016bc14c4253c261b4f8fbc630239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19aeaef2864d41275455eaaf522ff622"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classjnif_1_1_const_item.html">ConstItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a19aeaef2864d41275455eaaf522ff622">entries</a></td></tr>
+<tr class="separator:a19aeaef2864d41275455eaaf522ff622"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a567d78cfd4f9c32939c598c782ec096d"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">ConstIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a567d78cfd4f9c32939c598c782ec096d">NULLENTRY</a> = 0</td></tr>
 <tr class="separator:a567d78cfd4f9c32939c598c782ec096d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a5a650000fc193a5c05de30e2756d3e72"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_pool.html#a5a650000fc193a5c05de30e2756d3e72">ClassFile</a></td></tr>
+<tr class="separator:a5a650000fc193a5c05de30e2756d3e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents the Java class file's constant pool. </p>
 <p>Provides the base services to manage the constant pool. The constant pool is a table which holds different kinds of items depending on their use. It can hold references for classes, fields, methods, interface methods, strings, integers, floats, longs, doubles, name and type, utf8 arrays, method handles, method types and invoke dynamic bootstrap methods.</p>
 <p>This class works by adding these kinds of entries in an array-like structure. When an entry is removed, all entries after the one removed will be invalidated, for this reason, no removed operations are allowed. </p>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00464">464</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a68a8e762325bd674d166da6c159924d3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">jnif::ConstPool::ConstPool </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initializes an empty constant pool. </p>
-<p>The valid indices start from 1 inclusive, because the null entry (index 0) is added by default. </p>
-
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00506">506</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00442">442</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a197395573db651b5b768a6f81bf44330"></a>
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +249,18 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the index of the newly created reference to a class item. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00534">534</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00505">505</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a197395573db651b5b768a6f81bf44330_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a197395573db651b5b768a6f81bf44330_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a197395573db651b5b768a6f81bf44330_icgraph" id="classjnif_1_1_const_pool_a197395573db651b5b768a6f81bf44330_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a1a658c7c4a072910c13d8ecd57e86b54" title="Adds a class reference to the constant pool by class name. " alt="" coords="224,5,394,33"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -308,7 +296,18 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the index of the newly created reference to a class item. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00548">548</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00519">519</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a1a658c7c4a072910c13d8ecd57e86b54_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a1a658c7c4a072910c13d8ecd57e86b54_cgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a1a658c7c4a072910c13d8ecd57e86b54_cgraph" id="classjnif_1_1_const_pool_a1a658c7c4a072910c13d8ecd57e86b54_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="229,5,390,33"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a197395573db651b5b768a6f81bf44330" title="Adds a class reference to the constant pool. " alt="" coords="224,57,394,85"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -343,7 +342,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00660">660</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00634">634</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -379,10 +378,17 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Adds a field reference. </p>
+<p>Adds a field reference to this constant pool. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">classIndex</td><td>the symbolic class that this field belongs to. </td></tr>
+    <tr><td class="paramname">nameAndTypeIndex</td><td>the name and type symbolic reference describing the name and type of the field to add. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>the index of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00558">558</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00532">532</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -417,7 +423,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00638">638</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00612">612</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -452,7 +458,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00627">627</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00601">601</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -491,7 +497,7 @@ Static Public Attributes</h2></td></tr>
 <p>Adds an interface method reference. </p>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00595">595</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00569">569</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -528,7 +534,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00728">728</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00701">701</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -563,7 +569,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00649">649</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00623">623</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -600,7 +606,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00708">708</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00682">682</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -639,7 +645,18 @@ Static Public Attributes</h2></td></tr>
 <p>Adds a class method reference. </p>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00568">568</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00542">542</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a5dfd8d3b9fe82df9fcdce089906b1abc_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a5dfd8d3b9fe82df9fcdce089906b1abc_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a5dfd8d3b9fe82df9fcdce089906b1abc_icgraph" id="classjnif_1_1_const_pool_a5dfd8d3b9fe82df9fcdce089906b1abc_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9" title="Adds a non&#45;interface methods by method name and descriptor. " alt="" coords="256,5,458,33"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -684,7 +701,18 @@ Static Public Attributes</h2></td></tr>
 <p>Adds a non-interface methods by method name and descriptor. </p>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00579">579</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00553">553</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a73014d16118e27d9c9b8030de37c26f9_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a73014d16118e27d9c9b8030de37c26f9_cgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a73014d16118e27d9c9b8030de37c26f9_cgraph" id="classjnif_1_1_const_pool_a73014d16118e27d9c9b8030de37c26f9_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="277,5,438,33"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a1b9d9a149fee427d4ce1cb80e549d8fe" title="Adds a name and type descriptor pair. " alt="" coords="271,57,444,101"/><area shape="rect" id="node4" href="classjnif_1_1_const_pool.html#a5dfd8d3b9fe82df9fcdce089906b1abc" title="Adds a class method reference. " alt="" coords="256,125,458,153"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -711,7 +739,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00718">718</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00692">692</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -757,7 +785,18 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00672">672</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00646">646</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a1b9d9a149fee427d4ce1cb80e549d8fe_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a1b9d9a149fee427d4ce1cb80e549d8fe_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a1b9d9a149fee427d4ce1cb80e549d8fe_icgraph" id="classjnif_1_1_const_pool_a1b9d9a149fee427d4ce1cb80e549d8fe_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9" title="Adds a non&#45;interface methods by method name and descriptor. " alt="" coords="227,13,429,41"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -784,7 +823,18 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00604">604</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00578">578</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a7373aa16ab20725df686b60a510123d8_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a7373aa16ab20725df686b60a510123d8_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a7373aa16ab20725df686b60a510123d8_icgraph" id="classjnif_1_1_const_pool_a7373aa16ab20725df686b60a510123d8_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#afeee789dfcbb4f94cf43495b9cd57348" title="jnif::ConstPool::addString\lFromClass" alt="" coords="227,5,399,49"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -811,7 +861,18 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00614">614</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00588">588</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_afeee789dfcbb4f94cf43495b9cd57348_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_afeee789dfcbb4f94cf43495b9cd57348_cgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_afeee789dfcbb4f94cf43495b9cd57348_cgraph" id="classjnif_1_1_const_pool_afeee789dfcbb4f94cf43495b9cd57348_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#ad83537be2fd0e82a8ff785392a729746" title="jnif::ConstPool::getClass\lNameIndex" alt="" coords="230,5,397,49"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a7373aa16ab20725df686b60a510123d8" title="jnif::ConstPool::addString" alt="" coords="227,73,399,101"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -857,7 +918,18 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00687">687</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00661">661</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_adc10e025b40dd03e16c7cfc3fc949518_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_adc10e025b40dd03e16c7cfc3fc949518_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_adc10e025b40dd03e16c7cfc3fc949518_icgraph" id="classjnif_1_1_const_pool_adc10e025b40dd03e16c7cfc3fc949518_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a1a658c7c4a072910c13d8ecd57e86b54" title="Adds a class reference to the constant pool by class name. " alt="" coords="232,5,402,33"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9" title="Adds a non&#45;interface methods by method name and descriptor. " alt="" coords="216,57,418,85"/><area shape="rect" id="node4" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="238,109,396,137"/><area shape="rect" id="node5" href="classjnif_1_1_class_file.html#af215499aee3b431842bc3a918f00b4c9" title="jnif::ClassFile::addField" alt="" coords="238,161,397,189"/><area shape="rect" id="node6" href="classjnif_1_1_class_file.html#a9476b7e48471f109cf4a7ba020175e8f" title="jnif::ClassFile::addMethod" alt="" coords="230,213,405,241"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -892,7 +964,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the ConstIndex of the newly created entry. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00700">700</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00674">674</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -918,7 +990,29 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00800">800</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00772">772</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_cgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_cgraph" id="classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#ad83537be2fd0e82a8ff785392a729746" title="jnif::ConstPool::getClass\lNameIndex" alt="" coords="257,5,423,49"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="261,73,419,101"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_icgraph" id="classjnif_1_1_const_pool_ae97452b65f732cfef16b4a426d92b50a_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_class_file.html#a4ba181f7a2134d2d27ff118c0f06319d" title="Gets the class name of this class file. " alt="" coords="256,5,408,49"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -944,7 +1038,18 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00756">756</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00728">728</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_ad83537be2fd0e82a8ff785392a729746_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_ad83537be2fd0e82a8ff785392a729746_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_ad83537be2fd0e82a8ff785392a729746_icgraph" id="classjnif_1_1_const_pool_ad83537be2fd0e82a8ff785392a729746_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#afeee789dfcbb4f94cf43495b9cd57348" title="jnif::ConstPool::addString\lFromClass" alt="" coords="237,5,409,49"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a" title="jnif::ConstPool::getClassName" alt="" coords="222,73,424,101"/><area shape="rect" id="node4" href="classjnif_1_1_class_file.html#a4ba181f7a2134d2d27ff118c0f06319d" title="Gets the class name of this class file. " alt="" coords="472,65,624,109"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -970,11 +1075,11 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00790">790</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00762">762</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a74fa4843b163711be996ecd94f212a5a"></a>
+<a class="anchor" id="a0986073e4e3fcd675640828a51d419a5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -990,19 +1095,19 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>className</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -1018,7 +1123,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00765">765</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00737">737</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1044,22 +1149,33 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00816">816</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00788">788</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_cgraph" alt=""/></div>
 <map name="classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_cgraph" id="classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a085aee879932f7d56dc0f1d3bdda50b0" title="jnif::ConstPool::iterator" alt="" coords="219,5,375,33"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool_1_1_iterator.html#aa7f5b2c07853bf47f64307fdfb9b693f" title="jnif::ConstPool::Iterator\l::hasNext" alt="" coords="219,57,376,101"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a085aee879932f7d56dc0f1d3bdda50b0" title="jnif::ConstPool::iterator" alt="" coords="219,5,375,33"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool_1_1_iterator.html#aa7f5b2c07853bf47f64307fdfb9b693f" title="jnif::ConstPool::Iterator\l::hasNext" alt="" coords="219,57,376,101"/><area shape="rect" id="node5" href="classjnif_1_1_const_pool.html#a028b69b15446fa26e7c8f69e6e7f2f96" title="jnif::ConstPool::isUtf8" alt="" coords="223,125,372,153"/><area shape="rect" id="node6" href="classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="218,177,376,205"/><area shape="rect" id="node4" href="classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a" title="Returns the number of elements in this constant pool. " alt="" coords="424,65,563,93"/></map>
+</div>
+</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_icgraph" id="classjnif_1_1_const_pool_af08df224898d0dc9aa5821719fca6f01_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="218,13,376,41"/></map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a69e8e8dfaaec3e6f676ee90da86eda3e"></a>
+<a class="anchor" id="afeb3d16a0c0bba75786530dbd44c3a99"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1075,19 +1191,19 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>clazzName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -1103,7 +1219,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00779">779</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00751">751</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1129,11 +1245,11 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00786">786</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00758">758</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a048fd58eb5de4b27016436fe1f2dd238"></a>
+<a class="anchor" id="a03f14d24e58ebdd3bc183d89d5fd86e6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1149,19 +1265,19 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>clazzName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -1177,11 +1293,11 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00772">772</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00744">744</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0c7d369f247643886027f95970257944"></a>
+<a class="anchor" id="a65ffab1a72c80211987f2f59854e00a9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1197,13 +1313,13 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacejnif.html#aa4810c37032f0d8fad67287bb4639595">String</a> *&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -1219,7 +1335,18 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00806">806</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00778">778</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a65ffab1a72c80211987f2f59854e00a9_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a65ffab1a72c80211987f2f59854e00a9_cgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a65ffab1a72c80211987f2f59854e00a9_cgraph" id="classjnif_1_1_const_pool_a65ffab1a72c80211987f2f59854e00a9_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="224,13,382,41"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -1245,7 +1372,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00739">739</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00712">712</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1398,18 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00794">794</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00766">766</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a627fdf35cd23d148d7796b6463a65adb_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a627fdf35cd23d148d7796b6463a65adb_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a627fdf35cd23d148d7796b6463a65adb_icgraph" id="classjnif_1_1_const_pool_a627fdf35cd23d148d7796b6463a65adb_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a" title="jnif::ConstPool::getClassName" alt="" coords="211,13,413,41"/><area shape="rect" id="node4" href="classjnif_1_1_const_pool.html#a65ffab1a72c80211987f2f59854e00a9" title="jnif::ConstPool::getName\lAndType" alt="" coords="228,65,396,109"/><area shape="rect" id="node5" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="229,133,395,177"/><area shape="rect" id="node7" href="classjnif_1_1_member.html#a7c7a997bec230c2adc654850ada4094e" title="jnif::Member::getName" alt="" coords="234,201,390,229"/><area shape="rect" id="node3" href="classjnif_1_1_class_file.html#a4ba181f7a2134d2d27ff118c0f06319d" title="Gets the class name of this class file. " alt="" coords="464,5,616,49"/><area shape="rect" id="node6" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="461,141,619,169"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -1299,7 +1437,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Checks whether the requested index holds a class reference. </p>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00748">748</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00720">720</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1325,7 +1463,18 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00752">752</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00724">724</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a028b69b15446fa26e7c8f69e6e7f2f96_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a028b69b15446fa26e7c8f69e6e7f2f96_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a028b69b15446fa26e7c8f69e6e7f2f96_icgraph" id="classjnif_1_1_const_pool_a028b69b15446fa26e7c8f69e6e7f2f96_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="202,5,368,49"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="416,13,574,41"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -1350,16 +1499,16 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00523">523</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00494">494</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_const_pool_a085aee879932f7d56dc0f1d3bdda50b0_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a085aee879932f7d56dc0f1d3bdda50b0_icgraph" alt=""/></div>
 <map name="classjnif_1_1_const_pool_a085aee879932f7d56dc0f1d3bdda50b0_icgraph" id="classjnif_1_1_const_pool_a085aee879932f7d56dc0f1d3bdda50b0_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="210,5,376,49"/></map>
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="210,5,376,49"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="424,13,582,41"/></map>
 </div>
 </p>
 
@@ -1387,7 +1536,18 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00833">833</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00805">805</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_a1ff6c24e2729ebd0dd81972dc3aeac1a_cgraph.png" border="0" usemap="#classjnif_1_1_const_pool_a1ff6c24e2729ebd0dd81972dc3aeac1a_cgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_a1ff6c24e2729ebd0dd81972dc3aeac1a_cgraph" id="classjnif_1_1_const_pool_a1ff6c24e2729ebd0dd81972dc3aeac1a_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="210,87,376,131"/><area shape="rect" id="node8" href="classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="213,155,374,183"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#a085aee879932f7d56dc0f1d3bdda50b0" title="jnif::ConstPool::iterator" alt="" coords="425,5,581,33"/><area shape="rect" id="node4" href="classjnif_1_1_const_pool_1_1_iterator.html#aa7f5b2c07853bf47f64307fdfb9b693f" title="jnif::ConstPool::Iterator\l::hasNext" alt="" coords="424,57,581,101"/><area shape="rect" id="node6" href="classjnif_1_1_const_pool.html#a028b69b15446fa26e7c8f69e6e7f2f96" title="jnif::ConstPool::isUtf8" alt="" coords="428,125,577,153"/><area shape="rect" id="node7" href="classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="424,177,582,205"/><area shape="rect" id="node5" href="classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a" title="Returns the number of elements in this constant pool. " alt="" coords="629,65,768,93"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -1415,22 +1575,56 @@ Static Public Attributes</h2></td></tr>
 <p>Returns the number of elements in this constant pool. </p>
 <dl class="section return"><dt>Returns</dt><dd>number of elements in this constant pool. </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00516">516</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00487">487</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classjnif_1_1_const_pool_ab24832cdabe4db361a45e1105feb908a_icgraph.png" border="0" usemap="#classjnif_1_1_const_pool_ab24832cdabe4db361a45e1105feb908a_icgraph" alt=""/></div>
+<map name="classjnif_1_1_const_pool_ab24832cdabe4db361a45e1105feb908a_icgraph" id="classjnif_1_1_const_pool_ab24832cdabe4db361a45e1105feb908a_icgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_const_pool_1_1_iterator.html#aa7f5b2c07853bf47f64307fdfb9b693f" title="jnif::ConstPool::Iterator\l::hasNext" alt="" coords="192,5,349,49"/><area shape="rect" id="node3" href="classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="397,5,563,49"/><area shape="rect" id="node4" href="classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="610,13,768,41"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a5a650000fc193a5c05de30e2756d3e72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classjnif_1_1_class_file.html">ClassFile</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00443">443</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa29016bc14c4253c261b4f8fbc630239"></a>
+<a class="anchor" id="a19aeaef2864d41275455eaaf522ff622"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;<a class="el" href="classjnif_1_1_const_item.html">ConstItem</a>&gt; jnif::ConstPool::entries</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classjnif_1_1_const_item.html">ConstItem</a>&gt; jnif::ConstPool::entries</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00842">842</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00814">814</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1454,7 +1648,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Represents the invalid (null) item, which must not be asked for. </p>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00500">500</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l00480">480</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1464,7 +1658,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 12 2014 14:53:30 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 17 2014 14:59:14 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

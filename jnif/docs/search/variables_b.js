@@ -1,16 +1,13 @@
 var searchData=
 [
-  ['l',['l',['../classjnif_1_1_const_item.html#ade15834b00b98f4f04ef9c8024033a9b',1,'jnif::ConstItem']]],
-  ['label',['label',['../classjnif_1_1_type.html#aca60d0a45b462590d492df757adae382',1,'jnif::Type::label()'],['../structjnif_1_1_inst.html#a87f3159edd61ed455220b530d6b94f0a',1,'jnif::Inst::label()'],['../classjnif_1_1_smt_attr_1_1_entry.html#ac14f88544d5d6ab8722571f3c96596cc',1,'jnif::SmtAttr::Entry::label()']]],
-  ['label2',['label2',['../structjnif_1_1_inst.html#a28b7a738aa334ff3e269cc35d65bac14',1,'jnif::Inst']]],
-  ['ldc',['ldc',['../structjnif_1_1_inst.html#acc53898f4d6a9f6fe38d7c9391db7c3e',1,'jnif::Inst']]],
-  ['len',['len',['../structjnif_1_1_attr.html#a562301299c2f79cf9dc4d6acdd7bf7b7',1,'jnif::Attr::len()'],['../structjnif_1_1_lvt_attr_1_1_lv_entry.html#a19b69a3fde44ff89b2e0f6cb21b97981',1,'jnif::LvtAttr::LvEntry::len()']]],
-  ['lineno',['lineno',['../structjnif_1_1_lnt_attr_1_1_ln_entry.html#ad6aac042d180385e66ec7fa22ba55bf1',1,'jnif::LntAttr::LnEntry']]],
-  ['lnt',['lnt',['../structjnif_1_1_lnt_attr.html#a3cd2698fc150c2aabce3edff4ca9ff1e',1,'jnif::LntAttr']]],
-  ['locals',['locals',['../classjnif_1_1_smt_attr_1_1_entry.html#ac4744422858b4130816d2fa1162a821a',1,'jnif::SmtAttr::Entry']]],
-  ['low',['low',['../structjnif_1_1_inst.html#aaed845dc71593ffd92f176c2689d1c6d',1,'jnif::Inst']]],
-  ['ls',['ls',['../structjnif_1_1_inst.html#a602c1891ca1332684acc767d0c472bf2',1,'jnif::Inst']]],
-  ['lva',['lva',['../classjnif_1_1_frame.html#a7c47176c135f823c4a54929ad9a06df4',1,'jnif::Frame']]],
-  ['lvindex',['lvindex',['../structjnif_1_1_inst.html#a5e7bc2c41e161419867c2313e7baa402',1,'jnif::Inst::lvindex()'],['../structjnif_1_1_inst.html#af084a7934526c7a72ca145aa51a15913',1,'jnif::Inst::lvindex()']]],
-  ['lvt',['lvt',['../structjnif_1_1_lvt_attr.html#a502b98670699f54b6a974298576a8035',1,'jnif::LvtAttr']]]
+  ['major',['major',['../classjnif_1_1_version.html#aad284c3884c8c5470af0052504b2f23d',1,'jnif::Version']]],
+  ['maxlocals',['maxLocals',['../classjnif_1_1_code_attr.html#ae3fc15762a1a0ed6187b529afee79020',1,'jnif::CodeAttr']]],
+  ['maxstack',['maxStack',['../classjnif_1_1_code_attr.html#a5f20b7b9d5a9fd542aaa3ba042aca279',1,'jnif::CodeAttr']]],
+  ['memberref',['memberRef',['../classjnif_1_1_const_item.html#afc3e1b792daefef5c89206f3b7290211',1,'jnif::ConstItem']]],
+  ['message',['message',['../classjnif_1_1_jnif_exception.html#a62132083d232fd569c228e1ac21a64a1',1,'jnif::JnifException']]],
+  ['methodhandle',['methodhandle',['../classjnif_1_1_const_item.html#ae5ef432485df7d2a9139a7a0fedad099',1,'jnif::ConstItem']]],
+  ['methodrefindex',['methodRefIndex',['../classjnif_1_1_invoke_inst.html#a48f2d17bde29aa98ce9c25eddbdd8bf8',1,'jnif::InvokeInst']]],
+  ['methods',['methods',['../classjnif_1_1_class_file.html#ab60d5f92f83b43ad711a7f682a3745eb',1,'jnif::ClassFile']]],
+  ['methodtype',['methodtype',['../classjnif_1_1_const_item.html#a40eade5db62db7a15e8fe7f1dfe81246',1,'jnif::ConstItem']]],
+  ['minor',['minor',['../classjnif_1_1_version.html#a50b00024845fbb338217e693a7a8beb3',1,'jnif::Version']]]
 ];

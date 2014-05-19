@@ -1,3 +1,4 @@
 <map id="jnif::Frame::setLongVar" name="jnif::Frame::setLongVar">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#af3aa80f513fcb8aedeabf757d63f87df" title="jnif::Type::longType" alt="" coords="213,5,349,33"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="217,5,346,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#af3aa80f513fcb8aedeabf757d63f87df" title="jnif::Type::longType" alt="" coords="213,57,349,85"/>
 </map>

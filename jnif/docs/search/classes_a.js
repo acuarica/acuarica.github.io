@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unknownattr',['UnknownAttr',['../structjnif_1_1_unknown_attr.html',1,'jnif']]]
+  ['pushinst',['PushInst',['../classjnif_1_1_push_inst.html',1,'jnif']]]
 ];

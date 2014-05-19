@@ -1,3 +1,4 @@
 <map id="jnif::Frame::_setVar" name="jnif::Frame::_setVar">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#aa476bd3a50d065ab4f16e8ca09927484" title="jnif::Type::topType" alt="" coords="193,5,322,33"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a78d93fe07fe81cc0309f0ce78667362e" title="jnif::Error::check" alt="" coords="199,5,316,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#aa476bd3a50d065ab4f16e8ca09927484" title="jnif::Type::topType" alt="" coords="193,57,322,85"/>
 </map>

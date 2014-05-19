@@ -1,3 +1,4 @@
 <map id="jnif::Frame::setDoubleVar" name="jnif::Frame::setDoubleVar">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#acdc0d5726b9f1247ffce081eec33ba57" title="jnif::Type::doubleType" alt="" coords="227,5,378,33"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="238,5,367,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#acdc0d5726b9f1247ffce081eec33ba57" title="jnif::Type::doubleType" alt="" coords="227,57,378,85"/>
 </map>

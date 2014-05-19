@@ -1,4 +1,7 @@
 <map id="jnif::ConstPool::getIndexOfUtf8" name="jnif::ConstPool::getIndexOfUtf8">
 <area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#a085aee879932f7d56dc0f1d3bdda50b0" title="jnif::ConstPool::iterator" alt="" coords="219,5,375,33"/>
 <area shape="rect" id="node3" href="$classjnif_1_1_const_pool_1_1_iterator.html#aa7f5b2c07853bf47f64307fdfb9b693f" title="jnif::ConstPool::Iterator\l::hasNext" alt="" coords="219,57,376,101"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html#a028b69b15446fa26e7c8f69e6e7f2f96" title="jnif::ConstPool::isUtf8" alt="" coords="223,125,372,153"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="218,177,376,205"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a" title="Returns the number of elements in this constant pool. " alt="" coords="424,65,563,93"/>
 </map>

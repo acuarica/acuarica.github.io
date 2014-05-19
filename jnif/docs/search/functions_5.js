@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['elementtype',['elementType',['../classjnif_1_1_type.html#a8c91697689fd2de3b1d9e5ab588c6a24',1,'jnif::Type']]],
-  ['end',['end',['../classjnif_1_1_basic_block.html#a74a6b0b9a0f4c89be25d23f38cd66178',1,'jnif::BasicBlock::end()'],['../classjnif_1_1_control_flow_graph.html#a525f63c778c67932a2d1cde925714cfe',1,'jnif::ControlFlowGraph::end()'],['../classjnif_1_1_control_flow_graph.html#afe156c61721a7ef716b366079be138ea',1,'jnif::ControlFlowGraph::end() const '],['../structjnif_1_1_attrs.html#a981cebbd51429792c6a565ab818ea928',1,'jnif::Attrs::end()'],['../classjnif_1_1_class_hierarchy.html#a943c24e88603ebf2c30685bfe136bb6b',1,'jnif::ClassHierarchy::end()'],['../classjnif_1_1_class_hierarchy.html#aaa41587b4da8468994aaad1733aa7382',1,'jnif::ClassHierarchy::end() const ']]],
-  ['exceptionsattr',['ExceptionsAttr',['../structjnif_1_1_exceptions_attr.html#a14d4f8aa00b022c8ee36919ab31f9601',1,'jnif::ExceptionsAttr']]]
+  ['field',['Field',['../classjnif_1_1_field.html#ac2d5d5306de8ab56b6a6202293a44b66',1,'jnif::Field::Field()'],['../classjnif_1_1_inst.html#ac7a422a1942817f015689986f230e55e',1,'jnif::Inst::field()']]],
+  ['findbasicblockoflabel',['findBasicBlockOfLabel',['../classjnif_1_1_control_flow_graph.html#a347ed6ea8c18d11d1f4a9c4949089200',1,'jnif::ControlFlowGraph']]],
+  ['findclass',['findClass',['../classjnif_1_1_i_class_finder.html#a79d3c2a6095d349dc9a2dac4037156a9',1,'jnif::IClassFinder']]],
+  ['floattype',['floatType',['../classjnif_1_1_type.html#a47a598b7f76354535ab96778516315e0',1,'jnif::Type']]],
+  ['frame',['Frame',['../classjnif_1_1_frame.html#a16502a5c242275599993105d8944daf9',1,'jnif::Frame']]],
+  ['fromconstclass',['fromConstClass',['../classjnif_1_1_type.html#a8bf4ff021b94c919a4d3f6828ff98f70',1,'jnif::Type']]],
+  ['fromfielddesc',['fromFieldDesc',['../classjnif_1_1_type.html#a738009ac88acbfae8dbc53ddb2bae423',1,'jnif::Type']]],
+  ['frommethoddesc',['fromMethodDesc',['../classjnif_1_1_type.html#ab576de850f2975f80465920a6a450450',1,'jnif::Type']]]
 ];

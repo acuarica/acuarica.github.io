@@ -1,4 +1,5 @@
 <map id="jnif::Method" name="jnif::Method">
-<area shape="rect" id="node2" href="$classjnif_1_1_member.html" title="Represent a member of a class. " alt="" coords="5,265,112,394"/>
-<area shape="rect" id="node3" href="$structjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="9,6,108,215"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_member.html" title="Represent a member of a class. " alt="" coords="79,697,185,842"/>
+<area shape="rect" id="node3" href="$structjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="5,214,104,423"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="128,6,291,631"/>
 </map>

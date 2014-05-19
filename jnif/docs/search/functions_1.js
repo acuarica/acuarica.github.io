@@ -1,27 +1,7 @@
 var searchData=
 [
-  ['add',['add',['../structjnif_1_1_attrs.html#a428e30507947978409f6ebd8cae2e409',1,'jnif::Attrs']]],
-  ['addbasicblock',['addBasicBlock',['../classjnif_1_1_control_flow_graph.html#a9e5240c0a704359077625b3d56c05b5a',1,'jnif::ControlFlowGraph']]],
-  ['addclass',['addClass',['../classjnif_1_1_const_pool.html#a197395573db651b5b768a6f81bf44330',1,'jnif::ConstPool::addClass(ConstIndex classNameIndex)'],['../classjnif_1_1_const_pool.html#a1a658c7c4a072910c13d8ecd57e86b54',1,'jnif::ConstPool::addClass(const char *className)'],['../classjnif_1_1_class_hierarchy.html#a25493cd9f91fea84b9c5e81d476df790',1,'jnif::ClassHierarchy::addClass()']]],
-  ['adddouble',['addDouble',['../classjnif_1_1_const_pool.html#aa4c80c59ebe6bcd3b7746f5789ef58f8',1,'jnif::ConstPool']]],
-  ['addfield',['addField',['../classjnif_1_1_class_file.html#af8190c4750b4a13820bafe841dd953b2',1,'jnif::ClassFile::addField(ConstIndex nameIndex, ConstIndex descIndex, u2 accessFlags=FIELD_PUBLIC)'],['../classjnif_1_1_class_file.html#af215499aee3b431842bc3a918f00b4c9',1,'jnif::ClassFile::addField(const char *fieldName, const char *fieldDesc, u2 accessFlags=FIELD_PUBLIC)']]],
-  ['addfieldref',['addFieldRef',['../classjnif_1_1_const_pool.html#a93c9f4190016709cadd5fca5ace1bba8',1,'jnif::ConstPool']]],
-  ['addfloat',['addFloat',['../classjnif_1_1_const_pool.html#afbd0deac6081b8934d9c3b1c3aafa846',1,'jnif::ConstPool']]],
-  ['addinteger',['addInteger',['../classjnif_1_1_const_pool.html#a17475d1f817c5eb8b32978cd99d0f21b',1,'jnif::ConstPool']]],
-  ['addintermethodref',['addInterMethodRef',['../classjnif_1_1_const_pool.html#a60dede038292adf7117ea1b5754799e5',1,'jnif::ConstPool']]],
-  ['addinvokedynamic',['addInvokeDynamic',['../classjnif_1_1_const_pool.html#ac207fe46789aaa7dc9e9068302cc17f3',1,'jnif::ConstPool']]],
-  ['addlong',['addLong',['../classjnif_1_1_const_pool.html#a743d3be3e871aa06cae7684f31203282',1,'jnif::ConstPool']]],
-  ['addmethod',['addMethod',['../classjnif_1_1_class_file.html#acf71293535eb0b372b91cd503443b037',1,'jnif::ClassFile::addMethod(ConstIndex nameIndex, ConstIndex descIndex, u2 accessFlags=METHOD_PUBLIC)'],['../classjnif_1_1_class_file.html#a9476b7e48471f109cf4a7ba020175e8f',1,'jnif::ClassFile::addMethod(const char *methodName, const char *methodDesc, u2 accessFlags=METHOD_PUBLIC)']]],
-  ['addmethodhandle',['addMethodHandle',['../classjnif_1_1_const_pool.html#a7c160a471000392cc31ffefa1d35e29a',1,'jnif::ConstPool']]],
-  ['addmethodref',['addMethodRef',['../classjnif_1_1_const_pool.html#a5dfd8d3b9fe82df9fcdce089906b1abc',1,'jnif::ConstPool::addMethodRef(ConstIndex classIndex, ConstIndex nameAndTypeIndex)'],['../classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9',1,'jnif::ConstPool::addMethodRef(ConstIndex classIndex, const char *name, const char *desc)']]],
-  ['addmethodtype',['addMethodType',['../classjnif_1_1_const_pool.html#a94a18eaa16215aec80ae12cd6a3d91de',1,'jnif::ConstPool']]],
-  ['addnameandtype',['addNameAndType',['../classjnif_1_1_const_pool.html#a1b9d9a149fee427d4ce1cb80e549d8fe',1,'jnif::ConstPool']]],
-  ['addstring',['addString',['../classjnif_1_1_const_pool.html#a7373aa16ab20725df686b60a510123d8',1,'jnif::ConstPool']]],
-  ['addstringfromclass',['addStringFromClass',['../classjnif_1_1_const_pool.html#afeee789dfcbb4f94cf43495b9cd57348',1,'jnif::ConstPool']]],
-  ['addtarget',['addTarget',['../classjnif_1_1_basic_block.html#a047be660a8bca7edb7e838a7a85a750c',1,'jnif::BasicBlock']]],
-  ['addutf8',['addUtf8',['../classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518',1,'jnif::ConstPool::addUtf8(const char *utf8, int len)'],['../classjnif_1_1_const_pool.html#ac3bdf06d97848b56ec8492cfe6834aca',1,'jnif::ConstPool::addUtf8(const char *str)']]],
-  ['arraytype',['arrayType',['../classjnif_1_1_type.html#ab3f5a3d90769c80bcd858d7edacce36e',1,'jnif::Type']]],
-  ['assert',['assert',['../classjnif_1_1_error.html#a5a1c36dc3094f1b5d4493ceb7ea85d14',1,'jnif::Error']]],
-  ['attr',['Attr',['../structjnif_1_1_attr.html#a26fca766203c8906b9b6b958a9849dfb',1,'jnif::Attr::Attr(const Attr &amp;)=delete'],['../structjnif_1_1_attr.html#a4725096fb2de27c12999c6ac312a73e7',1,'jnif::Attr::Attr(AttrKind kind, u2 nameIndex, u4 len=0)']]],
-  ['attrs',['Attrs',['../structjnif_1_1_attrs.html#a4822b00fcd0a1079ff52c444461e714a',1,'jnif::Attrs::Attrs(const Attrs &amp;)=delete'],['../structjnif_1_1_attrs.html#a7019b4518501e5ca359e5a436618f34a',1,'jnif::Attrs::Attrs(Attrs &amp;&amp;)=default'],['../structjnif_1_1_attrs.html#a9144a1610a4e2329baa2871531328543',1,'jnif::Attrs::Attrs()']]]
+  ['basicblock',['BasicBlock',['../classjnif_1_1_basic_block.html#a0de2a75f8a2ba85c99ba9ac284ff7ba6',1,'jnif::BasicBlock::BasicBlock(const BasicBlock &amp;)=delete'],['../classjnif_1_1_basic_block.html#aa19ba07a15c7780714d23bd8aa67ee9a',1,'jnif::BasicBlock::BasicBlock(BasicBlock &amp;&amp;)=default']]],
+  ['begin',['begin',['../classjnif_1_1_inst_list.html#a95242f6cd4c2e9dadcd2a5827de8622d',1,'jnif::InstList::begin()'],['../classjnif_1_1_basic_block.html#a3594346905c7facdaf40bc4716bbb8b2',1,'jnif::BasicBlock::begin()'],['../classjnif_1_1_control_flow_graph.html#a170b4dc9c8d7868d2b669721e4702ee5',1,'jnif::ControlFlowGraph::begin()'],['../classjnif_1_1_control_flow_graph.html#a7a425c527eb339b0b785180c24be03fd',1,'jnif::ControlFlowGraph::begin() const '],['../structjnif_1_1_attrs.html#a397a2560d1afbfb02f1e5406599c9970',1,'jnif::Attrs::begin()'],['../classjnif_1_1_class_hierarchy.html#a7593923319db76029d467c5352dc9a6a',1,'jnif::ClassHierarchy::begin()'],['../classjnif_1_1_class_hierarchy.html#aebb0fb22a9e77f03a3661cc57d2f8c6d',1,'jnif::ClassHierarchy::begin() const ']]],
+  ['booleantype',['booleanType',['../classjnif_1_1_type.html#a5e69cc6c280204d9404d94def5303bad',1,'jnif::Type']]],
+  ['bytetype',['byteType',['../classjnif_1_1_type.html#ac6c903e686b12b1da915b459de16b9a3',1,'jnif::Type']]]
 ];

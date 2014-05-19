@@ -1,3 +1,4 @@
 <map id="jnif::Frame::pushInt" name="jnif::Frame::pushInt">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#ab7a7107086d97b0a5ee91888c8b5d375" title="jnif::Type::intType" alt="" coords="189,5,315,33"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a817b1059f92069775c6a6836a9bcb750" title="jnif::Frame::push" alt="" coords="192,5,312,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ab7a7107086d97b0a5ee91888c8b5d375" title="jnif::Type::intType" alt="" coords="189,57,315,85"/>
 </map>

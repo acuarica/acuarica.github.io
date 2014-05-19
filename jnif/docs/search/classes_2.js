@@ -3,7 +3,7 @@ var searchData=
   ['classentry',['ClassEntry',['../classjnif_1_1_class_hierarchy_1_1_class_entry.html',1,'jnif::ClassHierarchy']]],
   ['classfile',['ClassFile',['../classjnif_1_1_class_file.html',1,'jnif']]],
   ['classhierarchy',['ClassHierarchy',['../classjnif_1_1_class_hierarchy.html',1,'jnif']]],
-  ['codeattr',['CodeAttr',['../structjnif_1_1_code_attr.html',1,'jnif']]],
+  ['codeattr',['CodeAttr',['../classjnif_1_1_code_attr.html',1,'jnif']]],
   ['codeexceptionentry',['CodeExceptionEntry',['../structjnif_1_1_code_exception_entry.html',1,'jnif']]],
   ['constclass',['ConstClass',['../classjnif_1_1_const_class.html',1,'jnif']]],
   ['constdouble',['ConstDouble',['../classjnif_1_1_const_double.html',1,'jnif']]],

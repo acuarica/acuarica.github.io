@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['label',['Label',['../namespacejnif.html#a45ce1d972490e7ecd0caf737950ec918',1,'jnif']]]
+  ['string',['String',['../namespacejnif.html#aa4810c37032f0d8fad67287bb4639595',1,'jnif']]]
 ];

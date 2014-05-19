@@ -98,21 +98,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;list&gt;</code><br/>
-<code>#include &lt;sstream&gt;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;ostream&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for jnif.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="jnif_8hpp__incl.png" border="0" usemap="#src_2jnif_8hpp" alt=""/></div>
+<map name="src_2jnif_8hpp" id="src_2jnif_8hpp">
+</map>
 </div>
 </div>
 <p><a href="jnif_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_error.html">jnif::Error</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_jnif_exception.html">jnif::JnifException</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_const_class.html">jnif::ConstClass</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,25 +149,59 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_frame.html">jnif::Frame</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_inst.html">jnif::Inst</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_inst.html">jnif::Inst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_label_inst.html">jnif::LabelInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_zero_inst.html">jnif::ZeroInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_push_inst.html">jnif::PushInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_ldc_inst.html">jnif::LdcInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_var_inst.html">jnif::VarInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_iinc_inst.html">jnif::IincInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_wide_inst.html">jnif::WideInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_jump_inst.html">jnif::JumpInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_field_inst.html">jnif::FieldInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_invoke_inst.html">jnif::InvokeInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_invoke_interface_inst.html">jnif::InvokeInterfaceInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_type_inst.html">jnif::TypeInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_new_array_inst.html">jnif::NewArrayInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_multi_array_inst.html">jnif::MultiArrayInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_table_switch_inst.html">jnif::TableSwitchInst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_lookup_switch_inst.html">jnif::LookupSwitchInst</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_inst_list.html">jnif::InstList</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_inst_list_1_1_iterator.html">jnif::InstList::Iterator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html">jnif::BasicBlock</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_control_flow_graph.html">jnif::ControlFlowGraph</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_attr.html">jnif::Attr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_attr.html">jnif::Attr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_attrs.html">jnif::Attrs</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_unknown_attr.html">jnif::UnknownAttr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_unknown_attr.html">jnif::UnknownAttr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_lvt_attr.html">jnif::LvtAttr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_lvt_attr.html">jnif::LvtAttr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_lvt_attr_1_1_lv_entry.html">jnif::LvtAttr::LvEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_lnt_attr.html">jnif::LntAttr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_lnt_attr.html">jnif::LntAttr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_lnt_attr_1_1_ln_entry.html">jnif::LntAttr::LnEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,13 +209,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_smt_attr_1_1_entry.html">jnif::SmtAttr::Entry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_exceptions_attr.html">jnif::ExceptionsAttr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_exceptions_attr.html">jnif::ExceptionsAttr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_code_exception_entry.html">jnif::CodeExceptionEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_code_attr.html">jnif::CodeAttr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_code_attr.html">jnif::CodeAttr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjnif_1_1_source_file_attr.html">jnif::SourceFileAttr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_source_file_attr.html">jnif::SourceFileAttr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_member.html">jnif::Member</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,6 +224,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_method.html">jnif::Method</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_i_class_path.html">jnif::IClassPath</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_version.html">jnif::Version</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_class_file.html">jnif::ClassFile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,10 +253,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa4810c37032f0d8fad67287bb4639595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb91e8936002ece58cc0ee0e0190ac50"><td class="memItemLeft" align="right" valign="top">typedef u2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#acb91e8936002ece58cc0ee0e0190ac50">jnif::ConstIndex</a></td></tr>
 <tr class="separator:acb91e8936002ece58cc0ee0e0190ac50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26ef4db6ce79cc74c35be09bb43fb2c5"><td class="memItemLeft" align="right" valign="top">typedef u2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a26ef4db6ce79cc74c35be09bb43fb2c5">jnif::ClassIndex</a></td></tr>
-<tr class="separator:a26ef4db6ce79cc74c35be09bb43fb2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45ce1d972490e7ecd0caf737950ec918"><td class="memItemLeft" align="right" valign="top">typedef u2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a45ce1d972490e7ecd0caf737950ec918">jnif::Label</a></td></tr>
-<tr class="separator:a45ce1d972490e7ecd0caf737950ec918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -629,21 +662,31 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1d5dabfe87e2b6cddca0178e74bff492"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a1d5dabfe87e2b6cddca0178e74bff492">jnif::operator&lt;&lt;</a> (ostream &amp;os, const ConstTag &amp;tag)</td></tr>
-<tr class="separator:a1d5dabfe87e2b6cddca0178e74bff492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9c45a2825b246d63ed0131a43aa3ad2"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#af9c45a2825b246d63ed0131a43aa3ad2">jnif::operator&lt;&lt;</a> (ostream &amp;os, const Frame &amp;frame)</td></tr>
-<tr class="separator:af9c45a2825b246d63ed0131a43aa3ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac493b5755828c838ffd1b3fe035ba02a"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#ac493b5755828c838ffd1b3fe035ba02a">jnif::operator&lt;&lt;</a> (ostream &amp;os, const Type &amp;type)</td></tr>
-<tr class="separator:ac493b5755828c838ffd1b3fe035ba02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2459dafd635566f2c9fca5e6413d6a0"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#aa2459dafd635566f2c9fca5e6413d6a0">jnif::operator&lt;&lt;</a> (ostream &amp;os, ClassFile &amp;cf)</td></tr>
-<tr class="separator:aa2459dafd635566f2c9fca5e6413d6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64f606e64d37e4847649e2f6c39c0395"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a64f606e64d37e4847649e2f6c39c0395">jnif::operator&lt;&lt;</a> (ostream &amp;os, const ClassHierarchy &amp;ch)</td></tr>
-<tr class="separator:a64f606e64d37e4847649e2f6c39c0395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6e8c0f3e62d87f2f0018ccd2d8358a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#afa6e8c0f3e62d87f2f0018ccd2d8358a">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, const ConstTag &amp;tag)</td></tr>
+<tr class="separator:afa6e8c0f3e62d87f2f0018ccd2d8358a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa8efb9c796a22c5a5930cf8d4fe753"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a9fa8efb9c796a22c5a5930cf8d4fe753">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, const Frame &amp;frame)</td></tr>
+<tr class="separator:a9fa8efb9c796a22c5a5930cf8d4fe753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c26a851ded0f411b3be8d4df0c5eeb"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a50c26a851ded0f411b3be8d4df0c5eeb">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, const Type &amp;type)</td></tr>
+<tr class="separator:a50c26a851ded0f411b3be8d4df0c5eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341b193d9dcd564b429650102d794272"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a341b193d9dcd564b429650102d794272">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, Inst &amp;inst)</td></tr>
+<tr class="separator:a341b193d9dcd564b429650102d794272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb27a26011621e0d6f0f2f1aad954b3f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#acb27a26011621e0d6f0f2f1aad954b3f">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, InstList &amp;instList)</td></tr>
+<tr class="separator:acb27a26011621e0d6f0f2f1aad954b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9854f9b7d2be5ed40dd68f423c2ce8d1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a9854f9b7d2be5ed40dd68f423c2ce8d1">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, BasicBlock &amp;bb)</td></tr>
+<tr class="separator:a9854f9b7d2be5ed40dd68f423c2ce8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac7f68475edd095763511901dc2098f2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#aac7f68475edd095763511901dc2098f2">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, const ControlFlowGraph &amp;cfg)</td></tr>
+<tr class="separator:aac7f68475edd095763511901dc2098f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e32a7dbbac27bde53d519d89d0254d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#ac3e32a7dbbac27bde53d519d89d0254d">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, const Version &amp;version)</td></tr>
+<tr class="separator:ac3e32a7dbbac27bde53d519d89d0254d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a2aeb307be6baaa3092f479ad6a877"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a23a2aeb307be6baaa3092f479ad6a877">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, ClassFile &amp;classFile)</td></tr>
+<tr class="separator:a23a2aeb307be6baaa3092f479ad6a877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37670812c6ac1125e0409f8a1fe2b06e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejnif.html#a37670812c6ac1125e0409f8a1fe2b06e">jnif::operator&lt;&lt;</a> (std::ostream &amp;os, const ClassHierarchy &amp;ch)</td></tr>
+<tr class="separator:a37670812c6ac1125e0409f8a1fe2b06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 12 2014 14:53:30 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 17 2014 14:59:14 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['keys',['keys',['../structjnif_1_1_inst.html#a0fe5db0f43047514687a287c3ba523d5',1,'jnif::Inst']]],
-  ['kind',['kind',['../structjnif_1_1_inst.html#a67e50880bb3e113ee8cb3dfe3e304da3',1,'jnif::Inst::kind()'],['../structjnif_1_1_attr.html#ae8cdd84503b450550687debf7037070a',1,'jnif::Attr::kind()']]],
+  ['keys',['keys',['../classjnif_1_1_lookup_switch_inst.html#a9f509ec8a39e6487edcef40da66621ec',1,'jnif::LookupSwitchInst']]],
+  ['kind',['kind',['../classjnif_1_1_inst.html#a67e50880bb3e113ee8cb3dfe3e304da3',1,'jnif::Inst::kind()'],['../classjnif_1_1_attr.html#ae8cdd84503b450550687debf7037070a',1,'jnif::Attr::kind()']]],
   ['kind_5fbipush',['KIND_BIPUSH',['../namespacejnif.html#a304ab3388f4f8f6e863fcf5d82da416baed7865d6cef8731c758cbbe2fbe61d8f',1,'jnif']]],
   ['kind_5ffield',['KIND_FIELD',['../namespacejnif.html#a304ab3388f4f8f6e863fcf5d82da416ba8ca0acfc548317456b3312734d2ecd6f',1,'jnif']]],
   ['kind_5fframe',['KIND_FRAME',['../namespacejnif.html#a304ab3388f4f8f6e863fcf5d82da416baea73fbaa4c54e8a02347474c5bf7a5e6',1,'jnif']]],

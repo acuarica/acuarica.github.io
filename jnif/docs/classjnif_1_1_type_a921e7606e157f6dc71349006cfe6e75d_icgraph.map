@@ -1,5 +1,3 @@
 <map id="jnif::Type::isOneWord" name="jnif::Type::isOneWord">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="203,5,373,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="203,57,373,85"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="223,109,353,137"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="203,5,391,33"/>
 </map>
