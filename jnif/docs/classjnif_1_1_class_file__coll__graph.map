@@ -1,5 +1,5 @@
 <map id="jnif::ClassFile" name="jnif::ClassFile">
 <area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,6,168,631"/>
-<area shape="rect" id="node3" href="$structjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="192,214,291,423"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="192,214,291,423"/>
 <area shape="rect" id="node4" href="$classjnif_1_1_version.html" title="The Version class is a tuple containing a major and minor version numbers fields. ..." alt="" coords="315,262,452,375"/>
 </map>

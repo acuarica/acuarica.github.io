@@ -1,0 +1,11 @@
+<map id="jnif::Frame::pop" name="jnif::Frame::pop">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="168,109,339,137"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="168,213,338,241"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#afa9cd7ec7852035c22ba2fc72732abb3" title="jnif::Frame::popArray" alt="" coords="392,5,538,33"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a704ec1dfc4d2ceef86352cbb283d8b4e" title="jnif::Frame::popInt" alt="" coords="401,57,530,85"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#a5314b0cbc0366774428dabd44575a9b5" title="jnif::Frame::popFloat" alt="" coords="394,109,537,137"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#af20c314ff271bad00b0f6fbb75e0140a" title="jnif::Frame::popRef" alt="" coords="398,161,533,189"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="593,161,735,189"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="394,213,537,241"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="387,265,543,293"/>
+</map>

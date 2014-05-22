@@ -8,7 +8,7 @@ var searchData=
   ['varinst',['VarInst',['../classjnif_1_1_inst.html#ac1dba979e42e91920553e21f47709ad0',1,'jnif::Inst']]],
   ['varinst',['VarInst',['../classjnif_1_1_var_inst.html',1,'jnif']]],
   ['varnameindex',['varNameIndex',['../structjnif_1_1_lvt_attr_1_1_lv_entry.html#a6ccaa9a6e5c252968a7bfce60fcee0f1',1,'jnif::LvtAttr::LvEntry']]],
-  ['version',['version',['../classjnif_1_1_class_file.html#a07659b50333250258656fdf649226ea9',1,'jnif::ClassFile::version()'],['../classjnif_1_1_version.html#a0d8e44ec7a86291e83548309d430fac8',1,'jnif::Version::Version()']]],
+  ['version',['Version',['../classjnif_1_1_version.html#a0d8e44ec7a86291e83548309d430fac8',1,'jnif::Version::Version()'],['../classjnif_1_1_class_file.html#a07659b50333250258656fdf649226ea9',1,'jnif::ClassFile::version()']]],
   ['version',['Version',['../classjnif_1_1_version.html',1,'jnif']]],
   ['voidtype',['voidType',['../classjnif_1_1_type.html#ac4d67e377ae9788dba1f716d782280c6',1,'jnif::Type']]]
 ];

@@ -1,0 +1,5 @@
+<map id="jnif::ClassFile::getThisClassName" name="jnif::ClassFile::getThisClassName">
+<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a" title="jnif::ConstPool::getClassName" alt="" coords="206,43,408,71"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#ad83537be2fd0e82a8ff785392a729746" title="jnif::ConstPool::getClass\lNameIndex" alt="" coords="457,5,623,49"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="461,73,619,101"/>
+</map>

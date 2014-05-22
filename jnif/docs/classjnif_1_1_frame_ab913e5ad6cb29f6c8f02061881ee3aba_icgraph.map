@@ -1,0 +1,7 @@
+<map id="jnif::Frame::setVar" name="jnif::Frame::setVar">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a39840cbc6fb299eeee8e8c63dbc56088" title="jnif::Frame::setIntVar" alt="" coords="199,5,343,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a7684c17aa68b524b8ff3463fa8cd4df9" title="jnif::Frame::setLongVar" alt="" coords="191,57,350,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a1bfcda3873437e60327eb5c9977e8377" title="jnif::Frame::setFloatVar" alt="" coords="191,109,350,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#ada2526d07a237d388df4b347e73720bb" title="jnif::Frame::setDoubleVar" alt="" coords="185,161,356,189"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#a83cd97150cf495c1d91948787ab5ad96" title="jnif::Frame::setRefVar" alt="" coords="196,213,346,241"/>
+</map>

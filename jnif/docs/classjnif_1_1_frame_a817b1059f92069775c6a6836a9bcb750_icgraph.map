@@ -1,0 +1,9 @@
+<map id="jnif::Frame::push" name="jnif::Frame::push">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a96df06c35b4dfa066604ec776122d3c6" title="jnif::Frame::pushInt" alt="" coords="187,5,322,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a77c87650cd5502e7bba6d38fa3c1e2f3" title="jnif::Frame::pushLong" alt="" coords="180,57,330,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#acee65d47153fb4e619c29475a067e99f" title="jnif::Frame::pushFloat" alt="" coords="180,109,330,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a473d91385d6cfb52b738582e8fbfa3d6" title="jnif::Frame::pushDouble" alt="" coords="173,161,336,189"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#a68b404735e15c14f0cc7f46b09ba32ee" title="jnif::Frame::pushRef" alt="" coords="184,213,325,241"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#ad2a3762a5b11167b4e259b4f816fb55f" title="jnif::Frame::pushArray" alt="" coords="178,265,331,293"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame.html#a047e9a569d2b0c3639f4e7e25eaa501f" title="jnif::Frame::pushNull" alt="" coords="183,317,326,345"/>
+</map>

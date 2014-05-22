@@ -1,0 +1,10 @@
+<map id="jnif::CodeAttr" name="jnif::CodeAttr">
+<area shape="rect" id="node2" href="$classjnif_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="5,1171,104,1301"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="26,6,189,631"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="92,697,247,1146"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="201,1510,300,1719"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="324,1518,499,1711"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_basic_block.html" title="Represents a basic block of instructions. " alt="" coords="487,1993,597,2138"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popArray()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="523,1326,644,1903"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_inst_list_1_1_iterator.html" title="{jnif::InstList::Iterator\n||+ operator*()\l+ operator&#45;\&gt;()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator&#45;&#45;()\l}" alt="" coords="668,1534,805,1695"/>
+</map>

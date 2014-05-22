@@ -91,6 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classjnif_1_1_basic_block-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">jnif::BasicBlock Class Reference</div>  </div>
@@ -105,7 +106,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classjnif_1_1_basic_block__coll__graph.png" border="0" usemap="#jnif_1_1_basic_block_coll__map" alt="Collaboration graph"/></div>
 <map name="jnif_1_1_basic_block_coll__map" id="jnif_1_1_basic_block_coll__map">
-<area shape="rect" id="node4" href="classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="99,1243,273,1437"/><area shape="rect" id="node2" href="classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popArray()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="195,30,316,607"/><area shape="rect" id="node3" href="classjnif_1_1_inst_list_1_1_iterator.html" title="{jnif::InstList::Iterator\n||+ operator*()\l+ operator&#45;\&gt;()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator&#45;&#45;()\l}" alt="" coords="340,238,477,399"/><area shape="rect" id="node5" href="classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="9,713,164,1162"/><area shape="rect" id="node6" href="classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,6,168,631"/></map>
+<area shape="rect" id="node4" href="classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="94,1243,268,1437"/><area shape="rect" id="node2" href="classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popInt()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popArray()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ getVar()\l+ setVar()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l}" alt="" coords="193,30,313,607"/><area shape="rect" id="node3" href="classjnif_1_1_inst_list_1_1_iterator.html" title="{jnif::InstList::Iterator\n||+ operator*()\l+ operator&#45;\&gt;()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator&#45;&#45;()\l}" alt="" coords="338,238,475,399"/><area shape="rect" id="node5" href="classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="14,713,169,1162"/><area shape="rect" id="node6" href="classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,6,168,631"/></map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -125,8 +126,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5b29e606a2283a250e016c2397f3306e"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#a5b29e606a2283a250e016c2397f3306e">ControlFlowGraph</a></td></tr>
-<tr class="separator:a5b29e606a2283a250e016c2397f3306e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85801cf4b90504b4444528478f05638c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjnif_1_1_inst_list_1_1_iterator.html">InstList::Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#a85801cf4b90504b4444528478f05638c">start</a></td></tr>
 <tr class="separator:a85801cf4b90504b4444528478f05638c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf469ad0f0be92a7e7413cc77f934f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjnif_1_1_inst_list_1_1_iterator.html">InstList::Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#acbf469ad0f0be92a7e7413cc77f934f7">exit</a></td></tr>
@@ -139,14 +138,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adfad9adfc4839350da2591421b8d6025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdcc7996cd78e78a15f65e3e36067b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjnif_1_1_basic_block.html">BasicBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#a1fdcc7996cd78e78a15f65e3e36067b3">next</a></td></tr>
 <tr class="separator:a1fdcc7996cd78e78a15f65e3e36067b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126cced19abd6bd170b55e126f1fc07a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjnif_1_1_control_flow_graph.html">ControlFlowGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#a126cced19abd6bd170b55e126f1fc07a">cfg</a></td></tr>
-<tr class="separator:a126cced19abd6bd170b55e126f1fc07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ccc71e311151c91e9ed83a3f275052b"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="classjnif_1_1_control_flow_graph.html">ControlFlowGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#a9ccc71e311151c91e9ed83a3f275052b">cfg</a></td></tr>
+<tr class="separator:a9ccc71e311151c91e9ed83a3f275052b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:aa94761a05e01b85d17dc426b73b675a0"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_basic_block.html#aa94761a05e01b85d17dc426b73b675a0">ControlFlowGraph</a></td></tr>
+<tr class="separator:aa94761a05e01b85d17dc426b73b675a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a basic block of instructions. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjnif_1_1_inst.html" title="Represent a bytecode instruction. ">Inst</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02404">2404</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02398">2398</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0de2a75f8a2ba85c99ba9ac284ff7ba6"></a>
 <div class="memitem">
@@ -234,7 +238,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02419">2419</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02413">2413</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -259,36 +263,45 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02423">2423</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02417">2417</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="aa94761a05e01b85d17dc426b73b675a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classjnif_1_1_control_flow_graph.html">ControlFlowGraph</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02403">2403</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a126cced19abd6bd170b55e126f1fc07a"></a>
+<a class="anchor" id="a9ccc71e311151c91e9ed83a3f275052b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classjnif_1_1_control_flow_graph.html">ControlFlowGraph</a>* jnif::BasicBlock::cfg</td>
+          <td class="memname">class <a class="el" href="classjnif_1_1_control_flow_graph.html">ControlFlowGraph</a>* jnif::BasicBlock::cfg</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02428">2428</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5b29e606a2283a250e016c2397f3306e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend jnif::BasicBlock::ControlFlowGraph</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02409">2409</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02422">2422</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -302,7 +315,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02414">2414</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02408">2408</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -316,7 +329,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02416">2416</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02410">2410</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -330,7 +343,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02415">2415</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02409">2409</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -344,7 +357,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02427">2427</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02421">2421</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -358,7 +371,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02417">2417</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02411">2411</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -372,7 +385,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02413">2413</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+<p>Definition at line <a class="el" href="jnif_8hpp_source.html#l02407">2407</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
@@ -382,7 +395,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 17 2014 14:59:14 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 22 2014 17:40:26 for JNIF by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

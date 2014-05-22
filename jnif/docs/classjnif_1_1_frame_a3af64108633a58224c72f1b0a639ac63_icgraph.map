@@ -1,0 +1,5 @@
+<map id="jnif::Frame::popTwoWord" name="jnif::Frame::popTwoWord">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="231,5,374,33"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="225,57,381,85"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="430,31,573,59"/>
+</map>

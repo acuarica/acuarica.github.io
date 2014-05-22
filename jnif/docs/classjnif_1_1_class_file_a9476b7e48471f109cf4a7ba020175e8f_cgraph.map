@@ -1,0 +1,4 @@
+<map id="jnif::ClassFile::addMethod" name="jnif::ClassFile::addMethod">
+<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="237,5,398,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#acf71293535eb0b372b91cd503443b037" title="Adds a new method to this class file. " alt="" coords="230,57,405,85"/>
+</map>

@@ -9,7 +9,7 @@ var searchData=
   ['setrefvar',['setRefVar',['../classjnif_1_1_frame.html#a83cd97150cf495c1d91948787ab5ad96',1,'jnif::Frame::setRefVar(u4 lvindex, const String &amp;className)'],['../classjnif_1_1_frame.html#af7359e9253cdf50ed215e566745876f2',1,'jnif::Frame::setRefVar(u4 lvindex, const Type &amp;type)']]],
   ['setvar',['setVar',['../classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba',1,'jnif::Frame']]],
   ['shorttype',['shortType',['../classjnif_1_1_type.html#a48c7fca1ba28fd1784569b75a614fa58',1,'jnif::Type']]],
-  ['size',['size',['../classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a',1,'jnif::ConstPool::size()'],['../structjnif_1_1_attrs.html#adf5d90206174f366e0a7b97e6fc3736d',1,'jnif::Attrs::size()']]],
+  ['size',['size',['../classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a',1,'jnif::ConstPool::size()'],['../classjnif_1_1_attrs.html#adf5d90206174f366e0a7b97e6fc3736d',1,'jnif::Attrs::size()']]],
   ['smtattr',['SmtAttr',['../classjnif_1_1_smt_attr.html#adf6c86323e49b1b25409709c73768a58',1,'jnif::SmtAttr']]],
   ['sourcefileattr',['SourceFileAttr',['../classjnif_1_1_source_file_attr.html#ada10c46d30989d1dc759b03c67a597e7',1,'jnif::SourceFileAttr']]],
   ['striparraytype',['stripArrayType',['../classjnif_1_1_type.html#ad1a84a51133621ce6fb968402a8678cc',1,'jnif::Type']]],
