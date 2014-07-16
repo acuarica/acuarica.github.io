@@ -1,0 +1,15 @@
+<map id="jnif::Frame::setVar" name="jnif::Frame::setVar">
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="219,83,338,111"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#aea7db4cbbe883a0dd4034c16b96bf7bd" title="jnif::Type::isOneOrTwoWord" alt="" coords="185,187,373,215"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="422,135,570,163"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_type_factory.html#a7f9d5c3c6259627f5f0c6dc572a798ac" title="jnif::TypeFactory::\ltopType" alt="" coords="215,239,342,283"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="422,265,570,293"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a736842089869273b900dc3a6e2b546f7" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="627,5,763,33"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="634,57,755,85"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="637,109,752,137"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="630,161,760,189"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#ad6f9a197dfda496672b03211cdfe4079" title="jnif::Type::isUninitThis" alt="" coords="619,213,770,241"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="820,161,943,189"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="634,265,755,293"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="628,317,762,345"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="jnif::Inst" name="jnif::Inst">
+<area shape="rect" id="node2" href="$classjnif_1_1_field_inst.html" title="{jnif::FieldInst\n|+ fieldRefIndex\l|}" alt="" coords="5,1049,115,1130"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_iinc_inst.html" title="{jnif::IincInst\n|+ index\l+ value\l|}" alt="" coords="140,1041,228,1138"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_invoke_dynamic_inst.html" title="Represents an invokedynamic bytecode. " alt="" coords="251,1049,409,1130"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_invoke_inst.html" title="{jnif::InvokeInst\n|+ methodRefIndex\l|}" alt="" coords="433,1049,563,1130"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_invoke_interface_inst.html" title="{jnif::InvokeInterfaceInst\n|+ interMethodRefIndex\l+ count\l|}" alt="" coords="587,1041,745,1138"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_jump_inst.html" title="{jnif::JumpInst\n|+ label2\l|}" alt="" coords="770,1049,869,1130"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_label_inst.html" title="{jnif::LabelInst\n|+ offset\l+ deltaOffset\l+ id\l+ isBranchTarget\l+ isTryStart\l+ isTryEnd\l+ isCatchHandler\l|}" alt="" coords="894,1001,1017,1178"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_ldc_inst.html" title="{jnif::LdcInst\n|+ valueIndex\l|}" alt="" coords="1042,1049,1139,1130"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_multi_array_inst.html" title="{jnif::MultiArrayInst\n|+ classIndex\l+ dims\l|}" alt="" coords="1163,1041,1289,1138"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_new_array_inst.html" title="{jnif::NewArrayInst\n|+ atype\l|}" alt="" coords="1314,1049,1440,1130"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_push_inst.html" title="{jnif::PushInst\n|+ value\l|}" alt="" coords="1464,1049,1561,1130"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_switch_inst.html" title="Base class for TableSwitchInst and LookupSwitchInst. " alt="" coords="1587,1049,1692,1130"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_type_inst.html" title="{jnif::TypeInst\n|+ classIndex\l|}" alt="" coords="1717,1049,1813,1130"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_var_inst.html" title="{jnif::VarInst\n|+ lvindex\l|}" alt="" coords="1838,1049,1924,1130"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_wide_inst.html" title="{jnif::WideInst\n|+ subOpcode\l+ lvindex\l+ var\l+ index\l+ value\l+ iinc\l+ @10\l|}" alt="" coords="1949,1001,2049,1178"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_zero_inst.html" title="{jnif::ZeroInst\n||}" alt="" coords="2074,1049,2168,1130"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_lookup_switch_inst.html" title="{jnif::LookupSwitchInst\n|+ defbyte\l+ npairs\l+ keys\l|}" alt="" coords="1481,1227,1631,1341"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_table_switch_inst.html" title="{jnif::TableSwitchInst\n|+ def\l+ low\l+ high\l|}" alt="" coords="1655,1227,1792,1341"/>
+</map>

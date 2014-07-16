@@ -1,0 +1,12 @@
+<map id="jnif::ConstPool::addUtf8" name="jnif::ConstPool::addUtf8">
+<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html#af215499aee3b431842bc3a918f00b4c9" title="Adds a new field to this class file by passing directly the name and descriptor. " alt="" coords="238,5,397,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#a9476b7e48471f109cf4a7ba020175e8f" title="Adds a new method to this class file by passing directly the name and descriptor. ..." alt="" coords="230,57,405,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a1a658c7c4a072910c13d8ecd57e86b54" title="Adds a class reference to the constant pool by class name. " alt="" coords="232,109,402,137"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9" title="Adds a non&#45;interface methods by method name and descriptor. " alt="" coords="216,161,418,189"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_const_pool.html#a4b1dffd30cdbb156bff8df77d759b23f" title="Adds a string to the constant pool by providing a string. " alt="" coords="231,213,403,241"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="238,265,396,293"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame_generator.html#aaaec7efe91b46ccc1fd73d516eac33d8" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="466,226,611,270"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="658,286,803,330"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="658,218,803,262"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="851,286,1010,330"/>
+</map>

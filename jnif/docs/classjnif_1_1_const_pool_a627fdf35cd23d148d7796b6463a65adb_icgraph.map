@@ -1,8 +1,0 @@
-<map id="jnif::ConstPool::getUtf8" name="jnif::ConstPool::getUtf8">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a" title="jnif::ConstPool::getClassName" alt="" coords="211,13,413,41"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a65ffab1a72c80211987f2f59854e00a9" title="jnif::ConstPool::getName\lAndType" alt="" coords="228,65,396,109"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="229,133,395,177"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_member.html#a7c7a997bec230c2adc654850ada4094e" title="jnif::Member::getName" alt="" coords="234,201,390,229"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#a4ba181f7a2134d2d27ff118c0f06319d" title="Gets the class name of this class file. " alt="" coords="464,5,616,49"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="461,141,619,169"/>
-</map>

@@ -1,0 +1,10 @@
+<map id="jnif::InstList::addLabel" name="jnif::InstList::addLabel">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#aaaec7efe91b46ccc1fd73d516eac33d8" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="205,73,350,117"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_label_manager.html#a38232c40bbf2a0193450848f151f3190" title="jnif::LabelManager\l::putLabelIfExists" alt="" coords="212,141,343,185"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="397,5,542,49"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="397,73,542,117"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="590,73,749,117"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="400,141,538,185"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="798,171,936,215"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="600,141,738,185"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="jnif::ClassFile::addMethod" name="jnif::ClassFile::addMethod">
+<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html#a9476b7e48471f109cf4a7ba020175e8f" title="Adds a new method to this class file by passing directly the name and descriptor. ..." alt="" coords="283,5,458,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_4_00_01_attrs_p5cb72c4ae99cacfc917e662ca3cd4054.html#a83b2e77b579a8e2f81e3da5b0ccbc034" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList...\&gt;, AttrsParser\&lt; TMethodAttr\lParserList...\&gt;, AttrsParser\&lt; TFieldAttrParser\lList...\&gt; \&gt;::parse" alt="" coords="230,57,512,149"/>
+</map>

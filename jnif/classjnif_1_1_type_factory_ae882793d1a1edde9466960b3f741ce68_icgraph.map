@@ -1,0 +1,13 @@
+<map id="jnif::TypeFactory::floatType" name="jnif::TypeFactory::floatType">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#acee65d47153fb4e619c29475a067e99f" title="jnif::Frame::pushFloat" alt="" coords="205,11,355,39"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_frame.html#a1bfcda3873437e60327eb5c9977e8377" title="jnif::Frame::setFloatVar" alt="" coords="201,63,359,91"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_stack_map_table_attr_parser.html#a30382d22dd8ad2c9a92aaff2873dd733" title="jnif::StackMapTableAttrParser\l::parseType" alt="" coords="182,115,378,159"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="677,13,864,41"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="451,38,600,66"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="918,5,1063,49"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="1113,5,1258,49"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="1113,73,1258,117"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1307,73,1466,117"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_stack_map_table_attr_parser.html#a535fdc8117a082428a6a65e2882bc1b9" title="jnif::StackMapTableAttrParser\l::parseTs" alt="" coords="427,115,624,159"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_stack_map_table_attr_parser.html#adaede7c6ec7aa3c1d24d23e027f19026" title="jnif::StackMapTableAttrParser\l::parse" alt="" coords="672,115,869,159"/>
+</map>

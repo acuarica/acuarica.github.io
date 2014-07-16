@@ -1,0 +1,9 @@
+<map id="jnif::Arena::alloc" name="jnif::Arena::alloc">
+<area shape="rect" id="node2" href="$classjnif_1_1_arena.html#a4439f5975bb410679155879c4ac48f0b" title="jnif::Arena::create" alt="" coords="196,11,322,39"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#a10fcf3394c8c30e43fdff8a52ac9206b" title="Adds a new field to this class file. " alt="" coords="179,63,338,91"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_class_file.html#a95fec8b72553bcd85a60f184b15cea46" title="Adds a new method to this class file. " alt="" coords="171,115,346,143"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_inst_list.html#a570ed2ec48a760fc03cd0fc1eb9494db" title="jnif::InstList::_create" alt="" coords="189,167,329,195"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html#af215499aee3b431842bc3a918f00b4c9" title="Adds a new field to this class file by passing directly the name and descriptor. " alt="" coords="456,5,616,33"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_4_00_01_attrs_p5cb72c4ae99cacfc917e662ca3cd4054.html#a83b2e77b579a8e2f81e3da5b0ccbc034" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList...\&gt;, AttrsParser\&lt; TMethodAttr\lParserList...\&gt;, AttrsParser\&lt; TFieldAttrParser\lList...\&gt; \&gt;::parse" alt="" coords="395,57,677,149"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_class_file.html#a9476b7e48471f109cf4a7ba020175e8f" title="Adds a new method to this class file by passing directly the name and descriptor. ..." alt="" coords="449,173,623,201"/>
+</map>

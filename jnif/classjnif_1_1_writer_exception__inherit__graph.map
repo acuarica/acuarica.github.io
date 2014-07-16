@@ -1,0 +1,4 @@
+<map id="jnif::WriterException" name="jnif::WriterException">
+<area shape="rect" id="node3" href="$classjnif_1_1_invalid_method_length_exception.html" title="{jnif::InvalidMethodLength\lException\n||+ InvalidMethodLengthException()\l}" alt="" coords="5,299,229,397"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_jnif_exception.html" title="Represents the base exception that jnif can throw. " alt="" coords="55,6,179,119"/>
+</map>

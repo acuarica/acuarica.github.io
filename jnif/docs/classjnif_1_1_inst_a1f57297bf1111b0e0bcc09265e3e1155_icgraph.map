@@ -1,5 +1,0 @@
-<map id="jnif::Inst::isLookupSwitch" name="jnif::Inst::isLookupSwitch">
-<area shape="rect" id="node2" href="$classjnif_1_1_inst.html#a3f423442b19a76f72fff7f49732f3657" title="jnif::Inst::isBranch" alt="" coords="222,5,349,33"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_inst.html#a4d5519d32d95ab7cf30971f0d7af0303" title="jnif::Inst::ls" alt="" coords="243,57,327,85"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_inst_list.html#aa6acf7cd52fe35838ae8f45d56c7b47f" title="jnif::InstList::hasBranches" alt="" coords="397,5,571,33"/>
-</map>

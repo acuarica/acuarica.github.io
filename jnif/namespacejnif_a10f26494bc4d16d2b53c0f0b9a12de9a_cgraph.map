@@ -1,0 +1,10 @@
+<map id="jnif::addTarget2" name="jnif::addTarget2">
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="392,26,512,54"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_inst.html#ac4c5613adfbaf17f917ce6a2ff416eda" title="jnif::Inst::isLabel" alt="" coords="560,78,677,106"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_inst.html#a16836e29d651d1e75dfc46beaddfc37d" title="jnif::Inst::label" alt="" coords="401,234,503,262"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#ac261fae0dab78e255ecff903f2e4c40b" title="Finds the basic block associated with the given labelId. " alt="" coords="174,122,336,166"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_basic_block.html#a047be660a8bca7edb7e838a7a85a750c" title="jnif::BasicBlock::addTarget" alt="" coords="166,274,344,302"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_inst_list.html#a49b6e0706f77b3278da50a689021659b" title="jnif::InstList::end" alt="" coords="393,182,511,210"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_error.html#a323c70ce47af4b34b77a75e51831390c" title="jnif::Error::raise" alt="" coords="396,130,508,158"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="393,286,511,314"/>
+</map>

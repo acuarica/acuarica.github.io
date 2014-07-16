@@ -1,5 +1,0 @@
-<map id="jnif::Inst::isTableSwitch" name="jnif::Inst::isTableSwitch">
-<area shape="rect" id="node2" href="$classjnif_1_1_inst.html#a3f423442b19a76f72fff7f49732f3657" title="jnif::Inst::isBranch" alt="" coords="211,5,338,33"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_inst.html#a68b1a2ec2b9f87cdba716091ac74c58e" title="jnif::Inst::ts" alt="" coords="232,57,317,85"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_inst_list.html#aa6acf7cd52fe35838ae8f45d56c7b47f" title="jnif::InstList::hasBranches" alt="" coords="387,5,560,33"/>
-</map>

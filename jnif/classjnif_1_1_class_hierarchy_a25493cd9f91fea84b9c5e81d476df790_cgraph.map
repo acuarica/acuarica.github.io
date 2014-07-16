@@ -1,0 +1,7 @@
+<map id="jnif::ClassHierarchy::addClass" name="jnif::ClassHierarchy::addClass">
+<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html#a4ba181f7a2134d2d27ff118c0f06319d" title="Gets the class name of this class file. " alt="" coords="189,5,341,49"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a" title="jnif::ConstPool::getClassName" alt="" coords="390,43,592,71"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="207,125,324,153"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#ad83537be2fd0e82a8ff785392a729746" title="jnif::ConstPool::getClass\lNameIndex" alt="" coords="641,5,807,49"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="645,73,803,101"/>
+</map>

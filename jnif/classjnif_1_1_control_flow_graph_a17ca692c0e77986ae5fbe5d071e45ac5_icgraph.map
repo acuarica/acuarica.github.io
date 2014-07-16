@@ -1,0 +1,6 @@
+<map id="jnif::ControlFlowGraph::addBasicBlock" name="jnif::ControlFlowGraph::addBasicBlock">
+<area shape="rect" id="node2" href="$namespacejnif.html#a1c4a2d7e43f2ead840831c3457282c3e" title="jnif::addBasicBlock2" alt="" coords="208,13,349,41"/>
+<area shape="rect" id="node3" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="398,13,544,41"/>
+<area shape="rect" id="node4" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="593,13,687,41"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="736,5,890,49"/>
+</map>

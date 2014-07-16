@@ -1,0 +1,7 @@
+<map id="jnif::Frame::pushArray" name="jnif::Frame::pushArray">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a817b1059f92069775c6a6836a9bcb750" title="jnif::Frame::push" alt="" coords="209,5,330,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type_factory.html#a496a41bea4cda085ba31238a6edb839a" title="jnif::TypeFactory::\larrayType" alt="" coords="206,57,333,101"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="381,38,499,66"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="383,90,497,118"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="548,90,671,118"/>
+</map>

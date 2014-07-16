@@ -1,0 +1,8 @@
+<map id="jnif::Type::isOneWord" name="jnif::Type::isOneWord">
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a736842089869273b900dc3a6e2b546f7" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="211,5,347,33"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="218,57,339,85"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="221,109,336,137"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="214,161,344,189"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#ad6f9a197dfda496672b03211cdfe4079" title="jnif::Type::isUninitThis" alt="" coords="203,213,354,241"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="404,57,527,85"/>
+</map>

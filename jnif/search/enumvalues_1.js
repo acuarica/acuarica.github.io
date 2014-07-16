@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['class_5fabstract',['CLASS_ABSTRACT',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7a9721a8801a4b261a17f4a3eeff21bf8d',1,'jnif']]],
+  ['class_5fannotation',['CLASS_ANNOTATION',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7acd908a3b165fefc491a6f69c3ec255ba',1,'jnif']]],
+  ['class_5fenum',['CLASS_ENUM',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7a15dd7e7d31c342b63304084a92d99115',1,'jnif']]],
+  ['class_5ffinal',['CLASS_FINAL',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7a09f91c2079afab14649b6516268fc895',1,'jnif']]],
+  ['class_5finterface',['CLASS_INTERFACE',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7a82d4c9a6756a482bc0203d2b4422a9b1',1,'jnif']]],
+  ['class_5fpublic',['CLASS_PUBLIC',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7a1e31ddc0d8244b348514ac856a0c063e',1,'jnif']]],
+  ['class_5fsuper',['CLASS_SUPER',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7a3fa405181f912c21b39d46b2bad46330',1,'jnif']]],
+  ['class_5fsynthetic',['CLASS_SYNTHETIC',['../namespacejnif.html#a19626389422abcc6404c727e96f42bc7aadc3036d960e467cb463abefb06472e5',1,'jnif']]],
+  ['classfile_5fmagic',['CLASSFILE_MAGIC',['../namespacejnif.html#a7996e3b399b3563f894c3c02558e0d1daaa7bd52f9415ae48c650ab4f6a3279e7',1,'jnif']]],
+  ['const_5fclass',['CONST_CLASS',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceac0dd28482e0b76b145b59428977ef785',1,'jnif']]],
+  ['const_5fdouble',['CONST_DOUBLE',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea0882b0c9da96107ff81d6e3a671b5691',1,'jnif']]],
+  ['const_5ffieldref',['CONST_FIELDREF',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceab1ce6866d10e213337f86a74e7e7fdd0',1,'jnif']]],
+  ['const_5ffloat',['CONST_FLOAT',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea14267dddf35f2fc83919a34bf4021c5b',1,'jnif']]],
+  ['const_5finteger',['CONST_INTEGER',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceaae4a1774e24d01b0c9bd7e3987719bb1',1,'jnif']]],
+  ['const_5fintermethodref',['CONST_INTERMETHODREF',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceae62c7a3f7283a93ee32f5bfdc86242c7',1,'jnif']]],
+  ['const_5finvokedynamic',['CONST_INVOKEDYNAMIC',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceaa62848a411a62783c395f0ce127e44f3',1,'jnif']]],
+  ['const_5flong',['CONST_LONG',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceada585aaaca8a8238842673d3258e7a28',1,'jnif']]],
+  ['const_5fmethodhandle',['CONST_METHODHANDLE',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea085540c995b1132babac5664eb56d41c',1,'jnif']]],
+  ['const_5fmethodref',['CONST_METHODREF',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea1cbad734f62343b415d3898e7a259726',1,'jnif']]],
+  ['const_5fmethodtype',['CONST_METHODTYPE',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceaa8126808dc2401c11b2ac85d02b80f78',1,'jnif']]],
+  ['const_5fnameandtype',['CONST_NAMEANDTYPE',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea0f63c6fa6414fc973df9b0a49a1eedaf',1,'jnif']]],
+  ['const_5fnullentry',['CONST_NULLENTRY',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea5f9365a64e449ca207c2f7868233e292',1,'jnif']]],
+  ['const_5fstring',['CONST_STRING',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5cea1fdf41a7ddb143a890235c885d4cdd8d',1,'jnif']]],
+  ['const_5futf8',['CONST_UTF8',['../namespacejnif.html#ae9d4eaf1cd9554825fa5b431cb57e5ceacd98095ed1c5fa5c92ddab12cbae0cd2',1,'jnif']]]
+];

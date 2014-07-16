@@ -1,0 +1,6 @@
+<map id="jnif::ComputeFrames::contains" name="jnif::ComputeFrames::contains">
+<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="201,5,346,49"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="395,5,541,49"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="396,73,540,117"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="590,73,749,117"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="jnif::ClassParser&lt; AttrsParser&lt; TClassAttrParserList...&gt;, AttrsParser&lt; TMethodAttrParserList...&gt;, AttrsParser&lt; TFieldAttrParserList...&gt; &gt;::parse" name="jnif::ClassParser&lt; AttrsParser&lt; TClassAttrParserList...&gt;, AttrsParser&lt; TMethodAttrParserList...&gt;, AttrsParser&lt; TFieldAttrParserList...&gt; &gt;::parse">
+<area shape="rect" id="node2" href="$classjnif_1_1_buffer_reader.html#aab5f7bcfc7774b7cbd431771d5d87627" title="jnif::BufferReader\l::readu4" alt="" coords="576,28,701,72"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="765,71,883,99"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_buffer_reader.html#ae55084c4bba0550f649becae664517ee" title="jnif::BufferReader\l::readu2" alt="" coords="576,96,701,140"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_file.html#a10fcf3394c8c30e43fdff8a52ac9206b" title="Adds a new field to this class file. " alt="" coords="344,258,504,286"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_attrs_parser.html#ad571fabe6316cd99753001bc868bdcc5" title="jnif::AttrsParser::\lparse" alt="" coords="364,164,484,208"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_class_file.html#a95fec8b72553bcd85a60f184b15cea46" title="Adds a new method to this class file. " alt="" coords="337,362,511,390"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f" title="jnif::Arena::alloc" alt="" coords="581,388,697,416"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_buffer_reader.html#a4e763dfd9240224a987056e795fcc8d8" title="jnif::BufferReader::pos" alt="" coords="562,232,716,260"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_buffer_reader.html#a5f59ca2b761a1697d0429899330afab1" title="jnif::BufferReader\l::skip" alt="" coords="576,164,701,208"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="560,284,718,312"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_attrs.html#a428e30507947978409f6ebd8cae2e409" title="jnif::Attrs::add" alt="" coords="587,336,690,364"/>
+</map>

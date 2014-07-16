@@ -1,8 +1,0 @@
-<map id="jnif::Type::isOneOrTwoWord" name="jnif::Type::isOneOrTwoWord">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="243,109,373,137"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a39840cbc6fb299eeee8e8c63dbc56088" title="jnif::Frame::setIntVar" alt="" coords="436,5,580,33"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a7684c17aa68b524b8ff3463fa8cd4df9" title="jnif::Frame::setLongVar" alt="" coords="429,57,587,85"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a1bfcda3873437e60327eb5c9977e8377" title="jnif::Frame::setFloatVar" alt="" coords="429,109,587,137"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#ada2526d07a237d388df4b347e73720bb" title="jnif::Frame::setDoubleVar" alt="" coords="422,161,594,189"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#a83cd97150cf495c1d91948787ab5ad96" title="jnif::Frame::setRefVar" alt="" coords="433,213,583,241"/>
-</map>

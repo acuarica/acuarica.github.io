@@ -1,0 +1,7 @@
+<map id="jnif::ConstPool::addClass" name="jnif::ConstPool::addClass">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#aaaec7efe91b46ccc1fd73d516eac33d8" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="237,38,382,82"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_const_pool.html#a1a658c7c4a072910c13d8ecd57e86b54" title="Adds a class reference to the constant pool by class name. " alt="" coords="224,106,394,134"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="442,5,587,49"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="442,73,587,117"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="635,73,794,117"/>
+</map>

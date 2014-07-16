@@ -1,0 +1,23 @@
+<map id="jnif::TypeFactory::topType" name="jnif::TypeFactory::topType">
+<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a6984c276abfdd13b4a3c98291da2f696" title="jnif::ComputeFrames\l::assign" alt="" coords="207,124,353,168"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a10620d19cf7193ceb4cb0ab58fe2276f" title="jnif::ComputeFrames\l::join" alt="" coords="453,127,598,171"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="706,243,835,271"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_frame.html#a77c87650cd5502e7bba6d38fa3c1e2f3" title="jnif::Frame::pushLong" alt="" coords="205,20,355,48"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_frame.html#a473d91385d6cfb52b738582e8fbfa3d6" title="jnif::Frame::pushDouble" alt="" coords="199,72,361,100"/>
+<area shape="rect" id="node20" href="$classjnif_1_1_stack_map_table_attr_parser.html#a30382d22dd8ad2c9a92aaff2873dd733" title="jnif::StackMapTableAttrParser\l::parseType" alt="" coords="182,295,378,339"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#adcff5cd58780d5d58cbf01d5f92fb4e4" title="jnif::Frame::join" alt="" coords="714,83,827,111"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="931,19,1077,63"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="1139,19,1285,63"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="1140,131,1284,175"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1334,131,1493,175"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_frame.html#a9ed7de9de79d006b032a957548619004" title="jnif::Frame::setVar2" alt="" coords="936,191,1072,219"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_frame.html#af7359e9253cdf50ed215e566745876f2" title="jnif::Frame::setRefVar" alt="" coords="929,243,1079,271"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_frame.html#a39840cbc6fb299eeee8e8c63dbc56088" title="jnif::Frame::setIntVar" alt="" coords="932,295,1076,323"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_frame.html#a7684c17aa68b524b8ff3463fa8cd4df9" title="jnif::Frame::setLongVar" alt="" coords="925,347,1083,375"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_frame.html#a1bfcda3873437e60327eb5c9977e8377" title="jnif::Frame::setFloatVar" alt="" coords="925,399,1083,427"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_frame.html#ada2526d07a237d388df4b347e73720bb" title="jnif::Frame::setDoubleVar" alt="" coords="918,87,1090,115"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="677,25,864,53"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="451,23,600,51"/>
+<area shape="rect" id="node21" href="$classjnif_1_1_stack_map_table_attr_parser.html#a535fdc8117a082428a6a65e2882bc1b9" title="jnif::StackMapTableAttrParser\l::parseTs" alt="" coords="427,295,624,339"/>
+<area shape="rect" id="node22" href="$classjnif_1_1_stack_map_table_attr_parser.html#adaede7c6ec7aa3c1d24d23e027f19026" title="jnif::StackMapTableAttrParser\l::parse" alt="" coords="672,295,869,339"/>
+</map>

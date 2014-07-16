@@ -1,0 +1,16 @@
+<map id="jnif::FrameGenerator::setCpIndex" name="jnif::FrameGenerator::setCpIndex">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#aaaec7efe91b46ccc1fd73d516eac33d8" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="197,299,342,343"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="626,5,756,33"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a05346a6f324ef12bc30d3098409cc53c" title="jnif::Type::getClassName" alt="" coords="390,83,559,111"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_const_pool.html#a1ff6c24e2729ebd0dd81972dc3aeac1a" title="jnif::ConstPool::putUtf8" alt="" coords="396,229,554,257"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="840,250,960,278"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_const_pool.html#a197395573db651b5b768a6f81bf44330" title="Adds a class reference to the constant pool. " alt="" coords="390,333,560,361"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_type.html#a4c15c1fdf3fa58dc01e050f27d415ab5" title="jnif::Type::setCpIndex" alt="" coords="400,385,549,413"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_inst_list.html#a0a55c5040a11120e0d4018b331fccf18" title="jnif::InstList::addLabel" alt="" coords="400,437,550,465"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_type_factory.html#a91cdbf5c9122856fb28ed0c1de4d4aec" title="jnif::TypeFactory::\luninitType" alt="" coords="411,489,538,533"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="838,31,962,59"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="632,109,749,137"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="608,161,774,205"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="610,229,771,257"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="821,169,979,197"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="jnif::ComputeFrames::getExceptionType" name="jnif::ComputeFrames::getExceptionType">
+<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#ae97452b65f732cfef16b4a426d92b50a" title="jnif::ConstPool::getClassName" alt="" coords="200,73,402,101"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type_factory.html#a247b14f6367152468e30cea4d33e047d" title="Parses the const class name. " alt="" coords="238,222,365,266"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_type_factory.html#a4b1e8b39eaa3aa0b46e4cf5aec653987" title="jnif::TypeFactory::\lobjectType" alt="" coords="471,125,598,169"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#ad83537be2fd0e82a8ff785392a729746" title="jnif::ConstPool::getClass\lNameIndex" alt="" coords="451,5,618,49"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="456,73,614,101"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="475,261,594,289"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type_factory.html#a496a41bea4cda085ba31238a6edb839a" title="jnif::TypeFactory::\larrayType" alt="" coords="471,313,598,357"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="833,353,956,381"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type_factory.html#a8d83968dc3261a24d8befaaa0cbf2b1a" title="Parses a field descriptor. " alt="" coords="471,193,598,237"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="667,201,784,229"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="669,325,782,353"/>
+</map>

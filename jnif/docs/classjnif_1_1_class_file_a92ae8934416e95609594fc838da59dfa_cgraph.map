@@ -1,4 +1,0 @@
-<map id="jnif::ClassFile::write" name="jnif::ClassFile::write">
-<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html#a8ba598dd2fdc5594cefe25ac46ece6bc" title="Computes the size in bytes of this class file of the in&#45;memory representation. " alt="" coords="190,5,375,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#adb808a43ce9e30fe75520d9aaa88a955" title="Writes this class file in the specified buffer according to the specification. " alt="" coords="215,57,351,85"/>
-</map>

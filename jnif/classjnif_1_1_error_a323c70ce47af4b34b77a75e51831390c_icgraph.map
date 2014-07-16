@@ -1,0 +1,21 @@
+<map id="jnif::Error::raise" name="jnif::Error::raise">
+<area shape="rect" id="node2" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="416,94,603,122"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_method.html#a9c98c511d82e5701edced5a85fb6d8df" title="jnif::Method::instList" alt="" coords="194,42,334,70"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_control_flow_graph.html#ac261fae0dab78e255ecff903f2e4c40b" title="Finds the basic block associated with the given labelId. " alt="" coords="183,198,345,242"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="193,94,335,122"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="189,146,339,174"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_code_attr_parser.html#aa45c02fb50058ad3d0bcbfc19b7a3a57" title="jnif::CodeAttrParser\l::parseInstTargets" alt="" coords="440,258,578,302"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="195,322,333,366"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_stack_map_table_attr_parser.html#a30382d22dd8ad2c9a92aaff2873dd733" title="jnif::StackMapTableAttrParser\l::parseType" alt="" coords="166,392,362,436"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="682,86,827,130"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="906,108,1051,152"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="906,40,1051,84"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1104,40,1264,84"/>
+<area shape="rect" id="node9" href="$namespacejnif.html#a10f26494bc4d16d2b53c0f0b9a12de9a" title="jnif::addTarget2" alt="" coords="453,206,566,234"/>
+<area shape="rect" id="node10" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="707,206,802,234"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="902,198,1056,242"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="686,292,824,336"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="440,326,578,370"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_stack_map_table_attr_parser.html#a535fdc8117a082428a6a65e2882bc1b9" title="jnif::StackMapTableAttrParser\l::parseTs" alt="" coords="411,394,608,438"/>
+<area shape="rect" id="node20" href="$classjnif_1_1_stack_map_table_attr_parser.html#adaede7c6ec7aa3c1d24d23e027f19026" title="jnif::StackMapTableAttrParser\l::parse" alt="" coords="656,394,853,438"/>
+</map>

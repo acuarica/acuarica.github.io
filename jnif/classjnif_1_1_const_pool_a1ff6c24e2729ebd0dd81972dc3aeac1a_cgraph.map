@@ -1,0 +1,6 @@
+<map id="jnif::ConstPool::putUtf8" name="jnif::ConstPool::putUtf8">
+<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#af08df224898d0dc9aa5821719fca6f01" title="jnif::ConstPool::getIndex\lOfUtf8" alt="" coords="210,22,376,66"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="213,90,374,118"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="443,5,562,33"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="424,57,582,85"/>
+</map>

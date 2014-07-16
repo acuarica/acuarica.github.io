@@ -1,0 +1,5 @@
+<map id="jnif::Method::isStatic" name="jnif::Method::isStatic">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="194,5,339,49"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_method.html#aeaff20c1b4b69bc95bcfa549f6d213df" title="jnif::Method::isMain" alt="" coords="199,73,335,101"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="387,5,546,49"/>
+</map>

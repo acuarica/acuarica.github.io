@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classjnif_1_1_jnif_exception.html" title="Represents the base exception that jnif can throw. " alt="" coords="5,31,131,59"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_parser_exception.html" title="jnif::ParserException" alt="" coords="179,5,322,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_writer_exception.html" title="jnif::WriterException" alt="" coords="181,57,320,85"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_invalid_method_length_exception.html" title="jnif::InvalidMethodLength\lException" alt="" coords="371,49,541,93"/>
+</map>

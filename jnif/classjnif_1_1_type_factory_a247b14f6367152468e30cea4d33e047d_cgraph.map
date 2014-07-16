@@ -1,0 +1,9 @@
+<map id="jnif::TypeFactory::fromConstClass" name="jnif::TypeFactory::fromConstClass">
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="186,5,305,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type_factory.html#a496a41bea4cda085ba31238a6edb839a" title="jnif::TypeFactory::\larrayType" alt="" coords="182,193,309,237"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="524,233,647,261"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type_factory.html#a8d83968dc3261a24d8befaaa0cbf2b1a" title="Parses a field descriptor. " alt="" coords="182,57,309,101"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type_factory.html#a4b1e8b39eaa3aa0b46e4cf5aec653987" title="jnif::TypeFactory::\lobjectType" alt="" coords="182,125,309,169"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="357,133,475,161"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="359,205,473,233"/>
+</map>

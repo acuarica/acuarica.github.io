@@ -1,0 +1,13 @@
+<map id="jnif::Frame::popRef" name="jnif::Frame::popRef">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="189,115,360,143"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ab4be951e4021d30bd30e19862c5a0c06" title="jnif::Frame::pop" alt="" coords="426,11,540,39"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="623,5,740,33"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="408,154,557,182"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="426,258,539,286"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a736842089869273b900dc3a6e2b546f7" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="613,57,749,85"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="621,109,742,137"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="624,161,739,189"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="616,213,746,241"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type.html#ad6f9a197dfda496672b03211cdfe4079" title="jnif::Type::isUninitThis" alt="" coords="606,265,757,293"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="806,161,930,189"/>
+</map>

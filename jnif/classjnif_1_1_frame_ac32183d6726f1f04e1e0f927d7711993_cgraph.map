@@ -1,0 +1,8 @@
+<map id="jnif::Frame::cleanTops" name="jnif::Frame::cleanTops">
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="220,5,340,33"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="206,57,354,85"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="413,109,526,137"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="409,5,530,33"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="402,57,536,85"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="585,57,708,85"/>
+</map>
