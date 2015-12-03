@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Dec 2015 12:21:22 +0100</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hola</title>
+      <link>http://replace-this-with-your-hugo-site.com/ciao/</link>
+      <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/ciao/</guid>
+      <description>
+
+&lt;h1 id=&#34;this-is-the-ciao-test:ddc38e622b92985c5246659dd447376e&#34;&gt;This is the Ciao Test&lt;/h1&gt;
+
+&lt;p&gt;This is a test for Hugo using Ciao Test.&lt;/p&gt;
+
+&lt;p&gt;Test Ciao is the revolutionary test.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hola</title>
+      <link>http://replace-this-with-your-hugo-site.com/hola/</link>
+      <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/hola/</guid>
+      <description>
+
+&lt;h1 id=&#34;hola-test:39291fa41908c039d59c85c0f3ad5a6e&#34;&gt;Hola Test&lt;/h1&gt;
+
+&lt;p&gt;This is a test for Hugo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
