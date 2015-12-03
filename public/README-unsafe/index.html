@@ -1,0 +1,256 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.15" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>  &middot; My New Hugo Site Blog Static </title>
+
+  
+  <link rel="stylesheet" href="http://acuarica.bitbucket.org/public/css/poole.css">
+  <link rel="stylesheet" href="http://acuarica.bitbucket.org/public/css/syntax.css">
+  <link rel="stylesheet" href="http://acuarica.bitbucket.org/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site Blog Static" />
+</head>
+
+	<body class="">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://acuarica.bitbucket.org/public/"><h1>My New Hugo Site Blog Static</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1></h1>
+			  <span class="post-date">Mon, Jan 1, 0001</span>
+			      
+
+<h1 id="readme:34b0f53c61e1582144071f3349874f48">README</h1>
+
+<h1 id="java-sun-misc-unsafe-study:34b0f53c61e1582144071f3349874f48">Java sun.misc.Unsafe Study</h1>
+
+<p>The sun.misc.Unsafe is an API provided</p>
+
+<h2 id="2015-oopsla-paper:34b0f53c61e1582144071f3349874f48">2015 OOPSLA Paper</h2>
+
+<h2 id="toxicity-unsafe-study:34b0f53c61e1582144071f3349874f48">Toxicity: Unsafe study</h2>
+
+<ul>
+<li>Mine maven central to:</li>
+<li>ibiblio.org to mine maven.
+
+<ul>
+<li>Download all pom.xml files</li>
+<li>Build graph of projects dependencies</li>
+<li>Download jar files</li>
+<li>Search for sun.misc.Unsafe call sites.</li>
+<li>Download source files where smu is used to manually investigate how and why smu is used.</li>
+<li>Now look for projects that depend on projects that use unsafe (first step in the transitive closure).</li>
+<li>Build the transitive closure of projects</li>
+<li>Build some stat</li>
+</ul></li>
+</ul>
+
+<p><a href="http://qualitascorpus.com/">http://qualitascorpus.com/</a> for analysis code dataset</p>
+
+<p>Reference rust and cyclone?</p>
+
+<p>Repositories
+*
+<a href="http://www.ibiblio.org/">http://www.ibiblio.org/</a></p>
+
+<ul>
+<li>References
+
+<ul>
+<li>the isthmus in the VM
+<a href="https://blogs.oracle.com/jrose/entry/the_isthmus_in_the_vm">https://blogs.oracle.com/jrose/entry/the_isthmus_in_the_vm</a></li>
+</ul></li>
+</ul>
+
+<p>Oracle (Paul Sandoz) did a survey (316 responses).
+We should look at it, and complement:
+<a href="http://www.infoq.com/news/2014/02/Unsafe-Survey">http://www.infoq.com/news/2014/02/Unsafe-Survey</a>
+<a href="http://stackoverflow.com/questions/5574241/using-sun-misc-unsafe-in-real-world">http://stackoverflow.com/questions/5574241/using-sun-misc-unsafe-in-real-world</a></p>
+
+<p>Paul Sandoz. Atomic VarHandles. July 30, 2014.
+<a href="http://www.oracle.com/technetwork/java/jvmls2014sandoz-2265216.pdf">http://www.oracle.com/technetwork/java/jvmls2014sandoz-2265216.pdf</a>
+(JEP 193 Enhanced Volatiles, are VarHandles the same of our Lvalues??)</p>
+
+<p>check this!  Paul Sandoz. Safety Not Guaranteed: sun.misc.Unsafe and the quest for safe alternatives. DEVOXX talk. 2014.
+<a href="http://cr.openjdk.java.net/~psandoz/dv14-uk-paul-sandoz-unsafe-the-situation.pdf">http://cr.openjdk.java.net/~psandoz/dv14-uk-paul-sandoz-unsafe-the-situation.pdf</a>
+(this is essentially the paper we were thinking about writing)
+Table on slide 28:</p>
+
+<ul>
+<li>Github search API</li>
+
+<li><p><a href="https://api.github.com/search/repositories?q=unsafe+language:java&amp;sort=stars&amp;order=desc">https://api.github.com/search/repositories?q=unsafe+language:java&amp;sort=stars&amp;order=desc</a>
+<a href="http://boa.cs.iastate.edu/boa/">http://boa.cs.iastate.edu/boa/</a></p></li>
+
+<li><p>Systems Software Research is Irrelevant
+<a href="http://herpolhode.com/rob/utah2000.pdf">http://herpolhode.com/rob/utah2000.pdf</a></p></li>
+
+<li><p>JSR166
+<a href="http://g.oswego.edu/dl/concurrency-interest/">http://g.oswego.edu/dl/concurrency-interest/</a></p></li>
+
+<li><p>Eli Gottlieb, Deca
+<a href="http://www.infosun.fim.uni-passau.de/publications/docs/SSG+2012.pdf">http://www.infosun.fim.uni-passau.de/publications/docs/SSG+2012.pdf</a></p></li>
+</ul>
+
+<h1 id="java-with-sun-misc-unsafe:34b0f53c61e1582144071f3349874f48">Java with sun.misc.Unsafe</h1>
+
+<ul>
+<li><p>Enhanced atomic access</p>
+
+<ul>
+<li>JEP 193 Enhanced Volatiles
+<a href="http://openjdk.java.net/jeps/193">http://openjdk.java.net/jeps/193</a></li>
+</ul></li>
+
+<li><p>De/Serialization</p>
+
+<ul>
+<li>JEP 187 Serialization 2.0
+<a href="http://openjdk.java.net/jeps/187">http://openjdk.java.net/jeps/187</a> 404 Not found</li>
+</ul></li>
+
+<li><p>Reduce GC</p>
+
+<ul>
+<li>Value types
+<a href="http://cr.openjdk.java.net/~jrose/values/values-0.html">http://cr.openjdk.java.net/~jrose/values/values-0.html</a></li>
+<li>JEP 189 Shenandoah: Low Pause GC for &gt;20GB heap size.
+<a href="http://openjdk.java.net/jeps/189">http://openjdk.java.net/jeps/189</a></li>
+</ul></li>
+
+<li><p>Efficient memory layout</p>
+
+<ul>
+<li>Value types
+<a href="http://cr.openjdk.java.net/~jrose/values/values-0.html">http://cr.openjdk.java.net/~jrose/values/values-0.html</a></li>
+<li>Arrays 2.0 &amp; Layouts
+<a href="http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf">http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf</a>
+<a href="http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README">http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README</a></li>
+</ul></li>
+
+<li><p>Very Large Collections</p>
+
+<ul>
+<li>Value types
+<a href="http://cr.openjdk.java.net/~jrose/values/values-0.html">http://cr.openjdk.java.net/~jrose/values/values-0.html</a></li>
+<li>Arrays 2.0 &amp; Layouts
+<a href="http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf">http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf</a>
+<a href="http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README">http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README</a></li>
+</ul></li>
+
+<li><p>Communicate across JVM boundary</p>
+
+<ul>
+<li>Project Panama</li>
+<li>JEP 191 FFI
+<a href="http://openjdk.java.net/jeps/191">http://openjdk.java.net/jeps/191</a></li>
+</ul></li>
+</ul>
+
+<h1 id="c-with-unsafe-block:34b0f53c61e1582144071f3349874f48">C# with unsafe block</h1>
+
+<ul>
+<li><a href="http://msdn.microsoft.com/en-us/library/y31yhkeb.aspx">http://msdn.microsoft.com/en-us/library/y31yhkeb.aspx</a></li>
+</ul>
+
+<p>Structs/value types
+&ldquo;A pointer cannot point to a reference or to a struct that contains references,
+because an object reference can be garbage collected even if a pointer is
+pointing to it. The garbage collector does not keep track of whether an
+object is being pointed to by any pointer types.&rdquo;</p>
+
+<ul>
+<li><p>stackalloc, fixed, unsafe, valuetypes/structs in C#</p></li>
+
+<li><p>Communicate across JVM boundary</p></li>
+
+<li><p>Platform invoke</p></li>
+
+<li><p>Sample</p>
+
+<ul>
+<li>org.jocl</li>
+<li>bridj</li>
+<li>C#</li>
+</ul></li>
+</ul>
+
+<h1 id="unsafe-in-racket-unsafe-fl-performance-unchecked-operation:34b0f53c61e1582144071f3349874f48">unsafe in Racket: unsafe-fl+ performance unchecked operation.</h1>
+
+<h1 id="typed-assembly-language-tal:34b0f53c61e1582144071f3349874f48">Typed Assembly Language TAL</h1>
+
+<h1 id="request-for-a-user-account:34b0f53c61e1582144071f3349874f48">Request for a user account</h1>
+
+<h1 id="https-blogs-oracle-com-jrose-entry-larval-objects-in-the-vm:34b0f53c61e1582144071f3349874f48"><a href="https://blogs.oracle.com/jrose/entry/larval_objects_in_the_vm">https://blogs.oracle.com/jrose/entry/larval_objects_in_the_vm</a></h1>
+
+<ul>
+<li>Typestate in java for larval objects</li>
+
+<li><p>Comment of Niko Matsakis, Rust:
+I just want to drop a note to my research on Intervals.
+It allows support for &ldquo;temporarily mutable&rdquo; objects like the larval objects you refer
+to, but using a rather different approach than Type State.
+The basic idea is that users can denote the span of time in which the object is
+mutable as part of its type. Once that span of time has expired,
+the object can no longer be changed.
+One nice feature of this approach is that aliasing is no problem,
+as the type of the object never changes &mdash; instead,
+the compiler is aware of whether a particular method occurs during the mutable span
+or not, and so the permitted operations change depending on when a method will execute.
+Some more details are available here:
+<a href="http://harmonic-lang.org/news/larval-objects-using-interv.html">http://harmonic-lang.org/news/larval-objects-using-interv.html</a> or in our recent paper:
+<a href="http://www.lst.inf.ethz.ch/research/publications/SPLASH_2010.html">http://www.lst.inf.ethz.ch/research/publications/SPLASH_2010.html</a></p></li>
+
+<li><p><a href="http://smallcultfollowing.com/babysteps/blog/2014/04/01/value-types-in-javascript/">http://smallcultfollowing.com/babysteps/blog/2014/04/01/value-types-in-javascript/</a>
+Niko Matsakis</p></li>
+</ul>
+
+<p><a href="http://kotka.de/blog/2010/12/What_are_Pods.html">http://kotka.de/blog/2010/12/What_are_Pods.html</a>
+Pods</p>
+
+<p><a href="http://ruby-doc.org/core-2.1.5/Object.html#M000356">http://ruby-doc.org/core-2.1.5/Object.html#M000356</a>
+Freeze method</p>
+
+<p><a href="http://openjdk.java.net/jeps/191">http://openjdk.java.net/jeps/191</a></p>
+
+<p>JEP 193- Enhanced Volatiles
+* Find a reference implementation</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

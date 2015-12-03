@@ -39,5 +39,757 @@
 </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/Brief-CV/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/Brief-CV/</guid>
+      <description>
+
+&lt;h1 id=&#34;brief-cv:ef8c7036ef3a44857e1ddc2a22e68d0b&#34;&gt;Brief CV&lt;/h1&gt;
+
+&lt;p&gt;Master in Computer Science from the University of Buenos Aires, Argentina. Currently doing a PhD in Informatics under the advise of Prof. Matthias Hauswirth and Prof. Nate Nystrom. I have worked for more than 10 years in private industry in different roles, as Software Developer, Software Engineer, Network Administrator and Freelance Developer. Also Teaching Experience as Teaching Assistant in both USI and University of Buenos Aires.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/ECTS/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/ECTS/</guid>
+      <description>
+
+&lt;h1 id=&#34;ects:367af84d6aa4b3226e97966fa4850bef&#34;&gt;ECTS&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Course&lt;/th&gt;
+&lt;th&gt;Semester&lt;/th&gt;
+&lt;th&gt;Professor&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;ECTS&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Accredited?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bugs&lt;/td&gt;
+&lt;td&gt;Fall 2013&lt;/td&gt;
+&lt;td&gt;Matthias Hauswirth, Nate Nystrom&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ubiquitous Computing&lt;/td&gt;
+&lt;td&gt;Fall 2013&lt;/td&gt;
+&lt;td&gt;Marc Langheinrich&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Optimistic and Speculative Dynamic Compilation Techniques&lt;/td&gt;
+&lt;td&gt;Fall 2013&lt;/td&gt;
+&lt;td&gt;Thomas Würthinger, Lukas Stadler&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Introduction to doctoral studies&lt;/td&gt;
+&lt;td&gt;Spring 2013&lt;/td&gt;
+&lt;td&gt;Antonio Carzaniga&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Summer School on DSL Design and Implementation&lt;/td&gt;
+&lt;td&gt;Summer 2015&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Multiple&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;strong&gt;11&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/Language-Ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/Language-Ideas/</guid>
+      <description>
+
+&lt;h1 id=&#34;language-ideas:496a65845d2836b5cb87096ae3f09773&#34;&gt;Language Ideas&lt;/h1&gt;
+
+&lt;p&gt;These are some requirements that a language should have.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No Abstraction Penalty. As In Rust/C++&lt;/li&gt;
+&lt;li&gt;Embed Optimizations within the language itself.&lt;/li&gt;
+&lt;li&gt;Functional objects as in Lisp: S-Expressions, S-Functions.&lt;/li&gt;
+&lt;li&gt;But it should be carefull about compatibility:
+
+&lt;ul&gt;
+&lt;li&gt;Idioms =&amp;gt; Compatible&lt;/li&gt;
+&lt;li&gt;vs.&lt;/li&gt;
+&lt;li&gt;Dialects =&amp;gt; Non-Compatible&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Types as Sets? Propositions.
+Better to Use Syntatic Types?
+Constructive/Intuitionistic  Logic&lt;/li&gt;
+&lt;li&gt;Co-routines, Generators (yield KW as in Python, C#), continuations.
+C co-routines &amp;ldquo;switch&amp;rdquo; statement.
+&amp;ldquo;The Art of Programming&amp;rdquo;, D. Knuth.&lt;/li&gt;
+&lt;li&gt;Namespaced keyword
+Different implementations for
+
+&lt;ul&gt;
+&lt;li&gt;Classes&lt;/li&gt;
+&lt;li&gt;Closures&lt;/li&gt;
+&lt;li&gt;functions-methods&lt;/li&gt;
+&lt;li&gt;yield-coroutines&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Typestates for Objects, Typestate, Typechecking, Typestate-oriented type qualifiers.&lt;/li&gt;
+&lt;li&gt;Data abstraction, subtyping?&lt;/li&gt;
+&lt;li&gt;Concurrency, Data races&lt;/li&gt;
+&lt;li&gt;Instrumentation, Reflection, Aspect-Oriented Programming&lt;/li&gt;
+&lt;li&gt;Operational Dependent Types. Sorted List&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, within list l, be able to constraint l such as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for i = 0 .. n-1:
+  l[i] &amp;lt;= l[i+1]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Crowd sourcing research. Complete, Incomplete ideas.&lt;/li&gt;
+&lt;li&gt;Prolog Datalog : Type verifier checker.&lt;/li&gt;
+&lt;li&gt;Axiomatic Logic Hoare&lt;/li&gt;
+&lt;li&gt;No AST Manipulation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Meeting with Nate:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PArtial Evauluation (with Constraint Solving) for performance&amp;rsquo;s sake&lt;/li&gt;
+&lt;li&gt;Liquid Types&lt;/li&gt;
+&lt;li&gt;Spec#&lt;/li&gt;
+&lt;li&gt;Typesstates&lt;/li&gt;
+&lt;li&gt;Constraint System type cheking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Papers to look at:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vijay Saraswat - Concurrent Constraint Programming (1989)&lt;/li&gt;
+&lt;li&gt;Will Cook - Hybrid Partial Evaluation (OOPSLA 2012)&lt;/li&gt;
+&lt;li&gt;Gradual typing - Jeremy Siek and others, Wadler (blame)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/&#34;&gt;http://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Typed Scheme (Racket) - Sam Tobin-Hochstadt
+algebraic specification, JML, etc. - Jeanette Wing, Gary Leavens&lt;/li&gt;
+&lt;li&gt;Liquid types (POPL 2008)&lt;/li&gt;
+&lt;li&gt;Liquid effects (PLDI? 2012)&lt;/li&gt;
+&lt;li&gt;Constrained types in X10 (OOPSLA 2008)&lt;/li&gt;
+&lt;li&gt;Spec#&lt;/li&gt;
+&lt;li&gt;ESC Java - Rustan Leino&lt;/li&gt;
+&lt;li&gt;Dafny - Leino&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What is a &lt;strong&gt;&lt;em&gt;type&lt;/em&gt;&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;What is the relation between types and invariants?
+The statement &lt;code&gt;int x&lt;/code&gt; is saying that x will be invariantly always an int.&lt;/p&gt;
+
+&lt;p&gt;Constraining more than one argument&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;void a(int x, int y); 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How would you contraint, for example something like, x &amp;lt; y?&lt;/p&gt;
+
+&lt;p&gt;b stands for a bit, 0 | 1.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;y : {int: y=bbbb}
+x : {int | x=bbbbbbb0 } // Only even numbers
+// instead of x%2=0
+
+if (cond)
+	x = 4 // 10`0&#39;
+	x = y * 2;
+	  // bbbb * 10
+	  // bbbb0
+	
+else
+	x = 2 // 1`0&#39;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+
+// a class defined &amp;quot;dynamically&amp;quot; in a sense like javascript would take out any &amp;quot;typing&amp;quot; to the language..
+// but if everything is a type, as in dependent type,
+// then would it be possible to recover &amp;quot;static typing&amp;quot; and any sort of analysis?
+
+C = class() {
+
+}
+
+
+
+new = (c) {
+
+}
+
+c = new (C);
+
+fvalue = getf(c);
+
+newobj = () {
+
+	_x = 4;
+	_y = 5;
+
+	x = () {return _x}
+	y = () {return _y}
+
+	return () { (vx, vy);
+}
+
+main = () {
+	o = newobj()
+	o()
+
+}
+
+x + 0 = x
+
+if (true) S else T = S
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;GRadual types with constraint types.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mixfix syntax, with arbitrary precedence. Operator overloading.
+It provides the ability to define &lt;code&gt;if&lt;/code&gt; as a function.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Jmatch Language.
+Invertible functions.
+Constraint types.
+Logic Programming.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Haskell Type Classes Extension to contraint them.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;concepts-in-c-11:496a65845d2836b5cb87096ae3f09773&#34;&gt;Concepts in C++11&lt;/h3&gt;
+
+&lt;p&gt;Concepts allow the user when implemented to use axioms.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Concepts_(C%2B%2B)#Axioms&#34;&gt;https://en.wikipedia.org/wiki/Concepts_(C%2B%2B)#Axioms&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/Mastery-Learning-Notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/Mastery-Learning-Notes/</guid>
+      <description>
+
+&lt;h1 id=&#34;on-mastery-learning-notes:6ac78d63d26120155e492f2c68621a28&#34;&gt;On Mastery Learning Notes&lt;/h1&gt;
+
+&lt;h2 id=&#34;introduction:6ac78d63d26120155e492f2c68621a28&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This are notes on Mastery Learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/New-Ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/New-Ideas/</guid>
+      <description>&lt;p&gt;New ideas:
+- Ideas about RDB. Applications that could use it?
+- Mohammed continuation of his work. cloning? Applications that could use it?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Goals Heap Accuracy:
+Story of an specific dynamic analysis use of heap accuracy (use lubomir&amp;rsquo;s fasttrack/elephanttrack).
+General study of shadow heap.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For next meeting:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scala akka actors.&lt;/li&gt;
+&lt;li&gt;sun.misc.unsafe usage instrumentation.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Object cloning and object deserializazing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Container profiling: checking if it is doable.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Algorithmic profiling, improve algorithm.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Language of complexity, algorithm like fields and methods.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;RDB, debugger, back in time debugger.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Put a comment in A02 to look for TS and LS.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/README-unsafe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/README-unsafe/</guid>
+      <description>
+
+&lt;h1 id=&#34;readme:34b0f53c61e1582144071f3349874f48&#34;&gt;README&lt;/h1&gt;
+
+&lt;h1 id=&#34;java-sun-misc-unsafe-study:34b0f53c61e1582144071f3349874f48&#34;&gt;Java sun.misc.Unsafe Study&lt;/h1&gt;
+
+&lt;p&gt;The sun.misc.Unsafe is an API provided&lt;/p&gt;
+
+&lt;h2 id=&#34;2015-oopsla-paper:34b0f53c61e1582144071f3349874f48&#34;&gt;2015 OOPSLA Paper&lt;/h2&gt;
+
+&lt;h2 id=&#34;toxicity-unsafe-study:34b0f53c61e1582144071f3349874f48&#34;&gt;Toxicity: Unsafe study&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mine maven central to:&lt;/li&gt;
+&lt;li&gt;ibiblio.org to mine maven.
+
+&lt;ul&gt;
+&lt;li&gt;Download all pom.xml files&lt;/li&gt;
+&lt;li&gt;Build graph of projects dependencies&lt;/li&gt;
+&lt;li&gt;Download jar files&lt;/li&gt;
+&lt;li&gt;Search for sun.misc.Unsafe call sites.&lt;/li&gt;
+&lt;li&gt;Download source files where smu is used to manually investigate how and why smu is used.&lt;/li&gt;
+&lt;li&gt;Now look for projects that depend on projects that use unsafe (first step in the transitive closure).&lt;/li&gt;
+&lt;li&gt;Build the transitive closure of projects&lt;/li&gt;
+&lt;li&gt;Build some stat&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qualitascorpus.com/&#34;&gt;http://qualitascorpus.com/&lt;/a&gt; for analysis code dataset&lt;/p&gt;
+
+&lt;p&gt;Reference rust and cyclone?&lt;/p&gt;
+
+&lt;p&gt;Repositories
+*
+&lt;a href=&#34;http://www.ibiblio.org/&#34;&gt;http://www.ibiblio.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;References
+
+&lt;ul&gt;
+&lt;li&gt;the isthmus in the VM
+&lt;a href=&#34;https://blogs.oracle.com/jrose/entry/the_isthmus_in_the_vm&#34;&gt;https://blogs.oracle.com/jrose/entry/the_isthmus_in_the_vm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oracle (Paul Sandoz) did a survey (316 responses).
+We should look at it, and complement:
+&lt;a href=&#34;http://www.infoq.com/news/2014/02/Unsafe-Survey&#34;&gt;http://www.infoq.com/news/2014/02/Unsafe-Survey&lt;/a&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/5574241/using-sun-misc-unsafe-in-real-world&#34;&gt;http://stackoverflow.com/questions/5574241/using-sun-misc-unsafe-in-real-world&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paul Sandoz. Atomic VarHandles. July 30, 2014.
+&lt;a href=&#34;http://www.oracle.com/technetwork/java/jvmls2014sandoz-2265216.pdf&#34;&gt;http://www.oracle.com/technetwork/java/jvmls2014sandoz-2265216.pdf&lt;/a&gt;
+(JEP 193 Enhanced Volatiles, are VarHandles the same of our Lvalues??)&lt;/p&gt;
+
+&lt;p&gt;check this!  Paul Sandoz. Safety Not Guaranteed: sun.misc.Unsafe and the quest for safe alternatives. DEVOXX talk. 2014.
+&lt;a href=&#34;http://cr.openjdk.java.net/~psandoz/dv14-uk-paul-sandoz-unsafe-the-situation.pdf&#34;&gt;http://cr.openjdk.java.net/~psandoz/dv14-uk-paul-sandoz-unsafe-the-situation.pdf&lt;/a&gt;
+(this is essentially the paper we were thinking about writing)
+Table on slide 28:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github search API&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://api.github.com/search/repositories?q=unsafe+language:java&amp;amp;sort=stars&amp;amp;order=desc&#34;&gt;https://api.github.com/search/repositories?q=unsafe+language:java&amp;amp;sort=stars&amp;amp;order=desc&lt;/a&gt;
+&lt;a href=&#34;http://boa.cs.iastate.edu/boa/&#34;&gt;http://boa.cs.iastate.edu/boa/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Systems Software Research is Irrelevant
+&lt;a href=&#34;http://herpolhode.com/rob/utah2000.pdf&#34;&gt;http://herpolhode.com/rob/utah2000.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JSR166
+&lt;a href=&#34;http://g.oswego.edu/dl/concurrency-interest/&#34;&gt;http://g.oswego.edu/dl/concurrency-interest/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Eli Gottlieb, Deca
+&lt;a href=&#34;http://www.infosun.fim.uni-passau.de/publications/docs/SSG+2012.pdf&#34;&gt;http://www.infosun.fim.uni-passau.de/publications/docs/SSG+2012.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;java-with-sun-misc-unsafe:34b0f53c61e1582144071f3349874f48&#34;&gt;Java with sun.misc.Unsafe&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Enhanced atomic access&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JEP 193 Enhanced Volatiles
+&lt;a href=&#34;http://openjdk.java.net/jeps/193&#34;&gt;http://openjdk.java.net/jeps/193&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;De/Serialization&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JEP 187 Serialization 2.0
+&lt;a href=&#34;http://openjdk.java.net/jeps/187&#34;&gt;http://openjdk.java.net/jeps/187&lt;/a&gt; 404 Not found&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Reduce GC&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Value types
+&lt;a href=&#34;http://cr.openjdk.java.net/~jrose/values/values-0.html&#34;&gt;http://cr.openjdk.java.net/~jrose/values/values-0.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JEP 189 Shenandoah: Low Pause GC for &amp;gt;20GB heap size.
+&lt;a href=&#34;http://openjdk.java.net/jeps/189&#34;&gt;http://openjdk.java.net/jeps/189&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Efficient memory layout&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Value types
+&lt;a href=&#34;http://cr.openjdk.java.net/~jrose/values/values-0.html&#34;&gt;http://cr.openjdk.java.net/~jrose/values/values-0.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arrays 2.0 &amp;amp; Layouts
+&lt;a href=&#34;http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf&#34;&gt;http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf&lt;/a&gt;
+&lt;a href=&#34;http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README&#34;&gt;http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Very Large Collections&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Value types
+&lt;a href=&#34;http://cr.openjdk.java.net/~jrose/values/values-0.html&#34;&gt;http://cr.openjdk.java.net/~jrose/values/values-0.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arrays 2.0 &amp;amp; Layouts
+&lt;a href=&#34;http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf&#34;&gt;http://cr.openjdk.java.net/~jrose/pres/201207-Arrays-2.pdf&lt;/a&gt;
+&lt;a href=&#34;http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README&#34;&gt;http://hg.openjdk.java.net/sumatra/sumatra-dev/scratch/file/tip/src/org/openjdk/sumatra/data/prototype/README&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Communicate across JVM boundary&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Project Panama&lt;/li&gt;
+&lt;li&gt;JEP 191 FFI
+&lt;a href=&#34;http://openjdk.java.net/jeps/191&#34;&gt;http://openjdk.java.net/jeps/191&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;c-with-unsafe-block:34b0f53c61e1582144071f3349874f48&#34;&gt;C# with unsafe block&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/y31yhkeb.aspx&#34;&gt;http://msdn.microsoft.com/en-us/library/y31yhkeb.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Structs/value types
+&amp;ldquo;A pointer cannot point to a reference or to a struct that contains references,
+because an object reference can be garbage collected even if a pointer is
+pointing to it. The garbage collector does not keep track of whether an
+object is being pointed to by any pointer types.&amp;rdquo;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;stackalloc, fixed, unsafe, valuetypes/structs in C#&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Communicate across JVM boundary&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Platform invoke&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sample&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;org.jocl&lt;/li&gt;
+&lt;li&gt;bridj&lt;/li&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;unsafe-in-racket-unsafe-fl-performance-unchecked-operation:34b0f53c61e1582144071f3349874f48&#34;&gt;unsafe in Racket: unsafe-fl+ performance unchecked operation.&lt;/h1&gt;
+
+&lt;h1 id=&#34;typed-assembly-language-tal:34b0f53c61e1582144071f3349874f48&#34;&gt;Typed Assembly Language TAL&lt;/h1&gt;
+
+&lt;h1 id=&#34;request-for-a-user-account:34b0f53c61e1582144071f3349874f48&#34;&gt;Request for a user account&lt;/h1&gt;
+
+&lt;h1 id=&#34;https-blogs-oracle-com-jrose-entry-larval-objects-in-the-vm:34b0f53c61e1582144071f3349874f48&#34;&gt;&lt;a href=&#34;https://blogs.oracle.com/jrose/entry/larval_objects_in_the_vm&#34;&gt;https://blogs.oracle.com/jrose/entry/larval_objects_in_the_vm&lt;/a&gt;&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Typestate in java for larval objects&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Comment of Niko Matsakis, Rust:
+I just want to drop a note to my research on Intervals.
+It allows support for &amp;ldquo;temporarily mutable&amp;rdquo; objects like the larval objects you refer
+to, but using a rather different approach than Type State.
+The basic idea is that users can denote the span of time in which the object is
+mutable as part of its type. Once that span of time has expired,
+the object can no longer be changed.
+One nice feature of this approach is that aliasing is no problem,
+as the type of the object never changes &amp;mdash; instead,
+the compiler is aware of whether a particular method occurs during the mutable span
+or not, and so the permitted operations change depending on when a method will execute.
+Some more details are available here:
+&lt;a href=&#34;http://harmonic-lang.org/news/larval-objects-using-interv.html&#34;&gt;http://harmonic-lang.org/news/larval-objects-using-interv.html&lt;/a&gt; or in our recent paper:
+&lt;a href=&#34;http://www.lst.inf.ethz.ch/research/publications/SPLASH_2010.html&#34;&gt;http://www.lst.inf.ethz.ch/research/publications/SPLASH_2010.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://smallcultfollowing.com/babysteps/blog/2014/04/01/value-types-in-javascript/&#34;&gt;http://smallcultfollowing.com/babysteps/blog/2014/04/01/value-types-in-javascript/&lt;/a&gt;
+Niko Matsakis&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kotka.de/blog/2010/12/What_are_Pods.html&#34;&gt;http://kotka.de/blog/2010/12/What_are_Pods.html&lt;/a&gt;
+Pods&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ruby-doc.org/core-2.1.5/Object.html#M000356&#34;&gt;http://ruby-doc.org/core-2.1.5/Object.html#M000356&lt;/a&gt;
+Freeze method&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://openjdk.java.net/jeps/191&#34;&gt;http://openjdk.java.net/jeps/191&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;JEP 193- Enhanced Volatiles
+* Find a reference implementation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/README/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;phd-luigi:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;PhD Luigi&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.githubarchive.org/&#34;&gt;https://www.githubarchive.org/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/Reflections-on-Growing-a-Programmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/Reflections-on-Growing-a-Programmer/</guid>
+      <description>
+
+&lt;h1 id=&#34;reflections-on-growing-a-programmer:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Reflections on &lt;em&gt;Growing a Programmer&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;by Luis Mastrangelo&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Acknowledgments&lt;/strong&gt; Thanks to Celeste Pérez Ben for her feedback and typos.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Matthias Felleisen from Northeastern University wrote an essay about how to introduce programming in a freshmen course.
+The essay &amp;mdash;
+&lt;a href=&#34;http://www.ccs.neu.edu/home/matthias/Thoughts/Growing_a_Programmer.html&#34;&gt;Growing a Programmer&lt;/a&gt; &amp;mdash; introduces a software engineering approach from the very first day in class.&lt;/p&gt;
+
+&lt;p&gt;The notes presented here are a sort of response to &lt;em&gt;Growing a Programmer&lt;/em&gt;.
+They reflect my thoughts on the subject based on my experience as both a researcher and an educator.
+Although my experience is short, I believe I can contribute my two cents to the topic of how to &lt;em&gt;Grow a Programmer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;goals:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Goals&lt;/h2&gt;
+
+&lt;p&gt;It is mandatory to have a well defined idea on what we expect from an University graduate.
+The goal of any Computing Science curricula should be that its graduates be able to work not only in industry, but in academia as well.
+If we train future students only for a software engineer job, What is it left to academia?
+Who are going to be the next generation of researchers?&lt;/p&gt;
+
+&lt;p&gt;The role of a Computing Science curricula, and more general the role of the University should be to teach what students will not &amp;mdash; or least, what it is difficult to &amp;mdash; find elsewhere.
+The University should teach what only University can teach.&lt;/p&gt;
+
+&lt;p&gt;The University should serve as a guide to the student.
+It should teach solid academic foundations.
+If students are well-guided with solid foundations, it should be no problem for them to adapt to new technologies.&lt;/p&gt;
+
+&lt;p&gt;I am fully aware that the original essay has a different goal in mind.
+Nevertheless, even in the case of training future software engineers, the rest of this response applies the same.&lt;/p&gt;
+
+&lt;h2 id=&#34;design-recipe:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Design Recipe&lt;/h2&gt;
+
+&lt;p&gt;I do not believe the design recipe is well suited for a freshmen course.
+Not for its complexity, but because it is not properly motivated.
+It is not properly motivated in the sense that students do not see the point in applying the design recipe.
+My feeling is that they think they are wasting their time by satisfying the requirements of the design recipe.
+Students do not understand what the difference between examples and tests is (they think they are writing down the same thing twice).
+They do not see why they have to write a purpose statement in an assignment: The assignment already describe what is function is suppose to do.
+They simply see the function template as a repetition of code.
+It is not properly motivated because they do not know yet how to program.&lt;/p&gt;
+
+&lt;p&gt;I think it comes from a misconception about what Software Engineering is suppose to do.
+I personally believe that the purpose of Software Engineering is to build reliable software products.
+Building software products is far distant from how to program.
+These are two orthogonal activities.
+That is why I think the design recipe is not well suited for a course on how to program.&lt;/p&gt;
+
+&lt;p&gt;The essay claims that students do not &lt;em&gt;&amp;ldquo;tinker until it works&amp;rdquo;&lt;/em&gt; promoting the design recipe as a systematic design procedure.
+As far as I could experience in a &lt;em&gt;Fundamentals 1&lt;/em&gt; alike course, the students do use a &lt;em&gt;&amp;ldquo;tinker until it works&amp;rdquo;&lt;/em&gt; approach anyway.
+The design recipe uses testing as the only measure of correctness.
+The problem is that when the students implement a function, they do so by implementing it and testing it, &lt;em&gt;&amp;ldquo;tinkering until it works&amp;rdquo;&lt;/em&gt;.
+Let me be clear about testing.
+It is a great tool and we all use it in our everyday work.
+But testing is not the last line of defense.
+It never was and it never will be.
+The design recipe approach does not encourage the student to reason about their programs.&lt;/p&gt;
+
+&lt;h2 id=&#34;language-choice:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Language Choice&lt;/h2&gt;
+
+&lt;p&gt;Theorem 2 in &amp;sect; 2.1 states:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt; A compiler and the run-time system articulate error messages under the assumption that the programmer knows the entire language.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I am not entirely sure about that.
+If you never ever write a single * (to create a pointer type) in a C/C++ program, Can you get an error message about pointers?
+If you never write a type class definition in Haskell, Can you get a type class error?
+My point here is, if you use a subset of a language, you should receive only error messages related to that subset.&lt;/p&gt;
+
+&lt;p&gt;That being said, the paper &lt;a href=&#34;http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf&#34;&gt;A critique of Abelson and Sussman or why calculating is better than scheming&lt;/a&gt; by Philip Wadler, provides an interesting point of view about teaching in Scheme versus Miranda, or more generally, about dynamically versus static typed functional languages.&lt;/p&gt;
+
+&lt;h2 id=&#34;pair-programming:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Pair Programming&lt;/h2&gt;
+
+&lt;p&gt;I fully agree that programming is a social discipline.
+It is important to be able express ourselves in a clear and concise manner.
+I think it is crucial for students to work in groups from the very beginning.
+This will improve their abilities to explain themselves to other students.&lt;/p&gt;
+
+&lt;p&gt;However, I am worried that every activity the student carries out is done in pairs.
+I hope working in pairs is an activity that complements the student studying by him or herself.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Although a Software Engineering approach to programming is important, I think its introduction in a freshmen course is not adequate.
+A more solid foundation in programming should be thought in such a course.
+And its foundations lays in the field of logic.
+What a student needs to understand from the very first day in class is that there is not a single approach to programming.&lt;/p&gt;
+
+&lt;p&gt;Some topics were left in these notes, for example what to teach in this kind of course.
+Performance, Complexity, Debugging are they worth for an introductory course?
+What else should be include in an introductory course?&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, I hope these notes can at least raise the discussion on what to teach in a Computing Science curricula.&lt;/p&gt;
+
+&lt;h3 id=&#34;related-notes:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Related Notes&lt;/h3&gt;
+
+&lt;p&gt;Some notes that might be worth to mention:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A letter from Dijkstra to the University of Texas saying his opinion on the move from Haskell to Java in the Introductory Programming Course:
+&lt;a href=&#34;http://www.cs.utexas.edu/users/EWD/OtherDocs/To%20the%20Budget%20Council%20concerning%20Haskell.pdf&#34;&gt;To the members of the Budget Council&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html&#34;&gt;On the cruelty of really teaching computing science&lt;/a&gt; also from Dijkstra.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/Summary-First-Meeting-Daniele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/Summary-First-Meeting-Daniele/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;GitHub repository:
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll&#34;&gt;https://github.com/eleinadani/TigerQuoll&lt;/a&gt;
+&lt;a href=&#34;http://se.inf.tu-dresden.de/pubs/bibtexbrowser.php?key=Wamhoff2012&amp;amp;bib=se.bib&#34;&gt;http://se.inf.tu-dresden.de/pubs/bibtexbrowser.php?key=Wamhoff2012&amp;amp;bib=se.bib&lt;/a&gt;
+ex(no_stm) == 10
+ex(stm, 1) == 20
+ex(stm, 2) == 13
+ex(stm, 4) == 6
+ex(stm, 1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Conference Eurosys&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How to compile SpiderMoney
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/README.txt&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/README.txt&lt;/a&gt;
+&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/SpiderMonkey/Build_Documentation&#34;&gt;https://developer.mozilla.org/en-US/docs/SpiderMonkey/Build_Documentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TigerQuoll source code
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/tree/master/js/src/shell/tq_examples&#34;&gt;https://github.com/eleinadani/TigerQuoll/tree/master/js/src/shell/tq_examples&lt;/a&gt;
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/tree/master/js/src/shell/tq_tests&#34;&gt;https://github.com/eleinadani/TigerQuoll/tree/master/js/src/shell/tq_tests&lt;/a&gt;
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/tree/master/js/src/shell&#34;&gt;https://github.com/eleinadani/TigerQuoll/tree/master/js/src/shell&lt;/a&gt;
+main &lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/js.cpp&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/js.cpp&lt;/a&gt;
+_main_loop = new tq::MainLoop();
+tq::ParEvLoop* _pev_loop = tq::InitLoop(_main_loop, num_threads);
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqtxmembrane.cpp&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqtxmembrane.cpp&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;membrane
+Harmony proxies: Lets you create hooks for getters and setters.
+var a = Proxy.create( {
+  onGet : function(field) {
+    return print(field)
+  }
+})
+var x = a.foo
+var x = a.foo
+a.balbal
+&amp;ldquo;blablab&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;STM-core-runtime &lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqtxwrapper.cpp&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqtxwrapper.cpp&lt;/a&gt;
+Wrap ==&amp;gt; generate proxy &amp;ndash;&amp;gt; &lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqtxmembrane.cpp&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqtxmembrane.cpp&lt;/a&gt;
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqworker.cpp&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqworker.cpp&lt;/a&gt;
+void LoopWorker::runEvLoop() {
+&lt;a href=&#34;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqevent.cpp&#34;&gt;https://github.com/eleinadani/TigerQuoll/blob/master/js/src/shell/tqevent.cpp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*Distributed JavaScript in PaaS:
+  - Heroku
+  - Microsoft Azure&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Low latency computing (aka streaming)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;WebRTC&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Websockets&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://acuarica.bitbucket.org/public/Virtual-Machine-Meetup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://acuarica.bitbucket.org/public/Virtual-Machine-Meetup/</guid>
+      <description>
+
+&lt;h1 id=&#34;title:4bcedad12bb9554bd4cfc54d57e73021&#34;&gt;Title&lt;/h1&gt;
+
+&lt;p&gt;JNIF: Java Native Instrumentation Framework&lt;/p&gt;
+
+&lt;h1 id=&#34;abstract:4bcedad12bb9554bd4cfc54d57e73021&#34;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;A Java Virtual Machine Tool Interface (JVM TI) agent uses the JVM TI native programming interface to takeover full control of a JVM.
+In this talk I will describe the implementation of JNIF, an ASM like Java bytecode rewriting tool for the JVM implemented in C++.
+Since it is implemented in C++, it allows a JVM TI agent to rewrite and instrument Java bytecode without resorting an extra JVM or
+class loader inside the same JVM to make use of a bytecode rewriting library implemented in Java.
+Furthermore, I will talk about the challenges in writing a bytecode verifier needed to generate the stack map tables introduced in Java 6.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

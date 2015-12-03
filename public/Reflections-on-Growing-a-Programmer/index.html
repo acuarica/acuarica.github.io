@@ -1,0 +1,168 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.15" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>  &middot; My New Hugo Site Blog Static </title>
+
+  
+  <link rel="stylesheet" href="http://acuarica.bitbucket.org/public/css/poole.css">
+  <link rel="stylesheet" href="http://acuarica.bitbucket.org/public/css/syntax.css">
+  <link rel="stylesheet" href="http://acuarica.bitbucket.org/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site Blog Static" />
+</head>
+
+	<body class="">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://acuarica.bitbucket.org/public/"><h1>My New Hugo Site Blog Static</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1></h1>
+			  <span class="post-date">Mon, Jan 1, 0001</span>
+			      
+
+<h1 id="reflections-on-growing-a-programmer:015ee0493561d623dde3853dbd5fbc24">Reflections on <em>Growing a Programmer</em></h1>
+
+<p>by Luis Mastrangelo</p>
+
+<p><strong>Acknowledgments</strong> Thanks to Celeste Pérez Ben for her feedback and typos.</p>
+
+<h2 id="abstract:015ee0493561d623dde3853dbd5fbc24">Abstract</h2>
+
+<p>Matthias Felleisen from Northeastern University wrote an essay about how to introduce programming in a freshmen course.
+The essay &mdash;
+<a href="http://www.ccs.neu.edu/home/matthias/Thoughts/Growing_a_Programmer.html">Growing a Programmer</a> &mdash; introduces a software engineering approach from the very first day in class.</p>
+
+<p>The notes presented here are a sort of response to <em>Growing a Programmer</em>.
+They reflect my thoughts on the subject based on my experience as both a researcher and an educator.
+Although my experience is short, I believe I can contribute my two cents to the topic of how to <em>Grow a Programmer</em>.</p>
+
+<h2 id="goals:015ee0493561d623dde3853dbd5fbc24">Goals</h2>
+
+<p>It is mandatory to have a well defined idea on what we expect from an University graduate.
+The goal of any Computing Science curricula should be that its graduates be able to work not only in industry, but in academia as well.
+If we train future students only for a software engineer job, What is it left to academia?
+Who are going to be the next generation of researchers?</p>
+
+<p>The role of a Computing Science curricula, and more general the role of the University should be to teach what students will not &mdash; or least, what it is difficult to &mdash; find elsewhere.
+The University should teach what only University can teach.</p>
+
+<p>The University should serve as a guide to the student.
+It should teach solid academic foundations.
+If students are well-guided with solid foundations, it should be no problem for them to adapt to new technologies.</p>
+
+<p>I am fully aware that the original essay has a different goal in mind.
+Nevertheless, even in the case of training future software engineers, the rest of this response applies the same.</p>
+
+<h2 id="design-recipe:015ee0493561d623dde3853dbd5fbc24">Design Recipe</h2>
+
+<p>I do not believe the design recipe is well suited for a freshmen course.
+Not for its complexity, but because it is not properly motivated.
+It is not properly motivated in the sense that students do not see the point in applying the design recipe.
+My feeling is that they think they are wasting their time by satisfying the requirements of the design recipe.
+Students do not understand what the difference between examples and tests is (they think they are writing down the same thing twice).
+They do not see why they have to write a purpose statement in an assignment: The assignment already describe what is function is suppose to do.
+They simply see the function template as a repetition of code.
+It is not properly motivated because they do not know yet how to program.</p>
+
+<p>I think it comes from a misconception about what Software Engineering is suppose to do.
+I personally believe that the purpose of Software Engineering is to build reliable software products.
+Building software products is far distant from how to program.
+These are two orthogonal activities.
+That is why I think the design recipe is not well suited for a course on how to program.</p>
+
+<p>The essay claims that students do not <em>&ldquo;tinker until it works&rdquo;</em> promoting the design recipe as a systematic design procedure.
+As far as I could experience in a <em>Fundamentals 1</em> alike course, the students do use a <em>&ldquo;tinker until it works&rdquo;</em> approach anyway.
+The design recipe uses testing as the only measure of correctness.
+The problem is that when the students implement a function, they do so by implementing it and testing it, <em>&ldquo;tinkering until it works&rdquo;</em>.
+Let me be clear about testing.
+It is a great tool and we all use it in our everyday work.
+But testing is not the last line of defense.
+It never was and it never will be.
+The design recipe approach does not encourage the student to reason about their programs.</p>
+
+<h2 id="language-choice:015ee0493561d623dde3853dbd5fbc24">Language Choice</h2>
+
+<p>Theorem 2 in &sect; 2.1 states:</p>
+
+<blockquote>
+<p><strong>Theorem 2</strong> A compiler and the run-time system articulate error messages under the assumption that the programmer knows the entire language.</p>
+</blockquote>
+
+<p>I am not entirely sure about that.
+If you never ever write a single * (to create a pointer type) in a C/C++ program, Can you get an error message about pointers?
+If you never write a type class definition in Haskell, Can you get a type class error?
+My point here is, if you use a subset of a language, you should receive only error messages related to that subset.</p>
+
+<p>That being said, the paper <a href="http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf">A critique of Abelson and Sussman or why calculating is better than scheming</a> by Philip Wadler, provides an interesting point of view about teaching in Scheme versus Miranda, or more generally, about dynamically versus static typed functional languages.</p>
+
+<h2 id="pair-programming:015ee0493561d623dde3853dbd5fbc24">Pair Programming</h2>
+
+<p>I fully agree that programming is a social discipline.
+It is important to be able express ourselves in a clear and concise manner.
+I think it is crucial for students to work in groups from the very beginning.
+This will improve their abilities to explain themselves to other students.</p>
+
+<p>However, I am worried that every activity the student carries out is done in pairs.
+I hope working in pairs is an activity that complements the student studying by him or herself.</p>
+
+<h2 id="conclusion:015ee0493561d623dde3853dbd5fbc24">Conclusion</h2>
+
+<p>Although a Software Engineering approach to programming is important, I think its introduction in a freshmen course is not adequate.
+A more solid foundation in programming should be thought in such a course.
+And its foundations lays in the field of logic.
+What a student needs to understand from the very first day in class is that there is not a single approach to programming.</p>
+
+<p>Some topics were left in these notes, for example what to teach in this kind of course.
+Performance, Complexity, Debugging are they worth for an introductory course?
+What else should be include in an introductory course?</p>
+
+<p>Nevertheless, I hope these notes can at least raise the discussion on what to teach in a Computing Science curricula.</p>
+
+<h3 id="related-notes:015ee0493561d623dde3853dbd5fbc24">Related Notes</h3>
+
+<p>Some notes that might be worth to mention:</p>
+
+<ul>
+<li><p>A letter from Dijkstra to the University of Texas saying his opinion on the move from Haskell to Java in the Introductory Programming Course:
+<a href="http://www.cs.utexas.edu/users/EWD/OtherDocs/To%20the%20Budget%20Council%20concerning%20Haskell.pdf">To the members of the Budget Council</a></p></li>
+
+<li><p><a href="http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html">On the cruelty of really teaching computing science</a> also from Dijkstra.</p></li>
+</ul>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
