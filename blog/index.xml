@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luigi&#39;s Blog</title>
-    <link>http://acuarica.bitbucket.org/public/</link>
+    <link>http://acuarica.bitbucket.org/blog/</link>
     <description>Recent content on Luigi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Dec 2015 11:07:07 +0100</lastBuildDate>
-    <atom:link href="http://acuarica.bitbucket.org/public/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://acuarica.bitbucket.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>test arch</title>
-      <link>http://acuarica.bitbucket.org/public/test-arch/</link>
+      <link>http://acuarica.bitbucket.org/blog/test-arch/</link>
       <pubDate>Fri, 04 Dec 2015 11:07:07 +0100</pubDate>
       
-      <guid>http://acuarica.bitbucket.org/public/test-arch/</guid>
+      <guid>http://acuarica.bitbucket.org/blog/test-arch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reflections on Growing a Programmer</title>
-      <link>http://acuarica.bitbucket.org/public/Reflections-on-Growing-a-Programmer/</link>
+      <link>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</link>
       <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
       
-      <guid>http://acuarica.bitbucket.org/public/Reflections-on-Growing-a-Programmer/</guid>
+      <guid>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</guid>
       <description>
 
 &lt;h1 id=&#34;reflections-on-growing-a-programmer:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Reflections on &lt;em&gt;Growing a Programmer&lt;/em&gt;&lt;/h1&gt;
@@ -139,10 +139,10 @@ What else should be include in an introductory course?&lt;/p&gt;
     
     <item>
       <title>hola</title>
-      <link>http://acuarica.bitbucket.org/public/ciao/</link>
+      <link>http://acuarica.bitbucket.org/blog/ciao/</link>
       <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
       
-      <guid>http://acuarica.bitbucket.org/public/ciao/</guid>
+      <guid>http://acuarica.bitbucket.org/blog/ciao/</guid>
       <description>
 
 &lt;h1 id=&#34;this-is-the-ciao-test:ddc38e622b92985c5246659dd447376e&#34;&gt;This is the Ciao Test&lt;/h1&gt;
@@ -155,10 +155,10 @@ What else should be include in an introductory course?&lt;/p&gt;
     
     <item>
       <title>hola</title>
-      <link>http://acuarica.bitbucket.org/public/hola/</link>
+      <link>http://acuarica.bitbucket.org/blog/hola/</link>
       <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
       
-      <guid>http://acuarica.bitbucket.org/public/hola/</guid>
+      <guid>http://acuarica.bitbucket.org/blog/hola/</guid>
       <description>
 
 &lt;h1 id=&#34;hola-test:39291fa41908c039d59c85c0f3ad5a6e&#34;&gt;Hola Test&lt;/h1&gt;

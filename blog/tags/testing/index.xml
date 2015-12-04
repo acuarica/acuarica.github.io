@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Luigi&#39;s Blog</title>
-    <link>http://acuarica.bitbucket.org/public/tags/testing/</link>
+    <link>http://acuarica.bitbucket.org/blog/tags/testing/</link>
     <description>Recent content in Testing on Luigi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Dec 2015 12:21:22 +0100</lastBuildDate>
-    <atom:link href="http://acuarica.bitbucket.org/public/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://acuarica.bitbucket.org/blog/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reflections on Growing a Programmer</title>
-      <link>http://acuarica.bitbucket.org/public/Reflections-on-Growing-a-Programmer/</link>
+      <link>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</link>
       <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
       
-      <guid>http://acuarica.bitbucket.org/public/Reflections-on-Growing-a-Programmer/</guid>
+      <guid>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</guid>
       <description>
 
 &lt;h1 id=&#34;reflections-on-growing-a-programmer:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Reflections on &lt;em&gt;Growing a Programmer&lt;/em&gt;&lt;/h1&gt;
