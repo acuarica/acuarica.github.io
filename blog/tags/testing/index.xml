@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Luis Mastrangelo</title>
-    <link>https://acuarica.github.io/tags/testing/index.xml</link>
+    <link>https://acuarica.bitbucket.io/tags/testing/index.xml</link>
     <description>Recent content in Testing on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Reflections on Growing a Programmer</title>
-      <link>https://acuarica.github.io/post/reflections-on-growing-a-programmer/</link>
+      <link>https://acuarica.bitbucket.io/post/reflections-on-growing-a-programmer/</link>
       <pubDate>Thu, 03 Dec 2015 12:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.github.io/post/reflections-on-growing-a-programmer/</guid>
+      <guid>https://acuarica.bitbucket.io/post/reflections-on-growing-a-programmer/</guid>
       <description>
 
 &lt;p&gt;Matthias Felleisen from Northeastern University wrote an essay about how to introduce programming in a freshmen course.

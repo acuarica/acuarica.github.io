@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on Luis Mastrangelo</title>
-    <link>https://acuarica.github.io/tags/c&#43;&#43;/index.xml</link>
+    <link>https://acuarica.bitbucket.io/tags/c&#43;&#43;/index.xml</link>
     <description>Recent content in C&#43;&#43; on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>JNIF</title>
-      <link>https://acuarica.github.io/project/jnif/</link>
+      <link>https://acuarica.bitbucket.io/project/jnif/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.github.io/project/jnif/</guid>
+      <guid>https://acuarica.bitbucket.io/project/jnif/</guid>
       <description></description>
     </item>
     
