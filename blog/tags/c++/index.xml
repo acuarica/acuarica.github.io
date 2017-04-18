@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on Luis Mastrangelo</title>
-    <link>https://acuarica.bitbucket.io/tags/c&#43;&#43;/index.xml</link>
+    <link>https://acuarica.bitbucket.io/blog/tags/c&#43;&#43;/index.xml</link>
     <description>Recent content in C&#43;&#43; on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Luis Mastrangelo</copyright>
-    <atom:link href="/tags/c&#43;&#43;/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/tags/c&#43;&#43;/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>JNIF</title>
-      <link>https://acuarica.bitbucket.io/project/jnif/</link>
+      <link>https://acuarica.bitbucket.io/blog/project/jnif/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.bitbucket.io/project/jnif/</guid>
+      <guid>https://acuarica.bitbucket.io/blog/project/jnif/</guid>
       <description></description>
     </item>
     

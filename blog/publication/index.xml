@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Luis Mastrangelo</title>
-    <link>https://acuarica.bitbucket.io/publication/index.xml</link>
+    <link>https://acuarica.bitbucket.io/blog/publication/index.xml</link>
     <description>Recent content in Publications on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Luis Mastrangelo</copyright>
     <lastBuildDate>Sun, 25 Oct 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Use at Your Own Risk: The Java Unsafe API in the Wild</title>
-      <link>https://acuarica.bitbucket.io/publication/use-at-your-own-risk/</link>
+      <link>https://acuarica.bitbucket.io/blog/publication/use-at-your-own-risk/</link>
       <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.bitbucket.io/publication/use-at-your-own-risk/</guid>
+      <guid>https://acuarica.bitbucket.io/blog/publication/use-at-your-own-risk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JNIF: Java Native Instrumentation Framework</title>
-      <link>https://acuarica.bitbucket.io/publication/jnif/</link>
+      <link>https://acuarica.bitbucket.io/blog/publication/jnif/</link>
       <pubDate>Tue, 23 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.bitbucket.io/publication/jnif/</guid>
+      <guid>https://acuarica.bitbucket.io/blog/publication/jnif/</guid>
       <description></description>
     </item>
     

@@ -2,199 +2,199 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/publications_selected/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/publications_selected/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/publications/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/publications/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/posts/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/posts/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/projects/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/projects/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/teaching/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/teaching/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/contact/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/contact/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/on-mastery-checking/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/on-mastery-checking/</loc>
     <lastmod>2016-12-03T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/project/deep-learning/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/project/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/project/jnif/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/project/jnif/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/getting-started/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/getting-started/</loc>
     <lastmod>2016-04-20T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/managing-content/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/managing-content/</loc>
     <lastmod>2016-04-20T11:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/writing-markdown-latex/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/writing-markdown-latex/</loc>
     <lastmod>2016-04-20T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/about/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/about/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/reflections-on-growing-a-programmer/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/reflections-on-growing-a-programmer/</loc>
     <lastmod>2015-12-03T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/publication/use-at-your-own-risk/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/publication/use-at-your-own-risk/</loc>
     <lastmod>2015-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/publication/jnif/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/publication/jnif/</loc>
     <lastmod>2014-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/migrate-from-jekyll/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/academic/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/academic/</loc>
     <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/bytecode/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/bytecode/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/c&#43;&#43;/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/c&#43;&#43;/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/deep-learning/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/design/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/design/</loc>
     <lastmod>2015-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/education/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/education/</loc>
     <lastmod>2016-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/functional/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/functional/</loc>
     <lastmod>2015-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/home/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/home/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/hugo/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/hugo/</loc>
     <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/instrumentation/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/instrumentation/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/java/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/java/</loc>
     <lastmod>2016-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/jekyll/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/post/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/post/</loc>
     <lastmod>2016-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/project/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/publication/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/publication/</loc>
     <lastmod>2015-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/racket/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/racket/</loc>
     <lastmod>2015-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://acuarica.bitbucket.io/tags/testing/</loc>
+    <loc>https://acuarica.bitbucket.io/blog/tags/testing/</loc>
     <lastmod>2015-12-03T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

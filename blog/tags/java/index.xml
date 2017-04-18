@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Luis Mastrangelo</title>
-    <link>https://acuarica.bitbucket.io/tags/java/index.xml</link>
+    <link>https://acuarica.bitbucket.io/blog/tags/java/index.xml</link>
     <description>Recent content in Java on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Luis Mastrangelo</copyright>
-    <atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On Mastery Checking</title>
-      <link>https://acuarica.bitbucket.io/post/on-mastery-checking/</link>
+      <link>https://acuarica.bitbucket.io/blog/post/on-mastery-checking/</link>
       <pubDate>Sat, 03 Dec 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.bitbucket.io/post/on-mastery-checking/</guid>
+      <guid>https://acuarica.bitbucket.io/blog/post/on-mastery-checking/</guid>
       <description>
 
 &lt;p&gt;Mastery Checking is a teaching strategy.&lt;/p&gt;
@@ -57,10 +57,10 @@ having four to six exams in a subject seems plausible.&lt;/p&gt;
     
     <item>
       <title>JNIF</title>
-      <link>https://acuarica.bitbucket.io/project/jnif/</link>
+      <link>https://acuarica.bitbucket.io/blog/project/jnif/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://acuarica.bitbucket.io/project/jnif/</guid>
+      <guid>https://acuarica.bitbucket.io/blog/project/jnif/</guid>
       <description></description>
     </item>
     
