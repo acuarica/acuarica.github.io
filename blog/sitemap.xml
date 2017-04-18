@@ -2,29 +2,201 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://acuarica.bitbucket.org/blog/</loc>
-    <lastmod>2015-12-04T11:07:07+01:00</lastmod>
+    <loc>https://acuarica.github.io/home/publications_selected/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/publications/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/projects/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/teaching/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/contact/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/on-mastery-checking/</loc>
+    <lastmod>2016-12-03T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/project/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/project/jnif/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/getting-started/</loc>
+    <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/managing-content/</loc>
+    <lastmod>2016-04-20T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/writing-markdown-latex/</loc>
+    <lastmod>2016-04-20T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/about/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/reflections-on-growing-a-programmer/</loc>
+    <lastmod>2015-12-03T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/publication/use-at-your-own-risk/</loc>
+    <lastmod>2015-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/publication/jnif/</loc>
+    <lastmod>2014-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/academic/</loc>
+    <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acuarica.bitbucket.org/blog/test-arch/</loc>
-    <lastmod>2015-12-04T11:07:07+01:00</lastmod>
+    <loc>https://acuarica.github.io/tags/bytecode/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</loc>
-    <lastmod>2015-12-03T12:21:22+01:00</lastmod>
+    <loc>https://acuarica.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acuarica.bitbucket.org/blog/ciao/</loc>
-    <lastmod>2015-12-03T12:21:22+01:00</lastmod>
+    <loc>https://acuarica.github.io/tags/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acuarica.bitbucket.org/blog/hola/</loc>
-    <lastmod>2015-12-03T12:21:22+01:00</lastmod>
+    <loc>https://acuarica.github.io/tags/design/</loc>
+    <lastmod>2015-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/education/</loc>
+    <lastmod>2016-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/functional/</loc>
+    <lastmod>2015-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/home/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/hugo/</loc>
+    <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/instrumentation/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/java/</loc>
+    <lastmod>2016-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/post/</loc>
+    <lastmod>2016-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/publication/</loc>
+    <lastmod>2015-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/racket/</loc>
+    <lastmod>2015-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://acuarica.github.io/tags/testing/</loc>
+    <lastmod>2015-12-03T12:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

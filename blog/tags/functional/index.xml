@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Functional on Luigi&#39;s Blog</title>
-    <link>http://acuarica.bitbucket.org/blog/tags/functional/</link>
-    <description>Recent content in Functional on Luigi&#39;s Blog</description>
+    <title>Functional on Luis Mastrangelo</title>
+    <link>https://acuarica.github.io/tags/functional/index.xml</link>
+    <description>Recent content in Functional on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Dec 2015 12:21:22 +0100</lastBuildDate>
-    <atom:link href="http://acuarica.bitbucket.org/blog/tags/functional/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016 Luis Mastrangelo</copyright>
+    <atom:link href="/tags/functional/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reflections on Growing a Programmer</title>
-      <link>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</link>
-      <pubDate>Thu, 03 Dec 2015 12:21:22 +0100</pubDate>
+      <link>https://acuarica.github.io/post/reflections-on-growing-a-programmer/</link>
+      <pubDate>Thu, 03 Dec 2015 12:00:00 +0000</pubDate>
       
-      <guid>http://acuarica.bitbucket.org/blog/Reflections-on-Growing-a-Programmer/</guid>
+      <guid>https://acuarica.github.io/post/reflections-on-growing-a-programmer/</guid>
       <description>
-
-&lt;h1 id=&#34;reflections-on-growing-a-programmer:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Reflections on &lt;em&gt;Growing a Programmer&lt;/em&gt;&lt;/h1&gt;
-
-&lt;p&gt;by Luis Mastrangelo&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Acknowledgments&lt;/strong&gt; Thanks to Celeste Pérez Ben for her feedback and typos.&lt;/p&gt;
-
-&lt;h2 id=&#34;abstract:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Abstract&lt;/h2&gt;
 
 &lt;p&gt;Matthias Felleisen from Northeastern University wrote an essay about how to introduce programming in a freshmen course.
 The essay &amp;mdash;
@@ -33,7 +25,7 @@ The essay &amp;mdash;
 They reflect my thoughts on the subject based on my experience as both a researcher and an educator.
 Although my experience is short, I believe I can contribute my two cents to the topic of how to &lt;em&gt;Grow a Programmer&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;goals:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Goals&lt;/h2&gt;
+&lt;h2 id=&#34;goals&#34;&gt;Goals&lt;/h2&gt;
 
 &lt;p&gt;It is mandatory to have a well defined idea on what we expect from an University graduate.
 The goal of any Computing Science curricula should be that its graduates be able to work not only in industry, but in academia as well.
@@ -50,7 +42,7 @@ If students are well-guided with solid foundations, it should be no problem for 
 &lt;p&gt;I am fully aware that the original essay has a different goal in mind.
 Nevertheless, even in the case of training future software engineers, the rest of this response applies the same.&lt;/p&gt;
 
-&lt;h2 id=&#34;design-recipe:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Design Recipe&lt;/h2&gt;
+&lt;h2 id=&#34;design-recipe&#34;&gt;Design Recipe&lt;/h2&gt;
 
 &lt;p&gt;I do not believe the design recipe is well suited for a freshmen course.
 Not for its complexity, but because it is not properly motivated.
@@ -77,7 +69,7 @@ But testing is not the last line of defense.
 It never was and it never will be.
 The design recipe approach does not encourage the student to reason about their programs.&lt;/p&gt;
 
-&lt;h2 id=&#34;language-choice:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Language Choice&lt;/h2&gt;
+&lt;h2 id=&#34;language-choice&#34;&gt;Language Choice&lt;/h2&gt;
 
 &lt;p&gt;Theorem 2 in &amp;sect; 2.1 states:&lt;/p&gt;
 
@@ -92,7 +84,7 @@ My point here is, if you use a subset of a language, you should receive only err
 
 &lt;p&gt;That being said, the paper &lt;a href=&#34;http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf&#34;&gt;A critique of Abelson and Sussman or why calculating is better than scheming&lt;/a&gt; by Philip Wadler, provides an interesting point of view about teaching in Scheme versus Miranda, or more generally, about dynamically versus static typed functional languages.&lt;/p&gt;
 
-&lt;h2 id=&#34;pair-programming:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Pair Programming&lt;/h2&gt;
+&lt;h2 id=&#34;pair-programming&#34;&gt;Pair Programming&lt;/h2&gt;
 
 &lt;p&gt;I fully agree that programming is a social discipline.
 It is important to be able express ourselves in a clear and concise manner.
@@ -102,7 +94,7 @@ This will improve their abilities to explain themselves to other students.&lt;/p
 &lt;p&gt;However, I am worried that every activity the student carries out is done in pairs.
 I hope working in pairs is an activity that complements the student studying by him or herself.&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;Although a Software Engineering approach to programming is important, I think its introduction in a freshmen course is not adequate.
 A more solid foundation in programming should be thought in such a course.
@@ -115,7 +107,7 @@ What else should be include in an introductory course?&lt;/p&gt;
 
 &lt;p&gt;Nevertheless, I hope these notes can at least raise the discussion on what to teach in a Computing Science curricula.&lt;/p&gt;
 
-&lt;h3 id=&#34;related-notes:015ee0493561d623dde3853dbd5fbc24&#34;&gt;Related Notes&lt;/h3&gt;
+&lt;h3 id=&#34;related-notes&#34;&gt;Related Notes&lt;/h3&gt;
 
 &lt;p&gt;Some notes that might be worth to mention:&lt;/p&gt;
 
@@ -125,6 +117,10 @@ What else should be include in an introductory course?&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html&#34;&gt;On the cruelty of really teaching computing science&lt;/a&gt; also from Dijkstra.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h3&gt;
+
+&lt;p&gt;Thanks to Celeste Pérez Ben for her feedback and typos.&lt;/p&gt;
 </description>
     </item>
     
