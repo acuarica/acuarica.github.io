@@ -1,6 +1,6 @@
 <map id="jnif::operator&lt;&lt;" name="jnif::operator&lt;&lt;">
-<area shape="rect" id="node2" href="$classjnif_1_1_version.html#a58cc4ce6c0a20072983a9ba63c483489" title="The major version number. " alt="" coords="166,5,341,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_version.html#a6f7c0a7e4bb647a3e2b05d8a5528c380" title="The minor version number. " alt="" coords="166,57,341,85"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_version.html#a043cbc0e8ad4147884be5413d17cb716" title="Taken from the oficial JVM specification. " alt="" coords="175,109,332,153"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_version.html#a2b2327487a7b441bf661fd85ab2c1ee6" title="Using default 51, which is supported by JDK 1.7. " alt="" coords="390,117,532,145"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_version.html#a1f7d490a041cf629227c8c6ec0bfe7e3" title="The major version number. " alt="" coords="559,11,735,36"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_version.html#a0c9bb722e1f863c84cb8992fcb514a80" title="The minor version number. " alt="" coords="559,64,735,90"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_version.html#a334ab08d2ba234058995adf8761f9721" title="Taken from the oficial JVM specification. " alt="" coords="164,31,321,70"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_version.html#a2b2327487a7b441bf661fd85ab2c1ee6" title="Using default 51, which is supported by JDK 1.7. " alt="" coords="369,38,511,63"/>
 </map>

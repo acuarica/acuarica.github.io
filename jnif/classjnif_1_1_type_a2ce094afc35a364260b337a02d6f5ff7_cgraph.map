@@ -1,0 +1,5 @@
+<map id="jnif::Type::isTwoWord" name="jnif::Type::isTwoWord">
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a75a9d2c4c8ca11bcb39c93fb7d71228f" title="jnif::Type::isLong" alt="" coords="207,5,329,31"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a783c439c163919e47f9dcf14d0c0488e" title="jnif::Type::isDouble" alt="" coords="201,55,335,80"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="383,31,507,56"/>
+</map>

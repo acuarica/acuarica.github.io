@@ -1,9 +1,9 @@
 <map id="jnif::Attr" name="jnif::Attr">
-<area shape="rect" id="node2" href="$classjnif_1_1_code_attr.html" title="Represent the Code attribute of a method. " alt="" coords="4,201,120,410"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_exceptions_attr.html" title="Represents the Exceptions attribute. " alt="" coords="145,265,276,346"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_lnt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="300,265,384,346"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_lvt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="410,265,493,346"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_smt_attr.html" title="{jnif::SmtAttr\n|+ entries\l|+ SmtAttr()\l}" alt="" coords="518,265,607,346"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_source_file_attr.html" title="{jnif::SourceFileAttr\n|+ sourceFileIndex\l|+ SourceFileAttr()\l}" alt="" coords="632,265,761,346"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_unknown_attr.html" title="Represents an unknown opaque attribute to jnif. " alt="" coords="787,265,908,346"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_code_attr.html" title="Represent the Code attribute of a method. " alt="" coords="5,180,122,360"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_exceptions_attr.html" title="Represents the Exceptions attribute. " alt="" coords="146,233,278,307"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_lnt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="301,233,386,307"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_lvt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="411,233,495,307"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_smt_attr.html" title="{jnif::SmtAttr\n|+ entries\l|+ SmtAttr()\l}" alt="" coords="519,233,609,307"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_source_file_attr.html" title="{jnif::SourceFileAttr\n|+ sourceFileIndex\l|+ SourceFileAttr()\l}" alt="" coords="633,233,764,307"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_unknown_attr.html" title="Represents an unknown opaque attribute to jnif. " alt="" coords="788,233,910,307"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="jnif::StackMapTableAttrParser::parseType" name="jnif::StackMapTableAttrParser::parseType">
-<area shape="rect" id="node2" href="$classjnif_1_1_stack_map_table_attr_parser.html#a535fdc8117a082428a6a65e2882bc1b9" title="jnif::StackMapTableAttrParser\l::parseTs" alt="" coords="251,5,448,49"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_stack_map_table_attr_parser.html#adaede7c6ec7aa3c1d24d23e027f19026" title="jnif::StackMapTableAttrParser\l::parse" alt="" coords="496,5,693,49"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_stack_map_table_attr_parser.html#a535fdc8117a082428a6a65e2882bc1b9" title="jnif::StackMapTableAttrParser\l::parseTs" alt="" coords="250,5,447,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_stack_map_table_attr_parser.html#adaede7c6ec7aa3c1d24d23e027f19026" title="jnif::StackMapTableAttrParser\l::parse" alt="" coords="495,5,692,44"/>
 </map>

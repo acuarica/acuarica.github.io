@@ -1,4 +1,5 @@
 <map id="jnif::ConstPool::addString" name="jnif::ConstPool::addString">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#a4b1dffd30cdbb156bff8df77d759b23f" title="Adds a string to the constant pool by providing a string. " alt="" coords="227,5,399,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#afeee789dfcbb4f94cf43495b9cd57348" title="Adds a String item to the Constant Pool using a class entry. " alt="" coords="227,57,399,101"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#a4b1dffd30cdbb156bff8df77d759b23f" title="Adds a string to the constant pool by providing a string. " alt="" coords="262,5,434,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#afeee789dfcbb4f94cf43495b9cd57348" title="Adds a String item to the Constant Pool using a class entry. " alt="" coords="262,55,434,93"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#afa927b76e3058de411c3d240ca1670a7" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList... \&gt;, AttrsParser\&lt; TMethodAttr\lParserList... \&gt;, AttrsParser\&lt; TFieldAttr\lParserList... \&gt; \&gt;::parse" alt="" coords="225,117,471,196"/>
 </map>

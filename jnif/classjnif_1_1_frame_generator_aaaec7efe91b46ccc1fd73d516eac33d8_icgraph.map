@@ -1,5 +1,5 @@
 <map id="jnif::FrameGenerator::setCpIndex" name="jnif::FrameGenerator::setCpIndex">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="197,5,342,49"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="197,73,342,117"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="390,73,549,117"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="198,5,342,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="198,68,342,107"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="390,68,549,107"/>
 </map>

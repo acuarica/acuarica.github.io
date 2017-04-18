@@ -1,8 +1,8 @@
 <map id="jnif::Inst::var" name="jnif::Inst::var">
-<area shape="rect" id="node2" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="147,13,333,41"/>
-<area shape="rect" id="node7" href="$namespacejnif.html#ac4a92acf5637088cedaaa03fa38551c4" title="jnif::operator\&lt;\&lt;" alt="" coords="184,65,296,93"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="382,5,527,49"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="577,5,722,49"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="577,73,722,117"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="771,73,930,117"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="147,12,333,37"/>
+<area shape="rect" id="node7" href="$namespacejnif.html#ac4a92acf5637088cedaaa03fa38551c4" title="jnif::operator\&lt;\&lt;" alt="" coords="184,61,295,87"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="381,5,526,44"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="574,5,719,44"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="575,68,719,107"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="767,68,926,107"/>
 </map>

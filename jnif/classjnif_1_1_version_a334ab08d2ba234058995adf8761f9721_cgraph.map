@@ -1,0 +1,5 @@
+<map id="jnif::Version::supportedByJdk" name="jnif::Version::supportedByJdk">
+<area shape="rect" id="node2" href="$classjnif_1_1_version.html#a2b2327487a7b441bf661fd85ab2c1ee6" title="Using default 51, which is supported by JDK 1.7. " alt="" coords="210,31,352,56"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_version.html#a1f7d490a041cf629227c8c6ec0bfe7e3" title="The major version number. " alt="" coords="400,5,576,31"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_version.html#a0c9bb722e1f863c84cb8992fcb514a80" title="The minor version number. " alt="" coords="400,55,576,80"/>
+</map>

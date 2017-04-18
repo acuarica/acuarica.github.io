@@ -1,20 +1,22 @@
 <map id="jnif::ComputeFrames::assign" name="jnif::ComputeFrames::assign">
-<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#aee80b907a04825a357b31106191460a1" title="jnif::ComputeFrames\l::isAssignable" alt="" coords="213,161,358,205"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="458,357,571,385"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="660,279,783,307"/>
-<area shape="rect" id="node9" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="455,45,574,73"/>
-<area shape="rect" id="node10" href="$classjnif_1_1_type.html#a83e6993d0ca86ee94c4fd4ea03301a64" title="jnif::Type::isClass" alt="" coords="223,109,348,137"/>
-<area shape="rect" id="node11" href="$classjnif_1_1_type.html#a05346a6f324ef12bc30d3098409cc53c" title="jnif::Type::getClassName" alt="" coords="201,229,370,257"/>
-<area shape="rect" id="node13" href="$classjnif_1_1_compute_frames.html#a7171afc6b26518a174db15a3d7eb5214" title="jnif::ComputeFrames\l::getCommonSuperClass" alt="" coords="200,625,370,669"/>
-<area shape="rect" id="node15" href="$classjnif_1_1_type_factory.html#a4b1e8b39eaa3aa0b46e4cf5aec653987" title="jnif::TypeFactory::\lobjectType" alt="" coords="222,401,349,445"/>
-<area shape="rect" id="node16" href="$classjnif_1_1_type.html#acc643b69073a32e8b4c5b30f48a25277" title="jnif::Type::getDims" alt="" coords="220,521,351,549"/>
-<area shape="rect" id="node17" href="$classjnif_1_1_type.html#a7cc03d38e76251f5be38318f4d699717" title="Removes the any dimension on this type. " alt="" coords="201,469,369,497"/>
-<area shape="rect" id="node18" href="$classjnif_1_1_type_factory.html#a496a41bea4cda085ba31238a6edb839a" title="jnif::TypeFactory::\larrayType" alt="" coords="222,333,349,377"/>
-<area shape="rect" id="node19" href="$classjnif_1_1_type_factory.html#a7f9d5c3c6259627f5f0c6dc572a798ac" title="jnif::TypeFactory::\ltopType" alt="" coords="222,693,349,737"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="457,97,572,125"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="450,149,580,177"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_type.html#a736842089869273b900dc3a6e2b546f7" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="447,253,583,281"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="Returns true when this type is exactly int type. " alt="" coords="461,201,568,229"/>
-<area shape="rect" id="node12" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="456,409,573,437"/>
-<area shape="rect" id="node14" href="$classjnif_1_1_i_class_path.html#aa0bd69ad82bec25f8ea42ba27fbb73b7" title="jnif::IClassPath::getCommon\lSuperClass" alt="" coords="420,625,610,669"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#aee80b907a04825a357b31106191460a1" title="jnif::ComputeFrames\l::isAssignable" alt="" coords="439,82,584,121"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ae4f831333095436df0b38f9a79bc0196" title="jnif::Type::isTop" alt="" coords="666,203,780,229"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="839,305,963,330"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="664,6,783,31"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#af580beed475fa07eb48f406171edbf67" title="jnif::Type::isClass" alt="" coords="221,587,346,613"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type.html#a63254a5d209ed167914be830eb99146a" title="jnif::Type::getClassName" alt="" coords="427,525,597,550"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_compute_frames.html#a7171afc6b26518a174db15a3d7eb5214" title="jnif::ComputeFrames\l::getCommonSuperClass" alt="" coords="198,410,369,449"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_type_factory.html#a4b1e8b39eaa3aa0b46e4cf5aec653987" title="jnif::TypeFactory::\lobjectType" alt="" coords="220,473,347,511"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_type.html#af19f8778d07eb17c5e06d47020271582" title="jnif::Type::getDims" alt="" coords="218,258,349,283"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_type.html#ae6c69010a3fe84a026ccdaf424139df4" title="Removes the any dimension on this type. " alt="" coords="428,309,596,334"/>
+<area shape="rect" id="node20" href="$classjnif_1_1_type_factory.html#a496a41bea4cda085ba31238a6edb839a" title="jnif::TypeFactory::\larrayType" alt="" coords="449,197,575,235"/>
+<area shape="rect" id="node21" href="$classjnif_1_1_type_factory.html#a7f9d5c3c6259627f5f0c6dc572a798ac" title="jnif::TypeFactory::\ltopType" alt="" coords="220,637,347,675"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#ac7a8dd5565995a03d3fd2b8feb7c108d" title="jnif::Type::isNull" alt="" coords="666,55,780,81"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a872ec79bafefd8afdf6469b70b64014a" title="jnif::Type::isObject" alt="" coords="658,525,788,550"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#a305434532a11f3c8888bd3f6ca02e393" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="655,105,791,130"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type.html#a30a48c562e76d470ec14eee02db94d06" title="Returns true when this type is exactly int type. " alt="" coords="670,154,776,179"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_type.html#a5f99fd6a77a06fa5e1a6cd3c198bb254" title="jnif::Type::getCpIndex" alt="" coords="437,574,587,599"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="664,355,782,381"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_i_class_path.html#aa0bd69ad82bec25f8ea42ba27fbb73b7" title="jnif::IClassPath::getCommon\lSuperClass" alt="" coords="417,410,607,449"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_type.html#ae1a092fa47d97c42ffbb96fca25df4c0" title="Returns the element type of this array type. " alt="" coords="433,259,591,285"/>
 </map>

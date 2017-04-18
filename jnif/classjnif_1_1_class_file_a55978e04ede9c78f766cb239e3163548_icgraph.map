@@ -1,0 +1,7 @@
+<map id="jnif::ClassFile::getThisClassName" name="jnif::ClassFile::getThisClassName">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="205,5,349,44"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html#a2281f91a6107e3f96ba8a2d4ef8c43ec" title="Export this class file to dot format. " alt="" coords="214,68,341,93"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_hierarchy.html#a25493cd9f91fea84b9c5e81d476df790" title="jnif::ClassHierarchy\l::addClass" alt="" coords="209,117,345,156"/>
+<area shape="rect" id="node6" href="$namespacejnif.html#ae0ae85a9731a1a503339ed56f274de19" title="jnif::operator\&lt;\&lt;" alt="" coords="222,180,333,205"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="397,5,557,44"/>
+</map>

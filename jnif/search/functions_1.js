@@ -42,8 +42,8 @@ var searchData=
   ['alloc',['alloc',['../classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f',1,'jnif::Arena']]],
   ['arena',['Arena',['../classjnif_1_1_arena.html#a20128cfaafaf19e9526af499e7cdbddd',1,'jnif::Arena']]],
   ['arraytype',['arrayType',['../classjnif_1_1_type_factory.html#a496a41bea4cda085ba31238a6edb839a',1,'jnif::TypeFactory']]],
-  ['assert',['assert',['../classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191',1,'jnif::Error']]],
-  ['assertequals',['assertEquals',['../classjnif_1_1_error.html#a56bcf00603f857641a019a7de4f55d54',1,'jnif::Error']]],
+  ['assert',['assert',['../classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9',1,'jnif::Error']]],
+  ['assertequals',['assertEquals',['../classjnif_1_1_error.html#a08c37ca05085fb6448570039b6c63310',1,'jnif::Error']]],
   ['assign',['assign',['../classjnif_1_1_compute_frames.html#a6984c276abfdd13b4a3c98291da2f696',1,'jnif::ComputeFrames']]],
   ['attr',['Attr',['../classjnif_1_1_attr.html#a69682d15b1abbc9a3560cd65de25dd6f',1,'jnif::Attr']]],
   ['attrs',['Attrs',['../classjnif_1_1_attrs.html#a4822b00fcd0a1079ff52c444461e714a',1,'jnif::Attrs::Attrs(const Attrs &amp;)=delete'],['../classjnif_1_1_attrs.html#a7019b4518501e5ca359e5a436618f34a',1,'jnif::Attrs::Attrs(Attrs &amp;&amp;)=default'],['../classjnif_1_1_attrs.html#a9144a1610a4e2329baa2871531328543',1,'jnif::Attrs::Attrs()']]]

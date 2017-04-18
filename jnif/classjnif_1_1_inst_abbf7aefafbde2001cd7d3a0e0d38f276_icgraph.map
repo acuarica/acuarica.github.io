@@ -1,0 +1,9 @@
+<map id="jnif::Inst::isInvokeInterface" name="jnif::Inst::isInvokeInterface">
+<area shape="rect" id="node2" href="$classjnif_1_1_inst.html#a67800adecf95f2516760a463ea958c3c" title="jnif::Inst::invokeinterface" alt="" coords="229,37,393,63"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="441,12,628,37"/>
+<area shape="rect" id="node8" href="$namespacejnif.html#ac4a92acf5637088cedaaa03fa38551c4" title="jnif::operator\&lt;\&lt;" alt="" coords="479,61,590,87"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="676,5,821,44"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="869,5,1014,44"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="869,68,1014,107"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1062,68,1221,107"/>
+</map>

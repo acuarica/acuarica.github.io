@@ -1,5 +1,5 @@
 <map id="jnif::TypeFactory::arrayType" name="jnif::TypeFactory::arrayType">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="181,5,299,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="183,57,297,85"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="348,57,471,85"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="180,5,298,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ae4f831333095436df0b38f9a79bc0196" title="jnif::Type::isTop" alt="" coords="182,55,295,80"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="346,55,469,80"/>
 </map>

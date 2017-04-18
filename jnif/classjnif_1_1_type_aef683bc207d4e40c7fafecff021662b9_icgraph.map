@@ -1,0 +1,26 @@
+<map id="jnif::Type::isOneWord" name="jnif::Type::isOneWord">
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="210,117,381,142"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="211,317,381,342"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba" title="jnif::Frame::setVar" alt="" coords="466,450,596,476"/>
+<area shape="rect" id="node22" href="$classjnif_1_1_type.html#af6a3c48430fe2ab32e12ab8f3099befc" title="jnif::Type::isOneOrTwoWord" alt="" coords="202,393,390,418"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a9baed30b481bec8a974a7ecb88b5c16e" title="jnif::Frame::popIntegral" alt="" coords="452,92,610,117"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#afa9cd7ec7852035c22ba2fc72732abb3" title="jnif::Frame::popArray" alt="" coords="892,54,1038,80"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#a97b32017e2e3315c6b741ccdc8873583" title="jnif::Frame::Frame" alt="" coords="693,192,823,217"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#a5314b0cbc0366774428dabd44575a9b5" title="jnif::Frame::popFloat" alt="" coords="459,141,603,166"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame.html#af20c314ff271bad00b0f6fbb75e0140a" title="jnif::Frame::popRef" alt="" coords="464,42,598,68"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="687,117,830,142"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="459,292,603,317"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="453,242,609,268"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="893,446,1037,485"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_frame.html#a9ed7de9de79d006b032a957548619004" title="jnif::Frame::setVar2" alt="" coords="690,504,826,529"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_frame.html#a4f9d5165d31aaa314f92906df8925b23" title="jnif::Frame::getVar" alt="" coords="900,556,1030,581"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_frame.html#af7359e9253cdf50ed215e566745876f2" title="jnif::Frame::setRefVar" alt="" coords="683,654,833,680"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_frame.html#a39840cbc6fb299eeee8e8c63dbc56088" title="jnif::Frame::setIntVar" alt="" coords="686,304,830,329"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_frame.html#a7684c17aa68b524b8ff3463fa8cd4df9" title="jnif::Frame::setLongVar" alt="" coords="679,353,838,378"/>
+<area shape="rect" id="node20" href="$classjnif_1_1_frame.html#a1bfcda3873437e60327eb5c9977e8377" title="jnif::Frame::setFloatVar" alt="" coords="679,402,838,428"/>
+<area shape="rect" id="node21" href="$classjnif_1_1_frame.html#ada2526d07a237d388df4b347e73720bb" title="jnif::Frame::setDoubleVar" alt="" coords="672,553,844,578"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1086,446,1245,485"/>
+<area shape="rect" id="node23" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="438,393,624,418"/>
+<area shape="rect" id="node24" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="686,241,831,280"/>
+<area shape="rect" id="node25" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="892,241,1037,280"/>
+</map>

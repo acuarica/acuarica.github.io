@@ -1,0 +1,7 @@
+<map id="jnif::Type::isClass" name="jnif::Type::isClass">
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a872ec79bafefd8afdf6469b70b64014a" title="jnif::Type::isObject" alt="" coords="396,132,526,157"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="574,32,698,57"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a63254a5d209ed167914be830eb99146a" title="jnif::Type::getClassName" alt="" coords="178,33,348,59"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a5f99fd6a77a06fa5e1a6cd3c198bb254" title="jnif::Type::getCpIndex" alt="" coords="188,83,338,108"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="402,83,520,108"/>
+</map>

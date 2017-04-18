@@ -1,8 +1,4 @@
 <map id="jnif::Frame::pushInt" name="jnif::Frame::pushInt">
-<area shape="rect" id="node2" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="387,13,573,41"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="189,38,339,66"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="622,5,767,49"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="817,5,962,49"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="817,73,962,117"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1011,73,1170,117"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="189,5,338,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#afa9cd7ec7852035c22ba2fc72732abb3" title="jnif::Frame::popArray" alt="" coords="386,5,532,31"/>
 </map>

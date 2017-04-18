@@ -1,4 +1,4 @@
 <map id="jnif::ConstPool::addString" name="jnif::ConstPool::addString">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="233,5,394,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a7373aa16ab20725df686b60a510123d8" title="jnif::ConstPool::addString" alt="" coords="227,57,399,85"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="230,5,392,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a7373aa16ab20725df686b60a510123d8" title="jnif::ConstPool::addString" alt="" coords="225,55,397,80"/>
 </map>

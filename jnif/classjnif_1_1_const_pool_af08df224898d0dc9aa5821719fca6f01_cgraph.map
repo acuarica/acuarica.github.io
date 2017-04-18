@@ -1,4 +1,5 @@
 <map id="jnif::ConstPool::getIndexOfUtf8" name="jnif::ConstPool::getIndexOfUtf8">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="238,5,357,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a627fdf35cd23d148d7796b6463a65adb" title="jnif::ConstPool::getUtf8" alt="" coords="218,57,376,85"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="238,5,358,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a3fad21ceed73adf9ebfa4e199dc88413" title="jnif::ConstPool::getUtf8" alt="" coords="219,55,377,80"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="239,104,357,129"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="jnif::JnifException" name="jnif::JnifException">
-<area shape="rect" id="node2" href="$classjnif_1_1_parser_exception.html" title="{jnif::ParserException\n||}" alt="" coords="4,169,147,250"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_writer_exception.html" title="{jnif::WriterException\n||+ WriterException()\l}" alt="" coords="172,169,311,250"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_invalid_method_length_exception.html" title="{jnif::InvalidMethodLength\lException\n||+ InvalidMethodLengthException()\l}" alt="" coords="129,299,353,397"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_parser_exception.html" title="{jnif::ParserException\n||}" alt="" coords="5,153,149,227"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_writer_exception.html" title="{jnif::WriterException\n||+ WriterException()\l}" alt="" coords="173,153,312,227"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_invalid_method_length_exception.html" title="{jnif::InvalidMethodLength\lException\n||+ InvalidMethodLengthException()\l}" alt="" coords="130,275,355,361"/>
 </map>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['raise',['raise',['../classjnif_1_1_error.html#a323c70ce47af4b34b77a75e51831390c',1,'jnif::Error']]],
+  ['raise',['raise',['../classjnif_1_1_error.html#ae298bce348594fe94759e73e82d1f8ba',1,'jnif::Error']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['readu1',['readu1',['../classjnif_1_1_buffer_reader.html#a244f10625c8e7e0ea9486624f917885d',1,'jnif::BufferReader']]],
   ['readu2',['readu2',['../classjnif_1_1_buffer_reader.html#ae55084c4bba0550f649becae664517ee',1,'jnif::BufferReader']]],

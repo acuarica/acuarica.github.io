@@ -1,8 +1,8 @@
 <map id="jnif::BufferReader::readu4" name="jnif::BufferReader::readu4">
-<area shape="rect" id="node2" href="$classjnif_1_1_attrs_parser.html#ad571fabe6316cd99753001bc868bdcc5" title="jnif::AttrsParser::\lparse" alt="" coords="188,23,308,67"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_4_00_01_attrs_p5cb72c4ae99cacfc917e662ca3cd4054.html#a83b2e77b579a8e2f81e3da5b0ccbc034" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList...\&gt;, AttrsParser\&lt; TMethodAttr\lParserList...\&gt;, AttrsParser\&lt; TFieldAttrParser\lList...\&gt; \&gt;::parse" alt="" coords="366,5,648,97"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_code_attr_parser.html#aa45c02fb50058ad3d0bcbfc19b7a3a57" title="jnif::CodeAttrParser\l::parseInstTargets" alt="" coords="438,125,576,169"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="696,185,834,229"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="179,245,317,289"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="438,245,576,289"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_attrs_parser.html#ad571fabe6316cd99753001bc868bdcc5" title="jnif::AttrsParser::\lparse" alt="" coords="187,16,307,55"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#afa927b76e3058de411c3d240ca1670a7" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList... \&gt;, AttrsParser\&lt; TMethodAttr\lParserList... \&gt;, AttrsParser\&lt; TFieldAttr\lParserList... \&gt; \&gt;::parse" alt="" coords="364,5,610,84"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_code_attr_parser.html#aa45c02fb50058ad3d0bcbfc19b7a3a57" title="jnif::CodeAttrParser\l::parseInstTargets" alt="" coords="418,117,556,156"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="658,175,796,213"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="178,232,316,271"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="418,232,556,271"/>
 </map>

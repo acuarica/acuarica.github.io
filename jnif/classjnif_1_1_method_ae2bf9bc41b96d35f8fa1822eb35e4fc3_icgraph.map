@@ -1,0 +1,7 @@
+<map id="jnif::Method::hasCode" name="jnif::Method::hasCode">
+<area shape="rect" id="node2" href="$classjnif_1_1_method.html#a40bf13cda9c8f91c0eeddbdfa2125baf" title="jnif::Method::isInit" alt="" coords="210,12,335,37"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_method.html#a391c4c6e65c53fc2aec0610d534f13ee" title="jnif::Method::isMain" alt="" coords="204,61,341,87"/>
+<area shape="rect" id="node6" href="$namespacejnif.html#ae0ae85a9731a1a503339ed56f274de19" title="jnif::operator\&lt;\&lt;" alt="" coords="217,111,328,136"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="389,5,533,44"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="581,5,740,44"/>
+</map>

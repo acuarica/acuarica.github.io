@@ -1,0 +1,12 @@
+<map id="jnif::InstList::end" name="jnif::InstList::end">
+<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="190,63,335,101"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="403,5,548,44"/>
+<area shape="rect" id="node6" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="403,240,548,265"/>
+<area shape="rect" id="node7" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="629,189,723,215"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_control_flow_graph.html#a036449b9cd1569fa1db57ec61db80a73" title="Finds the basic block associated with the given labelId. " alt="" coords="182,125,344,164"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_control_flow_graph.html#a2cbff45fb03932005d3decb9c8d5fbb5" title="jnif::ControlFlowGraph::end" alt="" coords="171,291,355,316"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="403,68,548,107"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="596,5,756,44"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="804,183,958,221"/>
+<area shape="rect" id="node10" href="$namespacejnif.html#a10f26494bc4d16d2b53c0f0b9a12de9a" title="jnif::addTarget2" alt="" coords="419,135,532,160"/>
+</map>

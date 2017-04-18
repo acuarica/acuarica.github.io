@@ -1,12 +1,16 @@
 <map id="jnif::TypeFactory::arrayType" name="jnif::TypeFactory::arrayType">
-<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a6984c276abfdd13b4a3c98291da2f696" title="jnif::ComputeFrames\l::assign" alt="" coords="185,5,330,49"/>
-<area shape="rect" id="node9" href="$classjnif_1_1_frame.html#ad2a3762a5b11167b4e259b4f816fb55f" title="jnif::Frame::pushArray" alt="" coords="181,73,334,101"/>
-<area shape="rect" id="node10" href="$classjnif_1_1_type_factory.html#a247b14f6367152468e30cea4d33e047d" title="Parses the const class name. " alt="" coords="194,125,321,169"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a10620d19cf7193ceb4cb0ab58fe2276f" title="jnif::ComputeFrames\l::join" alt="" coords="382,5,527,49"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#adcff5cd58780d5d58cbf01d5f92fb4e4" title="jnif::Frame::join" alt="" coords="593,13,706,41"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="577,65,722,109"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="771,95,917,139"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="772,27,916,71"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="966,27,1125,71"/>
-<area shape="rect" id="node11" href="$classjnif_1_1_compute_frames.html#a20f609845adc18b1d2bdb29577834804" title="jnif::ComputeFrames\l::getExceptionType" alt="" coords="382,125,527,169"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a6984c276abfdd13b4a3c98291da2f696" title="jnif::ComputeFrames\l::assign" alt="" coords="184,21,329,60"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_frame.html#ad2a3762a5b11167b4e259b4f816fb55f" title="jnif::Frame::pushArray" alt="" coords="180,84,332,109"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type_factory.html#a247b14f6367152468e30cea4d33e047d" title="Parses the const class name. " alt="" coords="193,133,319,172"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_type_factory.html#a088520d718745e238b1fbca728faca79" title="jnif::TypeFactory::\lvoidType" alt="" coords="390,191,516,229"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a10620d19cf7193ceb4cb0ab58fe2276f" title="jnif::ComputeFrames\l::join" alt="" coords="380,21,525,60"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#adcff5cd58780d5d58cbf01d5f92fb4e4" title="jnif::Frame::join" alt="" coords="590,33,702,59"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="1162,47,1307,85"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a958f47c93da091c65784d438af7c4fe6" title="jnif::Frame::clearStack" alt="" coords="767,36,920,61"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="968,47,1114,85"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="1355,103,1499,141"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1547,103,1706,141"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_compute_frames.html#a20f609845adc18b1d2bdb29577834804" title="jnif::ComputeFrames\l::getExceptionType" alt="" coords="573,83,719,121"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_type_factory.html#a8d83968dc3261a24d8befaaa0cbf2b1a" title="Parses a field descriptor. " alt="" coords="583,145,709,184"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_type_factory.html#ad78ca5007ac4285db0b6aa019beb39a7" title="Parses a method descriptor. " alt="" coords="780,145,907,184"/>
 </map>

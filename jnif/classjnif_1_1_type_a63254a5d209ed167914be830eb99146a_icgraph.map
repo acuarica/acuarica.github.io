@@ -1,0 +1,15 @@
+<map id="jnif::Type::getClassName" name="jnif::Type::getClassName">
+<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a6984c276abfdd13b4a3c98291da2f696" title="jnif::ComputeFrames\l::assign" alt="" coords="415,169,560,207"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_frame_generator.html#aaaec7efe91b46ccc1fd73d516eac33d8" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="223,43,367,82"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_smt_builder.html#ad477b662adcacd06ce9bc46b6acad70c" title="jnif::SmtBuilder::processInst" alt="" coords="608,102,795,127"/>
+<area shape="rect" id="node13" href="$namespacejnif.html#afd2ca9c985d9675b301727a702773b49" title="jnif::operator\&lt;\&lt;" alt="" coords="240,209,351,234"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_type.html#af580beed475fa07eb48f406171edbf67" title="jnif::Type::isClass" alt="" coords="233,258,358,283"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_compute_frames.html#a10620d19cf7193ceb4cb0ab58fe2276f" title="jnif::ComputeFrames\l::join" alt="" coords="629,169,774,207"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#adcff5cd58780d5d58cbf01d5f92fb4e4" title="jnif::Frame::join" alt="" coords="843,201,955,226"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="1398,141,1543,179"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a958f47c93da091c65784d438af7c4fe6" title="jnif::Frame::clearStack" alt="" coords="1003,202,1157,227"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="1205,198,1350,237"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="1591,71,1736,110"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1784,71,1943,110"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="416,43,560,82"/>
+</map>

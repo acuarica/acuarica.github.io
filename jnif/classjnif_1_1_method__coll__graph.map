@@ -1,8 +1,8 @@
 <map id="jnif::Method" name="jnif::Method">
-<area shape="rect" id="node2" href="$classjnif_1_1_member.html" title="Represent a member of a class. " alt="" coords="68,1147,175,1293"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="5,214,104,455"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="127,729,291,1082"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="128,6,291,663"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_arena.html" title="{jnif::Arena\n||+ Arena()\l+ ~Arena()\l+ alloc()\l+ create()\l}" alt="" coords="315,270,399,399"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_version.html" title="The Version class is a tuple containing a major and minor version numbers fields. ..." alt="" coords="423,270,560,399"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_member.html" title="Represent a member of a class. " alt="" coords="40,981,147,1108"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="5,179,104,385"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="127,620,292,920"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="128,5,291,559"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_arena.html" title="{jnif::Arena\n||+ Arena()\l+ ~Arena()\l+ alloc()\l+ create()\l}" alt="" coords="315,225,400,339"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_version.html" title="The Version class is a tuple containing a major and minor version numbers fields. ..." alt="" coords="423,225,561,339"/>
 </map>

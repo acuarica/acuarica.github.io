@@ -1,5 +1,5 @@
 <map id="jnif::BasicBlock::addTarget" name="jnif::BasicBlock::addTarget">
-<area shape="rect" id="node2" href="$namespacejnif.html#a10f26494bc4d16d2b53c0f0b9a12de9a" title="jnif::addTarget2" alt="" coords="232,13,344,41"/>
-<area shape="rect" id="node3" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="393,13,487,41"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="536,5,690,49"/>
+<area shape="rect" id="node2" href="$namespacejnif.html#a10f26494bc4d16d2b53c0f0b9a12de9a" title="jnif::addTarget2" alt="" coords="231,12,344,37"/>
+<area shape="rect" id="node3" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="392,12,486,37"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="534,5,688,44"/>
 </map>

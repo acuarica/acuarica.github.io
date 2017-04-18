@@ -1,24 +1,24 @@
 <map id="jnif::Frame::popType" name="jnif::Frame::popType">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a736842089869273b900dc3a6e2b546f7" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="829,137,965,165"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a9baed30b481bec8a974a7ecb88b5c16e" title="jnif::Frame::popIntegral" alt="" coords="198,189,357,217"/>
-<area shape="rect" id="node9" href="$classjnif_1_1_type.html#af243b5875406a13798f2637f6297d974" title="jnif::Type::isFloat" alt="" coords="837,85,958,113"/>
-<area shape="rect" id="node11" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="832,293,962,321"/>
-<area shape="rect" id="node15" href="$classjnif_1_1_frame.html#a5314b0cbc0366774428dabd44575a9b5" title="jnif::Frame::popFloat" alt="" coords="206,137,349,165"/>
-<area shape="rect" id="node16" href="$classjnif_1_1_type.html#a3eff27c3839cad7da91ce552187a8cbb" title="jnif::Type::isLong" alt="" coords="837,729,958,757"/>
-<area shape="rect" id="node17" href="$classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="206,574,349,602"/>
-<area shape="rect" id="node20" href="$classjnif_1_1_type.html#a04ade1648abb24c8521bdb0b27132b21" title="jnif::Type::isDouble" alt="" coords="830,626,964,654"/>
-<area shape="rect" id="node21" href="$classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="199,471,355,499"/>
-<area shape="rect" id="node22" href="$classjnif_1_1_frame.html#af20c314ff271bad00b0f6fbb75e0140a" title="jnif::Frame::popRef" alt="" coords="210,293,345,321"/>
-<area shape="rect" id="node23" href="$classjnif_1_1_error.html#a323c70ce47af4b34b77a75e51831390c" title="jnif::Error::raise" alt="" coords="221,857,333,885"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="1022,319,1146,347"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="405,293,576,321"/>
-<area shape="rect" id="node14" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="431,137,550,165"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#ab4be951e4021d30bd30e19862c5a0c06" title="jnif::Frame::pop" alt="" coords="642,395,756,423"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="839,447,956,475"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_type.html#a921e7606e157f6dc71349006cfe6e75d" title="jnif::Type::isOneWord" alt="" coords="624,189,773,217"/>
-<area shape="rect" id="node13" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="642,343,755,371"/>
-<area shape="rect" id="node10" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="840,189,955,217"/>
-<area shape="rect" id="node12" href="$classjnif_1_1_type.html#ad6f9a197dfda496672b03211cdfe4079" title="jnif::Type::isUninitThis" alt="" coords="822,241,973,269"/>
-<area shape="rect" id="node18" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="406,446,576,474"/>
-<area shape="rect" id="node19" href="$classjnif_1_1_type.html#aa18c5038cd3b21a9213612f396372bd6" title="jnif::Type::isTwoWord" alt="" coords="625,601,773,629"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a305434532a11f3c8888bd3f6ca02e393" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="825,119,962,144"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a9baed30b481bec8a974a7ecb88b5c16e" title="jnif::Frame::popIntegral" alt="" coords="196,169,355,195"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_type.html#a827e63fdcfa743171c0fa8fca46fbd36" title="jnif::Type::isFloat" alt="" coords="833,69,954,95"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_type.html#a872ec79bafefd8afdf6469b70b64014a" title="jnif::Type::isObject" alt="" coords="828,267,959,292"/>
+<area shape="rect" id="node15" href="$classjnif_1_1_frame.html#a5314b0cbc0366774428dabd44575a9b5" title="jnif::Frame::popFloat" alt="" coords="204,119,347,144"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_type.html#a75a9d2c4c8ca11bcb39c93fb7d71228f" title="jnif::Type::isLong" alt="" coords="833,699,954,724"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_frame.html#aabbcc1f754c85acae5c8a6164acaf9e8" title="jnif::Frame::popLong" alt="" coords="204,548,347,573"/>
+<area shape="rect" id="node20" href="$classjnif_1_1_type.html#a783c439c163919e47f9dcf14d0c0488e" title="jnif::Type::isDouble" alt="" coords="827,599,960,624"/>
+<area shape="rect" id="node21" href="$classjnif_1_1_frame.html#ab56caa3573ded4318d7f34a842fe9fba" title="jnif::Frame::popDouble" alt="" coords="197,447,354,472"/>
+<area shape="rect" id="node22" href="$classjnif_1_1_frame.html#af20c314ff271bad00b0f6fbb75e0140a" title="jnif::Frame::popRef" alt="" coords="208,271,343,296"/>
+<area shape="rect" id="node23" href="$classjnif_1_1_error.html#ae298bce348594fe94759e73e82d1f8ba" title="jnif::Error::raise" alt="" coords="220,827,331,852"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="1017,293,1141,319"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a91a3e12e8990d440b7a8722556097afe" title="jnif::Frame::popOneWord" alt="" coords="403,271,573,296"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="428,119,548,144"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#ab4be951e4021d30bd30e19862c5a0c06" title="jnif::Frame::pop" alt="" coords="639,371,753,396"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="835,421,952,447"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_type.html#aef683bc207d4e40c7fafecff021662b9" title="jnif::Type::isOneWord" alt="" coords="621,169,770,195"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_type.html#ae4f831333095436df0b38f9a79bc0196" title="jnif::Type::isTop" alt="" coords="639,321,752,347"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_type.html#ac7a8dd5565995a03d3fd2b8feb7c108d" title="jnif::Type::isNull" alt="" coords="836,168,951,193"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_type.html#a1d7e6b1f5aa18683112ee4ea9271e8f5" title="jnif::Type::isUninitThis" alt="" coords="818,217,969,243"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_frame.html#a3af64108633a58224c72f1b0a639ac63" title="jnif::Frame::popTwoWord" alt="" coords="403,421,573,447"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_type.html#a2ce094afc35a364260b337a02d6f5ff7" title="jnif::Type::isTwoWord" alt="" coords="622,573,770,599"/>
 </map>

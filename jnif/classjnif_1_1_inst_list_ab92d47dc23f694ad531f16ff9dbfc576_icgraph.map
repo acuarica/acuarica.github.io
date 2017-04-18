@@ -1,5 +1,6 @@
 <map id="jnif::InstList::addTableSwitch" name="jnif::InstList::addTableSwitch">
-<area shape="rect" id="node2" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="203,5,341,49"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="390,5,528,49"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="576,5,714,49"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_inst_list_1_1_iterator.html#a2174e53636466068f0b7b18dbf9254b0" title="jnif::InstList::Iterator\l::operator!=" alt="" coords="203,5,341,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="203,68,341,107"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="389,68,526,107"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="574,68,712,107"/>
 </map>

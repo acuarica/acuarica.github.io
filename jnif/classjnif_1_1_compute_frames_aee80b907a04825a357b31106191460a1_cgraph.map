@@ -1,9 +1,9 @@
 <map id="jnif::ComputeFrames::isAssignable" name="jnif::ComputeFrames::isAssignable">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#a22bb0858f7f48dc4b97f34f6450489ac" title="jnif::Type::isTop" alt="" coords="211,5,325,33"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a8a22e043149eae9efb131a9ecdc630d7" title="jnif::Type::isNull" alt="" coords="211,57,325,85"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_type.html#ab0aac5ae34ab2a9f4e7f06f5c14bc199" title="jnif::Type::isObject" alt="" coords="203,109,333,137"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a736842089869273b900dc3a6e2b546f7" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="200,161,336,189"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_type.html#a1dc080f40ea07bcfcecef7d03b57b570" title="Returns true when this type is exactly int type. " alt="" coords="215,213,321,241"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="208,265,328,293"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#afe7e3ef155a244a22f44132fe99c7ed3" title="jnif::Type::isArray" alt="" coords="385,135,508,163"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_type.html#ae4f831333095436df0b38f9a79bc0196" title="jnif::Type::isTop" alt="" coords="210,5,323,31"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_type.html#ac7a8dd5565995a03d3fd2b8feb7c108d" title="jnif::Type::isNull" alt="" coords="209,55,324,80"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_type.html#a872ec79bafefd8afdf6469b70b64014a" title="jnif::Type::isObject" alt="" coords="201,104,332,129"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a305434532a11f3c8888bd3f6ca02e393" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="198,153,335,179"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_type.html#a30a48c562e76d470ec14eee02db94d06" title="Returns true when this type is exactly int type. " alt="" coords="213,203,320,228"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="207,252,326,277"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="383,129,506,155"/>
 </map>

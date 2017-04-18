@@ -1,5 +1,5 @@
 <map id="jnif::SwitchInst" name="jnif::SwitchInst">
-<area shape="rect" id="node3" href="$classjnif_1_1_lookup_switch_inst.html" title="{jnif::LookupSwitchInst\n|+ defbyte\l+ npairs\l+ keys\l|}" alt="" coords="5,1131,155,1245"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_table_switch_inst.html" title="{jnif::TableSwitchInst\n|+ def\l+ low\l+ high\l|}" alt="" coords="179,1131,316,1245"/>
-<area shape="rect" id="node2" href="$classjnif_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="93,6,235,951"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_lookup_switch_inst.html" title="{jnif::LookupSwitchInst\n|+ defbyte\l+ npairs\l+ keys\l|}" alt="" coords="5,968,156,1068"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_table_switch_inst.html" title="{jnif::TableSwitchInst\n|+ def\l+ low\l+ high\l|}" alt="" coords="179,968,318,1068"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="93,5,236,799"/>
 </map>

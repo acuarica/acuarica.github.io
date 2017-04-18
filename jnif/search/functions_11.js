@@ -9,12 +9,12 @@ var searchData=
   ['setvar',['setVar',['../classjnif_1_1_frame.html#ab913e5ad6cb29f6c8f02061881ee3aba',1,'jnif::Frame']]],
   ['setvar2',['setVar2',['../classjnif_1_1_frame.html#a9ed7de9de79d006b032a957548619004',1,'jnif::Frame']]],
   ['shorttype',['shortType',['../classjnif_1_1_type_factory.html#a5c1a5b4a57b6cf4f94254fbd6182cb1d',1,'jnif::TypeFactory']]],
-  ['size',['size',['../classjnif_1_1_attrs.html#adf5d90206174f366e0a7b97e6fc3736d',1,'jnif::Attrs::size()'],['../classjnif_1_1_const_pool.html#ab24832cdabe4db361a45e1105feb908a',1,'jnif::ConstPool::size()'],['../classjnif_1_1_inst_list.html#a31908c5efb6744f9a3b48a36f1e03057',1,'jnif::InstList::size()'],['../classjnif_1_1_buffer_reader.html#a15dad1e520bf2584d2bb885f70d12bba',1,'jnif::BufferReader::size()']]],
+  ['size',['size',['../classjnif_1_1_attrs.html#ac7dacef31742cdd5ce684102e4b739ac',1,'jnif::Attrs::size()'],['../classjnif_1_1_const_pool.html#acfa3ce0f77df506f124d78801f83e582',1,'jnif::ConstPool::size()'],['../classjnif_1_1_inst_list.html#a7fb9d22d3e0aad9a36c41a8aaffc5631',1,'jnif::InstList::size()'],['../classjnif_1_1_buffer_reader.html#ac06332a7eb23caa028c5acabe98591b1',1,'jnif::BufferReader::size()']]],
   ['skip',['skip',['../classjnif_1_1_buffer_reader.html#a5f59ca2b761a1697d0429899330afab1',1,'jnif::BufferReader']]],
   ['smtattr',['SmtAttr',['../classjnif_1_1_smt_attr.html#aa6c5f4ca550fd3be215946fb7e7ed7d9',1,'jnif::SmtAttr']]],
   ['smtbuilder',['SmtBuilder',['../classjnif_1_1_smt_builder.html#a6f75d2d24161174b6a5ee24581e0a8e7',1,'jnif::SmtBuilder']]],
   ['sourcefileattr',['SourceFileAttr',['../classjnif_1_1_source_file_attr.html#ad9d66405ea3e517fe96a32726a98c5d1',1,'jnif::SourceFileAttr']]],
-  ['stacktrace',['stackTrace',['../classjnif_1_1_jnif_exception.html#aa3b334c9c41c7e7167b0da8c545f3551',1,'jnif::JnifException']]],
-  ['striparraytype',['stripArrayType',['../classjnif_1_1_type.html#a7cc03d38e76251f5be38318f4d699717',1,'jnif::Type']]],
-  ['supportedbyjdk',['supportedByJdk',['../classjnif_1_1_version.html#a043cbc0e8ad4147884be5413d17cb716',1,'jnif::Version']]]
+  ['stacktrace',['stackTrace',['../classjnif_1_1_jnif_exception.html#ae925dc374e4ef20ff4e844c9aff330b5',1,'jnif::JnifException']]],
+  ['striparraytype',['stripArrayType',['../classjnif_1_1_type.html#ae6c69010a3fe84a026ccdaf424139df4',1,'jnif::Type']]],
+  ['supportedbyjdk',['supportedByJdk',['../classjnif_1_1_version.html#a334ab08d2ba234058995adf8761f9721',1,'jnif::Version']]]
 ];

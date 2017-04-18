@@ -1,22 +1,22 @@
 <map id="jnif::buildCfg" name="jnif::buildCfg">
-<area shape="rect" id="node2" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="150,251,296,279"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_inst_list.html#a95242f6cd4c2e9dadcd2a5827de8622d" title="jnif::InstList::begin" alt="" coords="369,95,497,123"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_inst_list.html#a49b6e0706f77b3278da50a689021659b" title="jnif::InstList::end" alt="" coords="596,455,714,483"/>
-<area shape="rect" id="node14" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="595,767,714,795"/>
-<area shape="rect" id="node15" href="$namespacejnif.html#a10f26494bc4d16d2b53c0f0b9a12de9a" title="jnif::addTarget2" alt="" coords="166,586,279,614"/>
-<area shape="rect" id="node20" href="$classjnif_1_1_inst.html#a68b1a2ec2b9f87cdba716091ac74c58e" title="jnif::Inst::ts" alt="" coords="180,6,265,34"/>
-<area shape="rect" id="node21" href="$classjnif_1_1_inst.html#a4d5519d32d95ab7cf30971f0d7af0303" title="jnif::Inst::ls" alt="" coords="181,109,265,137"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_inst.html#ac4c5613adfbaf17f917ce6a2ff416eda" title="jnif::Inst::isLabel" alt="" coords="787,586,904,614"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_inst.html#a16836e29d651d1e75dfc46beaddfc37d" title="jnif::Inst::label" alt="" coords="603,559,706,587"/>
-<area shape="rect" id="node7" href="$namespacejnif.html#a1c4a2d7e43f2ead840831c3457282c3e" title="jnif::addBasicBlock2" alt="" coords="363,303,504,331"/>
-<area shape="rect" id="node9" href="$classjnif_1_1_inst.html#a3f423442b19a76f72fff7f49732f3657" title="jnif::Inst::isBranch" alt="" coords="370,147,497,175"/>
-<area shape="rect" id="node13" href="$classjnif_1_1_inst.html#a05ac553e8e040032496c18829738551f" title="jnif::Inst::isExit" alt="" coords="380,199,487,227"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_control_flow_graph.html#a17ca692c0e77986ae5fbe5d071e45ac5" title="Adds a basic block to this control flow graph. " alt="" coords="578,303,732,347"/>
-<area shape="rect" id="node10" href="$classjnif_1_1_inst.html#a7f30ab38a98346c5a6200c445061edea" title="jnif::Inst::isJump" alt="" coords="596,147,713,175"/>
-<area shape="rect" id="node11" href="$classjnif_1_1_inst.html#ab85896427fc2d08705c65789c39745c8" title="jnif::Inst::isTableSwitch" alt="" coords="577,6,732,34"/>
-<area shape="rect" id="node12" href="$classjnif_1_1_inst.html#a1f57297bf1111b0e0bcc09265e3e1155" title="jnif::Inst::isLookupSwitch" alt="" coords="571,70,738,98"/>
-<area shape="rect" id="node16" href="$classjnif_1_1_control_flow_graph.html#ac261fae0dab78e255ecff903f2e4c40b" title="Finds the basic block associated with the given labelId. " alt="" coords="352,663,514,707"/>
-<area shape="rect" id="node18" href="$classjnif_1_1_basic_block.html#a047be660a8bca7edb7e838a7a85a750c" title="jnif::BasicBlock::addTarget" alt="" coords="344,509,522,537"/>
-<area shape="rect" id="node17" href="$classjnif_1_1_error.html#a323c70ce47af4b34b77a75e51831390c" title="jnif::Error::raise" alt="" coords="599,663,711,691"/>
-<area shape="rect" id="node19" href="$classjnif_1_1_error.html#a19bd9860d1966e110cbbac92b48864fe" title="jnif::Error::check" alt="" coords="596,507,713,535"/>
+<area shape="rect" id="node2" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="148,243,294,268"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_inst_list.html#accb33ecfd2eb040c55eb805c878525ed" title="jnif::InstList::begin" alt="" coords="367,93,495,119"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_inst_list.html#a835ff28e1066085883778bc14194ea9b" title="jnif::InstList::end" alt="" coords="592,445,710,471"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="592,749,711,775"/>
+<area shape="rect" id="node15" href="$namespacejnif.html#a10f26494bc4d16d2b53c0f0b9a12de9a" title="jnif::addTarget2" alt="" coords="165,572,277,597"/>
+<area shape="rect" id="node20" href="$classjnif_1_1_inst.html#a68b1a2ec2b9f87cdba716091ac74c58e" title="jnif::Inst::ts" alt="" coords="178,5,263,31"/>
+<area shape="rect" id="node21" href="$classjnif_1_1_inst.html#a4d5519d32d95ab7cf30971f0d7af0303" title="jnif::Inst::ls" alt="" coords="179,68,263,93"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_inst.html#a7e459e5f6114d970a989f915a51d980a" title="jnif::Inst::isLabel" alt="" coords="783,572,900,597"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_inst.html#a16836e29d651d1e75dfc46beaddfc37d" title="jnif::Inst::label" alt="" coords="600,547,703,572"/>
+<area shape="rect" id="node7" href="$namespacejnif.html#a1c4a2d7e43f2ead840831c3457282c3e" title="jnif::addBasicBlock2" alt="" coords="360,293,501,319"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_inst.html#a37584a9622b94394ca923a4f1b72855d" title="jnif::Inst::isBranch" alt="" coords="367,143,494,168"/>
+<area shape="rect" id="node13" href="$classjnif_1_1_inst.html#a195b3adb925f4c9c4206aa7f6822ad8b" title="jnif::Inst::isExit" alt="" coords="377,192,484,217"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_control_flow_graph.html#a17ca692c0e77986ae5fbe5d071e45ac5" title="Adds a basic block to this control flow graph. " alt="" coords="574,293,728,332"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_inst.html#a3ecbffced0ea52fdc1f6112100439f47" title="jnif::Inst::isJump" alt="" coords="593,143,710,168"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_inst.html#a4ddf762717d8db93378ecddd5897ee5c" title="jnif::Inst::isTableSwitch" alt="" coords="574,5,729,31"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_inst.html#a458656f44a8e4881e7dc65768702c549" title="jnif::Inst::isLookupSwitch" alt="" coords="568,68,735,93"/>
+<area shape="rect" id="node16" href="$classjnif_1_1_control_flow_graph.html#a036449b9cd1569fa1db57ec61db80a73" title="Finds the basic block associated with the given labelId. " alt="" coords="350,648,512,687"/>
+<area shape="rect" id="node18" href="$classjnif_1_1_basic_block.html#a047be660a8bca7edb7e838a7a85a750c" title="jnif::BasicBlock::addTarget" alt="" coords="342,496,520,521"/>
+<area shape="rect" id="node17" href="$classjnif_1_1_error.html#ae298bce348594fe94759e73e82d1f8ba" title="jnif::Error::raise" alt="" coords="595,648,707,673"/>
+<area shape="rect" id="node19" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="592,496,710,521"/>
 </map>

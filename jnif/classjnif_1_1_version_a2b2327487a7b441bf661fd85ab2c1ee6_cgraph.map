@@ -1,0 +1,5 @@
+<map id="jnif::Version::Version" name="jnif::Version::Version">
+<area shape="rect" id="node2" href="$classjnif_1_1_version.html#a1f7d490a041cf629227c8c6ec0bfe7e3" title="The major version number. " alt="" coords="195,5,371,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_version.html#a0c9bb722e1f863c84cb8992fcb514a80" title="The minor version number. " alt="" coords="195,55,371,80"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_version.html#a334ab08d2ba234058995adf8761f9721" title="Taken from the oficial JVM specification. " alt="" coords="205,104,362,143"/>
+</map>

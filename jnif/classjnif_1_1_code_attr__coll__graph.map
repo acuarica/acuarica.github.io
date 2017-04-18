@@ -1,13 +1,13 @@
 <map id="jnif::CodeAttr" name="jnif::CodeAttr">
-<area shape="rect" id="node2" href="$classjnif_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="353,1670,452,1799"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="287,729,451,1082"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="550,1147,705,1645"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,6,168,663"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="463,214,561,455"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_arena.html" title="{jnif::Arena\n||+ Arena()\l+ ~Arena()\l+ alloc()\l+ create()\l}" alt="" coords="192,270,276,399"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_version.html" title="The Version class is a tuple containing a major and minor version numbers fields. ..." alt="" coords="301,270,437,399"/>
-<area shape="rect" id="node9" href="$classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="627,2041,801,2234"/>
-<area shape="rect" id="node10" href="$classjnif_1_1_basic_block.html" title="Represents a basic block of instructions. " alt="" coords="795,2539,905,2685"/>
-<area shape="rect" id="node11" href="$classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l+ topsErased\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popIntegral()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popArray()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ getVar()\l+ setVar()\l+ setVar2()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l+ join()\l}" alt="" coords="826,1825,947,2450"/>
-<area shape="rect" id="node12" href="$classjnif_1_1_inst_list_1_1_iterator.html" title="{jnif::InstList::Iterator\n||+ operator*()\l+ operator&#45;\&gt;()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator&#45;&#45;()\l}" alt="" coords="971,2057,1108,2218"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="360,1425,459,1539"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="287,620,452,920"/>
+<area shape="rect" id="node8" href="$classjnif_1_1_inst_list.html" title="Represents the bytecode of a method. " alt="" coords="551,981,706,1401"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,5,169,559"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="463,179,562,385"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_arena.html" title="{jnif::Arena\n||+ Arena()\l+ ~Arena()\l+ alloc()\l+ create()\l}" alt="" coords="192,225,277,339"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_version.html" title="The Version class is a tuple containing a major and minor version numbers fields. ..." alt="" coords="301,225,438,339"/>
+<area shape="rect" id="node9" href="$classjnif_1_1_control_flow_graph.html" title="Represents a control flow graph of instructions. " alt="" coords="627,1743,803,1909"/>
+<area shape="rect" id="node10" href="$classjnif_1_1_basic_block.html" title="Represents a basic block of instructions. " alt="" coords="795,2171,906,2297"/>
+<area shape="rect" id="node11" href="$classjnif_1_1_frame.html" title="{jnif::Frame\n|+ lva\l+ stack\l+ valid\l+ topsErased\l|+ Frame()\l+ pop()\l+ popOneWord()\l+ popTwoWord()\l+ popIntegral()\l+ popFloat()\l+ popLong()\l+ popDouble()\l+ popRef()\l+ popArray()\l+ popType()\l+ pushType()\l+ push()\l+ pushInt()\l+ pushLong()\l+ pushFloat()\l+ pushDouble()\l+ pushRef()\l+ pushArray()\l+ pushNull()\l+ getVar()\l+ setVar()\l+ setVar2()\l+ setIntVar()\l+ setLongVar()\l+ setFloatVar()\l+ setDoubleVar()\l+ setRefVar()\l+ setRefVar()\l+ clearStack()\l+ cleanTops()\l+ join()\l}" alt="" coords="826,1563,948,2089"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_inst_list_1_1_iterator.html" title="{jnif::InstList::Iterator\n||+ operator*()\l+ operator&#45;\&gt;()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator&#45;&#45;()\l}" alt="" coords="971,1756,1109,1896"/>
 </map>

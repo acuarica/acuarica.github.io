@@ -1,4 +1,4 @@
 <map id="jnif::Frame::pushFloat" name="jnif::Frame::pushFloat">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a817b1059f92069775c6a6836a9bcb750" title="jnif::Frame::push" alt="" coords="209,5,330,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type_factory.html#ae882793d1a1edde9466960b3f741ce68" title="jnif::TypeFactory::\lfloatType" alt="" coords="206,57,333,101"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a817b1059f92069775c6a6836a9bcb750" title="jnif::Frame::push" alt="" coords="207,5,327,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_type_factory.html#ae882793d1a1edde9466960b3f741ce68" title="jnif::TypeFactory::\lfloatType" alt="" coords="204,55,330,93"/>
 </map>

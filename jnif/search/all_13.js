@@ -1,15 +1,13 @@
 var searchData=
 [
-  ['tableswitchinst',['TableSwitchInst',['../classjnif_1_1_table_switch_inst.html',1,'jnif']]],
-  ['tableswitchinst',['TableSwitchInst',['../classjnif_1_1_switch_inst.html#a1475a85f7bb0a8d68fbeb84f25b8a816',1,'jnif::SwitchInst']]],
+  ['tableswitchinst',['TableSwitchInst',['../classjnif_1_1_table_switch_inst.html',1,'jnif::TableSwitchInst'],['../classjnif_1_1_switch_inst.html#a1475a85f7bb0a8d68fbeb84f25b8a816',1,'jnif::SwitchInst::TableSwitchInst()']]],
   ['tag',['tag',['../classjnif_1_1_const_item.html#aa386c3d0f7994e1fca3af258753e88f9',1,'jnif::ConstItem::tag()'],['../classjnif_1_1_type.html#a27159edfb45bf3b4aa56678d2dd382c4',1,'jnif::Type::tag()']]],
   ['targets',['targets',['../classjnif_1_1_switch_inst.html#a13eff0bb4557d164a091430c026dbc99',1,'jnif::SwitchInst']]],
   ['thisclassindex',['thisClassIndex',['../classjnif_1_1_class_file.html#a3164f054dee11e9af8b9984690c9acf4',1,'jnif::ClassFile']]],
   ['topserased',['topsErased',['../classjnif_1_1_frame.html#ac5c5c6444ba31edde44f0f41bdf75389',1,'jnif::Frame']]],
   ['toptype',['topType',['../classjnif_1_1_type_factory.html#a7f9d5c3c6259627f5f0c6dc572a798ac',1,'jnif::TypeFactory']]],
-  ['ts',['ts',['../classjnif_1_1_inst.html#a68b1a2ec2b9f87cdba716091ac74c58e',1,'jnif::Inst::ts()'],['../classjnif_1_1_inst.html#a290de1b5759b052fa0fb688213b7984a',1,'jnif::Inst::ts() const ']]],
-  ['type',['Type',['../classjnif_1_1_type.html',1,'jnif']]],
-  ['type',['Type',['../classjnif_1_1_type_factory.html#a18dba29b4f3e91d6d2bc53472a6bb7cc',1,'jnif::TypeFactory::Type()'],['../classjnif_1_1_inst.html#a587890c4d2422870cb63c6cf83406e8d',1,'jnif::Inst::type()'],['../classjnif_1_1_inst.html#a399a311f4e44f253761b765977e82cb9',1,'jnif::Inst::type() const ']]],
+  ['ts',['ts',['../classjnif_1_1_inst.html#a68b1a2ec2b9f87cdba716091ac74c58e',1,'jnif::Inst::ts()'],['../classjnif_1_1_inst.html#a5b22574864300d22c41199ea58f3f310',1,'jnif::Inst::ts() const']]],
+  ['type',['Type',['../classjnif_1_1_type.html',1,'jnif::Type'],['../classjnif_1_1_type_factory.html#a18dba29b4f3e91d6d2bc53472a6bb7cc',1,'jnif::TypeFactory::Type()'],['../classjnif_1_1_inst.html#a587890c4d2422870cb63c6cf83406e8d',1,'jnif::Inst::type()'],['../classjnif_1_1_inst.html#a5e4bcfb66e7fb5b08799eaef20b8f12b',1,'jnif::Inst::type() const']]],
   ['type_2ecpp',['Type.cpp',['../_type_8cpp.html',1,'']]],
   ['type_2ehpp',['Type.hpp',['../_type_8hpp.html',1,'']]],
   ['type_5fboolean',['TYPE_BOOLEAN',['../namespacejnif.html#ad62e6aaada409d70323278a99a33de86a75226c90941d45e87d5a0b18f63ddde5',1,'jnif']]],
@@ -26,12 +24,10 @@ var searchData=
   ['type_5funinit',['TYPE_UNINIT',['../namespacejnif.html#ad62e6aaada409d70323278a99a33de86ae6f369f4c0a59706588a3d9f6f8f15db',1,'jnif']]],
   ['type_5funinitthis',['TYPE_UNINITTHIS',['../namespacejnif.html#ad62e6aaada409d70323278a99a33de86aeadcfd8372432de26f81769e588367f7',1,'jnif']]],
   ['type_5fvoid',['TYPE_VOID',['../namespacejnif.html#ad62e6aaada409d70323278a99a33de86a496dda1f3f1370c1a1c89af6b4229fdf',1,'jnif']]],
-  ['typefactory',['TypeFactory',['../classjnif_1_1_type.html#ac8c1945d0a63785e78b3e09a13226ed6',1,'jnif::Type']]],
-  ['typefactory',['TypeFactory',['../classjnif_1_1_type_factory.html',1,'jnif']]],
+  ['typefactory',['TypeFactory',['../classjnif_1_1_type_factory.html',1,'jnif::TypeFactory'],['../classjnif_1_1_type.html#ac8c1945d0a63785e78b3e09a13226ed6',1,'jnif::Type::TypeFactory()']]],
   ['typefactory_2ecpp',['TypeFactory.cpp',['../_type_factory_8cpp.html',1,'']]],
   ['typefactory_2ehpp',['TypeFactory.hpp',['../_type_factory_8hpp.html',1,'']]],
   ['typeid',['typeId',['../classjnif_1_1_type.html#a16891ad8e6f24b7d03b25b41d3c603cb',1,'jnif::Type']]],
-  ['typeinst',['TypeInst',['../classjnif_1_1_inst.html#ac769d7b5abc67f776889371fc06dc126',1,'jnif::Inst']]],
-  ['typeinst',['TypeInst',['../classjnif_1_1_type_inst.html',1,'jnif']]],
+  ['typeinst',['TypeInst',['../classjnif_1_1_type_inst.html',1,'jnif::TypeInst'],['../classjnif_1_1_inst.html#ac769d7b5abc67f776889371fc06dc126',1,'jnif::Inst::TypeInst()']]],
   ['typetag',['TypeTag',['../namespacejnif.html#ad62e6aaada409d70323278a99a33de86',1,'jnif']]]
 ];
