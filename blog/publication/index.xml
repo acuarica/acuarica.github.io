@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Luis Mastrangelo</title>
-    <link>https://acuarica.bitbucket.io/blog/publication/index.xml</link>
+    <link>https://acuarica.bitbucket.io/blog/publication/</link>
     <description>Recent content in Publications on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Luis Mastrangelo</copyright>
     <lastBuildDate>Sun, 25 Oct 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/blog/publication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/publication/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Use at Your Own Risk: The Java Unsafe API in the Wild</title>

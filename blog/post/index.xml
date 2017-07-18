@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Luis Mastrangelo</title>
-    <link>https://acuarica.bitbucket.io/blog/post/index.xml</link>
+    <link>https://acuarica.bitbucket.io/blog/post/</link>
     <description>Recent content in Posts on Luis Mastrangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Luis Mastrangelo</copyright>
     <lastBuildDate>Sat, 03 Dec 2016 12:00:00 +0000</lastBuildDate>
-    <atom:link href="/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On Mastery Checking</title>
