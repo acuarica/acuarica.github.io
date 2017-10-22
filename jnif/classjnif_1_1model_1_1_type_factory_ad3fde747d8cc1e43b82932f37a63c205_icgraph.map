@@ -1,0 +1,7 @@
+<map id="jnif::model::TypeFactory::topType" name="jnif::model::TypeFactory::topType">
+<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="427,5,581,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a1b2a283d72e73dfbf5ec47d5cfd4cc95" title="jnif::Frame::setVar" alt="" coords="233,37,362,63"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#aa59058a6aeb60a229b30f227fa95bb8f" title="jnif::Frame::init" alt="" coords="243,87,352,112"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a4c74d11e8ddeb99c634acf05358330aa" title="jnif::Frame::pushLong" alt="" coords="223,136,373,161"/>
+<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#a1d5457e914163814428493a73cdcbc88" title="jnif::Frame::pushDouble" alt="" coords="216,185,379,211"/>
+</map>

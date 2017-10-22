@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['iclasspath',['IClassPath',['../classjnif_1_1_i_class_path.html',1,'jnif']]],
-  ['iincinst',['IincInst',['../classjnif_1_1_iinc_inst.html',1,'jnif']]],
-  ['inst',['Inst',['../classjnif_1_1_inst.html',1,'jnif']]],
-  ['instlist',['InstList',['../classjnif_1_1_inst_list.html',1,'jnif']]],
-  ['invalidmethodlengthexception',['InvalidMethodLengthException',['../classjnif_1_1_invalid_method_length_exception.html',1,'jnif']]],
-  ['invokedynamicinst',['InvokeDynamicInst',['../classjnif_1_1_invoke_dynamic_inst.html',1,'jnif']]],
-  ['invokeinst',['InvokeInst',['../classjnif_1_1_invoke_inst.html',1,'jnif']]],
-  ['invokeinterfaceinst',['InvokeInterfaceInst',['../classjnif_1_1_invoke_interface_inst.html',1,'jnif']]],
-  ['iterator',['Iterator',['../classjnif_1_1_inst_list_1_1_iterator.html',1,'jnif::InstList::Iterator'],['../classjnif_1_1_const_pool_1_1_iterator.html',1,'jnif::ConstPool::Iterator']]]
+  ['field',['Field',['../classjnif_1_1model_1_1_field.html',1,'jnif::model']]],
+  ['fieldinst',['FieldInst',['../classjnif_1_1model_1_1_field_inst.html',1,'jnif::model']]],
+  ['float',['Float',['../structjnif_1_1model_1_1_const_pool_1_1_float.html',1,'jnif::model::ConstPool']]],
+  ['forward',['Forward',['../structjnif_1_1_forward.html',1,'jnif']]],
+  ['frame',['Frame',['../classjnif_1_1_frame.html',1,'jnif']]]
 ];

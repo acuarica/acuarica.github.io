@@ -1,5 +1,0 @@
-<map id="jnif::ConstPool::addMethodRef" name="jnif::ConstPool::addMethodRef">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="276,5,437,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a1b9d9a149fee427d4ce1cb80e549d8fe" title="Adds a name and type descriptor pair. " alt="" coords="270,55,443,93"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a5dfd8d3b9fe82df9fcdce089906b1abc" title="Adds a class method reference. " alt="" coords="256,117,458,143"/>
-</map>

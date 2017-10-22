@@ -1,4 +1,4 @@
 <map id="jnif::ClassHierarchy::isAssignableFrom" name="jnif::ClassHierarchy::isAssignableFrom">
 <area shape="rect" id="node2" href="$classjnif_1_1_class_hierarchy.html#aa26618a4ab87a8a1f60ee00bf1abcbad" title="jnif::ClassHierarchy\l::getSuperClass" alt="" coords="190,5,326,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="374,12,493,37"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="374,5,519,44"/>
 </map>

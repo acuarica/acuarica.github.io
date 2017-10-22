@@ -1,9 +1,0 @@
-<map id="jnif::ComputeFrames::assign" name="jnif::ComputeFrames::assign">
-<area shape="rect" id="node2" href="$classjnif_1_1_compute_frames.html#a10620d19cf7193ceb4cb0ab58fe2276f" title="jnif::ComputeFrames\l::join" alt="" coords="198,37,343,76"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#adcff5cd58780d5d58cbf01d5f92fb4e4" title="jnif::Frame::join" alt="" coords="391,19,504,44"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_compute_frames.html#a1c97a6615656a4a998e54d65195b74ec" title="jnif::ComputeFrames\l::computeState" alt="" coords="947,5,1092,44"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a958f47c93da091c65784d438af7c4fe6" title="jnif::Frame::clearStack" alt="" coords="552,16,706,41"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_compute_frames.html#a8d01af936b8f3ba08c732cab9cb0d08b" title="jnif::ComputeFrames\l::visitCatch" alt="" coords="754,5,899,44"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="1140,5,1284,44"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="1332,5,1492,44"/>
-</map>

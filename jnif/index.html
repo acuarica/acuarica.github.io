@@ -64,105 +64,34 @@ $(function() {
 <div class="title">Java Native Instrumentation Framework </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1>Introduction</h1>
+<div class="textblock"><h2>Introduction</h2>
 <p>JNIF is the first native Java bytecode rewriting library. JNIF is a C++ library for decoding, analyzing, editing, and encoding Java bytecode. The main benefit of JNIF is that it can be plugged into a JVMTI agent for instrumenting all classes in a JVM transparently, i.e., without connecting to another JVM and without perturbing the observed JVM. Besides, JNIF can be used in stand-alone tools as well.</p>
 <p>JNIF includes a data-flow analysis for stack map generation, a complication necessary for any library that provides editing and encoding support for modern JVMs with split-time verification. It is written in C++11, in an object-oriented style similar to Java-based class rewriting APIs.</p>
-<h1>Documentation</h1>
+<h2>Documentation</h2>
 <p>The complete API documentation is available online at</p>
 <p><a href="http://acuarica.bitbucket.io/jnif/">http://acuarica.bitbucket.io/jnif/</a></p>
-<h1>Installation</h1>
+<h2>Installation</h2>
 <p>The JNIF library can be used as a static library which can be then linked with your project.</p>
-<p>To compile JNIF it is enough to "make" the library </p><pre class="fragment">make
-</pre><p>All sources of JNIF are contained in the "src" folder.</p>
-<p>To use JNIF classes, the header file <b><a class="el" href="jnif_8hpp.html">jnif.hpp</a></b> must be included. </p><pre class="fragment">#include &lt;jnif.hpp&gt;
-</pre><p>Make sure to add the <b>src</b> folder to the include search directories so your compiler can found JNIF's headers, i.e., with the <b>-I</b> compiler flag and then link your project against the <b>libjnif.a</b>.</p>
-<h1>Getting started</h1>
+<p>To compile JNIF it is enough to "make" the library:</p>
+<div class="fragment"><div class="line">make</div></div><!-- fragment --><p>All sources of JNIF are contained in the <code>src</code> folder.</p>
+<p>To use JNIF classes, the header file <code><a class="el" href="jnif_8hpp.html">jnif.hpp</a></code> must be included.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">#include &lt;jnif.hpp&gt;</div></div><!-- fragment --><p>Make sure to add the <code>src</code> folder to the include search directories so your compiler can found JNIF's headers, <em>i.e.</em>, with the <code>-I</code> compiler flag and then link your project against the <code>libjnif.a</code>.</p>
+<h2>Getting started</h2>
 <p>This section shows common use cases of the JNIF library, such as writing instrumentation code and analyzing class files, thus giving an overview of the library. We present the examples in an incremental fashion, adding complexity in each example.</p>
-<p>In order to be able to work with class files, first they must me parsed. Given a memoery buffer with a class file and its length, the following snippet shows how to parse it. </p><pre class="fragment">const char* data = ...;
-int len = ...;
-
-jnif::ClassFile cf(data, len);
-</pre><p>JNIF's <b>ClassFile</b> class provides fields and methods for analyzing and editing a Java class. It contains the definition of each method and field declared in the Java class.</p>
-<p>Once a class file is correctly parsed and loaded it can be manipulated using the methods and fields in <b>ClassFile</b>. For instance, in order to write back the parsed class file in a new buffer, the write method is used in conjunction with the <b>computeSize</b> method as shown below. </p><pre class="fragment">const char* data = ...;
-int len = ...;
-jnif::ClassFile cf(data, len);
-int newlen = cf.computeSize();
-u1* newdata = new u1[newlen];
-cf.write(newdata, newlen);
-
-// Use newdata and newlen
-
-delete [] newdata;
-</pre><p>Putting all together, the following listing shows how to read and write a class file. </p><pre class="fragment">// Decode the binary data into a ClassFile object
-const char* data = ...;
-int len = ...;
-jnif::ClassFile cf(data, len);
-
-// Analyze or edit the ClassFile
-...
-
-// Encode the ClassFile into binary
-int newlen = cf.computeSize();
-u1* newdata = new u1[newlen];
-cf.write(newdata, newlen);
-
-// Use newdata and newlen
-...
-
-// Free the new binary
-delete [] newdata;
-</pre><p>The <b>ClassFile</b> class has a collection of fields and methods which can be used to discover the members of the class file. The snippet below shows how to traverse all methods in a class to dump their names and descriptors. Note that every <b>jnif</b> class overloads the <b>operator&lt;&lt;</b> in order send it to an <b>std::ostream</b>. </p><pre class="fragment">const char* data = ...;
-int len = ...;
-jnif::ClassFile cf(data, len);
-
-for (jnif::Method* m : cf.methods) {
-  cout &lt;&lt; "Method: ";
-  cout &lt;&lt; cf.getUtf8(m-&gt;nameIndex);
-  cout &lt;&lt; cf.getUtf8(m-&gt;descIndex);
-  cout &lt;&lt; endl;
-}
-</pre><p>The following listing shows how to find all constructors (named <b>&lt;init&gt;</b> at Java bytecode level) in a class and how to inject instrumentation, in the form of a call to a static method <b>static void alloc(Object o)</b> of an analysis class, at the beginning of each constructor. </p><pre class="fragment">ConstIndex mid = cf.addMethodRef(classIndex, "alloc", "(Ljava/lang/Object;)V");
-
-for (Method* method : cf.methods) {
-  if (method-&gt;isInit()) {
-    InstList&amp; instList = method-&gt;instList();
-
-    Inst* p = *instList.begin();
-    instList.addZero(OPCODE_aload_0, p);
-    instList.addInvoke(OPCODE_invokestatic, mid, p);
-  }
-}
-</pre><p>Another common use case is to instrument every method entry and exit. In order to do so, it is possible to add the instrumentation code at the beginning of the instruction list to detect the method entry. To detect method exit, it is necessary to look for instructions that terminate the current method execution, i.e., xRETURN family and ATHROW as showed in the following snippet. </p><pre class="fragment">ConstIndex sid = cf.addMethodRef(proxyClass, "enterMethod",
-                "(Ljava/lang/String;Ljava/lang/String;)V");
-ConstIndex eid = cf.addMethodRef(proxyClass, "exitMethod",
-                "(Ljava/lang/String;Ljava/lang/String;)V");
-ConstIndex classNameIdx = cf.addStringFromClass(cf.thisClassIndex);
-
-...
-
-InstList&amp; instList = method-&gt;instList();
-
-ConstIndex methodIndex = cf.addString(m-&gt;nameIndex);
-
-Inst* p = *instList.begin();
-
-instList.addLdc(OPCODE_ldc_w, classNameIdx, p);
-instList.addLdc(OPCODE_ldc_w, methodIndex, p);
-instList.addInvoke(OPCODE_invokestatic, sid, p);
-
-for (Inst* inst : instList) {
-    if (inst-&gt;isExit()) {
-        instList.addLdc(OPCODE_ldc_w, classNameIdx, inst);
-        instList.addLdc(OPCODE_ldc_w, methodIndex, inst);
-        instList.addInvoke(OPCODE_invokestatic, eid, inst);
-    }
-}
-</pre><p>Besides providing access to all members of a class, <b>ClassFile</b> also provides access to the constant pool via methods like <b>getUtf8()</b> and <b>addMethodRef()</b>.</p>
-<h1>Test and evaluation</h1>
-<p>To run these evaluations, a Makefile script is provided in the git repository. These tasks take care of the compilation of the JNIF library and also all java files needed. The repository is self-contained, no need to download dacapo benchmarks separately. </p><pre class="fragment">&gt; make testapp
-</pre><p>To run a particular dacapo benchmark with default settings: </p><pre class="fragment">&gt; make dacapo BENCH=avrora
-</pre><p>To run a full evaluation with all dacapo benchmarks in all configuration a task -eval- is provided. You can set how many times run each configuration with the variable times, like </p><pre class="fragment">&gt; make eval times=5
-</pre><p>Finally, there is a task to create plots for the evaluation. This task needs R with the package ggplot2. </p><pre class="fragment">&gt; make plots</pre> </div></div><!-- contents -->
+<p>In order to be able to work with class files, first they must me parsed. Given a memoery buffer with a class file and its length, the following snippet shows how to parse it.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">const char* data = ...;</div><div class="line">int len = ...;</div><div class="line"></div><div class="line">jnif::ClassFile cf(data, len);</div></div><!-- fragment --><p>JNIF's <code>ClassFile</code> class provides fields and methods for analyzing and editing a Java class. It contains the definition of each method and field declared in the Java class.</p>
+<p>Once a class file is correctly parsed and loaded it can be manipulated using the methods and fields in <code>ClassFile</code>. For instance, in order to write back the parsed class file in a new buffer, the write method is used in conjunction with the <code>computeSize</code> method as shown below.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">const char* data = ...;</div><div class="line">int len = ...;</div><div class="line">jnif::ClassFile cf(data, len);</div><div class="line">int newlen = cf.computeSize();</div><div class="line">u1* newdata = new u1[newlen];</div><div class="line">cf.write(newdata, newlen);</div><div class="line"></div><div class="line">// Use newdata and newlen</div><div class="line"></div><div class="line">delete [] newdata;</div></div><!-- fragment --><p>Putting all together, the following listing shows how to read and write a class file.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">// Decode the binary data into a ClassFile object</div><div class="line">const char* data = ...;</div><div class="line">int len = ...;</div><div class="line">jnif::ClassFile cf(data, len);</div><div class="line"></div><div class="line">// Analyze or edit the ClassFile</div><div class="line">...</div><div class="line"></div><div class="line">// Encode the ClassFile into binary</div><div class="line">int newlen = cf.computeSize();</div><div class="line">u1* newdata = new u1[newlen];</div><div class="line">cf.write(newdata, newlen);</div><div class="line"></div><div class="line">// Use newdata and newlen</div><div class="line">...</div><div class="line"></div><div class="line">// Free the new binary</div><div class="line">delete [] newdata;</div></div><!-- fragment --><p>The <code>ClassFile</code> class has a collection of fields and methods which can be used to discover the members of the class file. The snippet below shows how to traverse all methods in a class to dump their names and descriptors. Note that every <code>jnif</code> class overloads the <code>operator&lt;&lt;</code> in order send it to an <code>std::ostream</code>.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">const char* data = ...;</div><div class="line">int len = ...;</div><div class="line">jnif::ClassFile cf(data, len);</div><div class="line"></div><div class="line">for (jnif::Method* m : cf.methods) {</div><div class="line">  cout &lt;&lt; &quot;Method: &quot;;</div><div class="line">  cout &lt;&lt; cf.getUtf8(m-&gt;nameIndex);</div><div class="line">  cout &lt;&lt; cf.getUtf8(m-&gt;descIndex);</div><div class="line">  cout &lt;&lt; endl;</div><div class="line">}</div></div><!-- fragment --><p>The following listing shows how to find all constructors (named <code>&lt;init&gt;</code> at Java bytecode level) in a class and how to inject instrumentation, in the form of a call to a static method <code>static void alloc(Object o)</code> of an analysis class, at the beginning of each constructor.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">ConstIndex mid = cf.addMethodRef(classIndex, &quot;alloc&quot;, &quot;(Ljava/lang/Object;)V&quot;);</div><div class="line"></div><div class="line">for (Method* method : cf.methods) {</div><div class="line">  if (method-&gt;isInit()) {</div><div class="line">    InstList&amp; instList = method-&gt;instList();</div><div class="line"></div><div class="line">    Inst* p = *instList.begin();</div><div class="line">    instList.addZero(OPCODE_aload_0, p);</div><div class="line">    instList.addInvoke(OPCODE_invokestatic, mid, p);</div><div class="line">  }</div><div class="line">}</div></div><!-- fragment --><p>Another common use case is to instrument every method entry and exit. In order to do so, it is possible to add the instrumentation code at the beginning of the instruction list to detect the method entry. To detect method exit, it is necessary to look for instructions that terminate the current method execution, i.e., xRETURN family and ATHROW as showed in the following snippet.</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">ConstIndex sid = cf.addMethodRef(proxyClass, &quot;enterMethod&quot;,</div><div class="line">                &quot;(Ljava/lang/String;Ljava/lang/String;)V&quot;);</div><div class="line">ConstIndex eid = cf.addMethodRef(proxyClass, &quot;exitMethod&quot;,</div><div class="line">                &quot;(Ljava/lang/String;Ljava/lang/String;)V&quot;);</div><div class="line">ConstIndex classNameIdx = cf.addStringFromClass(cf.thisClassIndex);</div><div class="line"></div><div class="line">...</div><div class="line"></div><div class="line">InstList&amp; instList = method-&gt;instList();</div><div class="line"></div><div class="line">ConstIndex methodIndex = cf.addString(m-&gt;nameIndex);</div><div class="line"></div><div class="line">Inst* p = *instList.begin();</div><div class="line"></div><div class="line">instList.addLdc(OPCODE_ldc_w, classNameIdx, p);</div><div class="line">instList.addLdc(OPCODE_ldc_w, methodIndex, p);</div><div class="line">instList.addInvoke(OPCODE_invokestatic, sid, p);</div><div class="line"></div><div class="line">for (Inst* inst : instList) {</div><div class="line">    if (inst-&gt;isExit()) {</div><div class="line">        instList.addLdc(OPCODE_ldc_w, classNameIdx, inst);</div><div class="line">        instList.addLdc(OPCODE_ldc_w, methodIndex, inst);</div><div class="line">        instList.addInvoke(OPCODE_invokestatic, eid, inst);</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --><p>Besides providing access to all members of a class, <code>ClassFile</code> also provides access to the constant pool via methods like <code>getUtf8()</code> and <code>addMethodRef()</code>.</p>
+<h2>Test and evaluation</h2>
+<p>To run these evaluations, a Makefile script is provided in the git repository. These tasks take care of the compilation of the JNIF library and also all java files needed. The repository is self-contained, no need to download dacapo benchmarks separately.</p>
+<div class="fragment"><div class="line">&gt; make testapp</div></div><!-- fragment --><p>To run a particular dacapo benchmark with default settings:</p>
+<div class="fragment"><div class="line">&gt; make dacapo BENCH=avrora</div></div><!-- fragment --><p>To run a full evaluation with all dacapo benchmarks in all configuration a task -eval- is provided. You can set how many times run each configuration with the variable times, like</p>
+<div class="fragment"><div class="line">&gt; make eval times=5</div></div><!-- fragment --><p>Finally, there is a task to create plots for the evaluation. This task needs R with the package ggplot2.</p>
+<div class="fragment"><div class="line">&gt; make plots</div></div><!-- fragment --> </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

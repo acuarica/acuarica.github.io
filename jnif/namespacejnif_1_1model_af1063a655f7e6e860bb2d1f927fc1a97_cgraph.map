@@ -1,0 +1,6 @@
+<map id="jnif::model::operator&lt;&lt;" name="jnif::model::operator&lt;&lt;">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_version.html#a792037902343746d6e7f87f60016ba37" title="jnif::model::Version\l::majorVersion" alt="" coords="208,5,342,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_version.html#a535b5e511caa6576d5d5d8fd65f5f249" title="jnif::model::Version\l::minorVersion" alt="" coords="208,68,342,107"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_version.html#a8ca75c0d8b7db83d5743137048e07a69" title="Taken from the official JVM specification. " alt="" coords="208,131,342,169"/>
+<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_version.html#ab2655a2763d508159e07e766b7808c78" title="Using default 51, which is supported by JDK 1.7. " alt="" coords="390,131,524,169"/>
+</map>

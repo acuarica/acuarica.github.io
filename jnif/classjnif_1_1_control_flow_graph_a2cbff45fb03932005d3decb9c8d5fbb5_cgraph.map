@@ -1,5 +1,0 @@
-<map id="jnif::ControlFlowGraph::end" name="jnif::ControlFlowGraph::end">
-<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a17ca692c0e77986ae5fbe5d071e45ac5" title="Adds a basic block to this control flow graph. " alt="" coords="237,5,391,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_inst_list.html#a835ff28e1066085883778bc14194ea9b" title="jnif::InstList::end" alt="" coords="255,68,373,93"/>
-<area shape="rect" id="node4" href="$namespacejnif.html#a37744ef7364261513693204a67a2a7fd" title="jnif::operator\&lt;\&lt;" alt="" coords="258,117,369,143"/>
-</map>

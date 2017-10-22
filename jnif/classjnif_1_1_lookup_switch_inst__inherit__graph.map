@@ -1,4 +1,0 @@
-<map id="jnif::LookupSwitchInst" name="jnif::LookupSwitchInst">
-<area shape="rect" id="node2" href="$classjnif_1_1_switch_inst.html" title="Base class for TableSwitchInst and LookupSwitchInst. " alt="" coords="27,847,134,920"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="9,5,152,799"/>
-</map>

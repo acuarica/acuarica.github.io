@@ -1,9 +1,0 @@
-<map id="jnif::AttrsParser::parse" name="jnif::AttrsParser::parse">
-<area shape="rect" id="node2" href="$classjnif_1_1_buffer_reader.html#ae55084c4bba0550f649becae664517ee" title="jnif::BufferReader\l::readu2" alt="" coords="190,5,314,44"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_buffer_reader.html#aab5f7bcfc7774b7cbd431771d5d87627" title="jnif::BufferReader\l::readu4" alt="" coords="190,68,314,107"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_buffer_reader.html#a53639c7374d5084ce316e237f81015a8" title="jnif::BufferReader::pos" alt="" coords="175,131,329,156"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_buffer_reader.html#a5f59ca2b761a1697d0429899330afab1" title="jnif::BufferReader\l::skip" alt="" coords="190,180,314,219"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_const_pool.html#a3fad21ceed73adf9ebfa4e199dc88413" title="jnif::ConstPool::getUtf8" alt="" coords="173,243,331,268"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_attrs.html#a428e30507947978409f6ebd8cae2e409" title="jnif::Attrs::add" alt="" coords="201,292,303,317"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="379,75,497,100"/>
-</map>

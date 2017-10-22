@@ -1,4 +1,0 @@
-<map id="jnif::ConstPool::addMethodRef" name="jnif::ConstPool::addMethodRef">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9" title="Adds a non&#45;interface methods by method name and descriptor. " alt="" coords="278,5,480,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#afa927b76e3058de411c3d240ca1670a7" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList... \&gt;, AttrsParser\&lt; TMethodAttr\lParserList... \&gt;, AttrsParser\&lt; TFieldAttr\lParserList... \&gt; \&gt;::parse" alt="" coords="256,55,502,133"/>
-</map>

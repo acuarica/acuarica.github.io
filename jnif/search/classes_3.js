@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['entry',['Entry',['../classjnif_1_1_smt_attr_1_1_entry.html',1,'jnif::SmtAttr']]],
-  ['error',['Error',['../classjnif_1_1_error.html',1,'jnif']]],
-  ['exceptionsattr',['ExceptionsAttr',['../classjnif_1_1_exceptions_attr.html',1,'jnif']]],
-  ['exceptionsattrparser',['ExceptionsAttrParser',['../classjnif_1_1_exceptions_attr_parser.html',1,'jnif']]]
+  ['dom',['Dom',['../structjnif_1_1_dom.html',1,'jnif']]],
+  ['double',['Double',['../structjnif_1_1model_1_1_const_pool_1_1_double.html',1,'jnif::model::ConstPool']]]
 ];

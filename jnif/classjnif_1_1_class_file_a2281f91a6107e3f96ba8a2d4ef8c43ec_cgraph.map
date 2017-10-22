@@ -1,6 +1,0 @@
-<map id="jnif::ClassFile::dot" name="jnif::ClassFile::dot">
-<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html#a55978e04ede9c78f766cb239e3163548" title="Gets the class name of this class file. " alt="" coords="183,5,335,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a3fad21ceed73adf9ebfa4e199dc88413" title="jnif::ConstPool::getUtf8" alt="" coords="180,68,338,93"/>
-<area shape="rect" id="node4" href="$namespacejnif.html#ae6d846d3a708ecfdea1546c646543bc9" title="jnif::dotCfg" alt="" coords="216,117,301,143"/>
-<area shape="rect" id="node5" href="$namespacejnif.html#a8120a47848a62c767c3b0c8bc6ed3c87" title="jnif::dotFrame" alt="" coords="386,117,488,143"/>
-</map>

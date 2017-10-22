@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['field_5fenum',['FIELD_ENUM',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328a58b7859a503ac9a993abad402e8b663a',1,'jnif']]],
-  ['field_5ffinal',['FIELD_FINAL',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328ab88a6c38fab03375a5b64b9a9a69fe4b',1,'jnif']]],
-  ['field_5fprivate',['FIELD_PRIVATE',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328ae9f629607be22cd84afbc392bfcad5a8',1,'jnif']]],
-  ['field_5fprotected',['FIELD_PROTECTED',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328aed5b1527880d68d128c6234be193401f',1,'jnif']]],
-  ['field_5fpublic',['FIELD_PUBLIC',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328a41ca1792a6cc9abc8fce3165f321caf3',1,'jnif']]],
-  ['field_5fstatic',['FIELD_STATIC',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328a61d313ffbb2087ad3c8482ff0698b814',1,'jnif']]],
-  ['field_5fsynthetic',['FIELD_SYNTHETIC',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328a1369bab3d7a06aec5dcc01857971b6ee',1,'jnif']]],
-  ['field_5ftransient',['FIELD_TRANSIENT',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328ad9b90cd4bc0d385d4d95e5477bed49b3',1,'jnif']]],
-  ['field_5fvolatile',['FIELD_VOLATILE',['../namespacejnif.html#a097b31ed215372e5f94dc80606540328a75f83e05b7dcf6982b1a459d624152a1',1,'jnif']]]
+  ['caload',['caload',['../namespacejnif_1_1model.html#a93388a18f57f772ad2c35e256055c510af7f4923f68e17cd4209b39eb91814c33',1,'jnif::model']]],
+  ['castore',['castore',['../namespacejnif_1_1model.html#a93388a18f57f772ad2c35e256055c510ae4f84e98957ed35bdfc207a2529199dc',1,'jnif::model']]],
+  ['checkcast',['checkcast',['../namespacejnif_1_1model.html#a93388a18f57f772ad2c35e256055c510acbee283f720c84084aa1c13b081271ff',1,'jnif::model']]],
+  ['class',['CLASS',['../classjnif_1_1model_1_1_const_pool.html#a6c82a9dbb14de29f7fd6bcb31b65ca84aafd446276e618e6d0c22b5ae71274dc0',1,'jnif::model::ConstPool']]]
 ];

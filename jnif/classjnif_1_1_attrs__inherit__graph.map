@@ -1,6 +1,0 @@
-<map id="jnif::Attrs" name="jnif::Attrs">
-<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="5,260,170,587"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_member.html" title="Represent a member of a class. " alt="" coords="194,353,301,493"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_field.html" title="{jnif::Field\n||+ Field()\l}" alt="" coords="156,675,230,748"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_method.html" title="{jnif::Method\n||+ hasCode()\l+ codeAttr()\l+ instList()\l+ isPublic()\l+ isStatic()\l+ isInit()\l+ isMain()\l}" alt="" coords="255,635,350,788"/>
-</map>

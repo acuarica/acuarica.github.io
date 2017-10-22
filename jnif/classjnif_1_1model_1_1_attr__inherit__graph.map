@@ -1,0 +1,10 @@
+<map id="jnif::model::Attr" name="jnif::model::Attr">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_code_attr.html" title="Represent the Code attribute of a method. " alt="" coords="5,180,147,360"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_exceptions_attr.html" title="Represents the Exceptions attribute. " alt="" coords="171,233,347,307"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_lnt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="371,233,499,307"/>
+<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_lvt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="523,233,651,307"/>
+<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_signature_attr.html" title="{jnif::model::SignatureAttr\n|+ signatureIndex\l|+ SignatureAttr()\l+ signature()\l}" alt="" coords="675,227,843,313"/>
+<area shape="rect" id="node7" href="$classjnif_1_1model_1_1_smt_attr.html" title="{jnif::model::SmtAttr\n|+ entries\l|+ SmtAttr()\l}" alt="" coords="867,233,1001,307"/>
+<area shape="rect" id="node8" href="$classjnif_1_1model_1_1_source_file_attr.html" title="{jnif::model::SourceFileAttr\n|+ sourceFileIndex\l|+ SourceFileAttr()\l+ sourceFile()\l}" alt="" coords="1024,227,1198,313"/>
+<area shape="rect" id="node9" href="$classjnif_1_1model_1_1_unknown_attr.html" title="Represents an unknown opaque attribute to jnif. " alt="" coords="1221,233,1387,307"/>
+</map>

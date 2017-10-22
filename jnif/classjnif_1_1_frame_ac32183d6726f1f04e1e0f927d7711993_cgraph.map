@@ -1,10 +1,4 @@
 <map id="jnif::Frame::cleanTops" name="jnif::Frame::cleanTops">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="219,5,339,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#a2ce094afc35a364260b337a02d6f5ff7" title="jnif::Type::isTwoWord" alt="" coords="205,55,353,80"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_type.html#ae4f831333095436df0b38f9a79bc0196" title="jnif::Type::isTop" alt="" coords="411,105,525,131"/>
-<area shape="rect" id="node8" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="220,156,338,181"/>
-<area shape="rect" id="node9" href="$classjnif_1_1_type_factory.html#a7f9d5c3c6259627f5f0c6dc572a798ac" title="jnif::TypeFactory::\ltopType" alt="" coords="216,205,342,244"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_type.html#a75a9d2c4c8ca11bcb39c93fb7d71228f" title="jnif::Type::isLong" alt="" coords="407,7,529,32"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_type.html#a783c439c163919e47f9dcf14d0c0488e" title="jnif::Type::isDouble" alt="" coords="401,56,535,81"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="583,56,706,81"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="205,5,351,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_type.html#a1d2a4267aae242a05afb0ea7a47ad0f8" title="jnif::model::Type::\lisTop" alt="" coords="215,68,341,107"/>
 </map>

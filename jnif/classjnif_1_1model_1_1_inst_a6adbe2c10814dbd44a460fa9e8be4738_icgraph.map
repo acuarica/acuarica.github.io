@@ -1,0 +1,9 @@
+<map id="jnif::model::Inst::isLabel" name="jnif::model::Inst::isLabel">
+<area shape="rect" id="node2" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="382,43,528,69"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="920,65,1074,103"/>
+<area shape="rect" id="node6" href="$namespacejnif.html#a0a763c929bbaeb87eb7e46bd0b6d6d1b" title="jnif::addTarget2" alt="" coords="399,94,511,119"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_control_flow_graph.html#a036449b9cd1569fa1db57ec61db80a73" title="Finds the basic block associated with the given labelId. " alt="" coords="172,145,334,183"/>
+<area shape="rect" id="node8" href="$classjnif_1_1model_1_1_inst_list.html#ac06559c3a59f897eb8f8c375bfcd31c7" title="jnif::model::InstList\l::getInst" alt="" coords="187,207,319,246"/>
+<area shape="rect" id="node3" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="576,71,670,97"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_control_flow_graph.html#a57da6d8639c4910ee9e3ea96d0b4b0a3" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="718,65,872,103"/>
+</map>

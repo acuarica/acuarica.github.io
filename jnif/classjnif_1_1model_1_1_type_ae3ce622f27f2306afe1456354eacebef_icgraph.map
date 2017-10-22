@@ -1,0 +1,7 @@
+<map id="jnif::model::Type::isIntegral" name="jnif::model::Type::isIntegral">
+<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="181,5,335,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a2aae2b80d650f41f7f7123ce3c0762de" title="jnif::Frame::popIntegral" alt="" coords="179,68,338,93"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#ab5bdeab7f7083dffa2e18272d9a5a530" title="jnif::Frame::popType" alt="" coords="187,117,330,143"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a0b25e48a4c32214f4c6c62ceb2efb740" title="jnif::Frame::pushType" alt="" coords="184,167,333,192"/>
+<area shape="rect" id="node6" href="$namespacejnif_1_1model.html#a1191ad3e5fc0a8d9790c1a57a1fb192a" title="jnif::model::operator\&lt;\&lt;" alt="" coords="181,216,336,241"/>
+</map>

@@ -1,13 +1,19 @@
 var searchData=
 [
-  ['catchtype',['catchtype',['../structjnif_1_1_code_exception_entry.html#a583edb505fb37842c43bc061f9d07d73',1,'jnif::CodeExceptionEntry']]],
-  ['cfg',['cfg',['../classjnif_1_1_basic_block.html#a9ccc71e311151c91e9ed83a3f275052b',1,'jnif::BasicBlock::cfg()'],['../classjnif_1_1_code_attr.html#a372648834f5e6b1322a7fdfef3055ccd',1,'jnif::CodeAttr::cfg()']]],
-  ['chop_5fframe',['chop_frame',['../classjnif_1_1_smt_attr_1_1_entry.html#aa2d611a29b45cdb3928585296a8be864',1,'jnif::SmtAttr::Entry']]],
-  ['classindex',['classIndex',['../classjnif_1_1_const_member_ref.html#a3e1aad5be1dde03ddb354f51a3d8144b',1,'jnif::ConstMemberRef::classIndex()'],['../classjnif_1_1_type_inst.html#add89ad61312bf41adc11aaeace1b9ff3',1,'jnif::TypeInst::classIndex()'],['../classjnif_1_1_multi_array_inst.html#ac2378b89867427ae527e9586dc2f68ab',1,'jnif::MultiArrayInst::classIndex()'],['../classjnif_1_1_type.html#ab846ec0404352e2d7f72b10640b7d28d',1,'jnif::Type::classIndex()']]],
-  ['classname',['className',['../classjnif_1_1_class_hierarchy_1_1_class_entry.html#a75e226bc2962e509c355aa5131d7593d',1,'jnif::ClassHierarchy::ClassEntry::className()'],['../classjnif_1_1_type.html#aea2281a829327fca09fbaff479e2deaa',1,'jnif::Type::className()']]],
-  ['clazz',['clazz',['../classjnif_1_1_const_item.html#aca9da6a6511612b22ac30193e7fbe559',1,'jnif::ConstItem']]],
-  ['codelen',['codeLen',['../classjnif_1_1_code_attr.html#aad1e3f80152a00a2c55f277e6a78a8a2',1,'jnif::CodeAttr::codeLen()'],['../classjnif_1_1_label_manager.html#ac068855d5ad5a3877a32ca8aef09bc25',1,'jnif::LabelManager::codeLen()']]],
-  ['constnames',['ConstNames',['../namespacejnif.html#a4feda93180190df60f565a8151225e40',1,'jnif']]],
-  ['constpool',['constPool',['../classjnif_1_1_member.html#a41050b8422f7115d8d18e8b6cd546005',1,'jnif::Member::constPool()'],['../classjnif_1_1_attr.html#ab5be5013280c988a0a27c5277a6bc80e',1,'jnif::Attr::constPool()'],['../classjnif_1_1_inst.html#a1f43b6c0a027b8684073507393c0f95a',1,'jnif::Inst::constPool()'],['../classjnif_1_1_inst_list.html#a3e998d8a45bed53c954e357b2ed90a62',1,'jnif::InstList::constPool()']]],
-  ['count',['count',['../classjnif_1_1_invoke_interface_inst.html#a49820427cceee8835844d3e189e3fce4',1,'jnif::InvokeInterfaceInst']]]
+  ['catchtype',['catchtype',['../structjnif_1_1model_1_1_code_attr_1_1_exception_handler.html#ad3c0e34ddd4bb8e7d322d71e9f998a2e',1,'jnif::model::CodeAttr::ExceptionHandler']]],
+  ['cfg',['cfg',['../classjnif_1_1model_1_1_code_attr.html#a3d199bc93cc498563045b91d5df368ec',1,'jnif::model::CodeAttr::cfg()'],['../classjnif_1_1_basic_block.html#a58d216102624cc3150720ecfea9f8d3e',1,'jnif::BasicBlock::cfg()']]],
+  ['chop_5fframe',['chop_frame',['../classjnif_1_1model_1_1_smt_attr_1_1_entry.html#abfe04a2d840068c66e14ffde3de3f4e9',1,'jnif::model::SmtAttr::Entry']]],
+  ['classindex',['classIndex',['../structjnif_1_1model_1_1_const_pool_1_1_member_ref.html#adb71d063668729962b7f8e14cbabba02',1,'jnif::model::ConstPool::MemberRef::classIndex()'],['../classjnif_1_1model_1_1_type_inst.html#a63e2fb973a943bd204dd20364503fa62',1,'jnif::model::TypeInst::classIndex()'],['../classjnif_1_1model_1_1_multi_array_inst.html#aabb6b128e09cb8e8a7c1b2b456d290cb',1,'jnif::model::MultiArrayInst::classIndex()'],['../classjnif_1_1model_1_1_type.html#a3ed201537f587c4951223776d79b191f',1,'jnif::model::Type::classIndex()']]],
+  ['classname',['className',['../classjnif_1_1_class_hierarchy_1_1_class_entry.html#a75e226bc2962e509c355aa5131d7593d',1,'jnif::ClassHierarchy::ClassEntry::className()'],['../classjnif_1_1model_1_1_type.html#a5e6e04878417c645270cfefcddb083fb',1,'jnif::model::Type::className()']]],
+  ['clazz',['clazz',['../structjnif_1_1model_1_1_const_pool_1_1_item.html#a0afadf53a40a48af6069d14c68686f2a',1,'jnif::model::ConstPool::Item']]],
+  ['codelen',['codeLen',['../classjnif_1_1model_1_1_code_attr.html#a31e1869f3c73e1ee7b0dc6981dbfdf24',1,'jnif::model::CodeAttr']]],
+  ['compressed_5fsize',['compressed_size',['../structunz__file__info64__s.html#afefa321d4008a52a609d437ed4b4e03f',1,'unz_file_info64_s::compressed_size()'],['../structunz__file__info__s.html#a35ee9d733879c87565e40a545fe46fb6',1,'unz_file_info_s::compressed_size()']]],
+  ['compression_5fmethod',['compression_method',['../structunz__file__info64__s.html#ac25e6f99bc51d046b8871ddbb4b5f9f7',1,'unz_file_info64_s::compression_method()'],['../structunz__file__info__s.html#aaaca88f0ebec5c1cfebb436b8e70a774',1,'unz_file_info_s::compression_method()']]],
+  ['constnames',['ConstNames',['../namespacejnif_1_1model.html#a18065c453196d6d91152771c705c999e',1,'jnif::model']]],
+  ['constpool',['constPool',['../classjnif_1_1model_1_1_inst.html#aaf8e78abc26b88ecbb2f6c2e938df57b',1,'jnif::model::Inst::constPool()'],['../classjnif_1_1model_1_1_inst_list.html#aacdc8c5203898dd9e9b6f8ad96dedf60',1,'jnif::model::InstList::constPool()'],['../classjnif_1_1model_1_1_attr.html#a888e8ae6ca257b3d7593e2c851882d7f',1,'jnif::model::Attr::constPool()'],['../classjnif_1_1model_1_1_member.html#a579840c727e73124271335c97e3f32e6',1,'jnif::model::Member::constPool()']]],
+  ['consumes',['consumes',['../classjnif_1_1model_1_1_inst.html#a47e2c00d6f8a3a715ca14555800ce9ad',1,'jnif::model::Inst']]],
+  ['count',['count',['../classjnif_1_1model_1_1_invoke_interface_inst.html#a07b067d5a0cf5e2702a943aa0ea3fabd',1,'jnif::model::InvokeInterfaceInst']]],
+  ['cpindex',['cpindex',['../printer_8cpp.html#a34f384b510274e4d78a1f33705f7bc1c',1,'printer.cpp']]],
+  ['crc',['crc',['../structunz__file__info64__s.html#a3026bf850e727543d9304c8deaf9eb27',1,'unz_file_info64_s::crc()'],['../structunz__file__info__s.html#a6d741cb2df07794d7a4794841148893b',1,'unz_file_info_s::crc()']]],
+  ['cyan',['cyan',['../printer_8cpp.html#a8485571b8f9f948a487dff23da20974e',1,'printer.cpp']]]
 ];

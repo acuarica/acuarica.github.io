@@ -1,8 +1,0 @@
-<map id="jnif::Frame::popOneWord" name="jnif::Frame::popOneWord">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a9baed30b481bec8a974a7ecb88b5c16e" title="jnif::Frame::popIntegral" alt="" coords="224,104,383,129"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#afa9cd7ec7852035c22ba2fc72732abb3" title="jnif::Frame::popArray" alt="" coords="621,131,767,156"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#a97b32017e2e3315c6b741ccdc8873583" title="jnif::Frame::Frame" alt="" coords="437,104,567,129"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_frame.html#a5314b0cbc0366774428dabd44575a9b5" title="jnif::Frame::popFloat" alt="" coords="232,55,375,80"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#af20c314ff271bad00b0f6fbb75e0140a" title="jnif::Frame::popRef" alt="" coords="236,5,371,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ac20e04c3ef0a6fafed77eeb0169c9945" title="jnif::Frame::popType" alt="" coords="431,55,573,80"/>
-</map>

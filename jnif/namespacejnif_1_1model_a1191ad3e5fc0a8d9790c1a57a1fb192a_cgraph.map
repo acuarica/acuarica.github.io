@@ -1,0 +1,31 @@
+<map id="jnif::model::operator&lt;&lt;" name="jnif::model::operator&lt;&lt;">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_type.html#a87b1cbdd384eac177ebb330d751b4ec1" title="jnif::model::Type::\lgetDims" alt="" coords="223,5,348,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_type.html#a1d2a4267aae242a05afb0ea7a47ad0f8" title="jnif::model::Type::\lisTop" alt="" coords="223,68,348,107"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_type.html#ae3ce622f27f2306afe1456354eacebef" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="223,131,348,169"/>
+<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_type.html#aa89ff0ba67ee3e911bf257eb72dba9ac" title="jnif::model::Type::\lisFloat" alt="" coords="223,193,348,232"/>
+<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_type.html#a55eccbd6d4af84d726ae423bd2c047a4" title="jnif::model::Type::\lisLong" alt="" coords="223,256,348,295"/>
+<area shape="rect" id="node7" href="$classjnif_1_1model_1_1_type.html#a1f6178df5d9483ad67f9a6116d21cdbf" title="jnif::model::Type::\lisDouble" alt="" coords="223,319,348,357"/>
+<area shape="rect" id="node8" href="$classjnif_1_1model_1_1_type.html#a8b85064028f6371184e0b6fed59ab3cc" title="jnif::model::Type::\lisNull" alt="" coords="223,381,348,420"/>
+<area shape="rect" id="node9" href="$classjnif_1_1model_1_1_type.html#a3680f7791c49a7984dbb9491bb65bd76" title="jnif::model::Type::\lisUninitThis" alt="" coords="223,444,348,483"/>
+<area shape="rect" id="node10" href="$classjnif_1_1model_1_1_type.html#a91b35b8143f7e5861b2db90e4707c2cc" title="jnif::model::Type::\lisObject" alt="" coords="223,507,348,545"/>
+<area shape="rect" id="node11" href="$classjnif_1_1model_1_1_type.html#a088e9ca06348798a50916497a63a4c6c" title="jnif::model::Type::\lgetClassName" alt="" coords="223,569,348,608"/>
+<area shape="rect" id="node13" href="$classjnif_1_1model_1_1_type.html#a17d8401f91d71093585b46cadf5d44d1" title="jnif::model::Type::\lisUninit" alt="" coords="223,632,348,671"/>
+<area shape="rect" id="node14" href="$namespacejnif_1_1model.html#a88a4976683a09ef7fef3372923ac3b4c" title="jnif::model::operator\&lt;\&lt;" alt="" coords="208,875,363,900"/>
+<area shape="rect" id="node12" href="$classjnif_1_1_error.html#a5a801c047e23edf1f9f9c6b8c3fa2ef7" title="jnif::Error\&lt; Exception\l \&gt;::check" alt="" coords="425,388,571,427"/>
+<area shape="rect" id="node15" href="$classjnif_1_1model_1_1_const_pool.html#a3b479e3f9158cc182931c27188b3c3ae" title="jnif::model::ConstPool\l::getUtf8" alt="" coords="633,1307,784,1345"/>
+<area shape="rect" id="node16" href="$classjnif_1_1model_1_1_method.html#a8cdbb6573a29fded838df9e478adf366" title="jnif::model::Method\l::hasCode" alt="" coords="431,565,565,604"/>
+<area shape="rect" id="node17" href="$classjnif_1_1model_1_1_method.html#a4425f1ad8816eaf5ddddecf9ce0d44fd" title="jnif::model::Method\l::codeAttr" alt="" coords="431,628,565,667"/>
+<area shape="rect" id="node18" href="$classjnif_1_1model_1_1_class_file.html#a49df833171fac2ef1c1ed3bde2f9c94c" title="Gets the class name of this class file. " alt="" coords="426,691,570,729"/>
+<area shape="rect" id="node19" href="$classjnif_1_1model_1_1_const_pool.html#a8104e5f79a04c8197dade52a794fe69c" title="jnif::model::ConstPool\l::getClassName" alt="" coords="633,600,784,639"/>
+<area shape="rect" id="node20" href="$classjnif_1_1model_1_1_const_pool.html#afab62d34c34b7da0abc2bf1bffa54d4e" title="jnif::model::ConstPool\l::iterator" alt="" coords="422,805,573,844"/>
+<area shape="rect" id="node21" href="$classjnif_1_1model_1_1_const_pool_1_1_iterator.html#a314b8b3199bb9536888ccf098a96f4d7" title="jnif::model::ConstPool\l::Iterator::hasNext" alt="" coords="422,868,573,907"/>
+<area shape="rect" id="node22" href="$classjnif_1_1model_1_1_const_pool.html#a885f7652bfbbca0f10540877d856180a" title="jnif::model::ConstPool\l::getTag" alt="" coords="422,931,573,969"/>
+<area shape="rect" id="node23" href="$classjnif_1_1model_1_1_const_pool.html#ac6e1f60a6a46f18fc41eb26b7ad92d94" title="jnif::model::ConstPool\l::getFieldRef" alt="" coords="422,993,573,1032"/>
+<area shape="rect" id="node24" href="$classjnif_1_1model_1_1_const_pool.html#a834b460a47e2a8db48c3db6e4f795f66" title="jnif::model::ConstPool\l::getMethodRef" alt="" coords="422,1056,573,1095"/>
+<area shape="rect" id="node25" href="$classjnif_1_1model_1_1_const_pool.html#a8145b46bc18f63a53b7be911680e162a" title="jnif::model::ConstPool\l::getInterMethodRef" alt="" coords="422,1119,573,1157"/>
+<area shape="rect" id="node26" href="$classjnif_1_1model_1_1_const_pool.html#a81be9283ba4d5fa2b3c766c546ef9586" title="jnif::model::ConstPool\l::getLong" alt="" coords="422,1181,573,1220"/>
+<area shape="rect" id="node27" href="$classjnif_1_1model_1_1_const_pool.html#aee1fd8a01fa0aa38ab69037def31f174" title="jnif::model::ConstPool\l::getDouble" alt="" coords="422,1244,573,1283"/>
+<area shape="rect" id="node28" href="$classjnif_1_1model_1_1_source_file_attr.html#ac7d7cfc31fdc37f660b278b2e084f1dc" title="jnif::model::SourceFileAttr\l::sourceFile" alt="" coords="411,1307,585,1345"/>
+<area shape="rect" id="node29" href="$classjnif_1_1model_1_1_signature_attr.html#afe73d037f8f3eb5620d97a697ecb3de5" title="jnif::model::SignatureAttr\l::signature" alt="" coords="414,1369,581,1408"/>
+<area shape="rect" id="node30" href="$classjnif_1_1model_1_1_inst.html#abd8041c99b47f1f3c8e60ee6ae189cf8" title="jnif::model::Inst::\llabel" alt="" coords="439,451,557,489"/>
+</map>

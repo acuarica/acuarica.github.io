@@ -1,6 +1,0 @@
-<map id="jnif::Type::getDims" name="jnif::Type::getDims">
-<area shape="rect" id="node2" href="$classjnif_1_1_type.html#ae1a092fa47d97c42ffbb96fca25df4c0" title="Returns the element type of this array type. " alt="" coords="189,5,348,31"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_type.html#ae6c69010a3fe84a026ccdaf424139df4" title="Removes the any dimension on this type. " alt="" coords="184,55,352,80"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="403,5,521,31"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="400,55,524,80"/>
-</map>

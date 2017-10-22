@@ -1,0 +1,5 @@
+<map id="jnif::model::ClassFile" name="jnif::model::ClassFile">
+<area shape="rect" id="node3" href="$classjnif_1_1parser_1_1_class_file_parser.html" title="{jnif::parser::ClassFileParser\n||+ ClassFileParser()\l+ parse()\l}" alt="" coords="5,1235,190,1321"/>
+<area shape="rect" id="node4" href="$classjnif_1_1stream_1_1_class_file_stream.html" title="Represents a ClassFile created from a disk file. " alt="" coords="214,1241,406,1315"/>
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="122,5,285,692"/>
+</map>

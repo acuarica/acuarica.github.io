@@ -1,5 +1,0 @@
-<map id="jnif::LabelManager::putLabelIfExists" name="jnif::LabelManager::putLabelIfExists">
-<area shape="rect" id="node2" href="$classjnif_1_1_label_manager.html#a115f9041b0d58d6813d109c4c0a2b2a9" title="jnif::LabelManager\l::hasLabel" alt="" coords="194,5,326,49"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_inst_list.html#a0a55c5040a11120e0d4018b331fccf18" title="jnif::InstList::addLabel" alt="" coords="185,73,335,101"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="384,13,504,41"/>
-</map>

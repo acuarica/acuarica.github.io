@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wideinst',['WideInst',['../classjnif_1_1_inst.html#a1f03d2db2b62bc40ca280cee915543c3',1,'jnif::Inst']]]
+  ['varinst',['VarInst',['../classjnif_1_1model_1_1_inst.html#ac1dba979e42e91920553e21f47709ad0',1,'jnif::model::Inst']]]
 ];

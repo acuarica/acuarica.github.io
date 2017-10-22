@@ -1,8 +1,0 @@
-<map id="jnif::Inst::isJump" name="jnif::Inst::isJump">
-<area shape="rect" id="node2" href="$classjnif_1_1_inst.html#a3f423442b19a76f72fff7f49732f3657" title="jnif::Inst::isBranch" alt="" coords="171,13,298,41"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_inst.html#a2a35841cd9a9274b3db20181778af145" title="jnif::Inst::jump" alt="" coords="183,65,286,93"/>
-<area shape="rect" id="node3" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="347,13,493,41"/>
-<area shape="rect" id="node4" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="542,13,637,41"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="686,5,840,49"/>
-<area shape="rect" id="node7" href="$namespacejnif.html#ac4a92acf5637088cedaaa03fa38551c4" title="jnif::operator\&lt;\&lt;" alt="" coords="364,65,476,93"/>
-</map>

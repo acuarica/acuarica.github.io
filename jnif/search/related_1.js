@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['field',['Field',['../classjnif_1_1_member.html#aaec47a26a3c11c1debd3ed922b69cbd2',1,'jnif::Member']]],
-  ['fieldinst',['FieldInst',['../classjnif_1_1_inst.html#ab73f19db6803b0c4a2e21f6401d776c2',1,'jnif::Inst']]]
+  ['dominator',['Dominator',['../classjnif_1_1_control_flow_graph.html#a3ff2c78c822286f4ebedf9ceb30e6ed8',1,'jnif::ControlFlowGraph']]]
 ];

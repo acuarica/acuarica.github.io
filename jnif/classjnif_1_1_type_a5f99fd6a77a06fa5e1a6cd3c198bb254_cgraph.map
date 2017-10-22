@@ -1,5 +1,0 @@
-<map id="jnif::Type::getCpIndex" name="jnif::Type::getCpIndex">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="210,5,328,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_type.html#a872ec79bafefd8afdf6469b70b64014a" title="jnif::Type::isObject" alt="" coords="204,55,334,80"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_type.html#ac92feb26b6cbdc8229cda3b48d6d6853" title="jnif::Type::isArray" alt="" coords="382,55,506,80"/>
-</map>

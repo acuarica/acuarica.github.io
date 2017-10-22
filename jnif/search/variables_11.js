@@ -1,8 +1,25 @@
 var searchData=
 [
-  ['tag',['tag',['../classjnif_1_1_const_item.html#aa386c3d0f7994e1fca3af258753e88f9',1,'jnif::ConstItem::tag()'],['../classjnif_1_1_type.html#a27159edfb45bf3b4aa56678d2dd382c4',1,'jnif::Type::tag()']]],
-  ['targets',['targets',['../classjnif_1_1_switch_inst.html#a13eff0bb4557d164a091430c026dbc99',1,'jnif::SwitchInst']]],
-  ['thisclassindex',['thisClassIndex',['../classjnif_1_1_class_file.html#a3164f054dee11e9af8b9984690c9acf4',1,'jnif::ClassFile']]],
-  ['topserased',['topsErased',['../classjnif_1_1_frame.html#ac5c5c6444ba31edde44f0f41bdf75389',1,'jnif::Frame']]],
-  ['typeid',['typeId',['../classjnif_1_1_type.html#a16891ad8e6f24b7d03b25b41d3c603cb',1,'jnif::Type']]]
+  ['s',['s',['../structjnif_1_1model_1_1_const_pool_1_1_item.html#a4307390844d09e11091071489b920b96',1,'jnif::model::ConstPool::Item']]],
+  ['same_5fframe_5fextended',['same_frame_extended',['../classjnif_1_1model_1_1_smt_attr_1_1_entry.html#a79c5c95b5c8773c25352d600ce6e048d',1,'jnif::model::SmtAttr::Entry']]],
+  ['same_5flocals_5f1_5fstack_5fitem_5fframe_5fextended',['same_locals_1_stack_item_frame_extended',['../classjnif_1_1model_1_1_smt_attr_1_1_entry.html#af23360ba2a1f3e25d0414b22a16c5d88',1,'jnif::model::SmtAttr::Entry']]],
+  ['sameframe',['sameFrame',['../classjnif_1_1model_1_1_smt_attr_1_1_entry.html#a878bc27f10b838d0e4812f8710392933',1,'jnif::model::SmtAttr::Entry']]],
+  ['samelocals_5f1_5fstack_5fitem_5fframe',['sameLocals_1_stack_item_frame',['../classjnif_1_1model_1_1_smt_attr_1_1_entry.html#a65723fb597eb33da71e4874035df9bfc',1,'jnif::model::SmtAttr::Entry']]],
+  ['sig',['sig',['../classjnif_1_1model_1_1_member.html#a73ca8ff6c334326594d725f42f5a501f',1,'jnif::model::Member::sig()'],['../classjnif_1_1model_1_1_class_file.html#a49f8dd5b2503837ea3c6c3a013376bed',1,'jnif::model::ClassFile::sig()']]],
+  ['signatureindex',['signatureIndex',['../classjnif_1_1model_1_1_signature_attr.html#a6e2652fcec2e7a84fec790ada428a298',1,'jnif::model::SignatureAttr']]],
+  ['size_5fcomment',['size_comment',['../structunz__global__info64__s.html#ad9440fb3b019cfdac9ba8b8d83026ffc',1,'unz_global_info64_s::size_comment()'],['../structunz__global__info__s.html#a10b58ab57b62301de813ecac0e974363',1,'unz_global_info_s::size_comment()']]],
+  ['size_5ffile_5fcomment',['size_file_comment',['../structunz__file__info64__s.html#aff23e3bb5b9a3a8a26aa4f4cfcca7c9c',1,'unz_file_info64_s::size_file_comment()'],['../structunz__file__info__s.html#afa9feffb3b9c9c03e02599118d5f548e',1,'unz_file_info_s::size_file_comment()']]],
+  ['size_5ffile_5fextra',['size_file_extra',['../structunz__file__info64__s.html#a12af3fa77dc4f7f28448d68703eb8c18',1,'unz_file_info64_s::size_file_extra()'],['../structunz__file__info__s.html#a479402dcb3555c922e3ce87c8f967990',1,'unz_file_info_s::size_file_extra()']]],
+  ['size_5ffilename',['size_filename',['../structunz__file__info64__s.html#ac09e3b96910b5f98ec73688116b6b3fd',1,'unz_file_info64_s::size_filename()'],['../structunz__file__info__s.html#ae4f2f81a5301f7df9014838a56a496c6',1,'unz_file_info_s::size_filename()']]],
+  ['sourcefileindex',['sourceFileIndex',['../classjnif_1_1model_1_1_source_file_attr.html#aea6ecdba033c5a0721c527f5842a0860',1,'jnif::model::SourceFileAttr']]],
+  ['stack',['stack',['../classjnif_1_1model_1_1_smt_attr_1_1_entry.html#ac98bb666dc91633b53899e6d83695b22',1,'jnif::model::SmtAttr::Entry::stack()'],['../classjnif_1_1_frame.html#a963751354752abdd5cbcc27c37c5e394',1,'jnif::Frame::stack()']]],
+  ['stacktrace',['stackTrace',['../classjnif_1_1_exception.html#a6981427f3488dffa69f81e84c6d605fb',1,'jnif::Exception']]],
+  ['start',['start',['../classjnif_1_1_basic_block.html#af62d47f6ebdffc8694c6cfe8dda41055',1,'jnif::BasicBlock']]],
+  ['startpc',['startPc',['../structjnif_1_1model_1_1_lvt_attr_1_1_lv_entry.html#a2642cb02f1e6f772f3c13c9535d6b791',1,'jnif::model::LvtAttr::LvEntry::startPc()'],['../structjnif_1_1model_1_1_lnt_attr_1_1_ln_entry.html#aef87e1bc5943d076f4d287d6e1eb7a38',1,'jnif::model::LntAttr::LnEntry::startpc()'],['../structjnif_1_1model_1_1_code_attr_1_1_exception_handler.html#a53010af9008dec28407e0a42a2898f5b',1,'jnif::model::CodeAttr::ExceptionHandler::startpc()']]],
+  ['startpclabel',['startPcLabel',['../structjnif_1_1model_1_1_lvt_attr_1_1_lv_entry.html#a718bcbea9b8510aa732387795336fa03',1,'jnif::model::LvtAttr::LvEntry::startPcLabel()'],['../structjnif_1_1model_1_1_lnt_attr_1_1_ln_entry.html#a31b91606a9cfae5262c5765c351c4bff',1,'jnif::model::LntAttr::LnEntry::startPcLabel()']]],
+  ['str',['str',['../structjnif_1_1model_1_1_const_pool_1_1_utf8.html#a2f445cac6077e8771ec012f68f8b62cf',1,'jnif::model::ConstPool::Utf8']]],
+  ['stringindex',['stringIndex',['../structjnif_1_1model_1_1_const_pool_1_1_string.html#a2b01d7d911f71299a20f10a463885d09',1,'jnif::model::ConstPool::String']]],
+  ['subopcode',['subOpcode',['../classjnif_1_1model_1_1_wide_inst.html#ae2054551671133f4d9d30f7a80bce395',1,'jnif::model::WideInst']]],
+  ['superclassindex',['superClassIndex',['../classjnif_1_1model_1_1_class_file.html#a687951b403a0d65267521867b7ff492a',1,'jnif::model::ClassFile']]],
+  ['superclassname',['superClassName',['../classjnif_1_1_class_hierarchy_1_1_class_entry.html#aef903c68330452ee6cdc29716424b2e5',1,'jnif::ClassHierarchy::ClassEntry']]]
 ];

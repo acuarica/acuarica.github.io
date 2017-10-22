@@ -1,4 +1,0 @@
-<map id="jnif::InstList::_create" name="jnif::InstList::_create">
-<area shape="rect" id="node2" href="$classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f" title="jnif::Arena::alloc" alt="" coords="195,5,311,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a16684e6de7ec0b220b754c26a74737b9" title="jnif::Error::assert" alt="" coords="193,55,312,80"/>
-</map>

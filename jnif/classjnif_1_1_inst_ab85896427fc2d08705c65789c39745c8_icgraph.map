@@ -1,8 +1,0 @@
-<map id="jnif::Inst::isTableSwitch" name="jnif::Inst::isTableSwitch">
-<area shape="rect" id="node2" href="$classjnif_1_1_inst.html#a3f423442b19a76f72fff7f49732f3657" title="jnif::Inst::isBranch" alt="" coords="211,5,338,33"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_inst.html#a68b1a2ec2b9f87cdba716091ac74c58e" title="jnif::Inst::ts" alt="" coords="232,57,317,85"/>
-<area shape="rect" id="node3" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="387,5,533,33"/>
-<area shape="rect" id="node4" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="582,31,677,59"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1f0b34c0c2fa92fbf4ec0e4fa93dc95b" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="726,23,880,67"/>
-<area shape="rect" id="node7" href="$namespacejnif.html#ac4a92acf5637088cedaaa03fa38551c4" title="jnif::operator\&lt;\&lt;" alt="" coords="404,109,516,137"/>
-</map>

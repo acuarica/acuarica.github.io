@@ -1,0 +1,5 @@
+<map id="jnif::model::LookupSwitchInst" name="jnif::model::LookupSwitchInst">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_switch_inst.html" title="Base class for TableSwitchInst and LookupSwitchInst. " alt="" coords="64,1984,215,2057"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="142,1169,284,1923"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="278,375,441,1048"/>
+</map>

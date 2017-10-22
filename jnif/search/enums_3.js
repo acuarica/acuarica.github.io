@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['magic',['Magic',['../namespacejnif.html#a7996e3b399b3563f894c3c02558e0d1d',1,'jnif']]],
-  ['methodflags',['MethodFlags',['../namespacejnif.html#a8e227e075d635c984f69b0271e9bc70e',1,'jnif']]]
+  ['opcode',['Opcode',['../namespacejnif_1_1model.html#a93388a18f57f772ad2c35e256055c510',1,'jnif::model']]],
+  ['opkind',['OpKind',['../namespacejnif_1_1model.html#a04efb66c88bec7746e9b8cd22d249502',1,'jnif::model']]]
 ];

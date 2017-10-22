@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['valid',['valid',['../classjnif_1_1_frame.html#a839f7916376b22a781f08694e20389f1',1,'jnif::Frame']]],
+  ['value',['value',['../structjnif_1_1model_1_1_const_pool_1_1_integer.html#a92c40a6229f700bd47d19abbc051ec41',1,'jnif::model::ConstPool::Integer::value()'],['../structjnif_1_1model_1_1_const_pool_1_1_float.html#a89232616ba7849eddce917d2a4eaff63',1,'jnif::model::ConstPool::Float::value()'],['../structjnif_1_1model_1_1_const_pool_1_1_long.html#a5c7932fedd6b6c41ea91c23b421dd2e6',1,'jnif::model::ConstPool::Long::value()'],['../structjnif_1_1model_1_1_const_pool_1_1_double.html#ad2e7ebd12dd5b6ca72474bfb0f11348b',1,'jnif::model::ConstPool::Double::value()'],['../classjnif_1_1model_1_1_push_inst.html#a8d637db287a4838598324b145855c4a8',1,'jnif::model::PushInst::value()'],['../classjnif_1_1model_1_1_iinc_inst.html#a35d8acd22fe6178427f7d1656643d476',1,'jnif::model::IincInst::value()'],['../classjnif_1_1model_1_1_wide_inst.html#ae97ebc143b4e04ed48c281ca5e8ac9f4',1,'jnif::model::WideInst::value()']]],
+  ['valueindex',['valueIndex',['../classjnif_1_1model_1_1_ldc_inst.html#acb7627237af7ec7143d9a0c9461fb397',1,'jnif::model::LdcInst']]],
+  ['var',['var',['../classjnif_1_1model_1_1_wide_inst.html#a84e43901ef4de0343a43a4bf8a332aa8',1,'jnif::model::WideInst']]],
+  ['vardescindex',['varDescIndex',['../structjnif_1_1model_1_1_lvt_attr_1_1_lv_entry.html#adb210bbc554bd442fde8847a7095bb26',1,'jnif::model::LvtAttr::LvEntry']]],
+  ['varnameindex',['varNameIndex',['../structjnif_1_1model_1_1_lvt_attr_1_1_lv_entry.html#adc81016ad2d4e1ed7689045bff4ede1d',1,'jnif::model::LvtAttr::LvEntry']]],
+  ['version',['version',['../classjnif_1_1model_1_1_class_file.html#ae34ed8c6fcc3642c127f9b7327fa230d',1,'jnif::model::ClassFile::version()'],['../structunz__file__info64__s.html#a4262e51be02716b887447e68c231006b',1,'unz_file_info64_s::version()'],['../structunz__file__info__s.html#a635f933b26b636d8314cef61af62fcef',1,'unz_file_info_s::version()']]],
+  ['version_5fneeded',['version_needed',['../structunz__file__info64__s.html#ad0041eacba37cb431242d9bd9c86d264',1,'unz_file_info64_s::version_needed()'],['../structunz__file__info__s.html#a1578aca2bb7fed658f9f94c78d00288e',1,'unz_file_info_s::version_needed()']]]
+];

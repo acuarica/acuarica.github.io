@@ -1,7 +1,0 @@
-<map id="jnif::LabelManager::hasLabel" name="jnif::LabelManager::hasLabel">
-<area shape="rect" id="node2" href="$classjnif_1_1_label_manager.html#a38232c40bbf2a0193450848f151f3190" title="jnif::LabelManager\l::putLabelIfExists" alt="" coords="184,34,315,78"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_label_manager.html#a1c5252a4e52fdea780de83391342b298" title="jnif::LabelManager\l::operator[]" alt="" coords="184,102,315,146"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_code_attr_parser.html#a52233362c7ad71816fd784ed78d55dd3" title="jnif::CodeAttrParser\l::parseInst" alt="" coords="363,5,501,49"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_code_attr_parser.html#a2dd57ddb444f27121c952f1537c7b260" title="jnif::CodeAttrParser\l::parse" alt="" coords="736,35,874,79"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_code_attr_parser.html#ab468b9af186a8236e3c843a595d1df42" title="jnif::CodeAttrParser\l::parseInstList" alt="" coords="550,5,688,49"/>
-</map>

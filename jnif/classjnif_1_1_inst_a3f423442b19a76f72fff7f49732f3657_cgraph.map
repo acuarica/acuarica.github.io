@@ -1,5 +1,0 @@
-<map id="jnif::Inst::isBranch" name="jnif::Inst::isBranch">
-<area shape="rect" id="node2" href="$classjnif_1_1_inst.html#a7f30ab38a98346c5a6200c445061edea" title="jnif::Inst::isJump" alt="" coords="207,5,324,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_inst.html#ab85896427fc2d08705c65789c39745c8" title="jnif::Inst::isTableSwitch" alt="" coords="188,57,343,85"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_inst.html#a1f57297bf1111b0e0bcc09265e3e1155" title="jnif::Inst::isLookupSwitch" alt="" coords="182,109,349,137"/>
-</map>

@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['majorversion',['majorVersion',['../classjnif_1_1_version.html#a1f7d490a041cf629227c8c6ec0bfe7e3',1,'jnif::Version']]],
-  ['member',['Member',['../classjnif_1_1_member.html#a2d6b3219d5409cb5e24ffb9d9c217647',1,'jnif::Member::Member(const Member &amp;)=delete'],['../classjnif_1_1_member.html#a50ade768aa2befcd37129cb9955570d4',1,'jnif::Member::Member(Member &amp;&amp;)=default']]],
-  ['message',['message',['../classjnif_1_1_jnif_exception.html#aea06b71eb9130c4d88abae2997fe12e7',1,'jnif::JnifException']]],
-  ['minorversion',['minorVersion',['../classjnif_1_1_version.html#a0c9bb722e1f863c84cb8992fcb514a80',1,'jnif::Version']]],
-  ['multiarray',['multiarray',['../classjnif_1_1_inst.html#a47c56646907076d68d21cdcd2d0cf83d',1,'jnif::Inst::multiarray()'],['../classjnif_1_1_inst.html#a2e8e396dd807a6201f6dda37ab7e1f39',1,'jnif::Inst::multiarray() const']]]
+  ['majorversion',['majorVersion',['../classjnif_1_1model_1_1_version.html#a792037902343746d6e7f87f60016ba37',1,'jnif::model::Version']]],
+  ['method',['Method',['../classjnif_1_1model_1_1_method.html#ac42efadaa2135354c9b7e306d7d3aa02',1,'jnif::model::Method']]],
+  ['minorversion',['minorVersion',['../classjnif_1_1model_1_1_version.html#a535b5e511caa6576d5d5d8fd65f5f249',1,'jnif::model::Version']]],
+  ['multiarray',['multiarray',['../classjnif_1_1model_1_1_inst.html#a58b908f545b1d82f6f9a01d18dcf8d33',1,'jnif::model::Inst::multiarray()'],['../classjnif_1_1model_1_1_inst.html#a72afa427ba0cf6ded46459e2e8753fb4',1,'jnif::model::Inst::multiarray() const']]],
+  ['multiarrayinst',['MultiArrayInst',['../classjnif_1_1model_1_1_multi_array_inst.html#a255cbbbf04b199cfc1076dc447e377b7',1,'jnif::model::MultiArrayInst']]]
 ];

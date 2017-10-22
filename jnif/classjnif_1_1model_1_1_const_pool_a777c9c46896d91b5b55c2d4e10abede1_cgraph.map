@@ -1,0 +1,5 @@
+<map id="jnif::model::ConstPool::addStringFromClass" name="jnif::model::ConstPool::addStringFromClass">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_const_pool.html#aff31a4757739594b7f58bce0bcd85c45" title="jnif::model::ConstPool\l::getClassNameIndex" alt="" coords="204,5,355,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_const_pool.html#a6f4aad14ddc5fadd6c37ff536ce98d31" title="jnif::model::ConstPool\l::addString" alt="" coords="204,68,355,107"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_const_pool.html#aa0f090c2725204170854fda51a29c55e" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="403,68,554,107"/>
+</map>

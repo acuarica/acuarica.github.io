@@ -1,5 +1,0 @@
-<map id="jnif::ClassFile::addField" name="jnif::ClassFile::addField">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#adc10e025b40dd03e16c7cfc3fc949518" title="Adds a modified UTF8 string given the char array and its len. " alt="" coords="214,5,375,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#a10fcf3394c8c30e43fdff8a52ac9206b" title="Adds a new field to this class file. " alt="" coords="215,57,374,85"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f" title="jnif::Arena::alloc" alt="" coords="425,57,541,85"/>
-</map>

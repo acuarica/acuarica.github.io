@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classjnif_1_1_class_hierarchy.html" title="jnif::ClassHierarchy" alt="" coords="5,5,142,31"/>
+<area shape="rect" id="node2" href="$structjnif_1_1_dom.html" title="jnif::Dom\&lt; TDir \&gt;" alt="" coords="131,5,252,31"/>
+<area shape="rect" id="node4" href="$structjnif_1_1_i_dom.html" title="jnif::IDom\&lt; TDir \&gt;" alt="" coords="129,55,254,80"/>
+<area shape="rect" id="node3" href="$structjnif_1_1_s_dom.html" title="jnif::SDom\&lt; TDir \&gt;" alt="" coords="302,5,433,31"/>
 </map>

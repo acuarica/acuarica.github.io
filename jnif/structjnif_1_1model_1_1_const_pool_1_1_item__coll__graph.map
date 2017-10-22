@@ -1,0 +1,14 @@
+<map id="jnif::model::ConstPool::Item" name="jnif::model::ConstPool::Item">
+<area shape="rect" id="node2" href="$structjnif_1_1model_1_1_const_pool_1_1_name_and_type.html" title="Represents a tuple of name and descriptor. " alt="" coords="5,140,156,240"/>
+<area shape="rect" id="node3" href="$structjnif_1_1model_1_1_const_pool_1_1_string.html" title="Represents a string constant value. " alt="" coords="180,147,331,233"/>
+<area shape="rect" id="node4" href="$structjnif_1_1model_1_1_const_pool_1_1_long.html" title="Represents a long constant value. " alt="" coords="355,147,506,233"/>
+<area shape="rect" id="node5" href="$structjnif_1_1model_1_1_const_pool_1_1_integer.html" title="Represents an integer constant value. " alt="" coords="529,147,680,233"/>
+<area shape="rect" id="node6" href="$structjnif_1_1model_1_1_const_pool_1_1_utf8.html" title="Contains a modified UTF&#45;8 string. " alt="" coords="704,140,855,240"/>
+<area shape="rect" id="node8" href="$structjnif_1_1model_1_1_const_pool_1_1_method_type.html" title="Represents the type of a method. " alt="" coords="879,147,1030,233"/>
+<area shape="rect" id="node9" href="$structjnif_1_1model_1_1_const_pool_1_1_method_handle.html" title="Represents a method handle entry. " alt="" coords="1053,140,1204,240"/>
+<area shape="rect" id="node10" href="$structjnif_1_1model_1_1_const_pool_1_1_class.html" title="Represents a class, interface or array type. " alt="" coords="1228,147,1379,233"/>
+<area shape="rect" id="node11" href="$structjnif_1_1model_1_1_const_pool_1_1_double.html" title="Represents a double constant value. " alt="" coords="1403,147,1554,233"/>
+<area shape="rect" id="node12" href="$structjnif_1_1model_1_1_const_pool_1_1_float.html" title="Represent a float constant value. " alt="" coords="1577,147,1728,233"/>
+<area shape="rect" id="node13" href="$structjnif_1_1model_1_1_const_pool_1_1_invoke_dynamic.html" title="Represents an invoke dynamic call site. " alt="" coords="1752,140,1938,240"/>
+<area shape="rect" id="node14" href="$structjnif_1_1model_1_1_const_pool_1_1_member_ref.html" title="Represents a symbolic reference to a member (field, method or interface method) of a class..." alt="" coords="1962,140,2114,240"/>
+</map>

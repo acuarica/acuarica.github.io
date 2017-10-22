@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['newarray',['newarray',['../classjnif_1_1_inst.html#aa0cc7a4435378e32313f65722d163993',1,'jnif::Inst::newarray()'],['../classjnif_1_1_inst.html#a8e525e6144afcfe6ffee193bc2045ae3',1,'jnif::Inst::newarray() const']]],
-  ['nulltype',['nullType',['../classjnif_1_1_type_factory.html#a0af5864308e1999b24409ccdf37a9bed',1,'jnif::TypeFactory']]]
+  ['newarray',['newarray',['../classjnif_1_1model_1_1_inst.html#afd9dd59db67c1af43357f469d6426f72',1,'jnif::model::Inst::newarray()'],['../classjnif_1_1model_1_1_inst.html#aaa46eeb6d16d6a9c9752940145c728ae',1,'jnif::model::Inst::newarray() const'],['../classjnif_1_1_arena.html#ac0753c4d0753a5ab7256aa306c2f8ea8',1,'jnif::Arena::newArray()']]],
+  ['newarrayinst',['NewArrayInst',['../classjnif_1_1model_1_1_new_array_inst.html#a1c0d52e0182d72993219a0c81f876bee',1,'jnif::model::NewArrayInst']]],
+  ['nulltype',['nullType',['../classjnif_1_1model_1_1_type_factory.html#a71dff006e3edad713f44c4dc9089ee77',1,'jnif::model::TypeFactory']]]
 ];

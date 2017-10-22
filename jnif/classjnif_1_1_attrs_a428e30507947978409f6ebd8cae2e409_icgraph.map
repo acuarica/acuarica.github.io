@@ -1,6 +1,0 @@
-<map id="jnif::Attrs::add" name="jnif::Attrs::add">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="156,11,301,49"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_attrs_parser.html#ad571fabe6316cd99753001bc868bdcc5" title="jnif::AttrsParser::\lparse" alt="" coords="168,79,288,117"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="392,5,551,44"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#afa927b76e3058de411c3d240ca1670a7" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList... \&gt;, AttrsParser\&lt; TMethodAttr\lParserList... \&gt;, AttrsParser\&lt; TFieldAttr\lParserList... \&gt; \&gt;::parse" alt="" coords="349,68,595,147"/>
-</map>

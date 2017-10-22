@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['attrkind',['AttrKind',['../namespacejnif.html#aaaa5cfe43cb099a63653bfc22003236a',1,'jnif']]]
+  ['attrkind',['AttrKind',['../namespacejnif_1_1model.html#a0a1b8b18d0f7745ba60578f43cd439c1',1,'jnif::model']]]
 ];

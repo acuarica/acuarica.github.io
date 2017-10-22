@@ -1,5 +1,5 @@
 <map id="jnif::ClassHierarchy::addClass" name="jnif::ClassHierarchy::addClass">
-<area shape="rect" id="node2" href="$classjnif_1_1_class_file.html#a55978e04ede9c78f766cb239e3163548" title="Gets the class name of this class file. " alt="" coords="215,5,366,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="232,68,349,93"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a0fcd84bd80cd961b393d58480bfa3d76" title="jnif::ConstPool::getClassName" alt="" coords="190,117,392,143"/>
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_class_file.html#a49df833171fac2ef1c1ed3bde2f9c94c" title="Gets the class name of this class file. " alt="" coords="190,5,334,44"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_const_pool.html#a8104e5f79a04c8197dade52a794fe69c" title="jnif::model::ConstPool\l::getClassName" alt="" coords="383,35,534,73"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a5a801c047e23edf1f9f9c6b8c3fa2ef7" title="jnif::Error\&lt; Exception\l \&gt;::check" alt="" coords="190,120,335,159"/>
 </map>

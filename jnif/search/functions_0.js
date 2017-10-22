@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_5fcreate',['_create',['../classjnif_1_1_inst_list.html#acec9d6728b58f91f2aaf19fdd11ea71c',1,'jnif::InstList']]]
+  ['_5fbacktrace',['_backtrace',['../namespacejnif.html#ab101a816c4d397bc438ace2530873f08',1,'jnif']]]
 ];

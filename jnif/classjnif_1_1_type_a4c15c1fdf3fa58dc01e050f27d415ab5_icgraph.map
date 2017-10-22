@@ -1,6 +1,0 @@
-<map id="jnif::Type::setCpIndex" name="jnif::Type::setCpIndex">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame_generator.html#aaaec7efe91b46ccc1fd73d516eac33d8" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="203,37,347,76"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame_generator.html#a062f9ca64f5fe2c1fdb65d06d058778c" title="jnif::FrameGenerator\l::setCpIndex" alt="" coords="395,5,540,44"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame_generator.html#a44865fcfc5e995005ee17ac389d7aa01" title="jnif::FrameGenerator\l::computeFrames" alt="" coords="395,68,540,107"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_class_file.html#affcd00150e4acf99525b69b8a8a1e73e" title="jnif::ClassFile::compute\lFrames" alt="" coords="588,68,747,107"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="jnif::TypeFactory::nullType" name="jnif::TypeFactory::nullType">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#a047e9a569d2b0c3639f4e7e25eaa501f" title="jnif::Frame::pushNull" alt="" coords="207,5,350,31"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_stack_map_table_attr_parser.html#a30382d22dd8ad2c9a92aaff2873dd733" title="jnif::StackMapTableAttrParser\l::parseType" alt="" coords="180,55,377,93"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a8ffecde86b7455f1bdd787c6764d1402" title="jnif::Frame::pushType" alt="" coords="449,5,598,31"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#afa9cd7ec7852035c22ba2fc72732abb3" title="jnif::Frame::popArray" alt="" coords="695,5,841,31"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_stack_map_table_attr_parser.html#a535fdc8117a082428a6a65e2882bc1b9" title="jnif::StackMapTableAttrParser\l::parseTs" alt="" coords="425,55,622,93"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_stack_map_table_attr_parser.html#adaede7c6ec7aa3c1d24d23e027f19026" title="jnif::StackMapTableAttrParser\l::parse" alt="" coords="670,55,867,93"/>
-</map>

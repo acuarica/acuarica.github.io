@@ -1,0 +1,9 @@
+<map id="jnif::model::UnknownAttr" name="jnif::model::UnknownAttr">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="582,1451,693,1564"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="555,1036,720,1389"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,301,169,975"/>
+<area shape="rect" id="node9" href="$classjnif_1_1model_1_1_version.html" title="The Version class is a tuple containing a major and minor version numbers fields. ..." alt="" coords="802,581,940,695"/>
+<area shape="rect" id="node10" href="$classjnif_1_1model_1_1_signature.html" title="{jnif::model::Signature\n||+ Signature()\l+ hasSignature()\l+ signature()\l}" alt="" coords="963,588,1110,688"/>
+<area shape="rect" id="node11" href="$classjnif_1_1model_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="192,528,309,748"/>
+<area shape="rect" id="node14" href="$classjnif_1_1_arena.html" title="{jnif::Arena\n|+ BLOCK_SIZE\l|+ Arena()\l+ Arena()\l+ Arena()\l+ Arena()\l+ ~Arena()\l+ alloc()\l+ create()\l+ newArray()\l}" alt="" coords="1133,555,1248,721"/>
+</map>

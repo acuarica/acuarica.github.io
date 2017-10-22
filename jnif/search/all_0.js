@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['_5farena',['_arena',['../classjnif_1_1_class_file.html#a4fc13d897df4910ae1a277106bbc862b',1,'jnif::ClassFile']]],
-  ['_5fcreate',['_create',['../classjnif_1_1_inst_list.html#acec9d6728b58f91f2aaf19fdd11ea71c',1,'jnif::InstList']]],
-  ['_5foffset',['_offset',['../classjnif_1_1_inst.html#ac62d8d1761fa59a7fab5ee818c87583b',1,'jnif::Inst']]],
-  ['_5ftypefactory',['_typeFactory',['../classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#a2c2fade4eac8b808d32d7120c2d0c085',1,'jnif::ClassParser&lt; AttrsParser&lt; TClassAttrParserList... &gt;, AttrsParser&lt; TMethodAttrParserList... &gt;, AttrsParser&lt; TFieldAttrParserList... &gt; &gt;']]]
+  ['_5f_5fuse_5ffile_5foffset64',['__USE_FILE_OFFSET64',['../ioapi_8h.html#aa873b7168492eebce909df8415cac735',1,'ioapi.h']]],
+  ['_5f_5fuse_5flargefile64',['__USE_LARGEFILE64',['../ioapi_8h.html#a285ae8236e7a984a6692acf6530cd505',1,'ioapi.h']]],
+  ['_5farena',['_arena',['../classjnif_1_1model_1_1_class_file.html#adf1604a4da75a204256822d5bd647f59',1,'jnif::model::ClassFile']]],
+  ['_5fbacktrace',['_backtrace',['../namespacejnif.html#ab101a816c4d397bc438ace2530873f08',1,'jnif']]],
+  ['_5ffile_5foffset_5fbit',['_FILE_OFFSET_BIT',['../ioapi_8h.html#ac86701761e1b32d5d7a3358a6c726efa',1,'ioapi.h']]],
+  ['_5flargefile64_5fsource',['_LARGEFILE64_SOURCE',['../ioapi_8h.html#a0e6d20c5075b52b0f0bc4858d51c8591',1,'ioapi.h']]],
+  ['_5foffset',['_offset',['../classjnif_1_1model_1_1_inst.html#a56c3efdb4dc77d1f74cbbdabc3e78cbb',1,'jnif::model::Inst']]]
 ];

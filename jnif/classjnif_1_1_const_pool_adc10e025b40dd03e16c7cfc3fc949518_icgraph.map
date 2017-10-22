@@ -1,6 +1,0 @@
-<map id="jnif::ConstPool::addUtf8" name="jnif::ConstPool::addUtf8">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#a1a658c7c4a072910c13d8ecd57e86b54" title="Adds a class reference to the constant pool by class name. " alt="" coords="253,5,423,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_const_pool.html#a73014d16118e27d9c9b8030de37c26f9" title="Adds a non&#45;interface methods by method name and descriptor. " alt="" coords="237,55,439,80"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_const_pool.html#a4b1dffd30cdbb156bff8df77d759b23f" title="Adds a string to the constant pool by providing a string. " alt="" coords="252,104,424,129"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#afa927b76e3058de411c3d240ca1670a7" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList... \&gt;, AttrsParser\&lt; TMethodAttr\lParserList... \&gt;, AttrsParser\&lt; TFieldAttr\lParserList... \&gt; \&gt;::parse" alt="" coords="215,153,461,232"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="jnif::Method::isInit" name="jnif::Method::isInit">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html#a3fad21ceed73adf9ebfa4e199dc88413" title="jnif::ConstPool::getUtf8" alt="" coords="178,5,336,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_method.html#ae2bf9bc41b96d35f8fa1822eb35e4fc3" title="jnif::Method::hasCode" alt="" coords="182,55,333,80"/>
-</map>

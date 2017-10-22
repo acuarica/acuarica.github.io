@@ -1,4 +1,0 @@
-<map id="jnif::ClassFile" name="jnif::ClassFile">
-<area shape="rect" id="node2" href="$classjnif_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,5,169,559"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="192,179,291,385"/>
-</map>

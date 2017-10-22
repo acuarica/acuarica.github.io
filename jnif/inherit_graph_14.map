@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classjnif_1_1_const_double.html" title="Represents a double constant value. " alt="" coords="5,5,128,31"/>
+<area shape="rect" id="node1" href="$classjnif_1_1model_1_1_attr.html" title="Defines the base class for all attributes in the class file. " alt="" coords="5,179,116,204"/>
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_code_attr.html" title="Represent the Code attribute of a method. " alt="" coords="180,5,322,31"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_exceptions_attr.html" title="Represents the Exceptions attribute. " alt="" coords="164,55,339,80"/>
+<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_lnt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="187,104,316,129"/>
+<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_lvt_attr.html" title="Represents the LineNumberTable attribute within the Code attribute. " alt="" coords="187,153,315,179"/>
+<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_signature_attr.html" title="jnif::model::SignatureAttr" alt="" coords="168,203,335,228"/>
+<area shape="rect" id="node7" href="$classjnif_1_1model_1_1_smt_attr.html" title="jnif::model::SmtAttr" alt="" coords="184,252,318,277"/>
+<area shape="rect" id="node8" href="$classjnif_1_1model_1_1_source_file_attr.html" title="jnif::model::SourceFileAttr" alt="" coords="164,301,338,327"/>
+<area shape="rect" id="node9" href="$classjnif_1_1model_1_1_unknown_attr.html" title="Represents an unknown opaque attribute to jnif. " alt="" coords="168,351,334,376"/>
 </map>

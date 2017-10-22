@@ -1,0 +1,4 @@
+<map id="jnif::model::PushInst" name="jnif::model::PushInst">
+<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="108,1049,250,1803"/>
+<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,301,169,975"/>
+</map>

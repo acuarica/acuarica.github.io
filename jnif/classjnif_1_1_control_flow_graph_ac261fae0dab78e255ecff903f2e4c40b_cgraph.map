@@ -1,7 +1,0 @@
-<map id="jnif::ControlFlowGraph::findBasicBlockOfLabel" name="jnif::ControlFlowGraph::findBasicBlockOfLabel">
-<area shape="rect" id="node2" href="$classjnif_1_1_inst_list.html#a49b6e0706f77b3278da50a689021659b" title="jnif::InstList::end" alt="" coords="217,5,335,33"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a20ec60d87f78f4cfcb5c89624c012191" title="jnif::Error::assert" alt="" coords="216,57,336,85"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_inst.html#ac4c5613adfbaf17f917ce6a2ff416eda" title="jnif::Inst::isLabel" alt="" coords="384,135,501,163"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_inst.html#a16836e29d651d1e75dfc46beaddfc37d" title="jnif::Inst::label" alt="" coords="225,161,327,189"/>
-<area shape="rect" id="node6" href="$classjnif_1_1_error.html#a323c70ce47af4b34b77a75e51831390c" title="jnif::Error::raise" alt="" coords="220,213,332,241"/>
-</map>

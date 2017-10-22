@@ -1,6 +1,0 @@
-<map id="jnif::LocalVariableTableAttrParser::parse" name="jnif::LocalVariableTableAttrParser::parse">
-<area shape="rect" id="node2" href="$classjnif_1_1_buffer_reader.html#ae55084c4bba0550f649becae664517ee" title="jnif::BufferReader\l::readu2" alt="" coords="214,5,339,44"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_label_manager.html#ac63739c2d05aaa2b7bc65de616330a3d" title="jnif::LabelManager\l::createLabel" alt="" coords="211,68,342,107"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a70cd67c5616b5c27592086df7c19449a" title="jnif::Error::check" alt="" coords="414,19,531,44"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_inst_list.html#a344eac9e015557f4dbad1cd93c7b8618" title="jnif::InstList::createLabel" alt="" coords="390,75,555,100"/>
-</map>

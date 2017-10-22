@@ -1,3 +1,3 @@
 <map id="jnif::WriterException" name="jnif::WriterException">
-<area shape="rect" id="node2" href="$classjnif_1_1_jnif_exception.html" title="Represents the base exception that jnif can throw. " alt="" coords="13,5,138,105"/>
+<area shape="rect" id="node2" href="$classjnif_1_1_exception.html" title="Represents the base exception that JNIF can throw. " alt="" coords="23,153,127,240"/>
 </map>

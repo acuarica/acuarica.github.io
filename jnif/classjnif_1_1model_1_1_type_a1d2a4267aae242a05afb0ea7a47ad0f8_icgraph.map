@@ -1,0 +1,9 @@
+<map id="jnif::model::Type::isTop" name="jnif::model::Type::isTop">
+<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="398,131,552,170"/>
+<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ac2e7d96169469eea12048519bc81ee3f" title="jnif::Frame::popOneWord" alt="" coords="179,39,350,64"/>
+<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a70841c5288c3dabe86de2f464d7089a7" title="jnif::Frame::popTwoWord" alt="" coords="180,88,350,114"/>
+<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#ac32183d6726f1f04e1e0f927d7711993" title="jnif::Frame::cleanTops" alt="" coords="189,138,340,163"/>
+<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_type_factory.html#aa7d6de24ed16a183c2825150b3170b6d" title="jnif::model::TypeFactory\l::arrayType" alt="" coords="183,187,346,226"/>
+<area shape="rect" id="node8" href="$namespacejnif_1_1model.html#a1191ad3e5fc0a8d9790c1a57a1fb192a" title="jnif::model::operator\&lt;\&lt;" alt="" coords="187,250,342,275"/>
+<area shape="rect" id="node7" href="$classjnif_1_1_frame.html#a06be0020f9c05beb364a6366ed949030" title="jnif::Frame::pushArray" alt="" coords="399,194,551,219"/>
+</map>

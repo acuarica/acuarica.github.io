@@ -66,13 +66,14 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classjnif_1_1_arena-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">jnif::Arena Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_arena_8hpp_source.html">Arena.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for jnif::Arena:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -85,36 +86,137 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a20128cfaafaf19e9526af499e7cdbddd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a20128cfaafaf19e9526af499e7cdbddd">Arena</a> ()</td></tr>
-<tr class="separator:a20128cfaafaf19e9526af499e7cdbddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92dbe73dc9c177c286907fdcadf6db0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#ae92dbe73dc9c177c286907fdcadf6db0">Arena</a> (const <a class="el" href="classjnif_1_1_arena.html">Arena</a> &amp;)=delete</td></tr>
+<tr class="separator:ae92dbe73dc9c177c286907fdcadf6db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e0aa21345f13fdbe6ada1e36a2df063"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a6e0aa21345f13fdbe6ada1e36a2df063">Arena</a> (<a class="el" href="classjnif_1_1_arena.html">Arena</a> &amp;)=delete</td></tr>
+<tr class="separator:a6e0aa21345f13fdbe6ada1e36a2df063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba1f368b733d76fe3e4b929c762c94b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a1ba1f368b733d76fe3e4b929c762c94b">Arena</a> (const <a class="el" href="classjnif_1_1_arena.html">Arena</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a1ba1f368b733d76fe3e4b929c762c94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25cfd79fe914c65bccb180a4584c9c5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a25cfd79fe914c65bccb180a4584c9c5c">Arena</a> (size_t blockSize=<a class="el" href="classjnif_1_1_arena.html#aa1daa29ac2792daeac96070bb871e8bd">BLOCK_SIZE</a>)</td></tr>
+<tr class="separator:a25cfd79fe914c65bccb180a4584c9c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c73c0330859c786d0be3c588eb666b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#af4c73c0330859c786d0be3c588eb666b">~Arena</a> ()</td></tr>
 <tr class="separator:af4c73c0330859c786d0be3c588eb666b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ab41db18ff2acc11689b31b813fa4f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f">alloc</a> (int size)</td></tr>
+<tr class="memitem:a92ab41db18ff2acc11689b31b813fa4f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f">alloc</a> (<a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> <a class="el" href="ioapi_8h.html#a014d89bd76f74ef3a29c8f04b473eb76">size</a>)</td></tr>
 <tr class="separator:a92ab41db18ff2acc11689b31b813fa4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f4c058d93b9fe52e442e001c10400ef"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... TArgs&gt; </td></tr>
-<tr class="memitem:a1f4c058d93b9fe52e442e001c10400ef"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#a1f4c058d93b9fe52e442e001c10400ef">create</a> (const TArgs &amp;... args)</td></tr>
-<tr class="separator:a1f4c058d93b9fe52e442e001c10400ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17ca9f0dc19f3d88fa46d4e7838bf93"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... TArgs&gt; </td></tr>
+<tr class="memitem:aa17ca9f0dc19f3d88fa46d4e7838bf93"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#aa17ca9f0dc19f3d88fa46d4e7838bf93">create</a> (const TArgs &amp;... args)</td></tr>
+<tr class="separator:aa17ca9f0dc19f3d88fa46d4e7838bf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0753c4d0753a5ab7256aa306c2f8ea8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac0753c4d0753a5ab7256aa306c2f8ea8"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#ac0753c4d0753a5ab7256aa306c2f8ea8">newArray</a> (<a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> <a class="el" href="ioapi_8h.html#a014d89bd76f74ef3a29c8f04b473eb76">size</a>)</td></tr>
+<tr class="separator:ac0753c4d0753a5ab7256aa306c2f8ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aa1daa29ac2792daeac96070bb871e8bd"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjnif_1_1_arena.html#aa1daa29ac2792daeac96070bb871e8bd">BLOCK_SIZE</a> = 1024 * 1024</td></tr>
+<tr class="separator:aa1daa29ac2792daeac96070bb871e8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_arena_8hpp_source.html#l00013">13</a> of file <a class="el" href="_arena_8hpp_source.html">Arena.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="jnif_8hpp_source.html#l00185">185</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a20128cfaafaf19e9526af499e7cdbddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20128cfaafaf19e9526af499e7cdbddd">&#9670;&nbsp;</a></span>Arena()</h2>
+<a id="ae92dbe73dc9c177c286907fdcadf6db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae92dbe73dc9c177c286907fdcadf6db0">&#9670;&nbsp;</a></span>Arena() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">jnif::Arena::Arena </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="classjnif_1_1_arena.html">Arena</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_arena_8cpp_source.html#l00041">41</a> of file <a class="el" href="_arena_8cpp_source.html">Arena.cpp</a>.</p>
+</div>
+</div>
+<a id="a6e0aa21345f13fdbe6ada1e36a2df063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e0aa21345f13fdbe6ada1e36a2df063">&#9670;&nbsp;</a></span>Arena() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">jnif::Arena::Arena </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjnif_1_1_arena.html">Arena</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ba1f368b733d76fe3e4b929c762c94b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba1f368b733d76fe3e4b929c762c94b">&#9670;&nbsp;</a></span>Arena() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">jnif::Arena::Arena </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classjnif_1_1_arena.html">Arena</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25cfd79fe914c65bccb180a4584c9c5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25cfd79fe914c65bccb180a4584c9c5c">&#9670;&nbsp;</a></span>Arena() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">jnif::Arena::Arena </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>blockSize</em> = <code><a class="el" href="classjnif_1_1_arena.html#aa1daa29ac2792daeac96070bb871e8bd">BLOCK_SIZE</a></code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="base_8cpp_source.html#l00067">67</a> of file <a class="el" href="base_8cpp_source.html">base.cpp</a>.</p>
 
 </div>
 </div>
@@ -133,7 +235,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_arena_8cpp_source.html#l00045">45</a> of file <a class="el" href="_arena_8cpp_source.html">Arena.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8cpp_source.html#l00072">72</a> of file <a class="el" href="base_8cpp_source.html">base.cpp</a>.</p>
 
 </div>
 </div>
@@ -147,66 +249,115 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void * jnif::Arena::alloc </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
           <td class="paramname"><em>size</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_arena_8cpp_source.html#l00054">54</a> of file <a class="el" href="_arena_8cpp_source.html">Arena.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8cpp_source.html#l00080">80</a> of file <a class="el" href="base_8cpp_source.html">base.cpp</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_icgraph.png" border="0" usemap="#classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_icgraph" alt=""/></div>
-<map name="classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_icgraph" id="classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_icgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_arena.html#a1f4c058d93b9fe52e442e001c10400ef" title="jnif::Arena::create" alt="" coords="194,5,320,31"/>
-<area shape="rect" id="node3" href="classjnif_1_1_class_file.html#a10fcf3394c8c30e43fdff8a52ac9206b" title="Adds a new field to this class file. " alt="" coords="177,55,336,80"/>
-<area shape="rect" id="node5" href="classjnif_1_1_class_file.html#a95fec8b72553bcd85a60f184b15cea46" title="Adds a new method to this class file. " alt="" coords="170,104,344,129"/>
-<area shape="rect" id="node6" href="classjnif_1_1_inst_list.html#acec9d6728b58f91f2aaf19fdd11ea71c" title="jnif::InstList::_create" alt="" coords="187,153,327,179"/>
-<area shape="rect" id="node4" href="classjnif_1_1_class_parser_3_01_attrs_parser_3_01_t_class_attr_parser_list_8_8_8_01_4_00_01_attr3bd3c600564e3cd1fe253ec39603120e.html#afa927b76e3058de411c3d240ca1670a7" title="jnif::ClassParser\&lt;\l AttrsParser\&lt; TClassAttrParser\lList... \&gt;, AttrsParser\&lt; TMethodAttr\lParserList... \&gt;, AttrsParser\&lt; TFieldAttr\lParserList... \&gt; \&gt;::parse" alt="" coords="392,53,639,132"/>
+<div class="center"><img src="classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_cgraph.png" border="0" usemap="#classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_cgraph" alt=""/></div>
+<map name="classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_cgraph" id="classjnif_1_1_arena_a92ab41db18ff2acc11689b31b813fa4f_cgraph">
+<area shape="rect" id="node2" href="classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="170,5,315,44"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a1f4c058d93b9fe52e442e001c10400ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f4c058d93b9fe52e442e001c10400ef">&#9670;&nbsp;</a></span>create()</h2>
+<a id="aa17ca9f0dc19f3d88fa46d4e7838bf93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17ca9f0dc19f3d88fa46d4e7838bf93">&#9670;&nbsp;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , typename ... TArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T * jnif::Arena::create </td>
+          <td class="memname">T* jnif::Arena::create </td>
           <td>(</td>
           <td class="paramtype">const TArgs &amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_arena_8cpp_source.html#l00067">67</a> of file <a class="el" href="_arena_8cpp_source.html">Arena.cpp</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="jnif_8hpp_source.html#l00203">203</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classjnif_1_1_arena_a1f4c058d93b9fe52e442e001c10400ef_cgraph.png" border="0" usemap="#classjnif_1_1_arena_a1f4c058d93b9fe52e442e001c10400ef_cgraph" alt=""/></div>
-<map name="classjnif_1_1_arena_a1f4c058d93b9fe52e442e001c10400ef_cgraph" id="classjnif_1_1_arena_a1f4c058d93b9fe52e442e001c10400ef_cgraph">
-<area shape="rect" id="node2" href="classjnif_1_1_arena.html#a92ab41db18ff2acc11689b31b813fa4f" title="jnif::Arena::alloc" alt="" coords="179,5,295,31"/>
-</map>
 </div>
+<a id="ac0753c4d0753a5ab7256aa306c2f8ea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0753c4d0753a5ab7256aa306c2f8ea8">&#9670;&nbsp;</a></span>newArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* jnif::Arena::newArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="jnif_8hpp_source.html#l00209">209</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa1daa29ac2792daeac96070bb871e8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1daa29ac2792daeac96070bb871e8bd">&#9670;&nbsp;</a></span>BLOCK_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> jnif::Arena::BLOCK_SIZE = 1024 * 1024</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="jnif_8hpp_source.html#l00188">188</a> of file <a class="el" href="jnif_8hpp_source.html">jnif.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="_arena_8hpp_source.html">Arena.hpp</a></li>
-<li>src/<a class="el" href="_arena_8cpp_source.html">Arena.cpp</a></li>
+<li>src-libjnif/<a class="el" href="jnif_8hpp_source.html">jnif.hpp</a></li>
+<li>src-libjnif/<a class="el" href="base_8cpp_source.html">base.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

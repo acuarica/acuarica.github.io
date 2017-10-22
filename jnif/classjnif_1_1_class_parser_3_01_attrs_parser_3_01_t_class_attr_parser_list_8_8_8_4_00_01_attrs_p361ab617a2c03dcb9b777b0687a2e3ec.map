@@ -1,3 +1,0 @@
-<map id="jnif::ClassParser&lt; AttrsParser&lt; TClassAttrParserList...&gt;, AttrsParser&lt; TMethodAttrParserList...&gt;, AttrsParser&lt; TFieldAttrParserList...&gt; &gt;" name="jnif::ClassParser&lt; AttrsParser&lt; TClassAttrParserList...&gt;, AttrsParser&lt; TMethodAttrParserList...&gt;, AttrsParser&lt; TFieldAttrParserList...&gt; &gt;">
-<area shape="rect" id="node2" href="$classjnif_1_1_type_factory.html" title="{jnif::TypeFactory\n||+ topType()\l+ intType()\l+ floatType()\l+ longType()\l+ doubleType()\l+ booleanType()\l+ byteType()\l+ charType()\l+ shortType()\l+ nullType()\l+ voidType()\l+ uninitThisType()\l+ uninitType()\l+ objectType()\l+ arrayType()\l+ fromConstClass()\l+ fromFieldDesc()\l+ fromMethodDesc()\l}" alt="" coords="74,6,216,359"/>
-</map>
