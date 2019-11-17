@@ -18,7 +18,7 @@ organizations:
   url: "https://www.inf.usi.ch/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
 interests:
 - JVM-based Languages
@@ -75,8 +75,8 @@ user_groups:
 - Visitors
 ---
 
-I am a Ph.D. student in Informatics at the Università della Svizzera italiana.
-I am currently working on empirical studies on programming languages.
+I am a Ph.D. in Informatics at the Università della Svizzera italiana.
+My main topic as a Ph.D. student was empirical studies on programming languages.
 The main goal of my thesis is to understand how and **why** programming features are being used in the wild.
 Since any empirical study on programming languages must be language-dependent, we focus on Java.
 
@@ -85,7 +85,7 @@ static analysis, program transformation with Supercompilation.
 
 Before Supercompilation, I have developed JNIF, a Java Class Files parser to be used as a native agent using JVMTI.
 
-I work under the advise of Prof. Matthias Hauswirth and Prof. Nate Nystrom.
+I worked under the advise of Prof. Matthias Hauswirth and Prof. Nate Nystrom.
 I have worked for more than 10 years in private industry in different roles, 
 as Software Developer, Software Engineer, Network Administrator and 
 Freelance Developer.
