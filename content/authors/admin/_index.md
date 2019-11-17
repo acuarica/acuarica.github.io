@@ -27,6 +27,7 @@ interests:
 - Supercompilation
 - Partial Evaluation
 - Static/Dynamic Analysis
+- Education in CS
 
 education:
   courses:
