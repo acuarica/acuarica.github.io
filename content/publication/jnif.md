@@ -35,7 +35,7 @@ url_slides: "https://acuarica.gitlab.com/jnif/2014-pppj-slides.pdf"
 tags: [java, native, instrumentation]
 categories: []
 # date: 2019-11-16T17:57:44+01:00
-lastmod: 2019-11-16T17:57:44+01:00
+# lastmod: 2019-11-16T17:57:44+01:00
 featured: false
 draft: false
 
