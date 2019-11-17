@@ -43,9 +43,36 @@ date_format = "Jan 2006"
   organization_url = "https://www.datacamp.com"
   title = "Object-Oriented Programming in R: S3 and R6 Course"
   url = ""
-  certificate_url = "https://www.datacamp.com"
+#  certificate_url = "https://www.datacamp.com"
   date_start = "2017-07-01"
   date_end = "2017-12-21"
   description = ""
 
 +++
+
+
+I am a teaching assistant for the following courses at 
+Università della Svizzera italiana:
+
+* Fall '13, **Software Performance** *(6 ECTS, M.Sc. INF)*
+  http://boole.inf.usi.ch/sp-2013/
+* Spring '14, **Programming Fundamentals 2** *(6 ECTS, B.Sc.)*
+  http://boole.inf.usi.ch/pf2-2014/
+* Fall '14, **Programming Fundamentals 3** *(6 ECTS, B.Sc.)*
+  https://www2.icorsi.ch/course/view.php?id=3379
+* Spring '15, **Programming Fundamentals 2** *(6 ECTS, B.Sc.)*
+  https://informa.inf.usi.ch/course/ejmuXEJPcDRsbXhSb/syllabus
+* Fall '15, **Programming Fundamentals 1** *(6 ECTS, B.Sc.)*
+  http://usi-pl.github.io/pf1/fa-2015/
+* Spring '16, **Algorithm and Data Structures** *(6 ECTS, B.Sc.)*
+  http://www.inf.usi.ch/carzaniga/edu/algo/
+* Fall '16, **Computer Networking** *(6 ECTS, B.Sc.)*
+  http://www.inf.usi.ch/carzaniga/edu/ntw/index.html
+* Spring '17, **Languages \& Compilers** *(6 ECTS, B.Sc.*
+  http://usi-pl.github.io/lc/sp-2017/
+
+During my I also was teaching assistant for the following courses in the
+University of Buenos Aires:
+
+* Algo 1
+* Algo 2
