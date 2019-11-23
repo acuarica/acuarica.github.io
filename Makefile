@@ -2,5 +2,5 @@
 all:
 	hugo
 
-server:
+serve:
 	hugo server
