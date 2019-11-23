@@ -1,7 +1,0 @@
-<map id="jnif::Frame::popType" name="jnif::Frame::popType">
-<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_type.html#ae3ce622f27f2306afe1456354eacebef" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="196,5,322,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_type.html#aa89ff0ba67ee3e911bf257eb72dba9ac" title="jnif::model::Type::\lisFloat" alt="" coords="196,68,322,107"/>
-<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_type.html#a55eccbd6d4af84d726ae423bd2c047a4" title="jnif::model::Type::\lisLong" alt="" coords="196,131,322,169"/>
-<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_type.html#a1f6178df5d9483ad67f9a6116d21cdbf" title="jnif::model::Type::\lisDouble" alt="" coords="196,193,322,232"/>
-<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_type.html#a91b35b8143f7e5861b2db90e4707c2cc" title="jnif::model::Type::\lisObject" alt="" coords="196,256,322,295"/>
-</map>

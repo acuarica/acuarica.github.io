@@ -1,6 +1,0 @@
-<map id="jnif::model::InstList::begin" name="jnif::model::InstList::begin">
-<area shape="rect" id="node2" href="$namespacejnif.html#a285378a65fd154892da1f14aca6a7ba5" title="jnif::buildBasicBlocks" alt="" coords="185,5,331,31"/>
-<area shape="rect" id="node3" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="379,31,474,56"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_control_flow_graph.html#a57da6d8639c4910ee9e3ea96d0b4b0a3" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="522,24,676,63"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="724,24,878,63"/>
-</map>

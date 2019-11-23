@@ -1,5 +1,0 @@
-<map id="jnif::Exception::Exception" name="jnif::Exception::Exception">
-<area shape="rect" id="node2" href="$namespacejnif.html#ab101a816c4d397bc438ace2530873f08" title="jnif::_backtrace" alt="" coords="241,5,352,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_error.html#a5a801c047e23edf1f9f9c6b8c3fa2ef7" title="jnif::Error\&lt; Exception\l \&gt;::check" alt="" coords="224,55,369,93"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="224,117,369,156"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="jnif::model::ClassFile::dot" name="jnif::model::ClassFile::dot">
-<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_class_file.html#a49df833171fac2ef1c1ed3bde2f9c94c" title="Gets the class name of this class file. " alt="" coords="227,5,371,44"/>
-<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_const_pool.html#a3b479e3f9158cc182931c27188b3c3ae" title="jnif::model::ConstPool\l::getUtf8" alt="" coords="224,68,375,107"/>
-<area shape="rect" id="node5" href="$namespacejnif_1_1model.html#af877e179d0250ac9eb91c718929be777" title="jnif::model::dotCfg" alt="" coords="235,131,364,156"/>
-<area shape="rect" id="node7" href="$classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="226,180,372,219"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_const_pool.html#a8104e5f79a04c8197dade52a794fe69c" title="jnif::model::ConstPool\l::getClassName" alt="" coords="423,5,574,44"/>
-<area shape="rect" id="node6" href="$namespacejnif_1_1model.html#a0ee16acbc75271007bcc077a501510d5" title="jnif::model::dotFrame" alt="" coords="425,131,571,156"/>
-</map>

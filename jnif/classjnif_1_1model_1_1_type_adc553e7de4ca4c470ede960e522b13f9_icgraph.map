@@ -1,6 +1,0 @@
-<map id="jnif::model::Type::isOneWord" name="jnif::model::Type::isOneWord">
-<area shape="rect" id="node2" href="$classjnif_1_1_frame.html#ac2e7d96169469eea12048519bc81ee3f" title="jnif::Frame::popOneWord" alt="" coords="179,5,350,31"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a70841c5288c3dabe86de2f464d7089a7" title="jnif::Frame::popTwoWord" alt="" coords="180,55,350,80"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a1b2a283d72e73dfbf5ec47d5cfd4cc95" title="jnif::Frame::setVar" alt="" coords="200,104,329,129"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="398,97,552,136"/>
-</map>

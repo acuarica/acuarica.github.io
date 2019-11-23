@@ -1,4 +1,0 @@
-<map id="jnif::Frame::popIntegral" name="jnif::Frame::popIntegral">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="212,5,357,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_type.html#ae3ce622f27f2306afe1456354eacebef" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="222,68,347,107"/>
-</map>

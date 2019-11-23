@@ -1,7 +1,0 @@
-<map id="jnif::model::Type::isObject" name="jnif::model::Type::isObject">
-<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="180,5,334,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ab5bdeab7f7083dffa2e18272d9a5a530" title="jnif::Frame::popType" alt="" coords="185,68,328,93"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a0b25e48a4c32214f4c6c62ceb2efb740" title="jnif::Frame::pushType" alt="" coords="182,117,331,143"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_frame.html#af8351a8037f9854e6c7ab0fee5836e8e" title="jnif::Frame::setRefVar" alt="" coords="182,167,332,192"/>
-<area shape="rect" id="node6" href="$namespacejnif_1_1model.html#a1191ad3e5fc0a8d9790c1a57a1fb192a" title="jnif::model::operator\&lt;\&lt;" alt="" coords="179,216,334,241"/>
-</map>

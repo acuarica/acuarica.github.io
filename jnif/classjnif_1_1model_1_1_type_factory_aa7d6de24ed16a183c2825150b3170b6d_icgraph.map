@@ -1,4 +1,0 @@
-<map id="jnif::model::TypeFactory::arrayType" name="jnif::model::TypeFactory::arrayType">
-<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="216,5,370,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a06be0020f9c05beb364a6366ed949030" title="jnif::Frame::pushArray" alt="" coords="217,68,369,93"/>
-</map>

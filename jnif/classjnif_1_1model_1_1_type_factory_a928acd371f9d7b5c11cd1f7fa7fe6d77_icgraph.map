@@ -1,5 +1,0 @@
-<map id="jnif::model::TypeFactory::doubleType" name="jnif::model::TypeFactory::doubleType">
-<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="225,5,379,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#a1d5457e914163814428493a73cdcbc88" title="jnif::Frame::pushDouble" alt="" coords="221,68,383,93"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#a6bd807025d1f8ce633cf56b286866454" title="jnif::Frame::setDoubleVar" alt="" coords="216,117,388,143"/>
-</map>

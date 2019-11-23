@@ -1,6 +1,0 @@
-<map id="jnif::model::Method" name="jnif::model::Method">
-<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_member.html" title="Represent a member of a class. " alt="" coords="182,1036,320,1149"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,301,169,975"/>
-<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_signature.html" title="{jnif::model::Signature\n||+ Signature()\l+ hasSignature()\l+ signature()\l}" alt="" coords="334,588,480,688"/>
-<area shape="rect" id="node7" href="$classjnif_1_1model_1_1_attrs.html" title="Represents a collection of attributes within a class, method or field or even with another attributes..." alt="" coords="192,528,309,748"/>
-</map>

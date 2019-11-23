@@ -1,6 +1,0 @@
-<map id="jnif::Frame::setRefVar" name="jnif::Frame::setRefVar">
-<area shape="rect" id="node2" href="$classjnif_1_1_error.html#a5a801c047e23edf1f9f9c6b8c3fa2ef7" title="jnif::Error\&lt; Exception\l \&gt;::check" alt="" coords="203,5,349,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_type.html#a91b35b8143f7e5861b2db90e4707c2cc" title="jnif::model::Type::\lisObject" alt="" coords="213,68,339,107"/>
-<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_type.html#a8b85064028f6371184e0b6fed59ab3cc" title="jnif::model::Type::\lisNull" alt="" coords="213,131,339,169"/>
-<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_type.html#a3680f7791c49a7984dbb9491bb65bd76" title="jnif::model::Type::\lisUninitThis" alt="" coords="213,193,339,232"/>
-</map>

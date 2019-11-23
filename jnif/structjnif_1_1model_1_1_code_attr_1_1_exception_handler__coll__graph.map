@@ -1,5 +1,0 @@
-<map id="jnif::model::CodeAttr::ExceptionHandler" name="jnif::model::CodeAttr::ExceptionHandler">
-<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_label_inst.html" title="{jnif::model::LabelInst\n|+ offset\l+ deltaOffset\l+ id\l+ isBranchTarget\l+ isTryStart\l+ isCatchHandler\l|+ LabelInst()\l+ isTarget()\l}" alt="" coords="107,1852,251,2005"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_inst.html" title="Represent a bytecode instruction. " alt="" coords="108,1049,250,1803"/>
-<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="5,301,169,975"/>
-</map>

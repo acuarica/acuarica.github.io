@@ -1,4 +1,0 @@
-<map id="jnif::parser::ClassFileParser" name="jnif::parser::ClassFileParser">
-<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_class_file.html" title="Models a Java Class File following the specification of the JVM version 7. " alt="" coords="16,740,180,1187"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_const_pool.html" title="Represents the Java class file&#39;s constant pool. " alt="" coords="16,5,179,692"/>
-</map>

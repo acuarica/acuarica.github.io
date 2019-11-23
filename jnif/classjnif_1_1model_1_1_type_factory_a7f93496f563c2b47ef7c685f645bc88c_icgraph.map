@@ -1,5 +1,0 @@
-<map id="jnif::model::TypeFactory::intType" name="jnif::model::TypeFactory::intType">
-<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="216,5,370,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_frame.html#ad16b1d7d1055369f97f0d648494b1be9" title="jnif::Frame::pushInt" alt="" coords="225,68,361,93"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_frame.html#ab8dab5391cd1d882f01c685b0700b88c" title="jnif::Frame::setIntVar" alt="" coords="221,117,365,143"/>
-</map>

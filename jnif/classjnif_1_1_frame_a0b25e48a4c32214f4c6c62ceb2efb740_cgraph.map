@@ -1,9 +1,0 @@
-<map id="jnif::Frame::pushType" name="jnif::Frame::pushType">
-<area shape="rect" id="node2" href="$classjnif_1_1model_1_1_type.html#ae3ce622f27f2306afe1456354eacebef" title="Returns true when this type is an integral type, i.e., int, boolean, byte, char, short. " alt="" coords="203,5,329,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1model_1_1_type.html#aa89ff0ba67ee3e911bf257eb72dba9ac" title="jnif::model::Type::\lisFloat" alt="" coords="203,68,329,107"/>
-<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_type.html#a55eccbd6d4af84d726ae423bd2c047a4" title="jnif::model::Type::\lisLong" alt="" coords="203,131,329,169"/>
-<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_type.html#a1f6178df5d9483ad67f9a6116d21cdbf" title="jnif::model::Type::\lisDouble" alt="" coords="203,193,329,232"/>
-<area shape="rect" id="node6" href="$classjnif_1_1model_1_1_type.html#a8b85064028f6371184e0b6fed59ab3cc" title="jnif::model::Type::\lisNull" alt="" coords="203,256,329,295"/>
-<area shape="rect" id="node7" href="$classjnif_1_1model_1_1_type.html#a91b35b8143f7e5861b2db90e4707c2cc" title="jnif::model::Type::\lisObject" alt="" coords="203,319,329,357"/>
-<area shape="rect" id="node8" href="$classjnif_1_1model_1_1_type.html#a3680f7791c49a7984dbb9491bb65bd76" title="jnif::model::Type::\lisUninitThis" alt="" coords="203,381,329,420"/>
-</map>

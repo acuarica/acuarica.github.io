@@ -1,6 +1,0 @@
-<map id="jnif::model::WideInst::WideInst" name="jnif::model::WideInst::WideInst">
-<area shape="rect" id="node2" href="$classjnif_1_1_exception.html#aabb06781df3d4d8040152d26e282ecb0" title="Creates a default exception with the current stacktrace. " alt="" coords="195,61,365,87"/>
-<area shape="rect" id="node3" href="$namespacejnif.html#ab101a816c4d397bc438ace2530873f08" title="jnif::_backtrace" alt="" coords="430,5,541,31"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_error.html#a5a801c047e23edf1f9f9c6b8c3fa2ef7" title="jnif::Error\&lt; Exception\l \&gt;::check" alt="" coords="413,55,558,93"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_error.html#a96658116fea3018183e865f1f419ea56" title="jnif::Error\&lt; Exception\l \&gt;::assert" alt="" coords="413,117,558,156"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="jnif::ControlFlowGraph::findBasicBlockOfLabel" name="jnif::ControlFlowGraph::findBasicBlockOfLabel">
-<area shape="rect" id="node2" href="$namespacejnif.html#a0a763c929bbaeb87eb7e46bd0b6d6d1b" title="jnif::addTarget2" alt="" coords="215,19,328,44"/>
-<area shape="rect" id="node5" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="721,35,875,73"/>
-<area shape="rect" id="node3" href="$namespacejnif.html#a879b32fbb7a63f62918376d13fc7f2f6" title="jnif::buildCfg" alt="" coords="376,16,471,41"/>
-<area shape="rect" id="node4" href="$classjnif_1_1_control_flow_graph.html#a57da6d8639c4910ee9e3ea96d0b4b0a3" title="jnif::ControlFlowGraph\l::ControlFlowGraph" alt="" coords="519,5,673,44"/>
-</map>

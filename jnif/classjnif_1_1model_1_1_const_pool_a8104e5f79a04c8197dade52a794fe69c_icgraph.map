@@ -1,9 +1,0 @@
-<map id="jnif::model::ConstPool::getClassName" name="jnif::model::ConstPool::getClassName">
-<area shape="rect" id="node2" href="$classjnif_1_1_control_flow_graph.html#a1acc1f4de3cf4c45273c3c708a5c7d2c" title="jnif::ControlFlowGraph\l::dominance" alt="" coords="205,5,359,44"/>
-<area shape="rect" id="node3" href="$classjnif_1_1_class_hierarchy.html#a25493cd9f91fea84b9c5e81d476df790" title="jnif::ClassHierarchy\l::addClass" alt="" coords="424,64,560,103"/>
-<area shape="rect" id="node4" href="$classjnif_1_1model_1_1_class_file.html#a49df833171fac2ef1c1ed3bde2f9c94c" title="Gets the class name of this class file. " alt="" coords="210,120,354,159"/>
-<area shape="rect" id="node8" href="$namespacejnif_1_1model.html#af6cb08243ceaeaceb51e2a2d9079910c" title="jnif::model::operator\&lt;\&lt;" alt="" coords="204,183,359,208"/>
-<area shape="rect" id="node5" href="$classjnif_1_1model_1_1_class_file.html#a637ca52c8fc4ab5255b7210d201b57ab" title="Export this class file to dot format. " alt="" coords="407,127,577,152"/>
-<area shape="rect" id="node6" href="$namespacejnif_1_1model.html#a88a4976683a09ef7fef3372923ac3b4c" title="jnif::model::operator\&lt;\&lt;" alt="" coords="415,176,570,201"/>
-<area shape="rect" id="node7" href="$namespacejnif_1_1model.html#a1191ad3e5fc0a8d9790c1a57a1fb192a" title="jnif::model::operator\&lt;\&lt;" alt="" coords="625,176,780,201"/>
-</map>
