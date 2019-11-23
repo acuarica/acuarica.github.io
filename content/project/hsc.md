@@ -6,7 +6,7 @@ subtitle: "Haskell Supercompiler"
 summary: "The Haskell Supercompiler aims to bring back supercompilation to Haskell."
 authors: []
 tags: ["haskell", "supercompilation", "optimization", "partial evaluation", "static analysis", "theorem proving"]
-# external_link: "https://gitlab.com/acuarica/hsc"
+external_link: "https://gitlab.com/acuarica/hsc"
 categories: []
 date: 2019-11-17T19:13:55+01:00
 date: 2016-04-27

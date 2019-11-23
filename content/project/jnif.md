@@ -14,7 +14,7 @@ featured: false
 draft: false
 
 # Optional external URL for project (replaces project detail page).
-# external_link = "https://gitlab.com/acuarica/jnif"
+external_link: "https://gitlab.com/acuarica/jnif"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
