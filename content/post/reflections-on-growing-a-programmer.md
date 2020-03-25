@@ -35,7 +35,7 @@ The essay &mdash;
 
 The notes presented here are a sort of response to *Growing a Programmer*.
 They reflect my thoughts on the subject based on my experience as both a researcher and an educator.
-Although my experience is short, I believe I can contribute my two cents to the topic of how to *Grow a Programmer*.
+I believe I can contribute my two cents to the topic of how to *Grow a Programmer*.
 
 
 ## Goals
