@@ -21,13 +21,11 @@ organizations:
 bio: My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
 interests:
-- JVM-based Languages
-- Haskell
-- Functional Programming
-- Supercompilation
-- Partial Evaluation
-- Static/Dynamic Analysis
-- Education in CS
+- JVM-based Languages, *e.g.*, Java, Scala, Kotlin
+- Functional Programming, *e.g.*, Haskell
+- Supercompilation & Partial Evaluation
+- Static & Dynamic Analysis
+- Education in Computer Science
 
 education:
   courses:
