@@ -1,5 +1,6 @@
 name: GitHub Pages
 
+# https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
 permissions:
   contents: write
 
