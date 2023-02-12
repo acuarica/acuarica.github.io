@@ -48,15 +48,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: gitlab
-  icon_pack: fab
-  link: https://gitlab.com/acuarica
 - icon: github
   icon_pack: fab
   link: https://github.com/acuarica
 - icon: cv
   icon_pack: ai
-  link: https://acuarica.gitlab.io/cv/CV-LuisMastrangelo.pdf
+  link: https://acuarica.github.io/cv/CV-LuisMastrangelo.pdf
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/luismastrangelo/
