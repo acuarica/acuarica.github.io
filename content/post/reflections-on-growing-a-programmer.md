@@ -31,7 +31,6 @@ The notes presented here are a sort of response to *Growing a Programmer*.
 They reflect my thoughts on the subject based on my experience as both a researcher and an educator.
 I believe I can contribute my two cents to the topic of how to *Grow a Programmer*.
 
-
 ## Goals
 
 It is mandatory to have a well defined idea on what we expect from an University graduate.
@@ -48,7 +47,6 @@ If students are well-guided with solid foundations, it should be no problem for 
 
 I am fully aware that the original essay has a different goal in mind.
 Nevertheless, even in the case of training future software engineers, the rest of this response applies the same.
-
 
 ## Design Recipe
 
@@ -77,7 +75,6 @@ But testing is not the last line of defense.
 It never was and it never will be.
 The design recipe approach does not encourage the student to reason about their programs.
 
-
 ## Language Choice
 
 Theorem 2 in &sect; 2.1 states:
@@ -90,7 +87,6 @@ If you never write a type class definition in Haskell, Can you get a type class 
 My point here is, if you use a subset of a language, you should receive only error messages related to that subset.
 
 That being said, the paper [A critique of Abelson and Sussman or why calculating is better than scheming](http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf) by Philip Wadler, provides an interesting point of view about teaching in Scheme versus Miranda, or more generally, about dynamically versus static typed functional languages.
-
 
 ## Pair Programming
 
@@ -115,7 +111,6 @@ What else should be include in an introductory course?
 
 Nevertheless, I hope these notes can at least raise the discussion on what to teach in a Computing Science curricula.
 
-
 ### Related Notes
 
 Some notes that might be worth to mention:
@@ -125,8 +120,6 @@ Some notes that might be worth to mention:
 
 * [On the cruelty of really teaching computing science](http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html) also from Dijkstra.
 
-
 ### Acknowledgments
 
 Thanks to Celeste Pérez Ben for her feedback and typos.
-
