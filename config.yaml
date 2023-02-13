@@ -1,0 +1,418 @@
+baseURL: "https://acuarica.github.io"
+languageCode: "en-us"
+title: "Luis Mastrangelo"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /post
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "LM"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "LM" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi there, I'm"
+    title: "Luis."
+    subtitle: "I build things for the web"
+    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    image: /images/hero.svg
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "CV"
+      url: "https://acuarica.github.io/cv/"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/acuarica
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/luismastrangelo/
+        - icon: fab fa-twitter
+          url: https://twitter.com/luismastrangelo
+      customIcons:
+        - icon: /fav.png
+          url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I am a Ph.D. in Informatics at the Università della Svizzera italiana.
+      My main topic as a Ph.D. student was empirical studies on programming languages.
+      The main goal of my thesis is to understand how and **why** programming features are being used in the wild.
+      Since any empirical study on programming languages must be language-dependent, we focus on Java.
+
+      In the past, my research interests included functional programming--- mostly in Haskell ---,
+      static analysis, program transformation with Supercompilation.
+
+      Before Supercompilation, I have developed JNIF, a Java Class Files parser to be used as a native agent using JVMTI.
+
+      I worked under the advise of Prof. Matthias Hauswirth and Prof. Nate Nystrom.
+      I have worked for more than 10 years in private industry in different roles, 
+      as Software Developer, Software Engineer, Network Administrator and 
+      Freelance Developer.
+      Master in Computer Science from the University of Buenos Aires, Argentina.
+      Also Teaching Experience as Teaching Assistant in both USI and University of Buenos Aires.
+
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - JVM-based Languages, e.g., Java, Scala, Kotlin
+        - Functional Programming, e.g., Haskell
+        - Supercompilation & Partial Evaluation
+        - Static & Dynamic Analysis
+        - Education in Computer Science
+
+  # Experience
+  experience:
+    enable: true
+    title: Professional Experience
+    items:
+      - job: Senior Blockchain Engineer
+        company: ConsenSys
+        companyUrl: https://consensys.net
+        date: Jul 2022 - Jan 2023
+        info:
+          enable: true
+          content: Remote
+        featuredLink:
+          enable: true
+          name: View the project
+          url: https://github.com/trufflesuite/vscode-ext
+        content: |-
+          Part of the Truffle team, a development environment for Ethereum Solidity Smart Contracts.
+
+          Worked in the VS Code extension that allows to build, test, deploy and debug Solidity Smart Contracts.
+
+      - job: Lead Blockchain Engineer
+        company: Campground
+        companyUrl: https://www.campground.co
+        date: May 2022 - Jun 2022
+        info:
+          enable: true
+          content: Remote
+        featuredLink:
+          enable: true
+          name: View the Smart Contract Project
+          url: https://github.com/campgroundco/nft-contract
+        info:
+          enable: true
+          content: Remote
+        content: |
+          NEAR Smart Contract development with Rust and TypeScript.
+
+      - job: Senior Software Engineer
+        company: EPAM Systems
+        companyUrl: https://epam.com
+        date: Sep 2020 - Apr 2022
+        info:
+          enable: true
+          content: Zurich, Switzerland
+        content: |
+          Worked in several projects using Ethereum & NEAR blockchains development with Solidity, Rust and TypeScript.
+
+          Other projects include backend roles using Java, Scrum and Agile.
+
+      - job: Technical Consultant
+        company: DBL
+        companyUrl: https://example.com
+        date: Aug 2019 - Jan 2020
+        info:
+          enable: true
+          content: Lugano, Switzerland
+        featuredLink:
+          enable: true
+          url: https://example.com
+        content: |
+          IT infrastructure support for Monitoring Operations at Avaloq Sourcing (CH & LI) SA.
+
+      - job: Project Leader
+        company: Recursiva
+        companyUrl: https://recursiva.com.ar
+        date: Dec 2006 - Mar 2011
+        info:
+          enable: true
+          content: Buenos Aires, Argentina
+        content: |
+          Software engineering and architect roles using Java and C# among others technologies.
+
+      - job: Network Administrator
+        company: HS Eventos
+        date: Mar - Jul 2006
+        info:
+          enable: true
+          content: Buenos Aires, Argentina
+        content: |-
+          Technical service, software installation and maintenance of company network.
+
+      - job: Software Developer
+        company: Hermo
+        companyUrl: https://example.com
+        date: Mar 2000 - May 2004
+        info:
+          enable: true
+          content: Buenos Aires, Argentina
+        content: |-
+          ERP and CRM development using VB 6, SQL Server and Crystal Reports.
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+
+      - title: Ph.D. in Computer Science
+        school:
+          name: Università della Svizzera italiana, Switzerland
+          url: https://www.inf.usi.ch/en
+        date: 2013 - 2019
+        content: |-
+          Programming languages research in Java, Scala and Haskell, runtime systems and
+          virtual machines with C++, software verification, data analysis using R and Python.
+
+          Other activties include
+          - Teaching Assistant
+        featuredLink:
+          enable: true
+          name: "Publications on DBLP"
+          url: "https://dblp.org/pid/97/10956.html"
+      - title: Licenciate in Computer Science
+        school:
+          name: University of Buenos Aires, Argentina
+          url: https://www.dc.uba.ar/
+        date: 2007 - 2011
+        content: |-
+          This degree is considered by many institutions as being equivalent to an M.Sc. degree.
+      - title: Internship/Master Thesis
+        school:
+          name: INRIA/University of Strasbourg, France
+          url: https://team.inria.fr/camus/fr/
+        date: 2011
+        content: |-
+          Internship title: "A Virtual Machine for Automatic Program Parallelization"
+      - title: Computer Analyst
+        school:
+          name: University of Buenos Aires, Argentina
+          url: https://www.dc.uba.ar/
+        date: 2003 - 2006
+        content: |-
+          This is a 3 years degree as part of the Licentiate in Computer Science programme.
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: EVM.js
+        content: |-
+          An ethereum virtual machine (EVM) bytecode decompiler.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        badges:
+          - evm
+          - bytecode
+          - solidity
+          - typescript
+        links:
+          - icon: fab fa-github
+            url: https://github.com/acuarica/evm
+
+      - title: JNIF
+        content: |-
+          JNIF is the first native Java bytecode rewriting library.
+          JNIF is a C++ library for decoding, analyzing, editing, and encoding Java bytecode.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - jvm
+          - java
+          - instrumentation
+          - bytecode
+          - c++
+        links:
+          - icon: fab fa-github
+            url: https://github.com/acuarica/jnif
+
+      - title: HSC - Haskell Supercompiler
+        content: |-
+          The Haskell Supercompiler aims to bring back supercompilation to Haskell.
+
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - haskell
+          - supercompilation
+          - optimization
+          - partial evaluation
+          - static analysis
+          - theorem proving
+        links:
+          - icon: fab fa-github
+            url: https://github.com/acuarica/hsc
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: gurusabarisha@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "post"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/acuarica
+      linkedin: https://linkedin.com/in/luismastrangelo
+      twitter: https://twitter.com/luismastrangelo
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
