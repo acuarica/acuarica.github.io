@@ -15,7 +15,7 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: UA-161877768-1
 
 markup:
   goldmark:
@@ -25,15 +25,15 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
+      name: Posts
       title: Blog posts
       url: /post
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -116,16 +116,17 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi there, I'm"
-    title: "Luis."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    intro: Hi there, I'm
+    title: Luis.
+    subtitle: I build things for the web
+    content: |-
+      My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
     image: /images/hero.svg
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "CV"
-      url: "https://acuarica.github.io/cv/"
+      name: CV
+      url: https://acuarica.github.io/cv/CV-LuisMastrangelo.pdf
       download: false
       newPage: true
     socialLinks:
@@ -136,15 +137,18 @@ params:
           url: https://www.linkedin.com/in/luismastrangelo/
         - icon: fab fa-twitter
           url: https://twitter.com/luismastrangelo
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        # TODO: link opens in another tab
+        # - icon: fa fa-envelope
+        #   url: "#contact"
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: About
+    image: /images/me.png
     content: |-
       I am a Ph.D. in Informatics at the Università della Svizzera italiana.
       My main topic as a Ph.D. student was empirical studies on programming languages.
@@ -176,7 +180,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: Professional Experience
+    # title: Professional Experience
     items:
       - job: Senior Blockchain Engineer
         company: ConsenSys
@@ -367,18 +371,35 @@ params:
           - icon: fab fa-github
             url: https://github.com/acuarica/hsc
 
+  achievements:
+      enable: true
+      title: Skills
+      items:  
+        - title: Software Development
+          content: Object, Functional & Logic Programming
+        - title: Software Design
+          content: Design by Contract, UML, Design Patterns
+        - title: DevOps
+          content: CI/CD, APM, Test Automation, Unix Toolings
+        - title: Databases
+          content: Design & Manipulation, SQL
+        - title: Data Science
+          content: Analitics, Mining & Visualization  
+        - title: SCMs
+          content: Git, Subversion, CVS
+
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
-    btnName: Mail me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
+    # email: gurusabarisha@gmail.com
+    btnName: Contact me
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: mayylrrq # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: Enter your email address
+      messageCaption: Enter your message here
 
   footer:
     recentPosts:
