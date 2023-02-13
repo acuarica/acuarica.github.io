@@ -13,13 +13,8 @@ lastmod: 2019-11-17T19:24:57+01:00
 featured: false
 draft: false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
+image: /images/mathjax.png
+
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -40,7 +35,7 @@ How we have used variadic template arguments to implement a statically plugin sy
 
 This is the main type of the parser:
 
-```c++
+```cpp
 ClassParser<
         ConstPoolParser,
         AttrsParser<
