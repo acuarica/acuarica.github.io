@@ -1,7 +1,7 @@
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
 
-    <div class="container bg-transparent mt-5 ">
+    <div class="container bg-transparent mt-5">
         <!-- <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3> -->
         <div class="bg-transparent row justify-content-center px-3 py-5">
             {{ if .Site.Params.about.image }}
@@ -53,6 +53,8 @@
             {{ end }}
             <div class="col-sm-12 col-md-12 col-lg-7 content" id="primary-font">
                 {{ .Site.Params.about.content | markdownify }}
+
+                <br/>
 
                 {{ if .Site.Params.about.skills.enable }}
                 {{ .Site.Params.about.skills.title }}
