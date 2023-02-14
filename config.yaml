@@ -123,12 +123,6 @@ params:
       My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
     image: /images/hero.svg
     # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      name: CV
-      url: https://acuarica.github.io/cv/CV-LuisMastrangelo.pdf
-      download: false
-      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -137,12 +131,11 @@ params:
           url: https://www.linkedin.com/in/luismastrangelo/
         - icon: fab fa-twitter
           url: https://twitter.com/luismastrangelo
+        - icon: ai ai-cv
+          url: https://acuarica.github.io/cv/CV-LuisMastrangelo.pdf
         # TODO: link opens in another tab
-        # - icon: fa fa-envelope
-        #   url: "#contact"
-      # customIcons:
-      #   - icon: /fav.png
-      #     url: "https://example.com"
+        - icon: fa fa-envelope
+          url: "#contact"
 
   # About
   about:
