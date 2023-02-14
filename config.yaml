@@ -163,7 +163,7 @@ params:
       items:  
         - icon: fas fa-code
           title: Software Development
-          content: Object, Functional & Logic Programming
+          content: Blockchain, Object, Functional & Logic Programming
         - icon: fas fa-drafting-compass
           title: Software Design
           content: Design by Contract, UML, Design Patterns
@@ -180,7 +180,6 @@ params:
           title: SCMs
           content: Git, Subversion, CVS
 
-  # Experience
   experience:
     enable: true
     # title: Professional Experience
@@ -272,7 +271,6 @@ params:
         content: |-
           ERP and CRM development using VB 6, SQL Server and Crystal Reports.
 
-  # Education
   education:
     enable: true
     # title: "Custom Name"
