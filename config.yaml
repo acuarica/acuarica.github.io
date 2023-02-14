@@ -138,30 +138,22 @@ params:
           url: "#contact"
           newPage: false
     content: |-
-      I am a Ph.D. in Informatics at the Università della Svizzera italiana.
-      My main topic as a Ph.D. student was empirical studies on programming languages.
-      The main goal of my thesis is to understand how and **why** programming features are being used in the wild.
-      Since any empirical study on programming languages must be language-dependent, we focus on Java.
+      I worked in the Web3 space for more than 2 years.
+      I worked with Ethereum, Avalanche, NEAR, EOS/WAX and Everscale (TON) using both Solidity and Rust.
+      Moreover, I have worked for more than 10 years in private industry in different roles,
+      as Software Engineer, Network Administrator and Freelance Developer.
 
-      In the past, my research interests included functional programming--- mostly in Haskell ---,
-      static analysis, program transformation with Supercompilation.
-
-      Before Supercompilation, I have developed JNIF, a Java Class Files parser to be used as a native agent using JVMTI.
-
-      I worked under the advise of Prof. Matthias Hauswirth and Prof. Nate Nystrom.
-      I have worked for more than 10 years in private industry in different roles, 
-      as Software Developer, Software Engineer, Network Administrator and 
-      Freelance Developer.
-      Master in Computer Science from the University of Buenos Aires, Argentina.
-      Also Teaching Experience as Teaching Assistant in both USI and University of Buenos Aires.
+      I have a Ph.D. in Informatics at the Università della Svizzera italiana, Switzerland.
+      The topic of my Ph.D. was empirical studies on programming languages.
+      Its main goal was to understand how and why programming features are being used in the wild.
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: Interests
       items:
-        - JVM-based Languages, e.g., Java, Scala, Kotlin
-        - Functional Programming, e.g., Haskell
-        - Supercompilation & Partial Evaluation
+        - Typescript/Javascript, Rust & Solidity
+        - Web3, Smart Contracts, Ethereum & EVM-based blockchains
+        - Partial & Symbolic Evaluation, Supercompilation
         - Static & Dynamic Analysis
         - Education in Computer Science
 
