@@ -5,21 +5,12 @@
         <div class="px-0 px-md-5 px-lg-5">
             <div class="row justify-content-center px-3 px-md-5 px-lg-5">
                 {{ range .Site.Params.achievements.items }}
-                {{ if .url }}
                 <div class="col-lg-4 col-md-6 my-3">
-                    <a class="card my-3 h-100 p-3" href="{{ .url }}" title="{{ .title }}" target="_blank">
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">{{ .title }}</h5>
-                            <div class="card-text secondary-font">
-                                {{ .content }}
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                {{ else }}
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="card my-3 h-100 p-3" title="{{ .title }}">
-                        <div class="card-body bg-transparent">
+                    <div class="d-flex align-items-center card my-3 h-100 p-3" title="{{ .title }}">
+
+                        <i class="{{ .icon }} p-2 text-secondary" style="font-size: 5rem"></i>
+
+                        <div class="text-center card-body bg-transparent">
                             <h5 class="card-title bg-transparent">{{ .title }}</h5>
                             <div class="card-text secondary-font">
                                 {{ .content }}
@@ -27,7 +18,6 @@
                         </div>
                     </div>
                 </div>
-                {{ end }}
                 {{ end }}
             </div>
         </div>
