@@ -1,5 +1,5 @@
 <span>
-    {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
+    {{ range .Site.Params.about.socialLinks.fontAwesomeIcons }}
     <span class="px-1">
         <a href="{{ .url }}" class="btn social-icon"
             {{ if .newPage | default true }}
@@ -10,7 +10,7 @@
     </span>
     {{ end }}
 
-    {{ range .Site.Params.hero.socialLinks.customIcons }}
+    {{ range .Site.Params.about.socialLinks.customIcons }}
     <span class="px-1">
         <a href="{{ .url }}" target="_blank" class="btn social-icon">
             <img src="{{ .icon }}">
