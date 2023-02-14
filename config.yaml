@@ -113,15 +113,15 @@ params:
       disableAchievements: false
       disableContact: false
 
-  # Hero
-  hero:
+  # About
+  about:
     enable: true
     intro: Hi there, I'm
     title: Luis.
     subtitle: I build things for the web
-    content: |-
+    bio: |-
       My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
-    image: /images/hero.svg
+    image: /images/me.jpeg
     # roundImage: true # Make hero image circular | default false
     socialLinks:
       fontAwesomeIcons:
@@ -136,12 +136,6 @@ params:
         - icon: fa fa-envelope
           url: "#contact"
           newPage: false
-
-  # About
-  about:
-    enable: true
-    title: About
-    image: /images/me.png
     content: |-
       I am a Ph.D. in Informatics at the Università della Svizzera italiana.
       My main topic as a Ph.D. student was empirical studies on programming languages.
@@ -169,6 +163,29 @@ params:
         - Supercompilation & Partial Evaluation
         - Static & Dynamic Analysis
         - Education in Computer Science
+
+  achievements:
+      enable: true
+      title: Skills
+      items:  
+        - icon: fas fa-code
+          title: Software Development
+          content: Object, Functional & Logic Programming
+        - icon: fas fa-drafting-compass
+          title: Software Design
+          content: Design by Contract, UML, Design Patterns
+        - icon: fas fa-terminal
+          title: DevOps
+          content: CI/CD, APM, Test Automation, Unix Toolings
+        - icon: fas fa-database
+          title: Databases
+          content: Design & Manipulation, SQL
+        - icon: fas fa-chart-line
+          title: Data Science
+          content: Analitics, Mining & Visualization  
+        - icon: fab fa-git-alt
+          title: SCMs
+          content: Git, Subversion, CVS
 
   # Experience
   experience:
@@ -342,7 +359,7 @@ params:
       - title: EVM.js
         content: |-
           An ethereum virtual machine (EVM) bytecode decompiler.
-        image: /images/projects/profile.png
+        image: /images/post.jpg
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
@@ -359,7 +376,7 @@ params:
         content: |-
           JNIF is the first native Java bytecode rewriting library.
           JNIF is a C++ library for decoding, analyzing, editing, and encoding Java bytecode.
-        image: /images/projects/converter.jpg
+        image: /images/post.jpg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
@@ -377,7 +394,7 @@ params:
         content: |-
           The Haskell Supercompiler aims to bring back supercompilation to Haskell.
 
-        image: /images/projects/profile2.jpg
+        image: /images/post.jpg
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
@@ -391,23 +408,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/acuarica/hsc
-
-  achievements:
-      enable: true
-      title: Skills
-      items:  
-        - title: Software Development
-          content: Object, Functional & Logic Programming
-        - title: Software Design
-          content: Design by Contract, UML, Design Patterns
-        - title: DevOps
-          content: CI/CD, APM, Test Automation, Unix Toolings
-        - title: Databases
-          content: Design & Manipulation, SQL
-        - title: Data Science
-          content: Analitics, Mining & Visualization  
-        - title: SCMs
-          content: Git, Subversion, CVS
 
   #Contact
   contact:
