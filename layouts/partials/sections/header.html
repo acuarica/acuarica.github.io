@@ -21,7 +21,7 @@
 
 <!-- Navbar -->
 <header>
-    <nav class="pt-3 navbar navbar-expand-lg {{ if .Site.Params.animate }}animate{{ end }}">
+    <nav class="pt-3 navbar navbar-expand-lg {{ if .Site.Params.animate }}animate{{ end }} bg-light">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             <!-- navbar brand -->
             <a class="navbar-brand primary-font text-wrap" href="{{ .Site.BaseURL | relURL }}">
@@ -68,6 +68,15 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
+                            aria-label="achievements">
+                            {{ .Site.Params.achievements.title | default "Achievements" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#experience"
@@ -91,15 +100,6 @@
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#projects"
                             aria-label="projects">
                             {{ .Site.Params.projects.title | default "Projects" }}
-                        </a>
-                    </li>
-                    {{ end }}
-
-                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
-                            aria-label="achievements">
-                            {{ .Site.Params.achievements.title | default "Achievements" }}
                         </a>
                     </li>
                     {{ end }}
