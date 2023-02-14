@@ -1,9 +1,7 @@
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
 
-    {{- partial "sections/hero/decoration.html" . -}}
-
-    <div class="container bg-transparent">
+    <div class="container bg-transparent mt-5 ">
         <!-- <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3> -->
         <div class="bg-transparent row justify-content-center px-3 py-5">
             {{ if .Site.Params.about.image }}
@@ -12,15 +10,11 @@
                     <img src="{{ .Site.Params.about.image }}" class="img-thumbnail mx-auto rounded-circle" alt="">
                 </div>
 
-
-
-
-
                 <span class="subtitle">
                     {{ .Site.Params.about.intro }}
                 </span>
                 <h2>
-                    {{ .Site.Params.about.title }}
+                    {{ .Site.Params.about.name }}
                 </h2>
                 <h3>
                     {{ .Site.Params.about.subtitle }}
@@ -30,11 +24,30 @@
                 </p>
                 <div class="row">
                     <div class="col-auto px-2 h-100">
-                        {{- partial "sections/hero/social.html" . -}}
+
+                        <span>
+                            {{ range .Site.Params.about.socialLinks.fontAwesomeIcons }}
+                            <span class="px-1">
+                                <a href="{{ .url }}" class="btn social-icon"
+                                    {{ if .newPage | default true }}
+                                    target="_blank"
+                                    {{ end }}>
+                                    <i class="{{ .icon }}"></i>
+                                </a>
+                            </span>
+                            {{ end }}
+                        
+                            {{ range .Site.Params.about.socialLinks.customIcons }}
+                            <span class="px-1">
+                                <a href="{{ .url }}" target="_blank" class="btn social-icon">
+                                    <img src="{{ .icon }}">
+                                </a>
+                            </span>
+                            {{ end }}
+                        </span>
+
                     </div>
                 </div>
-
-
 
             </div>
             {{ end }}
