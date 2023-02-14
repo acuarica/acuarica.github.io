@@ -13,7 +13,7 @@ lastmod: 2019-11-17T19:24:57+01:00
 featured: false
 draft: false
 
-image: /images/mathjax.png
+image: /images/post.jpg
 
 
 # Projects (optional).
