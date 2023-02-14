@@ -120,8 +120,8 @@ params:
     intro: Hi there, I'm
     name: Luis.
     subtitle: I build things for builders
-    bio: |-
-      My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
+    # bio: |-
+      # My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
     image: /images/me.jpeg
     # roundImage: true # Make hero image circular | default false
     socialLinks:
@@ -361,9 +361,9 @@ params:
         content: |-
           An ethereum virtual machine (EVM) bytecode decompiler.
         image: /images/post.jpg
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+        # featured:
+          # name: Demo
+          # link: https://hugo-profile.netlify.app
         badges:
           - evm
           - bytecode
@@ -378,9 +378,9 @@ params:
           JNIF is the first native Java bytecode rewriting library.
           JNIF is a C++ library for decoding, analyzing, editing, and encoding Java bytecode.
         image: /images/post.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.erokuapp.com
+        # featured:
+          # name: Demo
+          # link: https://django-converter.erokuapp.com
         badges:
           - jvm
           - java
@@ -396,9 +396,9 @@ params:
           The Haskell Supercompiler aims to bring back supercompilation to Haskell.
 
         image: /images/post.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+        # featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
         badges:
           - haskell
           - supercompilation
