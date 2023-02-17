@@ -9,14 +9,14 @@
   </title>
 </head>
 
-<body class="light">
+<body class="light" data-bs-spy="scroll" data-bs-target="#navbarContent" data-bs-offset="70">
   <!-- javascripts -->
   <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
 
   {{- partial "sections/header.html" . -}}
-  <div id="content">
+  <!-- <div id="content"> -->
     {{- block "main" . }}{{- end }}
-  </div>
+  <!-- </div> -->
   {{- partial "sections/footer/index.html" . -}}
 
   {{- if (or (eq .Site.Params.UseBootstrapCDN true) (eq .Site.Params.UseBootstrapCDN "js")) -}}
