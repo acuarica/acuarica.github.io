@@ -1,9 +1,8 @@
 ---
-import Site from "../layouts/Site.astro";
-import About from "../components/About.mdx";
+import Site from "@layouts/Site.astro";
+import About from "@components/About.mdx";
 
 import { getCollection } from "astro:content";
-import Skill from "../components/Skill.astro";
 const posts = await getCollection("posts");
 const publications = await getCollection("publications");
 
@@ -18,32 +17,46 @@ console.log("This runs in your terminal, not the browser!");
 
   <section id="skills">
     <h1>Skills</h1>
-    <Skill
-      title="Software Development"
-      subtitle="Blockchain, Object, Functional & Logic Programming"
-      icon="fas fa-code"
-    />
-    <Skill
-      title="Software Design"
-      subtitle="Design by Contract, UML, Design Patterns"
-      icon="fas fa-drafting-compass"
-    />
-    <Skill
-      title="DevOps"
-      subtitle="CI/CD, APM, Test Automation, Unix Toolings"
-      icon="fas fa-terminal"
-    />
-    <Skill
-      title="Databases"
-      subtitle="Design & Manipulation, SQL"
-      icon="fas fa-database"
-    />
-    <Skill
-      title="Data Science"
-      subtitle="Analitics, Mining & Visualization"
-      icon="fas fa-chart-line"
-    />
-    <Skill title="SCMs" subtitle="Git, Subversion, CVS" icon="fab fa-git-alt" />
+    {
+      [
+        {
+          title: "Software Development",
+          subtitle: "Blockchain, Object, Functional & Logic Programming",
+          icon: "fas fa-code",
+        },
+        {
+          title: "Software Design",
+          subtitle: "Design by Contract, UML, Design Patterns",
+          icon: "fas fa-drafting-compass",
+        },
+        {
+          title: "DevOps",
+          subtitle: "CI/CD, APM, Test Automation, Unix Toolings",
+          icon: "fas fa-terminal",
+        },
+        {
+          title: "Databases",
+          subtitle: "Design & Manipulation, SQL",
+          icon: "fas fa-database",
+        },
+        {
+          title: "Data Science",
+          subtitle: "Analitics, Mining & Visualization",
+          icon: "fas fa-chart-line",
+        },
+        {
+          title: "SCMs",
+          subtitle: "Git, Subversion, CVS",
+          icon: "fab fa-git-alt",
+        },
+      ].map((skill) => (
+        <div class="skill-card">
+          <div>{skill.title}</div>
+          <div>{skill.subtitle}</div>
+          <i class={skill.icon} />
+        </div>
+      ))
+    }
   </section>
   <section id="posts">
     <h1>Posts</h1>
@@ -82,4 +95,18 @@ console.log("This runs in your terminal, not the browser!");
   h1 {
     color: orange;
   }
+
+  .skill-card {
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--gray-800);
+    border-radius: 1.5rem;
+    color: var(--gray-300);
+    background: var(--gradient-subtle);
+    box-shadow: var(--shadow-sm);
+  }
+
 </style>
