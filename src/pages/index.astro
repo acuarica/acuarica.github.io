@@ -3,6 +3,7 @@ import Site from "../layouts/Site.astro";
 import About from "../components/About.mdx";
 
 import { getCollection } from "astro:content";
+import Skill from "../components/Skill.astro";
 const posts = await getCollection("posts");
 const publications = await getCollection("publications");
 
@@ -11,11 +12,41 @@ const publications = await getCollection("publications");
 console.log("This runs in your terminal, not the browser!");
 ---
 
-<Site t>
+<Site title="Luis Mastrangelo">
   <h1>Hello, World!</h1>
   <About />
 
+  <section id="skills">
+    <h1>Skills</h1>
+    <Skill
+      title="Software Development"
+      subtitle="Blockchain, Object, Functional & Logic Programming"
+      icon="fas fa-code"
+    />
+    <Skill
+      title="Software Design"
+      subtitle="Design by Contract, UML, Design Patterns"
+      icon="fas fa-drafting-compass"
+    />
+    <Skill
+      title="DevOps"
+      subtitle="CI/CD, APM, Test Automation, Unix Toolings"
+      icon="fas fa-terminal"
+    />
+    <Skill
+      title="Databases"
+      subtitle="Design & Manipulation, SQL"
+      icon="fas fa-database"
+    />
+    <Skill
+      title="Data Science"
+      subtitle="Analitics, Mining & Visualization"
+      icon="fas fa-chart-line"
+    />
+    <Skill title="SCMs" subtitle="Git, Subversion, CVS" icon="fab fa-git-alt" />
+  </section>
   <section id="posts">
+    <h1>Posts</h1>
     <ul>
       {
         posts.map((post) => (
@@ -31,6 +62,7 @@ console.log("This runs in your terminal, not the browser!");
   </section>
 
   <section id="publications">
+    <h1>Publications</h1>
     <ul>
       {
         publications.map((post) => (
