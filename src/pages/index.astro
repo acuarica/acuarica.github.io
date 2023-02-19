@@ -1,22 +1,18 @@
 ---
-import Site from "@layouts/Site.astro";
+import Page from "@layouts/Page.astro";
 import About from "@components/About.mdx";
 
 import { getCollection } from "astro:content";
 const posts = await getCollection("posts");
 const publications = await getCollection("publications");
-
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component front matter". It never runs in the browser.
-console.log("This runs in your terminal, not the browser!");
 ---
 
-<Site title="Luis Mastrangelo">
+<Page title="Luis Mastrangelo">
   <h1>Hello, World!</h1>
   <About />
 
   <section id="skills">
-    <h1>Skills</h1>
+    <h2>Skills</h2>
     {
       [
         {
@@ -59,7 +55,7 @@ console.log("This runs in your terminal, not the browser!");
     }
   </section>
   <section id="posts">
-    <h1>Posts</h1>
+    <h2>Posts</h2>
     <ul>
       {
         posts.map((post) => (
@@ -75,7 +71,7 @@ console.log("This runs in your terminal, not the browser!");
   </section>
 
   <section id="publications">
-    <h1>Publications</h1>
+    <h2>Publications</h2>
     <ul>
       {
         publications.map((post) => (
@@ -89,13 +85,9 @@ console.log("This runs in your terminal, not the browser!");
       }
     </ul>
   </section>
-</Site>
+</Page>
 
 <style>
-  h1 {
-    color: orange;
-  }
-
   .skill-card {
     display: flex;
     height: 7rem;
@@ -108,5 +100,4 @@ console.log("This runs in your terminal, not the browser!");
     background: var(--gradient-subtle);
     box-shadow: var(--shadow-sm);
   }
-
 </style>

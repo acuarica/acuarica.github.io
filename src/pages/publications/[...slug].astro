@@ -1,6 +1,6 @@
 ---
 import { CollectionEntry, getCollection } from "astro:content";
-import Site from "@layouts/Site.astro";
+import Page from "@layouts/Page.astro";
 
 interface Props {
   post: CollectionEntry<"posts">;
@@ -20,7 +20,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Site title={entry.data.title}>
+<Page title={entry.data.title}>
   <h1>{entry.data.title}</h1>
 
   <h2>{entry.data.authors}</h2>
@@ -33,4 +33,4 @@ const { Content } = await entry.render();
   <h3>Abstract</h3>
 
   <Content />
-</Site>
+</Page>
