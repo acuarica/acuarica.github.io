@@ -1,4 +1,16 @@
 {
   // https://docs.astro.build/en/guides/content-collections/#setting-up-typescript
   "extends": "astro/tsconfigs/strictest",
+  // https://docs.astro.build/en/guides/aliases/
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ]
+    }
+  }
 }
