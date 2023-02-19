@@ -1,1 +1,5 @@
 /node_modules/
+
+# Astro stores metadata for content collections in an `.astro` directory.
+# https://docs.astro.build/en/guides/content-collections/#the-astro-directory
+/.astro/
