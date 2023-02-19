@@ -1,3 +1,4 @@
 {
-  "extends": "astro/tsconfigs/base",
+  // https://docs.astro.build/en/guides/content-collections/#setting-up-typescript
+  "extends": "astro/tsconfigs/strictest",
 }
