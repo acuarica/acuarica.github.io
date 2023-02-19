@@ -1,5 +1,5 @@
 ---
-title: 'Use at Your Own Risk: The Java Unsafe API in the Wild'
+title: "Use at Your Own Risk: The Java Unsafe API in the Wild"
 authors: ["Luis Mastrangelo", "Luca Ponzanelli", "Andrea Mocci", "Michele Lanza", "Matthias Hauswirth", "Nathaniel Nystrom"]
 tags: [java, unsafe]
 categories: []

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: 'VMAD: An Advanced Dynamic Program Analysis and Instrumentation Framework'
 authors: ['Alexandra Jimborean', 'Luis Mastrangelo', 'Vincent Loechner', 'Philippe Clauss']
 tags: ['virtual machine', 'loop nest', 'runtime system']
