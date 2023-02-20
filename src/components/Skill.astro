@@ -1,0 +1,22 @@
+---
+interface Props {
+    title: string;
+    subtitle: string;
+    icon: string;
+}
+
+const { title, subtitle, icon } = Astro.props;
+---
+
+<div
+    class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
+>
+    <div class="relative rounded-[15px] bg-white p-6">
+        <div class="space-y-4">
+            <i class:list={[icon, "text-slate-400"]} style="font-size: 3rem;"
+            ></i>
+            <p class="text-lg font-semibold text-slate-800">{title}</p>
+            <p class="font-md text-slate-600">{subtitle}</p>
+        </div>
+    </div>
+</div>

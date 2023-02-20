@@ -1,59 +1,77 @@
 ---
-import Page from "@layouts/Page.astro";
-import About from "@components/About.mdx";
-
 import { getCollection } from "astro:content";
+
+import Page from "@layouts/Page.astro";
+
+import About from "@components/About.mdx";
+import Hero from "@components/Hero.astro";
+import Skill from "@components/Skill.astro";
+
+const skills = [
+  {
+    title: "Software Development",
+    subtitle: "Blockchain, Object, Functional & Logic Programming",
+    icon: "fas fa-code",
+  },
+  {
+    title: "Software Design",
+    subtitle: "Design by Contract, UML, Design Patterns",
+    icon: "fas fa-drafting-compass",
+  },
+  {
+    title: "DevOps",
+    subtitle: "CI/CD, APM, Test Automation, Unix Toolings",
+    icon: "fas fa-terminal",
+  },
+  {
+    title: "Databases",
+    subtitle: "Design & Manipulation, SQL",
+    icon: "fas fa-database",
+  },
+  {
+    title: "Data Science",
+    subtitle: "Analitics, Mining & Visualization",
+    icon: "fas fa-chart-line",
+  },
+  {
+    title: "SCMs",
+    subtitle: "Git, Subversion, CVS",
+    icon: "fab fa-git-alt",
+  },
+];
+
 const posts = await getCollection("posts");
 const publications = await getCollection("publications");
 ---
 
 <Page title="Luis Mastrangelo">
-  <h1>Hello, World!</h1>
+  <Hero title="sadf" />
   <About />
-
   <section id="skills">
     <h2>Skills</h2>
-    {
-      [
-        {
-          title: "Software Development",
-          subtitle: "Blockchain, Object, Functional & Logic Programming",
-          icon: "fas fa-code",
-        },
-        {
-          title: "Software Design",
-          subtitle: "Design by Contract, UML, Design Patterns",
-          icon: "fas fa-drafting-compass",
-        },
-        {
-          title: "DevOps",
-          subtitle: "CI/CD, APM, Test Automation, Unix Toolings",
-          icon: "fas fa-terminal",
-        },
-        {
-          title: "Databases",
-          subtitle: "Design & Manipulation, SQL",
-          icon: "fas fa-database",
-        },
-        {
-          title: "Data Science",
-          subtitle: "Analitics, Mining & Visualization",
-          icon: "fas fa-chart-line",
-        },
-        {
-          title: "SCMs",
-          subtitle: "Git, Subversion, CVS",
-          icon: "fab fa-git-alt",
-        },
-      ].map((skill) => (
-        <div class="skill-card">
-          <div>{skill.title}</div>
-          <div>{skill.subtitle}</div>
-          <i class={skill.icon} />
-        </div>
-      ))
-    }
+    <ul>
+      {
+        skills.map((skill) => (
+          <Skill
+            title={skill.title}
+            subtitle={skill.subtitle}
+            icon={skill.icon}
+          />
+        ))
+      }
+    </ul>
   </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="steps steps-vertical">
+      <li data-content="asdfasdfasdf" class="step step-primary">Register</li>
+      <li class="step step-primary">Choose plan</li>
+      <li class="step">Purchase</li>
+      <li class="step">Receive Product</li>
+    </ul>
+  </section>
+
   <section id="posts">
     <h2>Posts</h2>
     <ul>
@@ -99,5 +117,50 @@ const publications = await getCollection("publications");
     color: var(--gray-300);
     background: var(--gradient-subtle);
     box-shadow: var(--shadow-sm);
+  }
+
+  .steps-vertical .step {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .steps-vertical .step::after {
+    width: 180px;
+  }
+
+  section {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    /* color: var(--gray-200); */
+  }
+
+  section > h2 {
+    width: 15rem;
+    /* grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0); */
+  }
+
+  section > ul {
+    /* grid-column: 2 / 4; */
+  }
+
+  @media (min-width: 640px) {
+    section {
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* gap: 0.5rem; */
+      /* color: var(--gray-200); */
+    }
+
+    section > h2 {
+      /* grid-column-start: 1; */
+      /* font-size: var(--text-xl); */
+      /* color: var(--gray-0); */
+    }
+
+    section > ul {
+      /* grid-column: 2 / 4; */
+    }
   }
 </style>
