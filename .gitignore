@@ -3,3 +3,7 @@
 # Astro stores metadata for content collections in an `.astro` directory.
 # https://docs.astro.build/en/guides/content-collections/#the-astro-directory
 /.astro/
+
+# Astro's publish directory created by `astro build`
+# https://docs.astro.build/en/guides/deploy/
+/dist/
