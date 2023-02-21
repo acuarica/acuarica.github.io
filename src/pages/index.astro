@@ -9,6 +9,7 @@ import Timeline from "@components/Timeline.astro";
 import Hero from "@components/Hero.astro";
 import Project from "@components/Project.astro";
 import Tags from "@components/Tags.astro";
+import Divider from "@components/Divider.astro";
 
 const about = await getEntryBySlug("about", "me");
 const hero = about.data.hero;
@@ -41,7 +42,7 @@ const PUB_ICONS = {
     <About />
   </Hero>
 
-  <div class="divider"></div>
+  <Divider />
 
   <section id="skills">
     <h2>Skills</h2>
@@ -58,7 +59,7 @@ const PUB_ICONS = {
     </div>
   </section>
 
-  <div class="divider"></div>
+  <Divider />
 
   <section id="experience">
     <h2>Experience</h2>
@@ -77,7 +78,7 @@ const PUB_ICONS = {
     </div>
   </section>
 
-  <div class="divider"></div>
+  <Divider />
 
   <section id="education">
     <h2>Education</h2>
@@ -96,7 +97,7 @@ const PUB_ICONS = {
     </div>
   </section>
 
-  <div class="divider"></div>
+  <Divider />
 
   <section id="projects">
     <h2>Projects</h2>
@@ -116,7 +117,7 @@ const PUB_ICONS = {
     </div>
   </section>
 
-  <div class="divider"></div>
+  <Divider />
 
   <section id="posts">
     <h2>Posts</h2>
@@ -136,7 +137,7 @@ const PUB_ICONS = {
     </div>
   </section>
 
-  <div class="divider"></div>
+  <Divider />
 
   <section id="publications">
     <h2>Publications</h2>
@@ -180,8 +181,6 @@ const PUB_ICONS = {
       }
     </div>
   </section>
-
-  <div class="divider"></div>
 </Page>
 
 <style>

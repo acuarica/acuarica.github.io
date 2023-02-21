@@ -1,4 +1,5 @@
 ---
+import Divider from "@components/Divider.astro";
 import Footer from "@components/Footer.astro";
 import Nav from "@components/Nav.astro";
 
@@ -40,6 +41,7 @@ const description = "The personal site of Luis Mastrangelo";
     <main class="container mx-auto px-10 bg-zinc-900">
       <Nav />
       <slot />
+      <Divider />
       <Footer />
     </main>
   </body>
