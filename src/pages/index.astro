@@ -10,6 +10,7 @@ import Hero from "@components/Hero.astro";
 
 const about = await getEntryBySlug("about", "me");
 const hero = about.data.hero;
+const socials = about.data.socials;
 const skills = about.data.skills;
 const { Content: About } = await about.render();
 
@@ -21,7 +22,12 @@ const publications = await getCollection("publications");
 ---
 
 <Page title="Luis Mastrangelo | Profile">
-  <Hero intro={hero.intro} name={hero.name} avatar={hero.avatar}>
+  <Hero
+    intro={hero.intro}
+    name={hero.name}
+    avatar={hero.avatar}
+    socials={socials}
+  >
     <About />
   </Hero>
 

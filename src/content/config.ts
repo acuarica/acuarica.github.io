@@ -9,7 +9,7 @@ export const collections = {
                 name: z.string(),
                 avatar: z.string(),
             }),
-            social: z.array(
+            socials: z.array(
                 z.object({
                     icon: z.string(),
                     url: z.string(),

@@ -3,9 +3,13 @@ interface Props {
 	intro: string;
 	name: string;
 	avatar: string;
+	socials: {
+		url: string;
+		icon: string;
+	}[];
 }
 
-const { intro, name, avatar } = Astro.props;
+const { intro, name, avatar, socials } = Astro.props;
 ---
 
 <div class="hero min-h-screen bg-base-200">
@@ -31,3 +35,11 @@ const { intro, name, avatar } = Astro.props;
 		</div>
 	</div>
 </div>
+
+{
+	socials.map((social) => (
+		<a class="btn btn-circle btn-outline btn-info" href={social.url} target="_blank">
+			<i class={social.icon} />
+		</a>
+	))
+}

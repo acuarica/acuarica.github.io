@@ -14,7 +14,7 @@ hero:
   # bio: |-
     # My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
-social:
+socials:
   - icon: fab fa-github
     url: https://github.com/acuarica
   - icon: fab fa-linkedin
