@@ -131,6 +131,7 @@ const PUB_ICONS = {
             <time datetime={post.data.date.toISOString()}>
               {post.data.date.toDateString()}
             </time>
+            <Tags tags={post.data.tags}></Tags>
           </li>
         ))
       }
