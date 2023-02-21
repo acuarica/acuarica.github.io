@@ -27,7 +27,7 @@ const publications = await getCollection("publications");
 
   <section id="skills">
     <h2>Skills</h2>
-    <ul>
+    <div class="grid grid-cols-3 gap-8">
       {
         skills.map((skill) => (
           <Skill
@@ -37,12 +37,14 @@ const publications = await getCollection("publications");
           />
         ))
       }
-    </ul>
+    </div>
   </section>
+
+  <div class="divider"></div>
 
   <section id="experience">
     <h2>Experience</h2>
-    <div class="steps steps-vertical w-full">
+    <div class="w-full">
       {
         experience.map((entry) => (
           <Timeline
@@ -57,32 +59,33 @@ const publications = await getCollection("publications");
     </div>
   </section>
 
+  <div class="divider"></div>
+
   <section id="education">
     <h2>Education</h2>
-    <ul class="steps steps-vertical">
+    <div>
       {
         education.map((entry) => (
           <Timeline title={entry.data.title} desc={entry.data.school.name} />
-          // <li data-content={entry.date} class="step step-secondary">
-          // <p>
-          // {entry.title}
-          // {entry.content}</p>
-          // </li>
         ))
       }
-    </ul>
+    </div>
   </section>
+
+  <div class="divider"></div>
 
   <section id="projects">
     <h2>Projects</h2>
-    <ul>
+    <div>
       {projects.map((entry) => <li>{entry.data.title}</li>)}
-    </ul>
+    </div>
   </section>
+
+  <div class="divider"></div>
 
   <section id="posts">
     <h2>Posts</h2>
-    <ul>
+    <div>
       {
         posts.map((post) => (
           <li>
@@ -93,12 +96,14 @@ const publications = await getCollection("publications");
           </li>
         ))
       }
-    </ul>
+    </div>
   </section>
+
+  <div class="divider"></div>
 
   <section id="publications">
     <h2>Publications</h2>
-    <ul>
+    <div>
       {
         publications.map(async (post) => (
           <li>
@@ -109,67 +114,23 @@ const publications = await getCollection("publications");
           </li>
         ))
       }
-    </ul>
+    </div>
   </section>
+
+  <div class="divider"></div>
+
 </Page>
 
 <style>
-  .skill-card {
-    display: flex;
-    height: 7rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid var(--gray-800);
-    border-radius: 1.5rem;
-    color: var(--gray-300);
-    background: var(--gradient-subtle);
-    box-shadow: var(--shadow-sm);
-  }
-
-  .steps-vertical .step {
-    grid-template-columns: 200px 1fr;
-  }
-
-  .steps-vertical .step::after {
-    width: 180px;
-  }
-
   section {
-    display: flex;
-    /* flex-direction: column; */
-    gap: 0.5rem;
-    /* color: var(--gray-200); */
+    @apply grid grid-cols-4 gap-0 py-8;
   }
 
   section > h2 {
-    width: 100px;
-    background-color: red;
-    /* grid-column-start: 1;
-    font-size: var(--text-xl);
-    color: var(--gray-0); */
+    @apply text-3xl text-slate-500;
   }
 
-  section > ul {
-    /* grid-column: 2 / 4; */
-  }
-
-  @media (min-width: 640px) {
-    section {
-      /* display: flex; */
-      /* flex-direction: column; */
-      /* gap: 0.5rem; */
-      /* color: var(--gray-200); */
-    }
-
-    section > h2 {
-      /* grid-column-start: 1; */
-      /* font-size: var(--text-xl); */
-      /* color: var(--gray-0); */
-    }
-
-    section > ul {
-      /* grid-column: 2 / 4; */
-    }
+  section > div {
+    @apply col-span-3;
   }
 </style>
