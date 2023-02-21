@@ -4,5 +4,12 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    // https://daisyui.com/docs/layout-and-typography/
+    // https://tailwindcss.com/docs/typography-plugin#installation
+    require('@tailwindcss/typography'),
+
+    // https://daisyui.com/docs/install/
+    require("daisyui")
+  ],
 }
