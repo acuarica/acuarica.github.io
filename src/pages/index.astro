@@ -92,7 +92,7 @@ const publications = await getCollection("publications");
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="grid grid-cols-2 gap-8">
+    <div class="grid grid-cols-2 gap-4">
       {projects.map((entry) => 
       <Project title={entry.data.title} tags={entry.data.tags} link={entry.data.link}>
         <entry.Content></entry.Content>
