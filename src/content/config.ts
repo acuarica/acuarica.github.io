@@ -43,6 +43,17 @@ export const collections = {
         })
     }),
 
+    projects: defineCollection({
+        schema: z.object({
+            title: z.string(),
+            tags: z.array(z.string()),
+            link: z.object({
+                icon: z.string(),
+                url: z.string().url(),
+            }),
+        })
+    }),
+
     posts: defineCollection({
         schema: z.object({
             draft: z.boolean(),
