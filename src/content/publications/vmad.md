@@ -1,18 +1,22 @@
 ---
 title: 'VMAD: An Advanced Dynamic Program Analysis and Instrumentation Framework'
-authors: ['Alexandra Jimborean', 'Luis Mastrangelo', 'Vincent Loechner', 'Philippe Clauss']
-tags: ['virtual machine', 'loop nest', 'runtime system']
-categories: []
+authors:
+    - Alexandra Jimborean
+    - Luis Mastrangelo
+    - Vincent Loechner
+    - Philippe Clauss
+tags:
+    - virtual machine
+    - loop nest
+    - runtime system
 date: 2012-03-24T21:43:47+01:00
 # lastmod: 2019-11-17T21:43:47+01:00
-featured: false
-draft: false
 
 # date: "2014-09-23"
 publication: "In *International Conference on Compiler Construction (CC'12)*, Springer."
 publication_short: "In *CC'12*"
-publication_type: 1
-url_pdf: 'https://doi.org/10.1007/978-3-642-28652-0_12'
+urls:
+    pdf: 'https://doi.org/10.1007/978-3-642-28652-0_12'
 ---
 
 VMAD (Virtual Machine for Advanced Dynamic analysis) is a platform for advanced profiling and analysis of programs, consisting in a static component and a runtime system.

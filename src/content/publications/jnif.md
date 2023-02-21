@@ -1,26 +1,27 @@
 ---
-title: 'JNIF'
-subtitle: 'Java Native Instrumentation Framework'
-summary: ""
-authors: ["Luis Mastrangelo", "Matthias Hauswirth"]
+title: JNIF
+subtitle: Java Native Instrumentation Framework
+authors:
+    - Luis Mastrangelo
+    - Matthias Hauswirth
+tags:
+    - java
+    - native
+    - instrumentation
 date: 2014-09-23
 publication: "In *International Conference on Principles and Practices of Programming on the Java platform: Virtual machines, Languages, and Tools (PPPJ'14)*, IEEE."
 publication_short: "In *PPPJ'14*"
-publication_type: 1
-url_code: "https://gitlab.com/acuarica/jnif"
-url_pdf: "https://doi.org/10.1145/2647508.2647516"
-url_slides: "https://acuarica.gitlab.com/jnif/2014-pppj-slides.pdf"
+urls:
+    code: "https://gitlab.com/acuarica/jnif"
+    pdf: "https://doi.org/10.1145/2647508.2647516"
+    slides: "https://acuarica.gitlab.com/jnif/2014-pppj-slides.pdf"
 
 # [[url_custom]]
 # name = "Documentation"
 # url = "http://acuarica.gitlab.io/jnif/"
 
-tags: [java, native, instrumentation]
-categories: []
 # date: 2019-11-16T17:57:44+01:00
 # lastmod: 2019-11-16T17:57:44+01:00
-featured: false
-draft: false
 ---
 
 The development of instrumentation-based dynamic analyses for Java bytecode is enabled by various bytecode rewriting frameworks.

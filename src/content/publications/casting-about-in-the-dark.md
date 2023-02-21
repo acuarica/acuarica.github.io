@@ -1,27 +1,23 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Casting about in the Dark"
-subtitle: "An Empirical Study of Cast Operations in Java Programs"
-summary: ""
-authors: ["Luis Mastrangelo", "Matthias Hauswirth", "Nathaniel Nystrom"]
-tags: [java, cast]
-categories: []
-
+title: Casting about in the Dark
+subtitle: An Empirical Study of Cast Operations in Java Programs
+authors:
+    - Luis Mastrangelo
+    - Matthias Hauswirth
+    - Nathaniel Nystrom
+tags:
+    - java
+    - cast
 date: 2019-10-25
-publication: "In *Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications*"
-publication_short: "OOPSLA 2019"
-publication_type: 1
-url_code: "https://gitlab.com/acuarica/java-unsafe-analysis"
-url_pdf: "https://doi.org/10.1145/3360584"
-url_project: "project/deep-learning/"
-url_video: "http://2015.splashcon.org/event/oopsla2015-use-at-your-own-risk-the-java-unsafe-api-in-the-wild"
-
-
 # date: 2019-11-16T17:57:57+01:00
 lastmod: 2019-11-16T17:57:57+01:00
-featured: false
-draft: false
+publication: "In *Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications*"
+publication_short: "OOPSLA 2019"
+urls:
+    code: "https://gitlab.com/acuarica/java-unsafe-analysis"
+    pdf: "https://doi.org/10.1145/3360584"
+    project: "project/deep-learning/"
+    video: "http://2015.splashcon.org/event/oopsla2015-use-at-your-own-risk-the-java-unsafe-api-in-the-wild"
 ---
 
 The main goal of a static type system is to prevent certain kinds of errors from happening at run time.
