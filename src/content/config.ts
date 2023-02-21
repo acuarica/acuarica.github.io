@@ -1,6 +1,48 @@
 import { defineCollection, z } from 'astro:content';
 
 export const collections = {
+
+    about: defineCollection({
+        schema: z.object({
+            skills: z.array(
+                z.object({
+                    icon: z.string(),
+                    title: z.string(),
+                    subtitle: z.string(),
+                }),
+            ),
+        })
+    }),
+
+    experience: defineCollection({
+        schema: z.object({
+            role: z.string(),
+            company: z.object({
+                name: z.string(),
+                url: z.string().url().optional(),
+            }),
+            date: z.string().transform(str => ({
+                label: str,
+                date: new Date(str.split('-')[0]!)
+            })),
+            location: z.string(),
+        })
+    }),
+
+    education: defineCollection({
+        schema: z.object({
+            title: z.string(),
+            school: z.object({
+                name: z.string(),
+                url: z.string().url(),
+            }),
+            date: z.string().transform(str => ({
+                label: str,
+                date: new Date(str.split('-')[0]!)
+            })),
+        })
+    }),
+
     posts: defineCollection({
         schema: z.object({
             draft: z.boolean(),
@@ -29,4 +71,5 @@ export const collections = {
             draft: z.boolean(),
         })
     }),
+
 };
