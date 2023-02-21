@@ -6,4 +6,12 @@ interface Props {
 const { tags } = Astro.props;
 ---
 
-{tags.map((tag) => <div class="badge badge-primary">{tag}</div>)}
+{
+    tags.map((tag) => (
+        <div class="badge badge-primary">
+            <a class="link" href={`${import.meta.env.BASE_URL}tags/${tag}`}>
+                {tag}
+            </a>
+        </div>
+    ))
+}
