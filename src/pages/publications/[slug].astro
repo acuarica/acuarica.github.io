@@ -6,7 +6,6 @@ interface Props {
   post: CollectionEntry<"posts">;
 }
 
-// 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const pubs = await getCollection("publications");
   return pubs.map((entry) => ({
@@ -15,22 +14,23 @@ export async function getStaticPaths() {
   }));
 }
 
-// 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
 <Page title={entry.data.title}>
-  <h1>{entry.data.title}</h1>
+  <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
+    <h1>{entry.data.title}</h1>
 
-  <h2>{entry.data.authors}</h2>
+    <h2>{entry.data.authors}</h2>
 
-  <h3>{entry.data.tags}</h3>
-  <h3>{entry.data.publication}</h3>
+    <h3>{entry.data.tags}</h3>
+    <h3>{entry.data.publication}</h3>
 
-  {entry.data.date.toDateString()}
+    {entry.data.date.toDateString()}
 
-  <h3>Abstract</h3>
+    <h3>Abstract</h3>
 
-  <Content />
+    <Content />
+  </article>
 </Page>
