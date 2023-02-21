@@ -48,8 +48,8 @@ const publications = await getCollection("publications");
       {
         experience.map((entry) => (
           <Timeline
-            title={entry.data.role}
-            subtitle={entry.data.company.name}
+            title={entry.data.title}
+            place={entry.data.company}
             date={entry.data.date.label}
           >
             <entry.Content />
@@ -66,7 +66,13 @@ const publications = await getCollection("publications");
     <div>
       {
         education.map((entry) => (
-          <Timeline title={entry.data.title} desc={entry.data.school.name} />
+          <Timeline
+            title={entry.data.title}
+            place={entry.data.school}
+            date={entry.data.date.label}
+          >
+            <entry.Content />
+          </Timeline>
         ))
       }
     </div>
@@ -118,7 +124,6 @@ const publications = await getCollection("publications");
   </section>
 
   <div class="divider"></div>
-
 </Page>
 
 <style>

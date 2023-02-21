@@ -1,32 +1,37 @@
 ---
-const { title, subtitle, date, desc } = Astro.props;
+const { title, place, date } = Astro.props;
 ---
 
-<div class="flex">
-    <div class="education__time">
+<div class="flex pb-4">
+    <div class="skill_time">
         <span class="w-4 h-4 bg-primary block rounded-full mt-1"></span>
         <span
-            class="education__line bg-primary block h-full w-[2px] translate-x-[7px]"
+            class="skill_line bg-primary block h-full w-[2px] translate-x-[7px]"
         ></span>
     </div>
-    <div class="experience__data bd-grid px-5 w-full">
-        <!-- <h3 class="font-semibold mb-1">{title}</h3> -->
+    <div class="bd-grid px-6 w-full">
         <div class="flex justify-between items-center flex-wrap">
-            <h3 class="text-xl font-semibold">{title}</h3>
+            <h3 class="text-xl font-semibold mb-2">{title}</h3>
             <p class="text-sm dark:text-gray">{date}</p>
         </div>
 
-        <span class="font-light text-sm">{subtitle}</span>
+        <span class="font-light text-sm"
+            ><a class="link link-info" 
+            target="_blank"
+            href={place.url}>{place.name}</a> - {
+                place.location
+            }</span
+        >
         <p class="my-2 text-justify">
-            {desc}
-            <slot />
+            <article class="prose">
+                <slot />
+            </article>
         </p>
     </div>
 </div>
 
 <style>
-    /* .time-line-container >  */
-    div:last-child .education__time > .education__line {
+    div:last-child .skill_time > .skill_line {
         display: none;
     }
 </style>
