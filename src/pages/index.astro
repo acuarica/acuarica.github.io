@@ -22,7 +22,7 @@ const posts = await getRenderedCollection("posts");
 const projects = await getRenderedCollection("projects");
 const publications = await getCollection("publications");
 
-const PUB_ICONS: { [k: string]: string } = {
+const PUB_ICONS = {
   code: "fas fa-terminal",
   pdf: "fas fa-file-pdf",
   project: "fab fa-github",
@@ -105,6 +105,7 @@ const PUB_ICONS: { [k: string]: string } = {
         projects.map((entry) => (
           <Project
             title={entry.data.title}
+            lang={entry.data.lang}
             tags={entry.data.tags}
             link={entry.data.link}
           >
@@ -167,7 +168,7 @@ const PUB_ICONS: { [k: string]: string } = {
                   href={url}
                   target="_blank"
                 >
-                  <i class={PUB_ICONS[key]} />
+                  <i class={PUB_ICONS[key as keyof typeof post.data.urls]} />
                   {key}
                 </a>
               ))}
