@@ -1,10 +1,10 @@
 ---
-role: Technical Consultant
+title: Technical Consultant
 company:
     name: DB&L Services
     url: https://example.com
+    location: Lugano, Switzerland
 date: Aug 2019 - Jan 2020
-location: Lugano, Switzerland
 featuredLink:
     enable: true
     url: https://example.com

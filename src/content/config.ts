@@ -27,16 +27,16 @@ export const collections = {
 
     experience: defineCollection({
         schema: z.object({
-            role: z.string(),
+            title: z.string(),
             company: z.object({
                 name: z.string(),
                 url: z.string().url().optional(),
+                location: z.string(),
             }),
             date: z.string().transform(str => ({
                 label: str,
                 date: new Date(str.split('-')[0]!)
             })),
-            location: z.string(),
         })
     }),
 
@@ -46,6 +46,7 @@ export const collections = {
             school: z.object({
                 name: z.string(),
                 url: z.string().url(),
+                location: z.string(),
             }),
             date: z.string().transform(str => ({
                 label: str,

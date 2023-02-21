@@ -1,8 +1,9 @@
 ---
 title: Computer Analyst
 school:
-    name: University of Buenos Aires, Argentina
+    name: University of Buenos Aires
     url: https://www.dc.uba.ar/
+    location: Argentina
 date: 2003 - 2006
 ---
 

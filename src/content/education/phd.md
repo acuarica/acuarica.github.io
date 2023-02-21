@@ -1,8 +1,9 @@
 ---
 title: Ph.D. in Computer Science
 school:
-    name: Università della Svizzera italiana, Switzerland
+    name: Università della Svizzera italiana
     url: https://www.inf.usi.ch/en
+    location: Switzerland
 date: 2013 - 2019
 featuredLink:
     enable: true

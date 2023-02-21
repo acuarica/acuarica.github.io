@@ -1,10 +1,10 @@
 ---
-role: Senior Blockchain Engineer
+title: Senior Blockchain Engineer
 company:
     name: ConsenSys
     url: https://consensys.net
+    location: Remote
 date: Jul 2022 - Jan 2023
-location: Remote
 featuredLink:
     enable: true
     name: View the project

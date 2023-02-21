@@ -1,8 +1,9 @@
 ---
 title: Internship/Master Thesis
 school:
-    name: INRIA/University of Strasbourg, France
+    name: INRIA/University of Strasbourg
     url: https://team.inria.fr/camus/fr/
+    location: France
 date: Mar 2011 - Nov 2011
 ---
 
