@@ -4,6 +4,17 @@ export const collections = {
 
     about: defineCollection({
         schema: z.object({
+            hero: z.object({
+                intro: z.string(),
+                name: z.string(),
+                avatar: z.string(),
+            }),
+            social: z.array(
+                z.object({
+                    icon: z.string(),
+                    url: z.string(),
+                }),
+            ),
             skills: z.array(
                 z.object({
                     icon: z.string(),

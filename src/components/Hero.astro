@@ -1,11 +1,11 @@
 ---
 interface Props {
-	title: string;
-	tagline?: string;
-	align?: "start" | "center";
+	intro: string;
+	name: string;
+	avatar: string;
 }
 
-const { align = "center", tagline, title } = Astro.props;
+const { intro, name, avatar } = Astro.props;
 ---
 
 <div class="hero min-h-screen bg-base-200">
@@ -15,18 +15,17 @@ const { align = "center", tagline, title } = Astro.props;
 				class="w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
 			>
 				<img
-					src={`${import.meta.env.BASE_URL}/assets/avatar.jpeg`}
-					alt="Jeanine White asdf "
+					src={`${import.meta.env.BASE_URL}${avatar}`}
+					alt="Profile picture"
 				/>
 			</div>
 		</div>
 		<div>
-			<p class="text-2xl font-bold py-6">Hi there, I'm</p>
-			<h1 class="text-5xl font-bold">Luis!</h1>
+			<p class="text-2xl font-bold py-6">{intro}</p>
+			<h1 class="text-5xl font-bold">{name}</h1>
 			<p class="py-6">
 				<article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-
-			<slot />
+					<slot />
 				</article>
 			</p>
 		</div>

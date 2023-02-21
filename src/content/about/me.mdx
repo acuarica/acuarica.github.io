@@ -4,20 +4,17 @@ googleAnalytics: UA-161877768-1
 params:
   title: "LM"
   description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
-  # About
-about:
+hero:
   intro: Hi there, I'm
   name: Luis.
   subtitle: I build things for builders
+  avatar: assets/avatar.jpeg
   # bio: |-
     # My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
-  image: /images/me.jpeg
-  # roundImage: true # Make hero image circular | default false
 
-links:
+social:
   - icon: fab fa-github
     url: https://github.com/acuarica
   - icon: fab fa-linkedin
@@ -29,18 +26,6 @@ links:
   - icon: fa fa-envelope
     url: "#contact"
     newPage: false
-
-contact:
-  enable: true
-  # title: "Custom Name"
-  content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-  # email: gurusabarisha@gmail.com
-  btnName: Contact me
-  formspree:
-    enable: true # `contact.email` value will be ignored
-    formId: mayylrrq # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    emailCaption: Enter your email address
-    messageCaption: Enter your message here
 
 skills:
     - icon: fas fa-code
@@ -61,11 +46,17 @@ skills:
     - icon: fab fa-git-alt
       title: SCMs
       subtitle: Git, Subversion, CVS
+
+contact:
+  content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+  btnName: Contact me
+  formspree:
+    enable: true
+    formId: mayylrrq
+    emailCaption: Enter your email address
+    messageCaption: Enter your message here
 ---
 
-import Hero from '@components/Hero.astro';
-
-<Hero>
 I worked in the Web3 space for more than 2 years.
 I worked with [Ethereum](https://ethereum.org/) & [NEAR](https://near.org/), [Avalanche](https://www.avax.network/), [EOS/WAX](https://www.wax.io/) and [Everscale (TON)](https://everscale.network/) using **Solidity**, **Rust** and **TypeScript/JavaScript**.
 Moreover, I have worked for more than 10 years in private industry in different roles, as Software Engineer, Network Administrator and Freelance Developer.
@@ -81,4 +72,3 @@ Interests
 - Partial & Symbolic Evaluation, Supercompilation
 - Static & Dynamic Analysis
 - Education in Computer Science
-</Hero>

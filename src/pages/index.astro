@@ -4,12 +4,15 @@ import { getRenderedCollection, sort } from "@utils";
 
 import Page from "@layouts/Page.astro";
 
-import About from "@components/About.mdx";
 import Skill from "@components/Skill.astro";
 import Timeline from "@components/Timeline.astro";
+import Hero from "@components/Hero.astro";
 
-const about = await getEntryBySlug('about', 'index');
+const about = await getEntryBySlug("about", "me");
+const hero = about.data.hero;
 const skills = about.data.skills;
+const { Content: About } = await about.render();
+
 const experience = sort(await getRenderedCollection("experience"));
 const education = sort(await getRenderedCollection("education"));
 const posts = await getRenderedCollection("posts");
@@ -17,8 +20,11 @@ const projects = await getRenderedCollection("projects");
 const publications = await getCollection("publications");
 ---
 
-<Page title="Luis Mastrangelo">
-  <About />
+<Page title="Luis Mastrangelo | Profile">
+  <Hero intro={hero.intro} name={hero.name} avatar={hero.avatar}>
+    <About />
+  </Hero>
+
   <section id="skills">
     <h2>Skills</h2>
     <ul>
@@ -70,13 +76,7 @@ const publications = await getCollection("publications");
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      {
-        projects.map((entry) => (
-          <li>
-              {entry.data.title}
-          </li>
-        ))
-      }
+      {projects.map((entry) => <li>{entry.data.title}</li>)}
     </ul>
   </section>
 
@@ -143,7 +143,8 @@ const publications = await getCollection("publications");
   }
 
   section > h2 {
-    width: 15rem;
+    width: 100px;
+    background-color: red;
     /* grid-column-start: 1;
     font-size: var(--text-xl);
     color: var(--gray-0); */
