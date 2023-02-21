@@ -1,26 +1,11 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "On Mastery Checking"
-subtitle: ""
-summary: ""
-authors: []
-tags: ["education", "java"]
-categories: []
+title: On Mastery Checking
+tags:
+    - education
+    - java
 date: 2019-11-17T19:25:11+01:00
 # date: "2016-12-03T12:00:00"
 lastmod: 2019-11-17T19:25:11+01:00
-featured: false
-draft: false
-
-image: /images/post.jpg
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 Mastery Checking is a teaching strategy.
@@ -28,8 +13,7 @@ Mastery Checking is a teaching strategy.
 Teaching assistant in Universita della Svizzera italiana.
 Here a normal course takes a midterm and a final exam.
 
-
-# What is mastery check anyway?
+## What is mastery check anyway?
 
 You evaluate by skills.
 
@@ -39,16 +23,12 @@ To many checkings can be a problem for the student.
 
 > Anyway, it is *NOT* a technique to teach, but a technique to evaluate.
 
-
-##
-
-Hypothesis.
+## Hypothesis
 
 The students do not know how to take exams.
 
 this is a big problem.
 realization is different than thinking?
-
 
 ## Solution
 

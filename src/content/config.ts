@@ -1,5 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 
+const ZodTags = z.array(z.string().regex(/^[a-z][a-z0-9-+]*$/));
+
 export const collections = {
 
     about: defineCollection({
@@ -59,7 +61,7 @@ export const collections = {
         schema: z.object({
             title: z.string(),
             lang: z.enum(['TypeScript', 'C/C++', 'Haskell']),
-            tags: z.array(z.string()),
+            tags: ZodTags,
             link: z.object({
                 icon: z.string(),
                 url: z.string().url(),
@@ -69,9 +71,8 @@ export const collections = {
 
     posts: defineCollection({
         schema: z.object({
-            draft: z.boolean(),
             title: z.string(),
-            tags: z.array(z.string()),
+            tags: ZodTags,
             date: z.date(),
         })
     }),
@@ -81,7 +82,7 @@ export const collections = {
             title: z.string(),
             subtitle: z.string().default(''),
             authors: z.array(z.string()),
-            tags: z.array(z.string()),
+            tags: ZodTags,
             date: z.date(),
             publication: z.string(),
             urls: z.record(z.enum(['code', 'pdf', 'project', 'video', 'slides']), z.string()),

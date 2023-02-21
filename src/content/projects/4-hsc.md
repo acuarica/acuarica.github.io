@@ -5,9 +5,9 @@ tags:
     - haskell
     - supercompilation
     - optimization
-    - partial evaluation
-    - static analysis
-    - theorem proving
+    - partial-evaluation
+    - static-analysis
+    - theorem-proving
 link:
     icon: fab fa-github
     url: https://github.com/acuarica/hsc

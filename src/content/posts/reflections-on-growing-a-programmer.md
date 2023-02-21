@@ -1,26 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Reflections on Growing a Programmer"
-subtitle: ""
-summary: ""
-authors: []
-tags: ["education", "racket", "functional", "design", "testing"]
-categories: []
+title: Reflections on Growing a Programmer
+tags:
+    - education
+    - racket
+    - functional
+    - design
+    - testing
 date: 2019-11-17T19:25:40+01:00
 # date: "2015-12-03T12:00:00"
 lastmod: 2019-11-17T19:25:40+01:00
-featured: false
-draft: false
-
-image: /images/post.jpg
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 Matthias Felleisen from Northeastern University wrote an essay about how to introduce programming in a freshmen course.
