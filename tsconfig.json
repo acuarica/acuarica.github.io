@@ -1,5 +1,7 @@
 {
   // https://docs.astro.build/en/guides/content-collections/#setting-up-typescript
+  // `importsNotUsedAsValues` is included when extends `strictest`.
+  // https://docs.astro.build/en/guides/typescript/#type-imports
   "extends": "astro/tsconfigs/strictest",
   // https://docs.astro.build/en/guides/aliases/
   "compilerOptions": {
@@ -11,8 +13,8 @@
       "@layouts/*": [
         "src/layouts/*"
       ],
-      "@styles/*": [
-        "src/styles/*"
+      "@utils": [
+        "src/utils"
       ]
     }
   }
