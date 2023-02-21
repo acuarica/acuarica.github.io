@@ -1,10 +1,17 @@
 ---
 title: EVM.js
+lang: TypeScript
 tags:
-    - evm
-    - bytecode
-    - solidity
+    - parser
     - typescript
+    - bytecode
+    - ethereum
+    - blockchain
+    - control-flow-graph
+    - solidity
+    - web3
+    - evm
+
 link:
     icon: fab fa-github
     url: https://github.com/acuarica/evm

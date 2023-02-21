@@ -1,5 +1,6 @@
 ---
 title: JNIF
+lang: C/C++
 tags:
     - jvm
     - java

@@ -1,20 +1,33 @@
 ---
 import Tags from "./Tags.astro";
+import type { CollectionEntry } from 'astro:content';
 
 interface Props {
     title: string;
+    lang: CollectionEntry<'projects'>['data']['lang'];
     tags: string[];
     link: { icon: string; url: string };
 }
-const { title, tags, link } = Astro.props;
+
+const { title, lang, tags, link } = Astro.props;
+
+const LANG_COLORS = {
+    'TypeScript': 'bg-blue-700',
+    'C/C++': 'bg-amber-800',
+    'Haskell': 'bg-pink-800',
+};
 ---
 
 <div class="card bg-base-100 shadow-xl">
     <div class="card-body">
         <div class="flex justify-between">
-            <h2 class="card-title">
-                {title}
-            </h2>
+            <div>
+                <h2 class="card-title">{title}</h2>
+                <div class="text-sm text-slate-400">
+                    <div class:list={["badge badge-xs", LANG_COLORS[lang]]}></div>
+                    {lang}
+                </div>
+            </div>
             <a
                 class="btn btn-circle btn-outline btn-info"
                 href={link.url}

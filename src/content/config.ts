@@ -58,6 +58,7 @@ export const collections = {
     projects: defineCollection({
         schema: z.object({
             title: z.string(),
+            lang: z.enum(['TypeScript', 'C/C++', 'Haskell']),
             tags: z.array(z.string()),
             link: z.object({
                 icon: z.string(),
