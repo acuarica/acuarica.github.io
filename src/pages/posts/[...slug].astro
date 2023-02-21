@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
 
-// 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const blogEntries = await getCollection("posts");
   return blogEntries.map((entry) => ({
@@ -11,13 +10,13 @@ export async function getStaticPaths() {
   }));
 }
 
-// 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
 <Page title={entry.data.title}>
-  <h1>{entry.data.title}</h1>
-
-  <Content />
+  <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
 </Page>
