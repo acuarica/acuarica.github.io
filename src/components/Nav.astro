@@ -20,7 +20,7 @@ const menu = [
             {
                 menu.map((item) => (
                     <li class="hover-bordered text-sm">
-                        <a href={`#${item.href}`}>
+                        <a href={`${import.meta.env.BASE_URL}#${item.href}`}>
                             <i class={item.icon} />
                             {item.label}
                         </a>
