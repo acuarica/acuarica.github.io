@@ -1,0 +1,9 @@
+---
+interface Props {
+    tags: string[];
+}
+
+const { tags } = Astro.props;
+---
+
+{tags.map((tag) => <div class="badge badge-primary">{tag}</div>)}
