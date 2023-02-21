@@ -1,46 +1,19 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntryBySlug } from "astro:content";
+import { getRenderedCollection, sort } from "@utils";
 
 import Page from "@layouts/Page.astro";
 
 import About from "@components/About.mdx";
 import Hero from "@components/Hero.astro";
 import Skill from "@components/Skill.astro";
+import Timeline from "@components/Timeline.astro";
 
-const skills = [
-  {
-    title: "Software Development",
-    subtitle: "Blockchain, Object, Functional & Logic Programming",
-    icon: "fas fa-code",
-  },
-  {
-    title: "Software Design",
-    subtitle: "Design by Contract, UML, Design Patterns",
-    icon: "fas fa-drafting-compass",
-  },
-  {
-    title: "DevOps",
-    subtitle: "CI/CD, APM, Test Automation, Unix Toolings",
-    icon: "fas fa-terminal",
-  },
-  {
-    title: "Databases",
-    subtitle: "Design & Manipulation, SQL",
-    icon: "fas fa-database",
-  },
-  {
-    title: "Data Science",
-    subtitle: "Analitics, Mining & Visualization",
-    icon: "fas fa-chart-line",
-  },
-  {
-    title: "SCMs",
-    subtitle: "Git, Subversion, CVS",
-    icon: "fab fa-git-alt",
-  },
-];
-
-const posts = await getCollection("posts");
+const about = await getEntryBySlug('about', 'index');
+const skills = about.data.skills;
+const experience = sort(await getRenderedCollection("experience"));
+const education = sort(await getRenderedCollection("education"));
+const posts = await getRenderedCollection("posts");
 const publications = await getCollection("publications");
 ---
 
@@ -62,13 +35,41 @@ const publications = await getCollection("publications");
     </ul>
   </section>
 
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="steps steps-vertical w-full">
+      {
+        experience.map((entry) => (
+          <Timeline
+            title={entry.data.role}
+            subtitle={entry.data.company.name}
+            date={entry.data.date.label}
+          >
+            <entry.Content />
+          </Timeline>
+          // <li data-content={entry.date} class="step step-secondary">
+          // <p>
+          // {entry.title}
+          // {entry.content}</p>
+          // </li>
+        ))
+      }
+    </div>
+  </section>
+
   <section id="education">
     <h2>Education</h2>
     <ul class="steps steps-vertical">
-      <li data-content="asdfasdfasdf" class="step step-primary">Register</li>
-      <li class="step step-primary">Choose plan</li>
-      <li class="step">Purchase</li>
-      <li class="step">Receive Product</li>
+      {
+        education.map((entry) => (
+          <Timeline title={entry.data.title} desc={entry.data.school.name} />
+          // <li data-content={entry.date} class="step step-secondary">
+          // <p>
+          // {entry.title}
+          // {entry.content}</p>
+          // </li>
+        ))
+      }
     </ul>
   </section>
 
@@ -92,7 +93,7 @@ const publications = await getCollection("publications");
     <h2>Publications</h2>
     <ul>
       {
-        publications.map((post) => (
+        publications.map(async (post) => (
           <li>
             <a href={`/publications/${post.slug}`}>{post.data.title}</a>
             <time datetime={post.data.date.toISOString()}>
