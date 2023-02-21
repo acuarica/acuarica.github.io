@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "*.mdx": "markdown"
-    }
+    },
+    "tailwindCSS.includeLanguages": {
+        "astro": "html"
+    },
 }
