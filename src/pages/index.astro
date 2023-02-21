@@ -7,6 +7,7 @@ import Page from "@layouts/Page.astro";
 import Skill from "@components/Skill.astro";
 import Timeline from "@components/Timeline.astro";
 import Hero from "@components/Hero.astro";
+import Project from "@components/Project.astro";
 
 const about = await getEntryBySlug("about", "me");
 const hero = about.data.hero;
@@ -91,8 +92,12 @@ const publications = await getCollection("publications");
 
   <section id="projects">
     <h2>Projects</h2>
-    <div>
-      {projects.map((entry) => <li>{entry.data.title}</li>)}
+    <div class="grid grid-cols-2 gap-8">
+      {projects.map((entry) => 
+      <Project title={entry.data.title} tags={entry.data.tags} link={entry.data.link}>
+        <entry.Content></entry.Content>
+        </Project>
+      )}
     </div>
   </section>
 

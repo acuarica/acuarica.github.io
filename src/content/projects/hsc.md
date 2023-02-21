@@ -1,5 +1,5 @@
 ---
-title: HSC - Haskell Supercompiler
+title: HSC Haskell Supercompiler
 tags:
     - haskell
     - supercompilation

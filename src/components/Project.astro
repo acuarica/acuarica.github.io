@@ -1,0 +1,29 @@
+---
+interface Props {
+    title: string;
+    tags: string[];
+    link: { icon: string; url: string };
+}
+const { title, tags, link } = Astro.props;
+---
+
+<div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card-body">
+        <div class="flex justify-between">
+            <h2 class="card-title">
+                {title}
+            </h2>
+            <a
+                class="btn btn-circle btn-outline btn-info"
+                href={link.url}
+                target="_blank"
+            >
+                <i class={link.icon} style="font-size: 1.3rem;"></i>
+            </a>
+        </div>
+        <p><slot /></p>
+        <div class="card-actions">
+            {tags.map((tag) => <div class="badge badge-primary">{tag}</div>)}
+        </div>
+    </div>
+</div>
