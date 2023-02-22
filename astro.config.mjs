@@ -22,7 +22,7 @@ export default defineConfig({
     site: 'https://acuarica.github.io',
 
     // https://docs.astro.build/en/reference/configuration-reference/#base
-    base: '/dev',
+    // base: '/dev',
 
     markdown: {
         remarkPlugins: [remarkReadingTime, remarkPreviewParagraph],
