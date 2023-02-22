@@ -1,4 +1,6 @@
 ---
+import { Icon } from "astro-icon";
+
 interface Props {
     tags: string[];
 }
@@ -6,6 +8,7 @@ interface Props {
 const { tags } = Astro.props;
 ---
 
+<Icon name="fa-solid:tags" />
 {
     tags.map(tag => (
         <div class="badge badge-primary">
