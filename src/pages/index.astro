@@ -48,7 +48,7 @@ const PUB_ICONS = {
 
     <section id="skills">
         <h2>Skills</h2>
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-3 md:gap-8 grid-cols-2 gap-5">
             {
                 skills.map(skill => (
                     <Skill
@@ -103,7 +103,7 @@ const PUB_ICONS = {
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
             {
                 projects.map(entry => (
                     <Project
@@ -138,7 +138,10 @@ const PUB_ICONS = {
                         <div>
                             <Tags tags={post.data.tags} />
                         </div>
-                        <div class="text-sm">{post.remarkPluginFrontmatter.previewParagraph}<i>[...]</i></div>
+                        <div class="text-sm">
+                            {post.remarkPluginFrontmatter.previewParagraph}
+                            <i>[...]</i>
+                        </div>
                         <div>
                             <time datetime={post.data.date.toISOString()}>
                                 {post.data.date.toDateString()}
@@ -221,15 +224,21 @@ const PUB_ICONS = {
 </Page>
 
 <style>
-    section {
-        @apply grid grid-cols-4 gap-0 py-8;
-    }
-
     section > h2 {
         @apply text-3xl text-slate-500;
     }
 
-    section > div {
-        @apply col-span-3;
+    section {
+        @apply flex flex-col gap-4;
+    }
+
+    @media (min-width: 768px) {
+        section {
+            @apply grid grid-cols-4 gap-0 py-8;
+        }
+
+        section > div {
+            @apply col-span-3;
+        }
     }
 </style>
