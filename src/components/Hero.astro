@@ -15,14 +15,7 @@ const { intro, name, avatar, socials } = Astro.props;
 ---
 
 <div class="hero">
-    <div class="hero-content flex-col gap-16 lg:flex-row-reverse">
-        <div>
-            <p class="py-6">
-                <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-                    <slot />
-                </article>
-            </p>
-        </div>
+    <div class="hero-content flex-col gap-16 lg:flex-row">
         <div>
             <div class="avatar pt-16">
                 <div
@@ -58,6 +51,14 @@ const { intro, name, avatar, socials } = Astro.props;
                     ))
                 }
             </div>
+        </div>
+
+        <div>
+            <p class="py-6">
+                <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+                    <slot />
+                </article>
+            </p>
         </div>
     </div>
 </div>
