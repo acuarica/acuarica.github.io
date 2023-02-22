@@ -19,6 +19,18 @@ async function getTags() {
 }
 
 const tags = await getTags();
+
+function getBadgeSize(count: number) {
+    if (count >= 5) {
+        return "lg";
+    } else if (count >= 3) {
+        return "md";
+    } else if (count >= 2) {
+        return "sm";
+    }
+
+    return "xs";
+}
 ---
 
 <ul
@@ -27,13 +39,25 @@ const tags = await getTags();
     {
         Object.entries(tags).map(([tag, count]) => (
             <li>
-                <a
-                    class="link"
-                    href={`${import.meta.env.BASE_URL}tags/${tag}`}
-                    style={`font-size: ${count * 10}px`}
-                >
-                    {tag}
-                </a>
+                <div class="indicator">
+                    <span
+                        class={`indicator-item badge badge-${getBadgeSize(
+                            count
+                        )} badge-primary text-${getBadgeSize(
+                            count
+                        )}`}
+                    >
+                        {count}
+                    </span>
+
+                    <a
+                        class="link"
+                        href={`${import.meta.env.BASE_URL}tags/${tag}`}
+                        style={`font-size: ${count * 10}px`}
+                    >
+                        {tag}
+                    </a>
+                </div>
             </li>
         ))
     }
