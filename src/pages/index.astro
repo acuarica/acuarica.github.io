@@ -138,11 +138,12 @@ const PUB_ICONS = {
                         <div>
                             <Tags tags={post.data.tags} />
                         </div>
+                        <div class="text-sm">{post.remarkPluginFrontmatter.previewParagraph}<i>[...]</i></div>
                         <div>
                             <time datetime={post.data.date.toISOString()}>
                                 {post.data.date.toDateString()}
                             </time>
-                            -{post.remarkPluginFrontmatter.minutesRead}
+                            - {post.remarkPluginFrontmatter.minutesRead}
                         </div>
                     </div>
                 ))

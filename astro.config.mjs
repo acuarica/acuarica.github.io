@@ -25,7 +25,7 @@ export default defineConfig({
     base: '/dev',
 
     markdown: {
-        remarkPlugins: [remarkReadingTime],
+        remarkPlugins: [remarkReadingTime, remarkPreviewParagraph],
     },
 
     // https://docs.astro.build/en/reference/configuration-reference/#integrations
@@ -57,5 +57,12 @@ function remarkReadingTime() {
         const readingTime = getReadingTime(textOnPage);
         // readingTime.text will give us minutes read as a friendly string, i.e. "3 min read"
         data.astro.frontmatter.minutesRead = readingTime.text;
+    };
+}
+
+function remarkPreviewParagraph() {
+    return function (tree, { data }) {
+        const textOnPage = toString(tree);
+        data.astro.frontmatter.previewParagraph = textOnPage.substring(0, 250);
     };
 }
