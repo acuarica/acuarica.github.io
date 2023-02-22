@@ -2,7 +2,7 @@
 title: Project Leader
 company:
     name: Recursiva
-    url: https://recursiva.com.ar
+    url: https://www.recursiva.com.ar
     location: Buenos Aires, Argentina
 date: Dec 2006 - Mar 2011
 ---
