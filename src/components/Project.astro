@@ -31,13 +31,18 @@ const LANG_COLORS = {
                     {lang}
                 </div>
             </div>
-            <a
-                class="btn btn-circle btn-outline btn-info"
-                href={link.url}
-                target="_blank"
-            >
-                <Icon name={link.icon} style="font-size: 1.3rem;" />
-            </a>
+            <div class="indicator">
+                <span class="indicator-item badge badge-info"
+                    ><Icon name="external-link" /></span
+                >
+                <a
+                    class="btn btn-circle btn-outline btn-info"
+                    href={link.url}
+                    target="_blank"
+                >
+                    <Icon name={link.icon} style="font-size: 1.3rem;" />
+                </a>
+            </div>
         </div>
         <p><slot /></p>
         <div class="card-actions">

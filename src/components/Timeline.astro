@@ -1,4 +1,6 @@
 ---
+import { Icon } from "astro-icon";
+
 const { title, place, date } = Astro.props;
 ---
 
@@ -17,7 +19,8 @@ const { title, place, date } = Astro.props;
 
         <span class="font-light text-sm"
             ><a class="link link-info" target="_blank" href={place.url}
-                >{place.name}</a
+                >{place.name}
+                <Icon name="external-link" /></a
             > - {place.location}</span
         >
         <p class="my-2 text-justify">
