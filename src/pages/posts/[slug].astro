@@ -1,13 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
+import Tags from "@components/Tags.astro";
 
 export async function getStaticPaths() {
-  const blogEntries = await getCollection("posts");
-  return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
-  }));
+    const blogEntries = await getCollection("posts");
+    return blogEntries.map(entry => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
 }
 
 const { entry } = Astro.props;
@@ -15,8 +16,10 @@ const { Content } = await entry.render();
 ---
 
 <Page title={entry.data.title}>
-  <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
-    <h1>{entry.data.title}</h1>
-    <Content />
-  </article>
+    <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
+        <h1>{entry.data.title}</h1>
+        <h3>{entry.data.date.toDateString()}</h3>
+        <Tags tags={entry.data.tags} />
+        <Content />
+    </article>
 </Page>
