@@ -25,185 +25,199 @@ const projects = await getRenderedCollection("projects");
 const publications = await getCollection("publications");
 
 const PUB_ICONS = {
-  code: "fas fa-terminal",
-  pdf: "fas fa-file-pdf",
-  project: "fab fa-github",
-  video: "fas fa-video",
-  slides: "fas fa-file-powerpoint",
+    code: "fas fa-terminal",
+    pdf: "fas fa-file-pdf",
+    project: "fab fa-github",
+    video: "fas fa-video",
+    slides: "fas fa-file-powerpoint",
 };
 ---
 
 <Page title="Luis Mastrangelo | Profile">
-  <Hero
-    intro={hero.intro}
-    name={hero.name}
-    avatar={hero.avatar}
-    socials={socials}
-  >
-    <About />
-  </Hero>
+    <Hero
+        intro={hero.intro}
+        name={hero.name}
+        avatar={hero.avatar}
+        socials={socials}
+    >
+        <About />
+    </Hero>
 
-  <Divider />
+    <Divider />
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="grid grid-cols-3 gap-8">
-      {
-        skills.map((skill) => (
-          <Skill
-            title={skill.title}
-            subtitle={skill.subtitle}
-            icon={skill.icon}
-          />
-        ))
-      }
-    </div>
-  </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid grid-cols-3 gap-8">
+            {
+                skills.map(skill => (
+                    <Skill
+                        title={skill.title}
+                        subtitle={skill.subtitle}
+                        icon={skill.icon}
+                    />
+                ))
+            }
+        </div>
+    </section>
 
-  <Divider />
+    <Divider />
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="w-full">
-      {
-        experience.map((entry) => (
-          <Timeline
-            title={entry.data.title}
-            place={entry.data.company}
-            date={entry.data.date.label}
-          >
-            <entry.Content />
-          </Timeline>
-        ))
-      }
-    </div>
-  </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="w-full">
+            {
+                experience.map(entry => (
+                    <Timeline
+                        title={entry.data.title}
+                        place={entry.data.company}
+                        date={entry.data.date.label}
+                    >
+                        <entry.Content />
+                    </Timeline>
+                ))
+            }
+        </div>
+    </section>
 
-  <Divider />
+    <Divider />
 
-  <section id="education">
-    <h2>Education</h2>
-    <div>
-      {
-        education.map((entry) => (
-          <Timeline
-            title={entry.data.title}
-            place={entry.data.school}
-            date={entry.data.date.label}
-          >
-            <entry.Content />
-          </Timeline>
-        ))
-      }
-    </div>
-  </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            {
+                education.map(entry => (
+                    <Timeline
+                        title={entry.data.title}
+                        place={entry.data.school}
+                        date={entry.data.date.label}
+                    >
+                        <entry.Content />
+                    </Timeline>
+                ))
+            }
+        </div>
+    </section>
 
-  <Divider />
+    <Divider />
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="grid grid-cols-2 gap-4">
-      {
-        projects.map((entry) => (
-          <Project
-            title={entry.data.title}
-            lang={entry.data.lang}
-            tags={entry.data.tags}
-            link={entry.data.link}
-          >
-            <entry.Content />
-          </Project>
-        ))
-      }
-    </div>
-  </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid grid-cols-2 gap-4">
+            {
+                projects.map(entry => (
+                    <Project
+                        title={entry.data.title}
+                        lang={entry.data.lang}
+                        tags={entry.data.tags}
+                        link={entry.data.link}
+                    >
+                        <entry.Content />
+                    </Project>
+                ))
+            }
+        </div>
+    </section>
 
-  <Divider />
+    <Divider />
 
-  <section id="posts">
-    <h2>Posts</h2>
-    <div>
-      {
-        posts.map((post) => (
-          <li>
-            <a href={`${import.meta.env.BASE_URL}posts/${post.slug}`}>
-              {post.data.title}
-            </a>
-            <time datetime={post.data.date.toISOString()}>
-              {post.data.date.toDateString()}
-            </time>
-            <Tags tags={post.data.tags} />
-          </li>
-        ))
-      }
-    </div>
-  </section>
+    <section id="posts">
+        <h2>Posts</h2>
+        <div>
+            {
+                posts.map(post => (
+                    <li>
+                        <a
+                            href={`${import.meta.env.BASE_URL}posts/${
+                                post.slug
+                            }`}
+                        >
+                            {post.data.title}
+                        </a>
+                        <time datetime={post.data.date.toISOString()}>
+                            {post.data.date.toDateString()}
+                        </time>
+                        <Tags tags={post.data.tags} />
+                    </li>
+                ))
+            }
+        </div>
+    </section>
 
-  <Divider />
+    <Divider />
 
-  <section id="publications">
-    <h2>Publications</h2>
-    <div class="grid grid-cols-1 gap-8">
-      {
-        publications.map(async (post) => (
-          <div class="flex flex-col gap-1">
-            <a
-              class="link link-info"
-              href={`${import.meta.env.BASE_URL}publications/${post.slug}`}
-            >
-              <span class="text-lg">{post.data.title}</span>
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="grid grid-cols-1 gap-8">
+            {
+                publications.map(async post => (
+                    <div class="flex flex-col gap-1">
+                        <a
+                            class="link link-info"
+                            href={`${import.meta.env.BASE_URL}publications/${
+                                post.slug
+                            }`}
+                        >
+                            <span class="text-lg">{post.data.title}</span>
 
-              {post.data.subtitle}
-            </a>
-            <time datetime={post.data.date.toISOString()}>
-              {post.data.date.toDateString()}
-            </time>
-            <div class="text-slate-400">
-              <i class="fa fa-users" />
-              {post.data.authors.join(", ")}
-            </div>
-            <div>{post.data.publication}</div>
-            <div class="card-actions">
-              <Tags tags={post.data.tags} />
-            </div>
-            <div>
-              {Object.entries(post.data.urls).map(([key, url]) => (
-                <a
-                  class="btn btn-outline btn-info gap-2 mr-2"
-                  href={url}
-                  target="_blank"
-                >
-                  <i class={PUB_ICONS[key as keyof typeof post.data.urls]} />
-                  {key}
-                </a>
-              ))}
-            </div>
-          </div>
-        ))
-      }
-    </div>
-  </section>
+                            {post.data.subtitle}
+                        </a>
+                        <time datetime={post.data.date.toISOString()}>
+                            {post.data.date.toDateString()}
+                        </time>
+                        <div class="text-slate-400">
+                            <i class="fa fa-users" />
+                            {post.data.authors.join(", ")}
+                        </div>
+                        <div>{post.data.publication}</div>
+                        <div class="card-actions">
+                            <Tags tags={post.data.tags} />
+                        </div>
+                        <div>
+                            {Object.entries(post.data.urls).map(
+                                ([key, url]) => (
+                                    <a
+                                        class="btn btn-outline btn-info gap-2 mr-2"
+                                        href={url}
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class={
+                                                PUB_ICONS[
+                                                    key as keyof typeof post.data.urls
+                                                ]
+                                            }
+                                        />
+                                        {key}
+                                    </a>
+                                )
+                            )}
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    </section>
 
-  <Divider />
+    <Divider />
 
-  <section id="tags">
-    <h2>Tags</h2>
-    <div>
-      <TagCloud />
-    </div>
-  </section>
+    <section id="tags">
+        <h2>Tags</h2>
+        <div>
+            <TagCloud />
+        </div>
+    </section>
 </Page>
 
 <style>
-  section {
-    @apply grid grid-cols-4 gap-0 py-8;
-  }
+    section {
+        @apply grid grid-cols-4 gap-0 py-8;
+    }
 
-  section > h2 {
-    @apply text-3xl text-slate-500;
-  }
+    section > h2 {
+        @apply text-3xl text-slate-500;
+    }
 
-  section > div {
-    @apply col-span-3;
-  }
+    section > div {
+        @apply col-span-3;
+    }
 </style>
