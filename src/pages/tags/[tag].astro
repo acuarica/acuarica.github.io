@@ -1,36 +1,41 @@
 ---
 import Page from "@layouts/Page.astro";
+import { Icon } from "astro-icon";
 import { CollectionEntry, getCollection } from "astro:content";
 
 interface Props {
-  projects: CollectionEntry<"projects">[];
-  posts: CollectionEntry<"posts">[];
-  pubs: CollectionEntry<"publications">[];
+    projects: CollectionEntry<"projects">[];
+    posts: CollectionEntry<"posts">[];
+    pubs: CollectionEntry<"publications">[];
 }
 
 export async function getStaticPaths() {
-  const allProjects = await getCollection("projects");
-  const allPosts = await getCollection("posts");
-  const allPubs = await getCollection("publications");
+    const allProjects = await getCollection("projects");
+    const allPosts = await getCollection("posts");
+    const allPubs = await getCollection("publications");
 
-  const uniqueTags = [
-    ...new Set(
-      [allProjects, allPosts, allPubs]
-        .map((collection) => collection.map((entry) => entry.data.tags).flat())
-        .flat()
-    ),
-  ];
+    const uniqueTags = [
+        ...new Set(
+            [allProjects, allPosts, allPubs]
+                .map(collection =>
+                    collection.map(entry => entry.data.tags).flat()
+                )
+                .flat()
+        ),
+    ];
 
-  return uniqueTags.map((tag) => {
-    return {
-      params: { tag },
-      props: {
-        projects: allProjects.filter((entry) => entry.data.tags.includes(tag)),
-        posts: allPosts.filter((entry) => entry.data.tags.includes(tag)),
-        pubs: allPubs.filter((entry) => entry.data.tags.includes(tag)),
-      },
-    };
-  });
+    return uniqueTags.map(tag => {
+        return {
+            params: { tag },
+            props: {
+                projects: allProjects.filter(entry =>
+                    entry.data.tags.includes(tag)
+                ),
+                posts: allPosts.filter(entry => entry.data.tags.includes(tag)),
+                pubs: allPubs.filter(entry => entry.data.tags.includes(tag)),
+            },
+        };
+    });
 }
 
 const { tag } = Astro.params;
@@ -38,16 +43,19 @@ const { projects, posts, pubs } = Astro.props;
 ---
 
 <Page title={`${tag} | Luis Mastrangelo`}>
-  {tag}
+    <h1 class="text-2xl">
+        <Icon name="fa-solid:tags" />
+        {tag}
+    </h1>
 
-  <p>Posts tagged with {tag}</p>
-  <ul>
-    {projects.map((entry) => <div>{entry.data.title}</div>)}
-  </ul>
-  <ul>
-    {posts.map((entry) => <div>{entry.data.title}</div>)}
-  </ul>
-  <ul>
-    {pubs.map((entry) => <div>{entry.data.title}</div>)}
-  </ul>
+    <p>Posts tagged with {tag}</p>
+    <ul>
+        {projects.map(entry => <div>{entry.data.title}</div>)}
+    </ul>
+    <ul>
+        {posts.map(entry => <div>{entry.data.title}</div>)}
+    </ul>
+    <ul>
+        {pubs.map(entry => <div>{entry.data.title}</div>)}
+    </ul>
 </Page>
