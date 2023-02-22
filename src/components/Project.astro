@@ -1,10 +1,10 @@
 ---
 import Tags from "./Tags.astro";
-import type { CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from "astro:content";
 
 interface Props {
     title: string;
-    lang: CollectionEntry<'projects'>['data']['lang'];
+    lang: CollectionEntry<"projects">["data"]["lang"];
     tags: string[];
     link: { icon: string; url: string };
 }
@@ -12,9 +12,9 @@ interface Props {
 const { title, lang, tags, link } = Astro.props;
 
 const LANG_COLORS = {
-    'TypeScript': 'bg-blue-700',
-    'C/C++': 'bg-amber-800',
-    'Haskell': 'bg-pink-800',
+    TypeScript: "bg-blue-700",
+    "C/C++": "bg-amber-800",
+    Haskell: "bg-pink-800",
 };
 ---
 
@@ -24,7 +24,8 @@ const LANG_COLORS = {
             <div>
                 <h2 class="card-title">{title}</h2>
                 <div class="text-sm text-slate-400">
-                    <div class:list={["badge badge-xs", LANG_COLORS[lang]]}></div>
+                    <div class:list={["badge badge-xs", LANG_COLORS[lang]]}>
+                    </div>
                     {lang}
                 </div>
             </div>

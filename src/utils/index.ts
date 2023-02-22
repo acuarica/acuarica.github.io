@@ -6,7 +6,7 @@ export async function getRenderedCollection<C extends Entry>(
     collection: C
 ) {
     return await Promise.all(
-        (await getCollection(collection)).map(async (entry) => ({
+        (await getCollection(collection)).map(async entry => ({
             ...entry,
             Content: (await entry.render()).Content,
         }))
