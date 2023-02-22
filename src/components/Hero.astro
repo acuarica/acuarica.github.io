@@ -1,52 +1,52 @@
 ---
 interface Props {
-	intro: string;
-	name: string;
-	avatar: string;
-	socials: {
-		url: string;
-		icon: string;
-	}[];
+    intro: string;
+    name: string;
+    avatar: string;
+    socials: {
+        url: string;
+        icon: string;
+    }[];
 }
 
 const { intro, name, avatar, socials } = Astro.props;
 ---
 
 <div class="hero">
-	<div class="hero-content flex-col gap-16 lg:flex-row-reverse">
-		<div>
-			<p class="py-6">
-				<article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-					<slot />
-				</article>
-			</p>
-		</div>
-		<div>
-			<div class="avatar pt-16">
-				<div
-					class="w-80 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
-				>
-					<img
-						src={`${import.meta.env.BASE_URL}${avatar}`}
-						alt="Profile picture"
-					/>
-				</div>
-			</div>
-			<p class="text-2xl font-bold pt-4">{intro}</p>
-			<h1 class="text-5xl font-bold pt-4 pb-8">{name}</h1>
-			<div class="flex gap-2">
-				{
-					socials.map((social) => (
-						<a
-							class="btn btn-circle btn-outline btn-info"
-							href={social.url}
-							target="_blank"
-						>
-							<i class={social.icon} style="font-size: 1.3rem;" />
-						</a>
-					))
-				}
-			</div>
-		</div>
-	</div>
+    <div class="hero-content flex-col gap-16 lg:flex-row-reverse">
+        <div>
+            <p class="py-6">
+                <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+                    <slot />
+                </article>
+            </p>
+        </div>
+        <div>
+            <div class="avatar pt-16">
+                <div
+                    class="w-80 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
+                >
+                    <img
+                        src={`${import.meta.env.BASE_URL}${avatar}`}
+                        alt="Profile picture"
+                    />
+                </div>
+            </div>
+            <p class="text-2xl font-bold pt-4">{intro}</p>
+            <h1 class="text-5xl font-bold pt-4 pb-8">{name}</h1>
+            <div class="flex gap-2">
+                {
+                    socials.map(social => (
+                        <a
+                            class="btn btn-circle btn-outline btn-info"
+                            href={social.url}
+                            target="_blank"
+                        >
+                            <i class={social.icon} style="font-size: 1.3rem;" />
+                        </a>
+                    ))
+                }
+            </div>
+        </div>
+    </div>
 </div>

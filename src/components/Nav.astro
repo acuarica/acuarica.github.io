@@ -18,7 +18,7 @@ const menu = [
             class="menu menu-vertical md:menu-horizontal bg-base-100 rounded-box"
         >
             {
-                menu.map((item) => (
+                menu.map(item => (
                     <li class="hover-bordered text-sm">
                         <a href={`${import.meta.env.BASE_URL}#${item.href}`}>
                             <i class={item.icon} />
