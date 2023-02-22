@@ -8,7 +8,9 @@ interface Props {
 const { tags } = Astro.props;
 ---
 
-<Icon name="fa-solid:tags" />
+<div class="tooltip tooltip-info" data-tip="Tags">
+    <Icon name="fa-solid:tags" />
+</div>
 {
     tags.map(tag => (
         <div class="badge badge-primary">
