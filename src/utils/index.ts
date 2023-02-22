@@ -8,7 +8,7 @@ export async function getRenderedCollection<C extends Entry>(
     return await Promise.all(
         (await getCollection(collection)).map(async entry => ({
             ...entry,
-            Content: (await entry.render()).Content,
+            ...await entry.render(),
         }))
     );
 }

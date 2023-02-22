@@ -12,13 +12,14 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content, remarkPluginFrontmatter } = await entry.render();
 ---
 
 <Page title={entry.data.title}>
     <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
         <h1>{entry.data.title}</h1>
         <h3>{entry.data.date.toDateString()}</h3>
+        <h4>{remarkPluginFrontmatter.minutesRead}</h4>
         <Tags tags={entry.data.tags} />
         <Content />
     </article>

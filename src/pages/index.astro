@@ -21,8 +21,8 @@ const { Content: About } = await about.render();
 
 const experience = sort(await getRenderedCollection("experience"));
 const education = sort(await getRenderedCollection("education"));
-const posts = await getRenderedCollection("posts");
 const projects = await getRenderedCollection("projects");
+const posts = await getRenderedCollection("posts");
 const publications = await getCollection("publications");
 
 const PUB_ICONS = {
@@ -138,9 +138,12 @@ const PUB_ICONS = {
                         <div>
                             <Tags tags={post.data.tags} />
                         </div>
-                        <time datetime={post.data.date.toISOString()}>
-                            {post.data.date.toDateString()}
-                        </time>
+                        <div>
+                            <time datetime={post.data.date.toISOString()}>
+                                {post.data.date.toDateString()}
+                            </time>
+                            -{post.remarkPluginFrontmatter.minutesRead}
+                        </div>
                     </div>
                 ))
             }
