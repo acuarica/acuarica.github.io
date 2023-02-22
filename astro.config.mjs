@@ -25,7 +25,15 @@ export default defineConfig({
     integrations: [
         mdx(),
         tailwind(),
-        sitemap(),
+
+        // https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+        sitemap({
+            // https://docs.astro.build/en/guides/integrations-guide/sitemap/#changefreq-lastmod-and-priority
+            // > Note that changefreq and priority are ignored by Google.
+            changefreq: 'weekly',
+            // priority: 0.7,
+            lastmod: new Date(),
+        }),
 
         // Allow all bots to scan and index your site.
         // Full syntax: https://developers.google.com/search/docs/advanced/robots/create-robots-txt
