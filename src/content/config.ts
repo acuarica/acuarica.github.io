@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 
+const ZodLangs = z.enum(['TypeScript', 'C/C++', 'Haskell', 'Rust']);
 const ZodTags = z.array(z.string().regex(/^[a-z][a-z0-9-+]*$/));
 
 export const collections = {
@@ -60,7 +61,7 @@ export const collections = {
     projects: defineCollection({
         schema: z.object({
             title: z.string(),
-            lang: z.enum(['TypeScript', 'C/C++', 'Haskell']),
+            lang: ZodLangs,
             tags: ZodTags,
             link: z.object({
                 icon: z.string(),
