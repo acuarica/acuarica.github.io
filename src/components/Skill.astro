@@ -1,4 +1,6 @@
 ---
+import { Icon } from "astro-icon";
+
 interface Props {
     title: string;
     subtitle: string;
@@ -10,7 +12,7 @@ const { title, subtitle, icon } = Astro.props;
 
 <div class="card bg-base-100 shadow-xl">
     <figure class="pt-8">
-        <i class:list={[icon, "rounded-xl"]} style="font-size: 3rem;"></i>
+        <Icon name={icon} style="font-size: 3rem;" />
     </figure>
     <div class="card-body items-center text-center">
         <h2 class="card-title">{title}</h2>

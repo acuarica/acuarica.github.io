@@ -1,13 +1,15 @@
 ---
+import { Icon } from "astro-icon";
+
 const menu = [
-    { icon: "fas fa-home", label: "", href: "" },
-    { icon: "fas fa-user-cog", label: "Skills", href: "skills" },
-    { icon: "fas fa-briefcase", label: "Experience", href: "experience" },
-    { icon: "fas fa-graduation-cap", label: "Education", href: "education" },
-    { icon: "fas fa-tasks", label: "Projects", href: "projects" },
-    { icon: "fab fa-microblog", label: "Posts", href: "posts" },
-    { icon: "fas fa-newspaper", label: "Publications", href: "publications" },
-    { icon: "fas fa-envelope", label: "Contact", href: "contact" },
+    { icon: "fa-solid:home", label: "", href: "" },
+    { icon: "fa-solid:user-cog", label: "Skills", href: "skills" },
+    { icon: "fa-solid:briefcase", label: "Experience", href: "experience" },
+    { icon: "fa-solid:graduation-cap", label: "Education", href: "education" },
+    { icon: "fa-solid:tasks", label: "Projects", href: "projects" },
+    { icon: "fa-brands:microblog", label: "Posts", href: "posts" },
+    { icon: "fa-solid:newspaper", label: "Publications", href: "publications" },
+    { icon: "fa-solid:envelope", label: "Contact", href: "contact" },
 ];
 ---
 
@@ -21,7 +23,7 @@ const menu = [
                 menu.map(item => (
                     <li class="hover-bordered text-sm">
                         <a href={`${import.meta.env.BASE_URL}#${item.href}`}>
-                            <i class={item.icon} />
+                            <Icon name={item.icon} />
                             {item.label}
                         </a>
                     </li>

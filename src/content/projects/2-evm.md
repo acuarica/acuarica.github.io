@@ -13,7 +13,7 @@ tags:
     - evm
 
 link:
-    icon: fab fa-github
+    icon: fa-brands:github
     url: https://github.com/acuarica/evm
 ---
 

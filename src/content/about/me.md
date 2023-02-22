@@ -15,35 +15,35 @@ hero:
     # My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
 socials:
-  - icon: fab fa-github
+  - icon: fa-brands:github
     url: https://github.com/acuarica
-  - icon: fab fa-linkedin
+  - icon: fa-brands:linkedin
     url: https://www.linkedin.com/in/luismastrangelo/
-  - icon: fab fa-twitter
+  - icon: fa-brands:twitter
     url: https://twitter.com/luismastrangelo
-  - icon: ai ai-cv
+  - icon: cv
     url: https://acuarica.github.io/cv/CV-LuisMastrangelo.pdf
-  - icon: fa fa-envelope
+  - icon: fa-solid:envelope
     url: "#contact"
     newPage: false
 
 skills:
-    - icon: fas fa-code
+    - icon: fa-solid:code
       title: Software Development
       subtitle: Blockchain, Object, Functional & Logic Programming
-    - icon: fas fa-drafting-compass
+    - icon: fa-solid:drafting-compass
       title: Software Design
       subtitle: Design by Contract, UML, Design Patterns
-    - icon: fas fa-terminal
+    - icon: fa-solid:terminal
       title: DevOps
       subtitle: CI/CD, APM, Test Automation, Unix Toolings
-    - icon: fas fa-database
+    - icon: fa-solid:database
       title: Databases
       subtitle: Design & Manipulation, SQL
-    - icon: fas fa-chart-line
+    - icon: fa-solid:chart-line
       title: Data Science
       subtitle: Analitics, Mining & Visualization  
-    - icon: fab fa-git-alt
+    - icon: fa-brands:git-alt
       title: SCMs
       subtitle: Git, Subversion, CVS
 

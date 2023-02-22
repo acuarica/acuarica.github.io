@@ -1,6 +1,7 @@
 ---
 import Tags from "./Tags.astro";
 import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon";
 
 interface Props {
     title: string;
@@ -34,7 +35,7 @@ const LANG_COLORS = {
                 href={link.url}
                 target="_blank"
             >
-                <i class={link.icon} style="font-size: 1.3rem;"></i>
+                <Icon name={link.icon} style="font-size: 1.3rem;" />
             </a>
         </div>
         <p><slot /></p>

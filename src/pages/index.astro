@@ -11,6 +11,7 @@ import Project from "@components/Project.astro";
 import Tags from "@components/Tags.astro";
 import Divider from "@components/Divider.astro";
 import TagCloud from "@components/TagCloud.astro";
+import { Icon } from "astro-icon";
 
 const about = await getEntryBySlug("about", "me");
 const hero = about.data.hero;
@@ -25,11 +26,11 @@ const projects = await getRenderedCollection("projects");
 const publications = await getCollection("publications");
 
 const PUB_ICONS = {
-    code: "fas fa-terminal",
-    pdf: "fas fa-file-pdf",
-    project: "fab fa-github",
-    video: "fas fa-video",
-    slides: "fas fa-file-powerpoint",
+    code: "fa-solid:terminal",
+    pdf: "fa-solid:file-pdf",
+    project: "fa-brands:github",
+    video: "fa-solid:video",
+    slides: "fa-solid:file-powerpoint",
 };
 ---
 
@@ -165,7 +166,7 @@ const PUB_ICONS = {
                             {post.data.date.toDateString()}
                         </time>
                         <div class="text-slate-400">
-                            <i class="fa fa-users" />
+                            <Icon name="fa-solid:users" />
                             {post.data.authors.join(", ")}
                         </div>
                         <div>{post.data.publication}</div>
@@ -180,8 +181,8 @@ const PUB_ICONS = {
                                         href={url}
                                         target="_blank"
                                     >
-                                        <i
-                                            class={
+                                        <Icon
+                                            name={
                                                 PUB_ICONS[
                                                     key as keyof typeof post.data.urls
                                                 ]

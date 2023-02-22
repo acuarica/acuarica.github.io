@@ -1,4 +1,6 @@
 ---
+import { Icon } from 'astro-icon';
+
 interface Props {
     intro: string;
     name: string;
@@ -42,7 +44,7 @@ const { intro, name, avatar, socials } = Astro.props;
                             href={social.url}
                             target="_blank"
                         >
-                            <i class={social.icon} style="font-size: 1.3rem;" />
+                            <Icon name={social.icon} style="font-size: 1.3rem;"></Icon>
                         </a>
                     ))
                 }
