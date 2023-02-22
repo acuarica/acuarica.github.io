@@ -1,0 +1,14 @@
+---
+import { Icon } from "astro-icon";
+
+interface Props {
+    authors: string[];
+}
+
+const { authors } = Astro.props;
+---
+
+<div class="text-slate-400">
+    <Icon name="fa-solid:users" />
+    {authors.join(", ")}
+</div>

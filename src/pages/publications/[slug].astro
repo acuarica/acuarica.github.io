@@ -2,6 +2,7 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
 import Tags from "@components/Tags.astro";
+import Authors from "@components/Authors.astro";
 
 interface Props {
     post: CollectionEntry<"posts">;
@@ -21,12 +22,13 @@ const { Content } = await entry.render();
 
 <Page title={entry.data.title}>
     <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
-        <h1>{entry.data.title}</h1>
+        <h2>{entry.data.title}</h2>
 
-        <h2>{entry.data.authors}</h2>
+        <h4><Authors authors={entry.data.authors} /></h4>
 
         <Tags tags={entry.data.tags} />
-        <h3>{entry.data.publication}</h3>
+
+        <h4>{entry.data.publication}</h4>
 
         {entry.data.date.toDateString()}
 
