@@ -2,37 +2,39 @@
 import { getCollection } from "astro:content";
 
 async function getTags() {
-    const allProjects = await getCollection("projects");
-    const allPosts = await getCollection("posts");
-    const allPubs = await getCollection("publications");
-
-    const allTags = [allProjects, allPosts, allPubs]
-        .map((collection) => collection.map((entry) => entry.data.tags).flat())
+    const allTags = [
+        await getCollection("projects"),
+        await getCollection("posts"),
+        await getCollection("publications"),
+    ]
+        .map(collection => collection.map(entry => entry.data.tags).flat())
         .flat();
 
     const tags: { [tag: string]: number } = {};
-    allTags.forEach((tag) => {
+    allTags.forEach(tag => {
         tags[tag] = tags[tag] ? tags[tag]! + 1 : 1;
     });
 
     return tags;
 }
-//text-[${count * 14}em]
+
 const tags = await getTags();
 ---
 
-<div class="flex flex-wrap gap-4">
+<ul
+    class="flex justify-center flex-wrap max-w-3xl align-center gap-2 leading-8"
+>
     {
         Object.entries(tags).map(([tag, count]) => (
-            <div class={`bg-primarya flex-none rounded-full p-4 grow-0 h-[${count*14}]px`} style={`height: ${count*14};`}>
+            <li>
                 <a
                     class="link"
                     href={`${import.meta.env.BASE_URL}tags/${tag}`}
-                    style={`font-size: ${count * 14}px`}
+                    style={`font-size: ${count * 10}px`}
                 >
                     {tag}
                 </a>
-            </div>
+            </li>
         ))
     }
-</div>
+</ul>
