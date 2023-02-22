@@ -1,0 +1,35 @@
+---
+import { Icon } from "astro-icon";
+
+const menu = [
+    { icon: "fa-solid:home", label: "", href: "" },
+    { icon: "fa-solid:user-cog", label: "Skills", href: "skills" },
+    { icon: "fa-solid:briefcase", label: "Experience", href: "experience" },
+    { icon: "fa-solid:graduation-cap", label: "Education", href: "education" },
+    { icon: "fa-solid:tasks", label: "Projects", href: "projects" },
+    { icon: "fa-brands:microblog", label: "Posts", href: "posts" },
+    { icon: "fa-solid:newspaper", label: "Publications", href: "publications" },
+    { icon: "fa-solid:envelope", label: "Contact", href: "contact" },
+];
+---
+
+<nav class="navbar bg-base-100 sticky top-0 z-50 rounded-lg">
+    <div class="navbar-start"></div>
+    <div class="navbar-center">
+        <ul
+            class="menu menu-vertical md:menu-horizontal bg-base-100 rounded-box"
+        >
+            {
+                menu.map(item => (
+                    <li class="hover-bordered text-sm">
+                        <a href={`${import.meta.env.BASE_URL}#${item.href}`}>
+                            <Icon name={item.icon} />
+                            {item.label}
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </div>
+    <div class="navbar-end"></div>
+</nav>

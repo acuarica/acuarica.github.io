@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content";
+
+async function getTags() {
+    const allTags = [
+        await getCollection("projects"),
+        await getCollection("posts"),
+        await getCollection("publications"),
+    ]
+        .map(collection => collection.map(entry => entry.data.tags).flat())
+        .flat();
+
+    const tags: { [tag: string]: number } = {};
+    allTags.forEach(tag => {
+        tags[tag] = tags[tag] ? tags[tag]! + 1 : 1;
+    });
+
+    return tags;
+}
+
+const tags = await getTags();
+---
+
+<ul
+    class="flex justify-center flex-wrap max-w-3xl align-center gap-2 leading-8"
+>
+    {
+        Object.entries(tags).map(([tag, count]) => (
+            <li>
+                <a
+                    class="link"
+                    href={`${import.meta.env.BASE_URL}tags/${tag}`}
+                    style={`font-size: ${count * 10}px`}
+                >
+                    {tag}
+                </a>
+            </li>
+        ))
+    }
+</ul>

@@ -1,0 +1,37 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import Page from "@layouts/Page.astro";
+import Tags from "@components/Tags.astro";
+
+interface Props {
+    post: CollectionEntry<"posts">;
+}
+
+export async function getStaticPaths() {
+    const pubs = await getCollection("publications");
+    return pubs.map(entry => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Page title={entry.data.title}>
+    <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
+        <h1>{entry.data.title}</h1>
+
+        <h2>{entry.data.authors}</h2>
+
+        <Tags tags={entry.data.tags} />
+        <h3>{entry.data.publication}</h3>
+
+        {entry.data.date.toDateString()}
+
+        <h3>Abstract</h3>
+
+        <Content />
+    </article>
+</Page>

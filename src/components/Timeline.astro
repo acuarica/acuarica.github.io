@@ -1,0 +1,38 @@
+---
+import { Icon } from "astro-icon";
+
+const { title, place, date } = Astro.props;
+---
+
+<div class="flex pb-4">
+    <div class="skill_time">
+        <span class="w-4 h-4 bg-primary block rounded-full mt-1"></span>
+        <span
+            class="skill_line bg-primary block h-full w-[2px] translate-x-[7px]"
+        ></span>
+    </div>
+    <div class="bd-grid px-6 w-full">
+        <div class="flex justify-between items-center flex-wrap">
+            <h3 class="text-xl font-semibold mb-2">{title}</h3>
+            <p class="text-sm dark:text-gray">{date}</p>
+        </div>
+
+        <span class="font-light text-sm"
+            ><a class="link link-info" target="_blank" href={place.url}
+                >{place.name}
+                <Icon name="external-link" /></a
+            > - {place.location}</span
+        >
+        <p class="my-2 text-justify">
+            <article class="prose">
+                <slot />
+            </article>
+        </p>
+    </div>
+</div>
+
+<style>
+    div:last-child .skill_time > .skill_line {
+        display: none;
+    }
+</style>

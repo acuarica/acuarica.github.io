@@ -1,0 +1,55 @@
+---
+import Divider from "@components/Divider.astro";
+import Footer from "@components/Footer.astro";
+import Nav from "@components/Nav.astro";
+
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+
+const description = "The personal site of Luis Mastrangelo";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            property="og:description"
+            content={description}
+        />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href={`${import.meta.env.BASE_URL}favicon.svg`}
+        />
+    </head>
+    <body class="bg-black">
+        <main class="container mx-auto px-10 bg-zinc-900">
+            <Nav />
+            <slot />
+            <Divider />
+            <Footer />
+        </main>
+    </body>
+</html>
+
+<style>
+    html {
+        scroll-padding-top: 6rem;
+    }
+</style>
+
+<style is:global>
+    [astro-icon] {
+        height: 1em;
+        display: inline-block;
+        vertical-align: -0.125em;
+    }
+</style>

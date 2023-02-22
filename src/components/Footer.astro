@@ -1,0 +1,16 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<footer class="flex justify-between py-8 px-10">
+    <div>
+        Designed & Developed in Switzerland with
+        <Icon name="fa-solid:heart" />
+        and
+        <a class="link" href="https://astro.build/" target="_blank"
+            >{Astro.generator}</a
+        >
+        <Icon name="fa-solid:rocket" />
+    </div>
+    <div>&copy; {new Date().getFullYear()} Luis Mastrangelo</div>
+</footer>

@@ -1,0 +1,22 @@
+---
+import { Icon } from "astro-icon";
+
+interface Props {
+    tags: string[];
+}
+
+const { tags } = Astro.props;
+---
+
+<div class="tooltip tooltip-info" data-tip="Tags">
+    <Icon name="fa-solid:tags" />
+</div>
+{
+    tags.map(tag => (
+        <div class="badge badge-primary">
+            <a class="link" href={`${import.meta.env.BASE_URL}tags/${tag}`}>
+                {tag}
+            </a>
+        </div>
+    ))
+}

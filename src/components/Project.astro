@@ -1,0 +1,52 @@
+---
+import Tags from "./Tags.astro";
+import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon";
+
+interface Props {
+    title: string;
+    lang: CollectionEntry<"projects">["data"]["lang"];
+    tags: string[];
+    link: { icon: string; url: string };
+}
+
+const { title, lang, tags, link } = Astro.props;
+
+const LANG_COLORS = {
+    TypeScript: "bg-blue-700",
+    "C/C++": "bg-stone-500",
+    Haskell: "bg-pink-800",
+    Rust: "bg-amber-900",
+};
+---
+
+<div class="card bg-base-100 shadow-xl">
+    <div class="card-body">
+        <div class="flex justify-between">
+            <div>
+                <h2 class="card-title">{title}</h2>
+                <div class="text-sm text-slate-400">
+                    <div class:list={["badge badge-xs", LANG_COLORS[lang]]}>
+                    </div>
+                    {lang}
+                </div>
+            </div>
+            <div class="indicator">
+                <span class="indicator-item badge badge-info"
+                    ><Icon name="external-link" /></span
+                >
+                <a
+                    class="btn btn-circle btn-outline btn-info"
+                    href={link.url}
+                    target="_blank"
+                >
+                    <Icon name={link.icon} style="font-size: 1.3rem;" />
+                </a>
+            </div>
+        </div>
+        <p><slot /></p>
+        <div class="card-actions">
+            <Tags tags={tags} />
+        </div>
+    </div>
+</div>

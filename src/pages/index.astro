@@ -1,0 +1,235 @@
+---
+import { getCollection, getEntryBySlug } from "astro:content";
+import { getRenderedCollection, sort } from "@utils";
+
+import Page from "@layouts/Page.astro";
+
+import Skill from "@components/Skill.astro";
+import Timeline from "@components/Timeline.astro";
+import Hero from "@components/Hero.astro";
+import Project from "@components/Project.astro";
+import Tags from "@components/Tags.astro";
+import Divider from "@components/Divider.astro";
+import TagCloud from "@components/TagCloud.astro";
+import { Icon } from "astro-icon";
+
+const about = await getEntryBySlug("about", "me");
+const hero = about.data.hero;
+const socials = about.data.socials;
+const skills = about.data.skills;
+const { Content: About } = await about.render();
+
+const experience = sort(await getRenderedCollection("experience"));
+const education = sort(await getRenderedCollection("education"));
+const projects = await getRenderedCollection("projects");
+const posts = await getRenderedCollection("posts");
+const publications = await getCollection("publications");
+
+const PUB_ICONS = {
+    code: "fa-solid:terminal",
+    pdf: "fa-solid:file-pdf",
+    project: "fa-brands:github",
+    video: "fa-solid:video",
+    slides: "heroicons-outline:presentation-chart-bar",
+};
+---
+
+<Page title="Luis Mastrangelo | Profile">
+    <Hero
+        intro={hero.intro}
+        name={hero.name}
+        avatar={hero.avatar}
+        socials={socials}
+    >
+        <About />
+    </Hero>
+
+    <Divider />
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid grid-cols-3 gap-8">
+            {
+                skills.map(skill => (
+                    <Skill
+                        title={skill.title}
+                        subtitle={skill.subtitle}
+                        icon={skill.icon}
+                    />
+                ))
+            }
+        </div>
+    </section>
+
+    <Divider />
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="w-full">
+            {
+                experience.map(entry => (
+                    <Timeline
+                        title={entry.data.title}
+                        place={entry.data.company}
+                        date={entry.data.date.label}
+                    >
+                        <entry.Content />
+                    </Timeline>
+                ))
+            }
+        </div>
+    </section>
+
+    <Divider />
+
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            {
+                education.map(entry => (
+                    <Timeline
+                        title={entry.data.title}
+                        place={entry.data.school}
+                        date={entry.data.date.label}
+                    >
+                        <entry.Content />
+                    </Timeline>
+                ))
+            }
+        </div>
+    </section>
+
+    <Divider />
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid grid-cols-2 gap-4">
+            {
+                projects.map(entry => (
+                    <Project
+                        title={entry.data.title}
+                        lang={entry.data.lang}
+                        tags={entry.data.tags}
+                        link={entry.data.link}
+                    >
+                        <entry.Content />
+                    </Project>
+                ))
+            }
+        </div>
+    </section>
+
+    <Divider />
+
+    <section id="posts">
+        <h2>Posts</h2>
+        <div class="flex flex-col gap-8">
+            {
+                posts.map(post => (
+                    <div class="flex flex-col gap-2">
+                        <a
+                            class="link text-xl font-semibold"
+                            href={`${import.meta.env.BASE_URL}posts/${
+                                post.slug
+                            }`}
+                        >
+                            {post.data.title}
+                        </a>
+                        <div>
+                            <Tags tags={post.data.tags} />
+                        </div>
+                        <div class="text-sm">{post.remarkPluginFrontmatter.previewParagraph}<i>[...]</i></div>
+                        <div>
+                            <time datetime={post.data.date.toISOString()}>
+                                {post.data.date.toDateString()}
+                            </time>
+                            - {post.remarkPluginFrontmatter.minutesRead}
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    </section>
+
+    <Divider />
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="grid grid-cols-1 gap-8">
+            {
+                publications.map(async post => (
+                    <div class="flex flex-col gap-1">
+                        <a
+                            class="link link-info"
+                            href={`${import.meta.env.BASE_URL}publications/${
+                                post.slug
+                            }`}
+                        >
+                            <span class="text-lg">{post.data.title}</span>
+
+                            {post.data.subtitle}
+                        </a>
+                        <time datetime={post.data.date.toISOString()}>
+                            {post.data.date.toDateString()}
+                        </time>
+                        <div class="text-slate-400">
+                            <Icon name="fa-solid:users" />
+                            {post.data.authors.join(", ")}
+                        </div>
+                        <div>{post.data.publication}</div>
+                        <div class="card-actions">
+                            <Tags tags={post.data.tags} />
+                        </div>
+                        <div>
+                            {Object.entries(post.data.urls).map(
+                                ([key, url]) => (
+                                    <a
+                                        class="btn btn-outline btn-info gap-2 mr-2"
+                                        href={url}
+                                        target="_blank"
+                                    >
+                                        <Icon
+                                            name={
+                                                PUB_ICONS[
+                                                    key as keyof typeof post.data.urls
+                                                ]
+                                            }
+                                        />
+                                        {key}
+                                        <Icon
+                                            name="external-link"
+                                            style="font-size: 1.1rem;"
+                                        />
+                                    </a>
+                                )
+                            )}
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    </section>
+
+    <Divider />
+
+    <section id="tags">
+        <h2>Tags</h2>
+        <div>
+            <TagCloud />
+        </div>
+    </section>
+</Page>
+
+<style>
+    section {
+        @apply grid grid-cols-4 gap-0 py-8;
+    }
+
+    section > h2 {
+        @apply text-3xl text-slate-500;
+    }
+
+    section > div {
+        @apply col-span-3;
+    }
+</style>

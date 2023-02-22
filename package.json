@@ -1,0 +1,26 @@
+{
+  "name": "acuarica.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/acuarica/acuarica.github.io",
+  "author": "Luis Mastrangelo <luismastrangelo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@astrojs/mdx": "^0.17.0",
+    "@astrojs/sitemap": "^1.0.1",
+    "@astrojs/tailwind": "^3.0.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "astro": "^2.0.14",
+    "astro-icon": "^0.8.0",
+    "astro-robots-txt": "^0.4.0",
+    "daisyui": "^2.50.2",
+    "mdast-util-to-string": "^3.1.1",
+    "reading-time": "^1.5.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  }
+}
