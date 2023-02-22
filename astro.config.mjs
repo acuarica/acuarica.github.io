@@ -10,6 +10,9 @@ import tailwind from '@astrojs/tailwind';
 // See `site` field below
 import sitemap from '@astrojs/sitemap';
 
+// https://github.com/alextim/astro-lib/tree/main/packages/astro-robots-txt#installation
+import robotsTxt from 'astro-robots-txt';
+
 // https://astro.build/config
 export default defineConfig({
     // https://docs.astro.build/en/reference/configuration-reference/#site
@@ -22,6 +25,11 @@ export default defineConfig({
     integrations: [
         mdx(),
         tailwind(),
-        sitemap()
+        sitemap(),
+
+        // Allow all bots to scan and index your site.
+        // Full syntax: https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+        robotsTxt(),
     ],
+
 });
