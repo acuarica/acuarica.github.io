@@ -1,0 +1,17 @@
+---
+import type { Ul } from "@utils/md-toc";
+import TocUl from "@components/TocUl.astro";
+
+interface Props {
+    toc: Ul;
+}
+
+const { toc } = Astro.props;
+---
+
+<div class="card shadow-xl bg-primary-focus pt-10 px-8 pb-8">
+    <div class="text-lg font-bold min-w-[10em]">Table of contents</div>
+    <article class="prose pt-4">
+        <TocUl ul={toc} />
+    </article>
+</div>

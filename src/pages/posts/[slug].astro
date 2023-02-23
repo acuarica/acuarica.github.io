@@ -2,7 +2,7 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
 import Tags from "@components/Tags.astro";
-import ToC from "@components/ToC.astro";
+import Toc from "@components/Toc.astro";
 import { getToc } from "@utils/md-toc";
 
 interface Props {
@@ -32,12 +32,12 @@ const toc = getToc(remarkPluginFrontmatter.toc.map);
             <h4>{remarkPluginFrontmatter.minutesRead}</h4>
             <Tags tags={tags} />
             <div class="my-4 lg:hidden">
-                <ToC toc={toc} />
+                <Toc toc={toc} />
             </div>
             <Content />
         </article>
         <div class="hidden lg:block">
-            <ToC toc={toc} />
+            <Toc toc={toc} />
         </div>
     </div>
 </Page>

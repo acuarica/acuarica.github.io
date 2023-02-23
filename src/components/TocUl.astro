@@ -1,0 +1,22 @@
+---
+import type { Ul } from "@utils/md-toc";
+
+interface Props {
+    ul: Ul;
+}
+
+const { ul } = Astro.props;
+---
+
+<ul>
+    {
+        ul.map(entry => (
+            <li>
+                <a class="link" href={entry.href}>
+                    {entry.text}
+                </a>
+                {entry.children && <Astro.self ul={entry.children} />}
+            </li>
+        ))
+    }
+</ul>
