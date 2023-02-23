@@ -1,5 +1,8 @@
 import getReadingTime from 'reading-time';
 import { toString } from 'mdast-util-to-string';
+import { toc } from 'mdast-util-toc'
+import { rehypeHeadingIds } from '@astrojs/markdown-remark';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 import { defineConfig } from 'astro/config';
 
@@ -25,7 +28,16 @@ export default defineConfig({
     // base: '/dev',
 
     markdown: {
-        remarkPlugins: [remarkReadingTime, remarkPreviewParagraph],
+        remarkPlugins: [
+            remarkToc,
+            remarkReadingTime,
+            remarkPreviewParagraph,
+        ],
+        rehypePlugins: [
+            rehypeHeadingIds,
+            // https://github.com/rehypejs/rehype-autolink-headings#api
+            rehypeAutolinkHeadings,
+        ]
     },
 
     // https://docs.astro.build/en/reference/configuration-reference/#integrations
@@ -48,6 +60,12 @@ export default defineConfig({
     ],
 
 });
+
+function remarkToc() {
+    return function (tree, { data }) {
+        data.astro.frontmatter.toc = toc(tree, { tight: true });
+    };
+}
 
 // https://docs.astro.build/en/guides/markdown-content/#example-calculate-reading-time
 // https://docs.astro.build/en/guides/content-collections/#modifying-frontmatter-with-remark

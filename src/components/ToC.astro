@@ -1,26 +1,32 @@
 ---
-import type { MarkdownHeading } from "astro";
+export type Ul = Li[];
 
-interface Props {
-    headings: MarkdownHeading[];
+export interface Li {
+    href: string;
+    text: string;
+    children?: Ul;
 }
 
-const { headings } = Astro.props;
+interface Props {
+    toc: Ul;
+}
+
+const { toc } = Astro.props;
+
+function getToc(ul: Ul): string {
+    return `<ul>
+${ul
+    .map(
+        entry => `<li><a class="link" href=${entry.href}>${entry.text}</a>
+            ${entry.children ? getToc(entry.children) : ""}
+            </li>`
+    )
+    .join(" ")}
+        </ul>`;
+}
 ---
 
-<div class="card shadow-xl bg-primary-focus">
-    <div class="card-body">
-        <h2 class="card-title font-bold min-w-[10em]">Table of contents</h2>
-        <p>
-            {
-                headings.map(heading => (
-                    <div>
-                        <a class="link" href={`#${heading.slug}`}>
-                            {heading.text}
-                        </a>
-                    </div>
-                ))
-            }
-        </p>
-    </div>
+<div class="card shadow-xl bg-primary-focus pt-10 px-8 pb-8">
+    <div class="text-lg font-bold min-w-[10em]">Table of contents</div>
+    <article class="prose pt-4" set:html={getToc(toc)} />
 </div>

@@ -2,7 +2,8 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
 import Tags from "@components/Tags.astro";
-import ToC from "@components/ToC.astro";
+import ToC, { type Li, type Ul } from "@components/ToC.astro";
+import type { List } from "mdast-util-toc/lib";
 
 interface Props {
     entry: CollectionEntry<"posts">;
@@ -18,7 +19,32 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { title, tags, date } = entry.data;
-const { Content, headings, remarkPluginFrontmatter } = await entry.render();
+const { Content, remarkPluginFrontmatter } = await entry.render();
+
+function getToc(list: List): Ul {
+    const ul: Ul = [];
+    for (const child of list.children) {
+        const li: Li = { href: "", text: "" };
+        for (const node of child.children) {
+            if (node.type === "paragraph") {
+                const link = node.children[0]!;
+                if (link.type === "link") {
+                    li.href = link.url;
+                    const text = link.children[0]!;
+                    if (text.type === "text") {
+                        li.text = text.value;
+                    }
+                }
+            } else if (node.type === "list") {
+                li.children = getToc(node);
+            }
+        }
+        ul.push(li);
+    }
+    return ul;
+}
+
+const toc = getToc(remarkPluginFrontmatter.toc.map);
 ---
 
 <Page title={title}>
@@ -28,13 +54,29 @@ const { Content, headings, remarkPluginFrontmatter } = await entry.render();
             <h3>{date.toDateString()}</h3>
             <h4>{remarkPluginFrontmatter.minutesRead}</h4>
             <Tags tags={tags} />
-            <div class="not-prose my-4 lg:hidden">
-                <ToC headings={headings} />
+            <div class="my-4 lg:hidden">
+                <ToC toc={toc} />
             </div>
             <Content />
         </article>
         <div class="hidden lg:block">
-            <ToC headings={headings} />
+            <ToC toc={toc} />
         </div>
     </div>
 </Page>
+
+<style is:global>
+    span.icon.icon-link::after {
+        content: "#";
+    }
+
+    span.icon.icon-link {
+        @apply mr-2;
+    }
+
+    @media (min-width: 1024px) {
+        span.icon.icon-link {
+            @apply ml-[-1.25rem];
+        }
+    }
+</style>
