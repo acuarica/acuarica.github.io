@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{astro,mdx}'],
+  content: ['./src/**/*.astro'],
   theme: {
     extend: {},
   },
@@ -12,4 +12,10 @@ module.exports = {
     // https://daisyui.com/docs/install/
     require("daisyui")
   ],
+
+  // https://daisyui.com/docs/config/
+  daisyui: {
+    // https://daisyui.com/docs/config/#themes
+    themes: ["dark"],
+  },
 }
