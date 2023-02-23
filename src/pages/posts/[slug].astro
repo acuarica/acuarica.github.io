@@ -2,8 +2,8 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
 import Tags from "@components/Tags.astro";
-import ToC, { type Li, type Ul } from "@components/ToC.astro";
-import type { List } from "mdast-util-toc/lib";
+import ToC from "@components/ToC.astro";
+import { getToc } from "@utils/md-toc";
 
 interface Props {
     entry: CollectionEntry<"posts">;
@@ -20,29 +20,6 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { title, tags, date } = entry.data;
 const { Content, remarkPluginFrontmatter } = await entry.render();
-
-function getToc(list: List): Ul {
-    const ul: Ul = [];
-    for (const child of list.children) {
-        const li: Li = { href: "", text: "" };
-        for (const node of child.children) {
-            if (node.type === "paragraph") {
-                const link = node.children[0]!;
-                if (link.type === "link") {
-                    li.href = link.url;
-                    const text = link.children[0]!;
-                    if (text.type === "text") {
-                        li.text = text.value;
-                    }
-                }
-            } else if (node.type === "list") {
-                li.children = getToc(node);
-            }
-        }
-        ul.push(li);
-    }
-    return ul;
-}
 
 const toc = getToc(remarkPluginFrontmatter.toc.map);
 ---

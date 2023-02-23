@@ -1,11 +1,5 @@
 ---
-export type Ul = Li[];
-
-export interface Li {
-    href: string;
-    text: string;
-    children?: Ul;
-}
+import type { Ul } from "@utils/md-toc";
 
 interface Props {
     toc: Ul;
