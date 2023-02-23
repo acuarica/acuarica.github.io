@@ -2,7 +2,9 @@
 import { Icon } from "astro-icon";
 ---
 
-<footer class="flex justify-between py-8 px-10">
+<footer
+    class="flex flex-col gap-y-4 md:flex-row md:justify-between py-6 md:px-5"
+>
     <div>
         Designed & Developed in Switzerland with
         <Icon name="fa-solid:heart" />
@@ -14,3 +16,9 @@ import { Icon } from "astro-icon";
     </div>
     <div>&copy; {new Date().getFullYear()} Luis Mastrangelo</div>
 </footer>
+
+<style>
+    footer > div {
+        @apply text-center;
+    }
+</style>
