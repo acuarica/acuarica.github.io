@@ -13,8 +13,8 @@
       "@layouts/*": [
         "src/layouts/*"
       ],
-      "@utils": [
-        "src/utils"
+      "@utils/*": [
+        "src/utils/*"
       ]
     }
   }
