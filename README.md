@@ -1,3 +1,5 @@
 # acuarica.github.io
 
-HTML redirect to profile page.
+Personal blog and profile site built with Astro and deployed to GitHub pages.
+
+All site content is under `src/content/` in Markdown format.
