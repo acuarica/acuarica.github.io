@@ -63,7 +63,7 @@ export default defineConfig({
 
 function remarkToc() {
     return function (tree, { data }) {
-        data.astro.frontmatter.toc = toc(tree, { tight: true });
+        data.astro.frontmatter.toc = toc(tree);
     };
 }
 
