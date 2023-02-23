@@ -33,7 +33,6 @@ const description = "The personal site of Luis Mastrangelo";
     <body class="bg-base-200">
         <main class="container mx-auto px-6 lg:px-10 bg-base-100">
             <Drawer>
-                <!-- <Nav /> -->
                 <slot />
                 <Divider />
                 <Footer />
@@ -41,12 +40,6 @@ const description = "The personal site of Luis Mastrangelo";
         </main>
     </body>
 </html>
-
-<style>
-    html {
-        scroll-padding-top: -50rem;
-    }
-</style>
 
 <style is:global>
     [astro-icon] {
