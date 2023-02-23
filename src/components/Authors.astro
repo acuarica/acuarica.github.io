@@ -8,7 +8,7 @@ interface Props {
 const { authors } = Astro.props;
 ---
 
-<div class="text-slate-400">
+<div>
     <Icon name="fa-solid:users" />
-    {authors.join(", ")}
+    <i>{authors.join(", ")}</i>
 </div>
