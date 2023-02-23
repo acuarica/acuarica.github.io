@@ -19,13 +19,12 @@ socials:
     url: https://github.com/acuarica
   - icon: fa-brands:linkedin
     url: https://www.linkedin.com/in/luismastrangelo/
+    contact: true
   - icon: fa-brands:twitter
     url: https://twitter.com/luismastrangelo
+    contact: true
   - icon: cv
     url: https://acuarica.github.io/cv/CV-LuisMastrangelo.pdf
-  - icon: fa-solid:envelope
-    url: "#contact"
-    newPage: false
 
 skills:
     - icon: fa-solid:code
@@ -46,15 +45,6 @@ skills:
     - icon: fa-brands:git-alt
       title: SCMs
       subtitle: Git, Subversion, CVS
-
-contact:
-  content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-  btnName: Contact me
-  formspree:
-    enable: true
-    formId: mayylrrq
-    emailCaption: Enter your email address
-    messageCaption: Enter your message here
 ---
 
 I worked in the Web3 space for more than 2 years.

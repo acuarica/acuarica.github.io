@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon";
+import Contact from "./Contact.astro";
 
 interface Props {
     intro: string;
@@ -8,6 +9,7 @@ interface Props {
     socials: {
         url: string;
         icon: string;
+        contact: boolean;
     }[];
 }
 
@@ -32,22 +34,23 @@ const { intro, name, avatar, socials } = Astro.props;
             <div class="flex gap-y-2 gap-x-4">
                 {
                     socials.map(social => (
-                        <div class="indicator">
-                            <span class="indicator-item badge badge-info">
-                                <Icon name="external-link" />
-                            </span>
-
-                            <a
-                                class="btn btn-circle btn-outline btn-info"
-                                href={social.url}
-                                target="_blank"
-                            >
-                                <Icon
-                                    name={social.icon}
-                                    style="font-size: 1.3rem;"
-                                />
-                            </a>
-                        </div>
+                        <Contact contact={social.contact}>
+                            <div class="indicator">
+                                <span class="indicator-item badge badge-info">
+                                    <Icon name="external-link" />
+                                </span>
+                                <a
+                                    class="btn btn-circle btn-outline btn-info"
+                                    href={social.url}
+                                    target="_blank"
+                                >
+                                    <Icon
+                                        name={social.icon}
+                                        style="font-size: 1.3rem;"
+                                    />
+                                </a>
+                            </div>
+                        </Contact>
                     ))
                 }
             </div>

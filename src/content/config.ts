@@ -16,6 +16,7 @@ export const collections = {
                 z.object({
                     icon: z.string(),
                     url: z.string(),
+                    contact: z.boolean().default(false),
                 }),
             ),
             skills: z.array(

@@ -1,0 +1,26 @@
+---
+import { Icon } from "astro-icon";
+
+interface Props {
+    contact: boolean;
+}
+
+const tooltip =
+    "My inbox is always open! Whether you have a question or just want to say hi. I'll try my best to get back to you!";
+const { contact } = Astro.props;
+---
+
+{
+    contact ? (
+        <div class="tooltip tooltip-secondary" data-tip={tooltip}>
+            <div class="indicator">
+                <span class="indicator-item indicator-bottom indicator-center badge badge-secondary">
+                    <Icon name="fa-solid:envelope" />
+                </span>
+                <slot />
+            </div>
+        </div>
+    ) : (
+        <slot />
+    )
+}
