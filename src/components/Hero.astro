@@ -20,7 +20,7 @@ const { intro, name, avatar, socials } = Astro.props;
 <div id="home" class="hero">
     <div class="hero-content flex-col gap-16 lg:flex-row">
         <div>
-            <div class="avatar pt-16">
+            <div class="avatar pt-4">
                 <div
                     class="w-64 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
                 >
@@ -57,12 +57,8 @@ const { intro, name, avatar, socials } = Astro.props;
             </div>
         </div>
 
-        <div>
-            <p class="py-6">
-                <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-                    <slot />
-                </article>
-            </p>
-        </div>
+        <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+            <slot />
+        </article>
     </div>
 </div>
