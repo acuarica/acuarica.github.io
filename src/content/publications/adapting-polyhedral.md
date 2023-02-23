@@ -13,8 +13,8 @@ tags:
 # date: 2012-02-25T21:43:32+01:00
 # lastmod: 2019-11-17T21:43:32+01:00
 date: 2014-09-23
-publication: "In *Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming (PPoPP'12)*, ACM."
-publication_short: "In *PPoPP'12*"
+publication: "In Proceedings of the 17th ACM SIGPLAN symposium on Principles and Practice of Parallel Programming (PPoPP'12), ACM"
+publication_short: "In PPoPP'12"
 urls:
     pdf: "https://doi.org/10.1145/2647508.2647516"
 ---

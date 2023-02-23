@@ -13,8 +13,8 @@ date: 2012-03-24T21:43:47+01:00
 # lastmod: 2019-11-17T21:43:47+01:00
 
 # date: "2014-09-23"
-publication: "In *International Conference on Compiler Construction (CC'12)*, Springer."
-publication_short: "In *CC'12*"
+publication: "In International Conference on Compiler Construction (CC'12), Springer"
+publication_short: "In CC'12"
 urls:
     pdf: 'https://doi.org/10.1007/978-3-642-28652-0_12'
 ---

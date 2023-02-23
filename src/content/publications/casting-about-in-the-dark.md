@@ -11,8 +11,8 @@ tags:
 date: 2019-10-25
 # date: 2019-11-16T17:57:57+01:00
 lastmod: 2019-11-16T17:57:57+01:00
-publication: "In *Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications*"
-publication_short: "OOPSLA 2019"
+publication: "In Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+publication_short: "In OOPSLA 2019"
 urls:
     code: "https://gitlab.com/acuarica/java-unsafe-analysis"
     pdf: "https://doi.org/10.1145/3360584"

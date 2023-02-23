@@ -9,8 +9,8 @@ tags:
     - native
     - instrumentation
 date: 2014-09-23
-publication: "In *International Conference on Principles and Practices of Programming on the Java platform: Virtual machines, Languages, and Tools (PPPJ'14)*, IEEE."
-publication_short: "In *PPPJ'14*"
+publication: "In International Conference on Principles and Practices of Programming on the Java platform: Virtual machines, Languages, and Tools (PPPJ'14), IEEE"
+publication_short: "In PPPJ'14"
 urls:
     code: "https://gitlab.com/acuarica/jnif"
     pdf: "https://doi.org/10.1145/2647508.2647516"

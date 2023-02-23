@@ -14,8 +14,8 @@ tags:
 
 date: 2015-10-25
 lastmod: 2019-11-16T14:06:25+01:00
-publication: "In *Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications*"
-publication_short: "OOPSLA 2015"
+publication: "In Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+publication_short: "In OOPSLA 2015"
 urls:
     code: "https://gitlab.com/acuarica/java-unsafe-analysis"
     pdf: "https://doi.org/10.1145/2814270.2814313"
