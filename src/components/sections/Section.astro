@@ -7,33 +7,7 @@ interface Props {
 const { id, title } = Astro.props;
 ---
 
-<section id={id}>
+<section id={id} class="heading">
     <h2>{title}</h2>
     <slot />
 </section>
-
-<style is:global>
-    section > h2 {
-        @apply text-3xl font-bold;
-    }
-
-    section {
-        --tw-bg-opacity: 0.1;
-        border-color: hsl(var(--bc) / var(--tw-bg-opacity));
-        @apply border-b-[0.125rem] py-12;
-    }
-
-    section:not([class="hero"]) {
-        @apply flex flex-col gap-4;
-    }
-
-    @media (min-width: 768px) {
-        section:not([class="hero"]) {
-            @apply grid grid-cols-4 gap-0;
-        }
-
-        section > :last-child {
-            @apply col-span-3;
-        }
-    }
-</style>

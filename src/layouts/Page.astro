@@ -43,4 +43,28 @@ const description = "The personal site of Luis Mastrangelo";
         display: inline-block;
         vertical-align: -0.125em;
     }
+
+    section {
+        --tw-bg-opacity: 0.1;
+        border-color: hsl(var(--bc) / var(--tw-bg-opacity));
+        @apply border-b-[0.125rem] py-12;
+    }
+
+    section.heading {
+        @apply flex flex-col gap-4;
+    }
+
+    section.heading > h2 {
+        @apply text-3xl font-bold;
+    }
+
+    @media (min-width: 768px) {
+        section.heading {
+            @apply grid grid-cols-4 gap-0;
+        }
+
+        section.heading > :last-child {
+            @apply col-span-3;
+        }
+    }
 </style>

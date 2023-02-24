@@ -25,7 +25,7 @@ const toc = getToc(remarkPluginFrontmatter.toc.map);
 ---
 
 <Page title={title}>
-    <div class="flex lg:gap-10 justify-between">
+    <section class="flex lg:gap-10 justify-between">
         <article class="prose prose-lg max-w-[1024px] prose-img:mx-auto">
             <h1>{title}</h1>
             <h3>{date.toDateString()}</h3>
@@ -39,7 +39,7 @@ const toc = getToc(remarkPluginFrontmatter.toc.map);
         <div class="hidden lg:block">
             <Toc toc={toc} />
         </div>
-    </div>
+    </section>
 </Page>
 
 <style is:global>
