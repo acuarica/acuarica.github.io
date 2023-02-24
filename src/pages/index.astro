@@ -6,11 +6,8 @@ import Page from "@layouts/Page.astro";
 
 import Skill from "@components/Skill.astro";
 import Timeline from "@components/Timeline.astro";
-import Hero from "@components/Hero.astro";
-import Divider from "@components/Divider.astro";
 import TagCloud from "@components/TagCloud.astro";
 import sections from "@components/sections";
-import Section from "@components/Section.astro";
 
 const about = await getEntryBySlug("about", "me");
 const hero = about.data.hero;
@@ -26,18 +23,15 @@ const publications = await getCollection("publications");
 ---
 
 <Page title="Luis Mastrangelo | Profile">
-    <Hero
+    <sections.Hero
         intro={hero.intro}
         name={hero.name}
         avatar={hero.avatar}
         socials={socials}
     >
         <About />
-    </Hero>
-
-    <Divider />
-
-    <Section id="skills" title="Skills">
+    </sections.Hero>
+    <sections.Section id="skills" title="Skills">
         <div
             class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-7"
         >
@@ -51,11 +45,8 @@ const publications = await getCollection("publications");
                 ))
             }
         </div>
-    </Section>
-
-    <Divider />
-
-    <Section id="experience" title="Experience">
+    </sections.Section>
+    <sections.Section id="experience" title="Experience">
         <div class="w-full">
             {
                 experience.map(entry => (
@@ -69,11 +60,8 @@ const publications = await getCollection("publications");
                 ))
             }
         </div>
-    </Section>
-
-    <Divider />
-
-    <Section id="education" title="Education">
+    </sections.Section>
+    <sections.Section id="education" title="Education">
         <div>
             {
                 education.map(entry => (
@@ -87,25 +75,13 @@ const publications = await getCollection("publications");
                 ))
             }
         </div>
-    </Section>
-
-    <Divider />
-
+    </sections.Section>
     <sections.Projects projects={projects} />
-
-    <Divider />
-
     <sections.Posts posts={posts} />
-
-    <Divider />
-
     <sections.Publications publications={publications} />
-
-    <Divider />
-
-    <Section id="tags" title="Tags">
+    <sections.Section id="tags" title="Tags">
         <div>
             <TagCloud />
         </div>
-    </Section>
+    </sections.Section>
 </Page>

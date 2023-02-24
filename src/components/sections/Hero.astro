@@ -1,6 +1,6 @@
 ---
 import { Icon } from "astro-icon";
-import Contact from "./Contact.astro";
+import Contact from "@components/Contact.astro";
 
 interface Props {
     intro: string;
@@ -17,7 +17,8 @@ const { intro, name, avatar, socials } = Astro.props;
 ---
 
 <!-- id="home" is used by internal anchors -->
-<div id="home" class="hero">
+<!-- class="home" is used to exclude style section -->
+<section id="home" class="hero">
     <div class="hero-content flex-col gap-16 lg:flex-row">
         <div>
             <div class="avatar pt-4">
@@ -61,4 +62,4 @@ const { intro, name, avatar, socials } = Astro.props;
             <slot />
         </article>
     </div>
-</div>
+</section>
