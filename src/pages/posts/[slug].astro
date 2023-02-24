@@ -5,21 +5,21 @@ import Tags from "@components/Tags.astro";
 import Toc from "@components/Toc.astro";
 import { getToc } from "@utils/md-toc";
 
-interface Props {
-    entry: CollectionEntry<"posts">;
-}
-
 export async function getStaticPaths() {
-    const blogEntries = await getCollection("posts");
-    return blogEntries.map(entry => ({
-        params: { slug: entry.slug },
-        props: { entry },
+    const posts = await getCollection("posts");
+    return posts.map(post => ({
+        params: { slug: post.slug },
+        props: { post },
     }));
 }
 
-const { entry } = Astro.props;
-const { title, tags, date } = entry.data;
-const { Content, remarkPluginFrontmatter } = await entry.render();
+interface Props {
+    post: CollectionEntry<"posts">;
+}
+
+const { post } = Astro.props;
+const { title, tags, date } = post.data;
+const { Content, remarkPluginFrontmatter } = await post.render();
 
 const toc = getToc(remarkPluginFrontmatter.toc.map);
 ---

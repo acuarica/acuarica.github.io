@@ -4,21 +4,21 @@ import Page from "@layouts/Page.astro";
 import Tags from "@components/Tags.astro";
 import Authors from "@components/Authors.astro";
 
-interface Props {
-    entry: CollectionEntry<"publications">;
-}
-
 export async function getStaticPaths() {
     const pubs = await getCollection("publications");
-    return pubs.map(entry => ({
-        params: { slug: entry.slug },
-        props: { entry },
+    return pubs.map(pub => ({
+        params: { slug: pub.slug },
+        props: { pub },
     }));
 }
 
-const { entry } = Astro.props;
-const { title, subtitle, authors, tags, date, publication } = entry.data;
-const { Content } = await entry.render();
+interface Props {
+    pub: CollectionEntry<"publications">;
+}
+
+const { pub } = Astro.props;
+const { title, subtitle, authors, tags, date, publication } = pub.data;
+const { Content } = await pub.render();
 ---
 
 <Page title={title}>
