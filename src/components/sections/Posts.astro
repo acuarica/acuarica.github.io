@@ -1,0 +1,41 @@
+---
+import type { getRenderedCollection } from "@utils/content";
+import Section from "@components/Section.astro";
+import Tags from "@components/Tags.astro";
+
+interface Props {
+    posts: Awaited<ReturnType<typeof getRenderedCollection<"posts">>>;
+}
+
+const { posts } = Astro.props;
+---
+
+<Section id="posts" title="Posts">
+    <div class="flex flex-col gap-8">
+        {
+            posts.map(post => (
+                <div class="flex flex-col gap-2">
+                    <a
+                        class="link text-xl font-semibold"
+                        href={`${import.meta.env.BASE_URL}posts/${post.slug}`}
+                    >
+                        {post.data.title}
+                    </a>
+                    <div>
+                        <Tags tags={post.data.tags} />
+                    </div>
+                    <div class="text-sm">
+                        {post.remarkPluginFrontmatter.previewParagraph}
+                        <i>[...]</i>
+                    </div>
+                    <div>
+                        <time datetime={post.data.date.toISOString()}>
+                            {post.data.date.toDateString()}
+                        </time>
+                        - {post.remarkPluginFrontmatter.minutesRead}
+                    </div>
+                </div>
+            ))
+        }
+    </div>
+</Section>

@@ -1,0 +1,33 @@
+---
+interface Props {
+    id: string;
+    title: string;
+}
+
+const { id, title } = Astro.props;
+---
+
+<section id={id}>
+    <h2>{title}</h2>
+    <slot />
+</section>
+
+<style is:global>
+    section > h2 {
+        @apply text-3xl font-bold;
+    }
+
+    section {
+        @apply flex flex-col gap-4;
+    }
+
+    @media (min-width: 768px) {
+        section {
+            @apply grid grid-cols-4 gap-0 py-8;
+        }
+
+        section > :last-child {
+            @apply col-span-3;
+        }
+    }
+</style>

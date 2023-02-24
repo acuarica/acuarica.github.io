@@ -1,12 +1,14 @@
 ---
+import sections from "@components/sections";
 import Page from "@layouts/Page.astro";
+import { renderCollection } from "@utils/content";
 import { Icon } from "astro-icon";
-import { CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 
 interface Props {
-    projects: CollectionEntry<"projects">[];
-    posts: CollectionEntry<"posts">[];
-    pubs: CollectionEntry<"publications">[];
+    projects: Awaited<ReturnType<typeof renderCollection<"projects">>>;
+    posts: Awaited<ReturnType<typeof renderCollection<"posts">>>;
+    publications: CollectionEntry<"publications">[];
 }
 
 export async function getStaticPaths() {
@@ -24,38 +26,43 @@ export async function getStaticPaths() {
         ),
     ];
 
-    return uniqueTags.map(tag => {
-        return {
-            params: { tag },
-            props: {
-                projects: allProjects.filter(entry =>
-                    entry.data.tags.includes(tag)
-                ),
-                posts: allPosts.filter(entry => entry.data.tags.includes(tag)),
-                pubs: allPubs.filter(entry => entry.data.tags.includes(tag)),
-            },
-        };
-    });
+    return await Promise.all(
+        uniqueTags.map(async tag => {
+            return {
+                params: { tag },
+                props: {
+                    projects: await renderCollection(
+                        allProjects.filter(entry =>
+                            entry.data.tags.includes(tag)
+                        )
+                    ),
+                    posts: await renderCollection(
+                        allPosts.filter(entry => entry.data.tags.includes(tag))
+                    ),
+                    publications: allPubs.filter(entry =>
+                        entry.data.tags.includes(tag)
+                    ),
+                },
+            };
+        })
+    );
 }
 
 const { tag } = Astro.params;
-const { projects, posts, pubs } = Astro.props;
+const { projects, posts, publications } = Astro.props;
 ---
 
 <Page title={`${tag} | Luis Mastrangelo`}>
-    <h1 class="text-2xl">
+    <h1 class="text-3xl">
         <Icon name="fa-solid:tags" />
-        {tag}
+        <span class="bg-primary rounded-2xl px-4">
+            {tag}
+        </span>
     </h1>
 
-    <p>Posts tagged with {tag}</p>
-    <ul>
-        {projects.map(entry => <div>{entry.data.title}</div>)}
-    </ul>
-    <ul>
-        {posts.map(entry => <div>{entry.data.title}</div>)}
-    </ul>
-    <ul>
-        {pubs.map(entry => <div>{entry.data.title}</div>)}
-    </ul>
+    <sections.Projects projects={projects} />
+
+    <sections.Posts posts={posts} />
+
+    <sections.Publications publications={publications} />
 </Page>

@@ -1,18 +1,16 @@
 ---
 import { getCollection, getEntryBySlug } from "astro:content";
 import { getRenderedCollection, sort } from "@utils/content";
-import { Icon } from "astro-icon";
 
 import Page from "@layouts/Page.astro";
 
 import Skill from "@components/Skill.astro";
 import Timeline from "@components/Timeline.astro";
 import Hero from "@components/Hero.astro";
-import Project from "@components/Project.astro";
-import Tags from "@components/Tags.astro";
 import Divider from "@components/Divider.astro";
 import TagCloud from "@components/TagCloud.astro";
-import Authors from "@components/Authors.astro";
+import sections from "@components/sections";
+import Section from "@components/Section.astro";
 
 const about = await getEntryBySlug("about", "me");
 const hero = about.data.hero;
@@ -25,14 +23,6 @@ const education = sort(await getRenderedCollection("education"));
 const projects = await getRenderedCollection("projects");
 const posts = await getRenderedCollection("posts");
 const publications = await getCollection("publications");
-
-const PUB_ICONS = {
-    code: "fa-solid:terminal",
-    pdf: "fa-solid:file-pdf",
-    project: "fa-brands:github",
-    video: "fa-solid:video",
-    slides: "heroicons-outline:presentation-chart-bar",
-};
 ---
 
 <Page title="Luis Mastrangelo | Profile">
@@ -47,8 +37,7 @@ const PUB_ICONS = {
 
     <Divider />
 
-    <section id="skills">
-        <h2>Skills</h2>
+    <Section id="skills" title="Skills">
         <div
             class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-7"
         >
@@ -62,12 +51,11 @@ const PUB_ICONS = {
                 ))
             }
         </div>
-    </section>
+    </Section>
 
     <Divider />
 
-    <section id="experience">
-        <h2>Experience</h2>
+    <Section id="experience" title="Experience">
         <div class="w-full">
             {
                 experience.map(entry => (
@@ -81,12 +69,11 @@ const PUB_ICONS = {
                 ))
             }
         </div>
-    </section>
+    </Section>
 
     <Divider />
 
-    <section id="education">
-        <h2>Education</h2>
+    <Section id="education" title="Education">
         <div>
             {
                 education.map(entry => (
@@ -100,145 +87,25 @@ const PUB_ICONS = {
                 ))
             }
         </div>
-    </section>
+    </Section>
 
     <Divider />
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
-            {
-                projects.map(entry => (
-                    <Project
-                        title={entry.data.title}
-                        lang={entry.data.lang}
-                        tags={entry.data.tags}
-                        link={entry.data.link}
-                    >
-                        <entry.Content />
-                    </Project>
-                ))
-            }
-        </div>
-    </section>
+    <sections.Projects projects={projects} />
 
     <Divider />
 
-    <section id="posts">
-        <h2>Posts</h2>
-        <div class="flex flex-col gap-8">
-            {
-                posts.map(post => (
-                    <div class="flex flex-col gap-2">
-                        <a
-                            class="link text-xl font-semibold"
-                            href={`${import.meta.env.BASE_URL}posts/${
-                                post.slug
-                            }`}
-                        >
-                            {post.data.title}
-                        </a>
-                        <div>
-                            <Tags tags={post.data.tags} />
-                        </div>
-                        <div class="text-sm">
-                            {post.remarkPluginFrontmatter.previewParagraph}
-                            <i>[...]</i>
-                        </div>
-                        <div>
-                            <time datetime={post.data.date.toISOString()}>
-                                {post.data.date.toDateString()}
-                            </time>
-                            - {post.remarkPluginFrontmatter.minutesRead}
-                        </div>
-                    </div>
-                ))
-            }
-        </div>
-    </section>
+    <sections.Posts posts={posts} />
 
     <Divider />
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <div class="grid grid-cols-1 gap-8">
-            {
-                publications.map(async post => (
-                    <div class="flex flex-col gap-1">
-                        <a
-                            class="link link-info"
-                            href={`${import.meta.env.BASE_URL}publications/${
-                                post.slug
-                            }`}
-                        >
-                            <span class="text-lg">{post.data.title}</span>
-
-                            {post.data.subtitle}
-                        </a>
-                        <time datetime={post.data.date.toISOString()}>
-                            {post.data.date.toDateString()}
-                        </time>
-                        <Authors authors={post.data.authors} />
-                        <div>{post.data.publication}</div>
-                        <div class="card-actions">
-                            <Tags tags={post.data.tags} />
-                        </div>
-                        <div>
-                            {Object.entries(post.data.urls).map(
-                                ([key, url]) => (
-                                    <a
-                                        class="btn btn-outline btn-info gap-2 mr-2"
-                                        href={url}
-                                        target="_blank"
-                                    >
-                                        <Icon
-                                            name={
-                                                PUB_ICONS[
-                                                    key as keyof typeof post.data.urls
-                                                ]
-                                            }
-                                        />
-                                        {key}
-                                        <Icon
-                                            name="external-link"
-                                            style="font-size: 1.1rem;"
-                                        />
-                                    </a>
-                                )
-                            )}
-                        </div>
-                    </div>
-                ))
-            }
-        </div>
-    </section>
+    <sections.Publications publications={publications} />
 
     <Divider />
 
-    <section id="tags">
-        <h2>Tags</h2>
+    <Section id="tags" title="Tags">
         <div>
             <TagCloud />
         </div>
-    </section>
+    </Section>
 </Page>
-
-<style>
-    section > h2 {
-        @apply text-3xl font-bold;
-    }
-
-    section {
-        @apply flex flex-col gap-4;
-    }
-
-    @media (min-width: 768px) {
-        section {
-            @apply grid grid-cols-4 gap-0 py-8;
-        }
-
-        section > div {
-            @apply col-span-3;
-        }
-    }
-</style>
