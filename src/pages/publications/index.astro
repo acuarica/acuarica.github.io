@@ -1,0 +1,11 @@
+---
+import Page from "@layouts/Page.astro";
+import sections from "@components/sections";
+import { getCollection } from "astro:content";
+
+const publications = await getCollection("publications");
+---
+
+<Page title="Publications | Luis Mastrangelo">
+    <sections.Publications publications={publications} />
+</Page>
