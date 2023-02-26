@@ -9,7 +9,8 @@ publication_short: "In PPPJ'14"
 urls:
     code: "https://github.com/acuarica/jnif"
     pdf: "https://doi.org/10.1145/2647508.2647516"
-    slides: "https://acuarica.gitlab.com/jnif/2014-pppj-slides.pdf"
+
+    # slides: "https://github.com/acuarica/jnif-pubs/blob/main/2014-pppj-slides/2014-pppj-slides.pdf"
 
 # [[url_custom]]
 # name = "Documentation"
