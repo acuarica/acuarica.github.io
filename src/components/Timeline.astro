@@ -3,12 +3,12 @@ import { Icon } from "astro-icon";
 
 interface Props {
     title: string;
-    date: string;
     place: {
         name: string;
-        url?: string;
+        url?: string | undefined;
         location: string;
     };
+    date: string;
 }
 
 const { title, place, date } = Astro.props;
