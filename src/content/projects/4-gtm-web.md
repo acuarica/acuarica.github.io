@@ -2,7 +2,6 @@
 title: gtm-web
 lang: Rust
 tags: [visualization, git, productivity, dashboard, metrics, gtm, time-tracker]
-
 link:
     icon: fa-brands:github
     url: https://github.com/acuarica/gtm-web
