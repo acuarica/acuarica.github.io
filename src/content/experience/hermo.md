@@ -1,8 +1,7 @@
 ---
 title: Software Developer
 company:
-    name: Hermo
-    url: https://example.com
+    name: Fernando Hermo & Asoc.
     location: Buenos Aires, Argentina
 date: Mar 2000 - May 2004
 ---

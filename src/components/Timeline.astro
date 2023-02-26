@@ -1,6 +1,16 @@
 ---
 import { Icon } from "astro-icon";
 
+interface Props {
+    title: string;
+    date: string;
+    place: {
+        name: string;
+        url?: string;
+        location: string;
+    };
+}
+
 const { title, place, date } = Astro.props;
 ---
 
@@ -17,12 +27,18 @@ const { title, place, date } = Astro.props;
             <p class="text-sm">{date}</p>
         </div>
 
-        <span class="font-light text-sm"
-            ><a class="link link-info" target="_blank" href={place.url}
-                >{place.name}
-                <Icon name="external-link" /></a
-            > - {place.location}</span
-        >
+        <span class="font-light text-sm">
+            {
+                place.url ? (
+                    <a class="link link-info" target="_blank" href={place.url}>
+                        {place.name} <Icon name="external-link" />
+                    </a>
+                ) : (
+                    place.name
+                )
+            }
+            - {place.location}
+        </span>
         <p class="my-2 text-justify">
             <article class="prose">
                 <slot />
