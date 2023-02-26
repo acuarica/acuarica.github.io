@@ -1,10 +1,15 @@
 ---
+import { getEntryBySlug } from "astro:content";
+
 import Drawer from "@components/Drawer.astro";
 import Footer from "@components/Footer.astro";
+import GoogleAnalytics from "@components/GoogleAnalytics.astro";
 
 interface Props {
     title: string;
 }
+
+const { data: about } = await getEntryBySlug("about", "me");
 
 const { title } = Astro.props;
 
@@ -23,6 +28,7 @@ const description = "The personal site of Luis Mastrangelo";
         />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
+        <GoogleAnalytics trackingId={about.googleAnalytics}/>
         <link
             rel="icon"
             type="image/svg+xml"
@@ -34,37 +40,36 @@ const description = "The personal site of Luis Mastrangelo";
             <slot />
             <Footer />
         </Drawer>
+        <style is:global>
+            [astro-icon] {
+                height: 1em;
+                display: inline-block;
+                vertical-align: -0.125em;
+            }
+
+            section {
+                --tw-bg-opacity: 0.1;
+                border-color: hsl(var(--bc) / var(--tw-bg-opacity));
+                @apply border-b-[0.125rem] py-12;
+            }
+
+            section.heading {
+                @apply flex flex-col gap-4;
+            }
+
+            section.heading > h2 {
+                @apply text-3xl font-bold;
+            }
+
+            @media (min-width: 768px) {
+                section.heading {
+                    @apply grid grid-cols-4 gap-0;
+                }
+
+                section.heading > :last-child {
+                    @apply col-span-3;
+                }
+            }
+        </style>
     </body>
 </html>
-
-<style is:global>
-    [astro-icon] {
-        height: 1em;
-        display: inline-block;
-        vertical-align: -0.125em;
-    }
-
-    section {
-        --tw-bg-opacity: 0.1;
-        border-color: hsl(var(--bc) / var(--tw-bg-opacity));
-        @apply border-b-[0.125rem] py-12;
-    }
-
-    section.heading {
-        @apply flex flex-col gap-4;
-    }
-
-    section.heading > h2 {
-        @apply text-3xl font-bold;
-    }
-
-    @media (min-width: 768px) {
-        section.heading {
-            @apply grid grid-cols-4 gap-0;
-        }
-
-        section.heading > :last-child {
-            @apply col-span-3;
-        }
-    }
-</style>

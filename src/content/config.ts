@@ -7,6 +7,7 @@ export const collections = {
 
     about: defineCollection({
         schema: z.object({
+            googleAnalytics: z.string(),
             hero: z.object({
                 intro: z.string(),
                 name: z.string(),
