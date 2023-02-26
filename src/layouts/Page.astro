@@ -12,8 +12,6 @@ interface Props {
 const { data: about } = await getEntryBySlug("about", "me");
 
 const { title } = Astro.props;
-
-const description = "The personal site of Luis Mastrangelo";
 ---
 
 <!DOCTYPE html>
@@ -24,15 +22,15 @@ const description = "The personal site of Luis Mastrangelo";
         <meta
             name="description"
             property="og:description"
-            content={description}
+            content={about.description}
         />
         <meta name="generator" content={Astro.generator} />
-        <title>{title}</title>
-        <GoogleAnalytics trackingId={about.googleAnalytics}/>
+        <title>{title} | {about.title}</title>
+        <GoogleAnalytics trackingId={about.googleAnalytics} />
         <link
             rel="icon"
             type="image/svg+xml"
-            href={`${import.meta.env.BASE_URL}favicon.svg`}
+            href={`${import.meta.env.BASE_URL}${about.favicon}`}
         />
     </head>
     <body class="bg-base-200">
