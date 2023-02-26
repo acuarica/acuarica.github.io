@@ -1,15 +1,7 @@
 ---
 title: "Use at Your Own Risk: The Java Unsafe API in the Wild"
-authors:
-    - Luis Mastrangelo
-    - Luca Ponzanelli
-    - Andrea Mocci
-    - Michele Lanza
-    - Matthias Hauswirth
-    - Nathaniel Nystrom
-tags:
-    - java
-    - unsafe
+authors: [Luis Mastrangelo, Luca Ponzanelli, Andrea Mocci, Michele Lanza, Matthias Hauswirth, Nathaniel Nystrom]
+tags: [java, unsafe]
 # date: 2019-11-16T14:06:25+01:00
 
 date: 2015-10-25
@@ -17,9 +9,8 @@ lastmod: 2019-11-16T14:06:25+01:00
 publication: "In Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
 publication_short: "In OOPSLA 2015"
 urls:
-    code: "https://gitlab.com/acuarica/java-unsafe-analysis"
+    code: "https://github.com/acuarica/java-unsafe-analysis"
     pdf: "https://doi.org/10.1145/2814270.2814313"
-    project: "project/deep-learning/"
     video: "http://2015.splashcon.org/event/oopsla2015-use-at-your-own-risk-the-java-unsafe-api-in-the-wild"
 
 ---

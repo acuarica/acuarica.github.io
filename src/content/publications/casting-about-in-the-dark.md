@@ -1,13 +1,8 @@
 ---
 title: Casting about in the Dark
 subtitle: An Empirical Study of Cast Operations in Java Programs
-authors:
-    - Luis Mastrangelo
-    - Matthias Hauswirth
-    - Nathaniel Nystrom
-tags:
-    - java
-    - cast
+authors: [Luis Mastrangelo, Matthias Hauswirth, Nathaniel Nystrom]
+tags: [java, cast]
 date: 2019-10-25
 # date: 2019-11-16T17:57:57+01:00
 lastmod: 2019-11-16T17:57:57+01:00
@@ -29,7 +24,7 @@ We empirically study how casting is used by developers in more than seven thousa
 We find that casts are widely used (8.7% of methods contain at least one cast) and that 50% of casts we inspected are not guarded locally to ensure against potential run-time errors.
 
 To help us better categorize use cases and thus understand how casts are used in practice, we identify 25 cast-usage patterns-recurrent programming idioms using casts to solve a specific issue.
-This knowledge can be: a) a recommendation for current and future language designers to make informed decisions
-b) a reference for tool builders, e.g., by providing more precise or new refactoring analyses,
-c) a guide for researchers to test new language features, or to carry out controlled programming experiments, and
-d) a guide for developers for better practices.
+This knowledge can be: **a)** a recommendation for current and future language designers to make informed decisions
+**b)** a reference for tool builders, _e.g._, by providing more precise or new refactoring analyses,
+**c)** a guide for researchers to test new language features, or to carry out controlled programming experiments, and
+**d)** a guide for developers for better practices.

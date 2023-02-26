@@ -1,13 +1,8 @@
 ---
 title: JNIF
 subtitle: Java Native Instrumentation Framework
-authors:
-    - Luis Mastrangelo
-    - Matthias Hauswirth
-tags:
-    - java
-    - native
-    - instrumentation
+authors: [Luis Mastrangelo, Matthias Hauswirth]
+tags: [java, native, instrumentation]
 date: 2014-09-23
 publication: "In International Conference on Principles and Practices of Programming on the Java platform: Virtual machines, Languages, and Tools (PPPJ'14), IEEE"
 publication_short: "In PPPJ'14"

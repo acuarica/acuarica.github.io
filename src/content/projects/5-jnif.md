@@ -1,12 +1,7 @@
 ---
 title: JNIF
 lang: C/C++
-tags:
-    - jvm
-    - java
-    - instrumentation
-    - bytecode
-    - c++
+tags: [jvm, java, instrumentation, bytecode, c++]
 link:
     icon: fa-brands:github
     url: https://github.com/acuarica/jnif

@@ -1,8 +1,6 @@
 ---
 title: On Mastery Checking
-tags:
-    - education
-    - java
+tags: [education, java]
 date: 2019-11-17T19:25:11+01:00
 # date: "2016-12-03T12:00:00"
 lastmod: 2019-11-17T19:25:11+01:00

@@ -1,11 +1,6 @@
 ---
 title: Reflections on Growing a Programmer
-tags:
-    - education
-    - racket
-    - functional
-    - design
-    - testing
+tags: [education, racket, functional, design, testing]
 date: 2019-11-17T19:25:40+01:00
 # date: "2015-12-03T12:00:00"
 lastmod: 2019-11-17T19:25:40+01:00

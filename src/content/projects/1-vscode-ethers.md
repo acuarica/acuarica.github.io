@@ -1,19 +1,7 @@
 ---
 title: VS Code Ethers Mode
 lang: TypeScript
-tags:
-    - bytecode
-    - ethereum
-    - repl
-    - smart-contracts
-    - avalanche
-    - blockchain
-    - address
-    - polygon
-    - solidity
-    - web3
-    - evm
-    - ethers
+tags: [bytecode, ethereum, repl, smart-contracts, avalanche, blockchain, address, polygon, solidity, web3, evm, ethers]
 link:
     icon: fa-brands:github
     url: https://github.com/acuarica/evm

@@ -1,14 +1,7 @@
 ---
 title: gtm-web
 lang: Rust
-tags:
-    - visualization
-    - git
-    - productivity
-    - dashboard
-    - metrics
-    - gtm
-    - time-tracker
+tags: [visualization, git, productivity, dashboard, metrics, gtm, time-tracker]
 
 link:
     icon: fa-brands:github

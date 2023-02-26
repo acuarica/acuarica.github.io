@@ -1,14 +1,7 @@
 ---
-title: 'VMAD: An Advanced Dynamic Program Analysis and Instrumentation Framework'
-authors:
-    - Alexandra Jimborean
-    - Luis Mastrangelo
-    - Vincent Loechner
-    - Philippe Clauss
-tags:
-    - virtual-machine
-    - loop-nest
-    - runtime-system
+title: "VMAD: An Advanced Dynamic Program Analysis and Instrumentation Framework"
+authors: [Alexandra Jimborean, Luis Mastrangelo, Vincent Loechner, Philippe Clauss]
+tags: [virtual-machine, loop-nest, runtime-system]
 date: 2012-03-24T21:43:47+01:00
 # lastmod: 2019-11-17T21:43:47+01:00
 

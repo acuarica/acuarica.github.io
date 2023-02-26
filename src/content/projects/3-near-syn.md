@@ -1,15 +1,7 @@
 ---
 title: near-syn
 lang: Rust
-tags:
-    - markdown
-    - rust
-    - docs
-    - typescript
-    - smart-contracts
-    - bindings
-    - nearprotocol
-
+tags: [markdown, rust, docs, typescript, smart-contracts, bindings, nearprotocol]
 link:
     icon: fa-brands:github
     url: https://github.com/acuarica/near-syn

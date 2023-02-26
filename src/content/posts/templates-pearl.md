@@ -1,8 +1,6 @@
 ---
 title: "Static Plug-ins with Variadic Templates in C++: Parsing Java Class Files in a Modular Way"
-tags:
-    - c
-    - c++
+tags: [c, c++]
 date: 2017-11-20T19:53:13+01:00
 # date: 2019-11-17T19:24:57+01:00
 lastmod: 2019-11-17T19:24:57+01:00
