@@ -1,5 +1,5 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { CollectionEntry, getCollection, getEntryBySlug } from "astro:content";
 import Page from "@layouts/Page.astro";
 import Tags from "@components/Tags.astro";
 import Toc from "@components/Toc.astro";
@@ -16,6 +16,8 @@ export async function getStaticPaths() {
 interface Props {
     post: CollectionEntry<"posts">;
 }
+
+const { data: about } = await getEntryBySlug("about", "me");
 
 const { post } = Astro.props;
 const { title, tags, date } = post.data;
@@ -39,6 +41,9 @@ const toc = getToc(remarkPluginFrontmatter.toc.map);
         <div class="hidden lg:block">
             <Toc toc={toc} />
         </div>
+    </section>
+    <section>
+        <p>{about.shortBio}</p>
     </section>
 </Page>
 

@@ -3,14 +3,14 @@ title: Luis Mastrangelo
 description: The personal site of Luis Mastrangelo
 favicon: favicon.svg
 googleAnalytics: UA-161877768-1
+shortBio: |-
+  My interests include EVM and EVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
 hero:
   intro: Hi there, I'm
   name: Luis.
   subtitle: I build things for builders
   avatar: avatar.jpeg
-  shortBio: |-
-    My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
 socials:
   - icon: fa-brands:github

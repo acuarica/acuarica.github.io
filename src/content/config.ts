@@ -11,6 +11,7 @@ export const collections = {
             description: z.string(),
             favicon: z.string(),
             googleAnalytics: z.string(),
+            shortBio: z.string(),
             hero: z.object({
                 intro: z.string(),
                 name: z.string(),
