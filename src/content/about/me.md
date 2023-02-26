@@ -1,18 +1,16 @@
 ---
-title: "Luis Mastrangelo"
+title: Luis Mastrangelo
+description: The personal site of Luis Mastrangelo
+favicon: favicon.svg
 googleAnalytics: UA-161877768-1
-params:
-  title: "LM"
-  description: Text about my cool site
-  favicon: "/fav.png"
 
 hero:
   intro: Hi there, I'm
   name: Luis.
   subtitle: I build things for builders
-  avatar: assets/avatar.jpeg
-  # bio: |-
-    # My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
+  avatar: avatar.jpeg
+  shortBio: |-
+    My research interests include JVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
 
 socials:
   - icon: fa-brands:github
