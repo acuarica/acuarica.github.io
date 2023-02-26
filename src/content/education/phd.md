@@ -5,20 +5,14 @@ school:
     url: https://www.inf.usi.ch/en
     location: Switzerland
 date: 2013 - 2019
-featuredLink:
-    enable: true
-    name: "Publications on DBLP"
-    url: "https://dblp.org/pid/97/10956.html"
 ---
 
 Programming languages research in Java, Scala and Haskell, runtime systems and
 virtual machines with C++, software verification, data analysis using R and Python.
 
-Other activties include
+<a class="btn btn-outline btn-info" href="https://dblp.org/pid/97/10956.html" target="_blank">Publications on DBLP</a>
 
-- Teaching Assistant
-
-I am a teaching assistant for the following courses at Università della Svizzera italiana:
+I was also teaching assistant for the following courses at Università della Svizzera italiana:
 
 - Fall '13, **Software Performance** *(6 ECTS, M.Sc. INF)*
 <http://boole.inf.usi.ch/sp-2013/>
