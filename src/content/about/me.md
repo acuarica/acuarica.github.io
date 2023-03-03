@@ -1,7 +1,7 @@
 ---
 title: Luis Mastrangelo
 description: The personal site of Luis Mastrangelo
-favicon: favicon.drawio.svg
+favicon: favicon.svg
 googleAnalytics: UA-161877768-1
 shortBio: |-
   My interests include EVM and EVM-based languages, static & dynamic analysis, supercompilation & partial evaluation, functional programming and education in CS.
