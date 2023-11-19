@@ -1,17 +1,60 @@
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
-    <div class="container bg-transparent">
-        <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3>
+
+    <div class="container bg-transparent mt-5">
+        <!-- <h3 class="text-center bg-transparent">{{ .Site.Params.about.title }}</h3> -->
         <div class="bg-transparent row justify-content-center px-3 py-5">
             {{ if .Site.Params.about.image }}
-            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
+            <div class="col-sm-12 col-md-8 col-lg-5 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block content animate" id="primary-font">
                 <div class="image d-flex px-5">
                     <img src="{{ .Site.Params.about.image }}" class="img-thumbnail mx-auto rounded-circle" alt="">
                 </div>
+
+                <span class="subtitle">
+                    {{ .Site.Params.about.intro }}
+                </span>
+                <h2>
+                    {{ .Site.Params.about.name }}
+                </h2>
+                <h3>
+                    {{ .Site.Params.about.subtitle }}
+                </h3>
+                <p class="hero-content">
+                    {{ .Site.Params.about.bio | markdownify }}
+                </p>
+                <div class="row">
+                    <div class="col-auto px-2 h-100">
+
+                        <span>
+                            {{ range .Site.Params.about.socialLinks.fontAwesomeIcons }}
+                            <span class="px-1">
+                                <a href="{{ .url }}" class="btn social-icon"
+                                    {{ if .newPage | default true }}
+                                    target="_blank"
+                                    {{ end }}>
+                                    <i class="{{ .icon }}"></i>
+                                </a>
+                            </span>
+                            {{ end }}
+                        
+                            {{ range .Site.Params.about.socialLinks.customIcons }}
+                            <span class="px-1">
+                                <a href="{{ .url }}" target="_blank" class="btn social-icon">
+                                    <img src="{{ .icon }}">
+                                </a>
+                            </span>
+                            {{ end }}
+                        </span>
+
+                    </div>
+                </div>
+
             </div>
             {{ end }}
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
+            <div class="col-sm-12 col-md-12 col-lg-7 content" id="primary-font">
                 {{ .Site.Params.about.content | markdownify }}
+
+                <br/>
 
                 {{ if .Site.Params.about.skills.enable }}
                 {{ .Site.Params.about.skills.title }}
