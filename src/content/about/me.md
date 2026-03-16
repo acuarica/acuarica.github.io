@@ -45,7 +45,7 @@ skills:
       subtitle: Git, Subversion, CVS
 ---
 
-I worked in the Web3 space for more than 2 years.
+I worked in the Web3 space for more than 5 years.
 I worked with [Ethereum](https://ethereum.org/) & [NEAR](https://near.org/), [Avalanche](https://www.avax.network/), [EOS/WAX](https://www.wax.io/) and [Everscale (TON)](https://everscale.network/) using **Solidity**, **Rust** and **TypeScript/JavaScript**.
 Moreover, I have worked for more than 10 years in private industry in different roles, as Software Engineer, Network Administrator and Freelance Developer.
 
